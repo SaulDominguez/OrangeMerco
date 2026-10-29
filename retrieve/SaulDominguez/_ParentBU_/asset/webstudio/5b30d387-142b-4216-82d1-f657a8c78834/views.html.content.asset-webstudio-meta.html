@@ -1,0 +1,191 @@
+<!doctype html>
+%%[
+    var @nombre,
+        @apellido,
+        @correo,
+        @ticket,
+        @sucursal,
+        @fecha_registro,
+        @premioDB,
+        @boletoDB
+    set @nombre = RequestParameter('nombre')
+    set @apellido = RequestParameter('apellido')
+    set @correo = RequestParameter('correo')
+    set @ticket = RequestParameter('ticket')
+    set @sucursal = RequestParameter('sucursal')
+    set @fecha_registro = RequestParameter('fecha_registro')
+    set @premioDB = RequestParameter('premioDB')
+    set @boletoDB = RequestParameter('boletoDB')
+]%%
+
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registro Hecho - Fiestononón - Merco</title>
+        <meta name="description" content="Oops! parece que este ticket ya está participando." />
+        <link href="https://merco.mx/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+        <!-- Facebook metadata -->
+        <link
+            rel="image_src"
+            href="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/ac35c656-3d29-464b-a9cb-1f7c636f72a3.jpg"
+        />
+        <meta property="og:type" content="https://merco.mx/" />
+        <meta property="og:title" content="Registro Hecho - Fiestononón - Merco" />
+        <meta
+            property="og:description"
+            content="Oops! parece que este ticket ya está participando."
+        />
+        <meta
+            property="og:image"
+            content="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/ac35c656-3d29-464b-a9cb-1f7c636f72a3.jpg"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <!-- Twitter Cards -->
+        <meta property="twitter:creator" content="@orangeDCX" />
+
+        <!-- Twitter Cards description  -->
+        <meta property="twitter:title" content="Registro Hecho - Fiestononón - Merco" />
+        <meta
+            property="twitter:description"
+            content="Oops! parece que este ticket ya está participando."
+        />
+        <meta
+            property="twitter:image:src"
+            content="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/ac35c656-3d29-464b-a9cb-1f7c636f72a3.jpg"
+        />
+        <meta property="twitter:image:width" content="1200" />
+        <meta property="twitter:image:height" content="630" />
+
+        <!-- CSS BOOTSTRAP -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cloud.hello.merco.email/style-merco-registro" />
+    </head>
+
+    <body>
+        <div class="container-fluid noPadding">
+            <!-- Content -->
+
+            <header>
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center py-3">
+                        <img
+                            loading="lazy"
+                            width="200"
+                            height="85"
+                            src="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/7afd07b6-1980-440b-bd37-cdff0afb9735.png"
+                            alt="Logo Merco"
+                            class="img-fluid logoMercoHero"
+                        />
+                    </div>
+
+                    <div class="col-12 noPadding">
+                        <img
+                            loading="lazy"
+                            width="1920"
+                            height="550"
+                            src="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/e7642398-c9d4-43e7-923c-27e5c5af04b7.jpg"
+                            alt="Fiestononón Merco"
+                            class="img-fluid"
+                        />
+                    </div>
+                </div>
+            </header>
+
+            <section class="section1 pt-2 pb-4 pt-md-5 pb-md-5">
+                <div class="row justify-content-center">
+                    <div class="col-11 col-md-11 col-lg-10 col-xl-9 col-xxl-7 noPadding">
+                        <h1 class="text-center mb-2 mb-md-5">
+                            Oops! parece que este ticket ya está participando
+                        </h1>
+                        <div class="row justify-content-center contentForm">
+                            <div class="col-12 p-2 p-md-5 text-center">
+                                <div class="form-group">
+                                    <label class="resultado"><b>Nombre(s)</b></label>
+                                    <h2><b>%%= v(@nombre) =%%</b></h2>
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <label class="resultado"><b>Apellidos</b></label>
+                                    <h2><b>%%= v(@apellido) =%%</b></h2>
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <label class="resultado"><b>Correo</b></label>
+                                    <h2><b>%%= v(@correo) =%%</b></h2>
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <label class="resultado"><b>No. de ticket</b></label>
+                                    <h2><b>%%= v(@ticket) =%%</b></h2>
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <label class="resultado"><b>Sucursal</b></label>
+                                    <h2><b>%%= v(@sucursal) =%%</b></h2>
+                                </div>
+
+                                <div class="form-group mt-4">
+                                    <label class="resultado"><b>Fecha de registro</b></label>
+                                    <h2><b>%%= v(@fecha_registro) =%%</b></h2>
+                                </div>
+                                <div class="form-group mt-4">
+                                    <label class="resultado"><b>Boleto</b></label>
+                                    <h2><b>%%= v(@boletoDB) =%%</b></h2>
+                                </div>
+                                <div class="form-group mt-4">
+                                    <label class="resultado"><b>Premio</b></label>
+                                    <h2><b>%%= v(@premioDB) =%%</b></h2>
+                                </div>
+                            </div>
+
+                            <div class="col-12 text-center mb-5">
+                                <a
+                                    href="https://cloud.hello.merco.email/consultaderegistrosfiestononon2024"
+                                    class="btnForm"
+                                    >Regresar a la búsqueda</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="py-1">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="logo text-center">
+                            <img
+                                loading="lazy"
+                                width="200"
+                                height="85"
+                                src="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/6d845bd4-5822-4d33-829b-faffec1d0632.png"
+                                alt="Logo Merco"
+                                class="img-fluid logoMerco"
+                            />
+                            <p>® All rights reserved — MERCO 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Content -->
+        </div>
+
+        <!-- JS BOOTSTRAP -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

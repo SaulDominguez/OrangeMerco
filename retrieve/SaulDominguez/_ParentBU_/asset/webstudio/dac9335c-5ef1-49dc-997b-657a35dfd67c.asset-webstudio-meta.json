@@ -1,0 +1,41 @@
+{
+    "customerKey": "dac9335c-5ef1-49dc-997b-657a35dfd67c",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "whatsapp button",
+    "description": "",
+    "owner": {
+        "email": "isaac@orangedcx.com",
+        "name": "Isaac Cuautle"
+    },
+    "createdDate": "2025-11-24T19:44:46.377-06:00",
+    "createdBy": {
+        "email": "isaac@orangedcx.com",
+        "name": "Isaac Cuautle"
+    },
+    "modifiedDate": "2025-11-26T11:25:25.727-06:00",
+    "modifiedBy": {
+        "email": "isaac@orangedcx.com",
+        "name": "Isaac Cuautle"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://fe2a11747364047f721079.pub.s13.sfmc-content.com/tqwxmmmjjdl"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-11-26 11:25:25.727",
+            "c__published": true
+        },
+        "r__asset_key": "9b273160-252e-49e6-bbae-96d015ec4132"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/utils"
+}

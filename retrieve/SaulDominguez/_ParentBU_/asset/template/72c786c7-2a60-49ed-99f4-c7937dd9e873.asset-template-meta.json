@@ -1,0 +1,87 @@
+{
+    "customerKey": "72c786c7-2a60-49ed-99f4-c7937dd9e873",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-salchi_280425-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-23T11:07:35.317-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-23T11:07:35.317-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "salchi_280425",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🥪 ¡Lo Regalado se encuentra en Merco!\n\nCompra *jamón de pavo Alpino* 400 gr por solo *$35.99* y *llévate GRATIS queso americano Alpino* 140 gr.\n\n¡Ahórrate $23.99 y arma tus sándwiches con todo! 🧀✨\n\n_Oferta válida en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Oferta válida hasta el 1 de mayo del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

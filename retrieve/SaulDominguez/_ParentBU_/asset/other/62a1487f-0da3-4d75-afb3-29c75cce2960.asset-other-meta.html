@@ -1,0 +1,75 @@
+let debugging = true let submit = false function debug(...v) { if (debugging) { console.log(...v) }
+} function info(...v) { debug('%cINFO', 'background: #000000; color: #8f7700;', ...v) } function
+warn(...v) { debug('%cWARN', 'background: #000000; color: #7a0000;', ...v) } function err(...v) {
+debug('%cERROR', 'background: #ff0000; color: #ffffff;', ...v) } try { const container =
+document.getElementById("ticket_container") const filterSelect =
+document.getElementById('Validacion') const currentUser = '%%= v(@currentuser) =%%' const session =
+'%%= v(@curSession) =%%' const authorization = '%%= v(@authorized) =%%' if (authorization == 0) {
+window.location.replace("https://cloud.hello.merco.email/no-autorizado") } let pageIndex =
+Number('%%= v(@page) =%%') let pageSize = 6 const rawRecords = `%%= v(@rows) =%%` const totalRows =
+'%%= v(@totalRows) =%%' const currentRows = JSON.parse(rawRecords) let rows = currentRows function
+totalPages() { return Math.ceil(Number(totalRows) / pageSize) } const curPageBtn =
+document.getElementById('current_page') const lastPageBtn = document.getElementById('last_page')
+const upcomingPageBtn = document.getElementById('upcoming_page') const nextPageBtn =
+document.getElementById('next_page') const prevPageBtn = document.getElementById('prev_page')
+nextPageBtn.onclick = () => {
+window.location.assign(`https://cloud.hello.merco.email/validacion-tickets?session=${encodeURI(session)}&page=${pageIndex
++ 1}`) // prevPageBtn.classList.remove('d-none') // lastPageBtn.classList.remove('d-none') // if
+(pageIndex < totalPages()) { // pageIndex++ // setCurrentPageRows() // } // info(pageIndex) }
+prevPageBtn.onclick = () => {
+window.location.assign(`https://cloud.hello.merco.email/validacion-tickets?session=${encodeURI(session)}&page=${pageIndex
+- 1}`) // nextPageBtn.classList.remove('d-none') // upcomingPageBtn.classList.remove('d-none') // if
+(pageIndex > 1) { // pageIndex-- // setCurrentPageRows() // } // info(pageIndex) } function
+filterItems(filter) { let r = [] for (let i = 0; i < currentRows.length; i++) { const e =
+currentRows[i] if (filter == 'Validados' && e.Validado == 'True') { r.push(e) } else if (filter ==
+'Por validar' && e.Validado == 'False') { r.push(e) } } rows = r setCurrentPageRows() }
+filterSelect.addEventListener('change', function () { filterItems(this.value) }) function
+setCurrentPageRows() { container.innerHTML = '' info(pageIndex, pageSize, totalPages())
+lastPageBtn.innerHTML = pageIndex - 1 curPageBtn.innerHTML = pageIndex upcomingPageBtn.innerHTML =
+pageIndex + 1 if (pageIndex == 1) { prevPageBtn.classList.add('d-none')
+lastPageBtn.classList.add('d-none') } if (pageIndex == totalPages()) {
+nextPageBtn.classList.add('d-none') upcomingPageBtn.classList.add('d-none') } for (let index = 0;
+index < rows.length; index++) { const ticket = rows[index]; info(index, ticket) let imageSrc =
+String(ticket.Ticket) const isDoubled = imageSrc.indexOf(',', 50) if (isDoubled != -1) { imageSrc =
+imageSrc.substring(0, isDoubled) } const ticketCard = document.createElement("div") const innerText
+= `
+<article class="card reorder text-center">
+    <img src="${imageSrc}" class="img-fluid" alt="" loading="lazy" width="380" height="400" />
+    <h2>No. de Ticket</h2>
+    <p>${ticket.TicketFolio}</p>
+    <button
+        data-bs-toggle="modal"
+        onclick="selectRowForValidation(${index})"
+        data-bs-target="#ticketModal"
+    >
+        Revisar ticket
+    </button>
+</article>
+` ticketCard.innerHTML = innerText.trim() ticketCard.classList.add('col-12', 'col-md-6', 'col-lg-4',
+'mt-3', 'cards') container.appendChild(ticketCard) } // for (let index = (pageIndex - 1) * pageSize;
+// index < ((pageIndex - 1) * pageSize) + pageSize && index < rows.length; // index++) { // const
+ticket = rows[index]; // } } function processTicket(id, folio, action, rowIndex) {
+window.open(`https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/caj02dqaklv?Contact_Id=${id}&TicketFolio=${folio}&action=${action}&user=${currentUser}`,
+'_blank') const r = rows[rowIndex] if (action == 'discard') { r['Descalificado'] = 'True' } else {
+r['Validado'] = 'True' } } function selectRowForValidation(index) { const label =
+document.getElementById('exampleModalLabemt-3') label.innerHTML = 'Valida los datos contra la
+imagen' const row = rows[index] const nombreInput = document.getElementById('nombre') const
+apellidoInput = document.getElementById('apellido') const telInput =
+document.getElementById('telefono') const sucursalInput = document.getElementById('sucursal') const
+modalImage = document.getElementById('modal_image') let imageSrc = String(row["Ticket"]) const
+isDoubled = imageSrc.indexOf(',', 50) if (isDoubled != -1) { imageSrc = imageSrc.substring(0,
+isDoubled) } modalImage.setAttribute('src', imageSrc) nombreInput.setAttribute('value',
+row['Nombre']) apellidoInput.setAttribute('value', row['Apellido']) telInput.setAttribute('value',
+row['Telefono']) sucursalInput.setAttribute('value', row['Sucursal'])
+nombreInput.setAttribute('readonly', '') apellidoInput.setAttribute('readonly', '')
+telInput.setAttribute('readonly', '') sucursalInput.setAttribute('readonly', '') const discardBtn =
+document.getElementById('discardButton') const validateButton =
+document.getElementById('validateButton') discardBtn.onclick = null validateButton.onclick = null
+discardBtn.classList.remove('d-none') validateButton.classList.remove('d-none') if
+(row['Descalificado'] == 'True' || row['Validado'] == 'True') { discardBtn.classList.add('d-none')
+validateButton.classList.add('d-none') let text = 'validado!' if (row['Validado'] == 'True') text =
+'validado!' if (row['Descalificado'] == 'True') text = 'descalificado :(' label.innerHTML = ('Ticket
+' + text) } else { discardBtn.onclick = () => processTicket(row['Contact_Id'], row['TicketFolio'],
+'discard', index) validateButton.onclick = () => processTicket(row['Contact_Id'],
+row['TicketFolio'], 'validate', index) } } window.addEventListener('DOMContentLoaded', function () {
+info('bruh') setCurrentPageRows() }) } catch (e) { err(e) }

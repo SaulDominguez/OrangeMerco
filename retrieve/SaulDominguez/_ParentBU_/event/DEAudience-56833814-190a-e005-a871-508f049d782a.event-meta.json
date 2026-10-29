@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "SAD_LeySeca_May 31 2024 at 4.01 PM",
+    "description": "",
+    "createdDate": "2024-05-31T16:09:48.997",
+    "createdBy": "Alma Arteaga",
+    "modifiedDate": "2024-05-31T16:09:48.997",
+    "modifiedBy": "Alma Arteaga",
+    "eventDefinitionKey": "DEAudience-56833814-190a-e005-a871-508f049d782a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "2499f99d-bce3-4177-ac72-7e1e1812e799",
+    "r__dataExtension_key": "D9308C5A-ACAA-4FE2-AACB-03270442661D"
+}

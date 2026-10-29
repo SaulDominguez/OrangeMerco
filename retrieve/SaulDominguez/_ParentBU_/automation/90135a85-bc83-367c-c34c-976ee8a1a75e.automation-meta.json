@@ -1,0 +1,22 @@
+{
+    "name": "Leidos_Remainder",
+    "key": "90135a85-bc83-367c-c34c-976ee8a1a75e",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "4ACF2618-F11D-441C-9DE9-591FC27A1F17"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-09-10T00:23:14.83Z",
+    "modifiedName": "Alexis Dominguez",
+    "r__folder_Path": "my automations/OrangeDCX/Envios/Reminder"
+}

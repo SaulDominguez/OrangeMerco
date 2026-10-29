@@ -1,0 +1,94 @@
+{
+    "customerKey": "be662a9c-0532-461d-9b21-80ab5e03631e",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ofertas_nl_240626-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-06-24T10:59:46.033-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-06-24T10:59:46.033-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "1216270551559326",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ofertas_nl_240626",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¿Listo para disfrutar el partido alrato? ¡Chécate lo que tenemos para ti!🥩🍺🔥🤠\n\n- *Sirloin con hueso* - *$149 kg*\n- *Carbón Mimarca* 1.9 kilos - *$54.99*\n- *Cerveza Carta Blanca* 6 Pack Lata 355 ml - *$65.99*\n- *TODAS las Botanas Leo y Encanto* - *¡Con el 20% DE DESCUENTO!*\n- *Compra Cerveza Tecate Light 12 Pack Lata 355 ml* y *¡LLÉVATE GRATIS unos Charrones Encanto 175 gr!*\n\n¡Que no te falte nada para el partido! Revisa nuestro folleto digital. 😉👇🏽\n\n_EVITA EL EXCESO. Venta de alcohol solo para mayores de edad. Promoción de los charrones válida al comprar el 12 pack marcado. Ofertas válidas en TODAS las tiendas Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://merco.mx/ofertas",
+                                        "title": "¡Folleto digital aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                        "title": "Hablar con un asesor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button3": {
+                                        "id": "button3",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 29 de Junio de 2026."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

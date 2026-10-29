@@ -1,0 +1,94 @@
+{
+    "customerKey": "df7ebac2-beda-49ae-9493-00ee08a3ce3d",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-fiestononon_registro_de_un_solo_ticket_01102026-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-10-02T18:01:04.097-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-10-02T18:01:04.097-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "1044119555343883",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "fiestononon_registro_de_un_solo_ticket_01102026",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Vas con todo para el FIESTONONÓN de Merco! 🎉 Tu primer ticket ya está registrado.\n\n🔥¡Que no se te vaya tu boleto doble! 🛒 Solo junta 3 tickets de $849 o más.\n\n📲 *Recuerda que para recibir tu boleto necesitas tener la App Merco+ instalada y completar tu registro.*\n\nConsulta términos y condiciones en https://fiestononon.merco.mx/",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://linktr.ee/merco_mx",
+                                        "title": "Descarga o abre tu App Merco+",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                        "title": "Hablar con un asesor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button3": {
+                                        "id": "button3",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Ticket vigencia del 14 de septiembre al 12 de noviembre 2026"
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

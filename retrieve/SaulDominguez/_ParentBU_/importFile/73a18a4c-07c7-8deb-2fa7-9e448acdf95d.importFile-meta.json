@@ -1,0 +1,48 @@
+{
+    "allowErrors": true,
+    "customerKey": "73a18a4c-07c7-8deb-2fa7-9e448acdf95d",
+    "createdDate": "2026-03-04T17:40:30.647",
+    "modifiedDate": "2026-03-04T17:40:30.647",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "destinationObjectId": "00000000-0000-0000-0000-000000000000",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Contact_Id",
+            "destinationFieldName": "_ContactKey"
+        },
+        {
+            "sourceFieldName": "Locale",
+            "destinationFieldName": "_CountryCode"
+        },
+        {
+            "sourceFieldName": "Phone",
+            "destinationFieldName": "_MobileNumber"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": false,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "ora_test_engagementcheck",
+    "notificationEmailAddress": "facundo@orangedcx.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": true,
+    "destination": {
+        "c__type": "WhatsApp"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "9CF77CBC-EAFD-42C0-BEE7-93579905C294"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

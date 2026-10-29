@@ -1,0 +1,22 @@
+{
+    "key": "525E6200-FCAC-40D5-AAE1-E6D334CDBDA0",
+    "createdDate": "2023-12-28T16:22:27.913",
+    "createdByName": "Martín Orange",
+    "lastUpdated": "2023-12-28T16:22:27.913",
+    "lastUpdatedByName": "Martín Orange",
+    "name": "Filtro-Email",
+    "description": "",
+    "isSendable": true,
+    "r__folder_Path": "Data Filters",
+    "c__filterDefinition": {
+        "ConditionSet": {
+            "Condition": {
+                "@_Operator": "IsNotEmpty",
+                "r__dataExtensionField_name": "Email"
+            },
+            "@_Operator": "AND",
+            "@_ConditionSetName": "Outer Grouping"
+        }
+    },
+    "r__source_dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

@@ -1,0 +1,78 @@
+{
+    "customerKey": "a121d629-8934-4a3b-98f9-bae755e3dde2",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-edr_291124-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-11-29T12:24:48.627-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-11-29T12:24:48.627-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "edr_291124",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Siente la magia de los Súper Preciazos de Merco!\n\nTienes la Calidad y Frescura en TODO lo que compres con nosotros:\n\n*Tomate* Saladette - *$24,99 kg*\n*Naranja*, *Chile jalapeño* o *Tomatillo* verde - *$18.99 kg c/u*\n*Manzana* golden o roja en bolsa - *$18.99 pieza c/u*\n*Bistec* del *cero* o *siete* - *$129 kg c/u*\n*T-Bone* - *$159 kg*\nGalletas Marianitas + Marías *La Moderna* 510 g - *$19.99*\nAceite puro de soya *Mimarca* 800 ml - *3 x $78*\nTodo el *departamento de juguetería* - *¡Con un 30% de descuento!*\nTodos los *pinos artificiales* - *¡Con un 50% de descuento!*\n\nEn Merco tienes lo que buscas y más. \n¡Ven y compruébalo!",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Conoce más!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

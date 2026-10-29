@@ -1,0 +1,87 @@
+{
+    "customerKey": "edc2a2af-fd3c-4e10-9212-a39ce8051f9d",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-regalados_290925-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-09-24T13:59:43.843-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-09-24T13:59:43.843-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "regalados_290925",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🌟🛒 ¡Los regalados de Merco ya están aquí!\n\n👉 Compra Frijol Pinto *De La Olla* 907 gr por solo $32.99 y llévate GRATIS Harina de Trigo *Sol de Oro* 1 kg 🎁\n\n💰 ¡Ahorra con nosotros y lleva más por menos!\n\n✨ Porque en Merco siempre Sí Merconviene. 💚\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 2 de octubre de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

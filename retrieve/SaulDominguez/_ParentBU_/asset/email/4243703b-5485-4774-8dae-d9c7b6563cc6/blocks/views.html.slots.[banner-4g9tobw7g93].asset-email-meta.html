@@ -1,0 +1,6 @@
+%%[
+    set @rows = LookupRows('BDD_General', 'CONTACT_ID', AttributeValue('CONTACT_ID'))
+    set @record = Row(@rows, 1)
+    set @ContactKey = Field(@record, 'CONTACT_ID')
+    set @link = Concat('https://cloud.hello.merco.email/gana-tarjeta-merco?id=', @ContactKey)
+]%%

@@ -1,0 +1,71 @@
+{
+    "customerKey": "1fec1b8d-e096-4795-b2f0-3825a651473b",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-mensaje1_fiestononon",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2023-10-19T17:36:14.977-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2023-10-19T17:36:14.977-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "mensaje1_fiestononon",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:message": "*¡Premios y diversión en la Ruta del Fiestononón! *\n\nVen este viernes 20 de octubre a Merco Paseo Monclova  y sábado 21 de octubre a Merco Sierrita a partir de las 4pm, presenta tu ticket de compra de más de $999 pesos y recibe DOS BOLETOS para el Concierto Merco en la Arena Monterrey con la actuación especial de PESADO. ¡Además PARTICIPAS PARA GANAR PREMIOS AL INSTANTE cómo pantallas, celulares, freidoras de aire y tarjetas Merco!\n¡Al Fiestononón Merco están todos invitados!\n\n*Consulta términos y condiciones. Vigencia del 13 de octubre al 11 de noviembre de 2023.  Regalos y boletos hasta agotar existencias.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://bit.ly/46DMzfa",
+                                        "title": "PARTICIPA Y GANA",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

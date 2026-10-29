@@ -1,0 +1,48 @@
+{
+    "allowErrors": true,
+    "customerKey": "1fb58b2b-423c-bb81-7089-232ca2ebba10",
+    "createdDate": "2025-03-13T16:53:14.623",
+    "modifiedDate": "2025-03-13T16:53:14.623",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "destinationObjectId": "00000000-0000-0000-0000-000000000000",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Contact_Id",
+            "destinationFieldName": "_ContactKey"
+        },
+        {
+            "sourceFieldName": "Locale",
+            "destinationFieldName": "_CountryCode"
+        },
+        {
+            "sourceFieldName": "Phone",
+            "destinationFieldName": "_MobileNumber"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": false,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Onboarding2025_OptIn",
+    "notificationEmailAddress": "ghernandez@orangedcx.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": false,
+    "destination": {
+        "c__type": "WhatsApp"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "33750720-82D7-4B54-9F1A-8A5CDCD900C2"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

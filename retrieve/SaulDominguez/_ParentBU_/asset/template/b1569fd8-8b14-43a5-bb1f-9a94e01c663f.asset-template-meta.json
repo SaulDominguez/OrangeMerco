@@ -1,0 +1,78 @@
+{
+    "customerKey": "b1569fd8-8b14-43a5-bb1f-9a94e01c663f",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ora_fiestononon_rezagados_231026-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-10-23T13:42:45.193-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-10-23T13:42:45.193-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "1153628110331498",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ora_fiestononon_rezagados_231026",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:message": "El Fiestononón no es lo mismo sin ti. 🥺 \n\nYa tienes tu registro en la app.\nQueremos que sigas viviendo la experiencia Merco +🤠 \n\nAprovecha para surtir la despensa y participa por un boleto doble al concierto Fiestononón Merco. Recuerda que con solo juntar 2,500 puntos, aseguras tu boleto. 🎟️\n🚨Suman puntos todos tus tickets de $849.00 o más.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://linktr.ee/merco_mx",
+                                        "title": "Acumula Puntos",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

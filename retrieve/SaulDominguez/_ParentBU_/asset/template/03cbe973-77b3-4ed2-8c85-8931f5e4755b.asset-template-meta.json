@@ -1,0 +1,87 @@
+{
+    "customerKey": "03cbe973-77b3-4ed2-8c85-8931f5e4755b",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-dinamicacuaresma_050335-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-03-05T16:58:51.317-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-03-05T16:58:51.317-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "dinamicacuaresma_050335",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "Imagina llenar tu carrito con todos los productos que puedas en 1 minuto… ¡Esta es tu oportunidad! 😱🛒\n\n📢 Serán 3 ganadores y tú puedes ser uno de ellos.\n\n👉🏽 Así participas:\n\n✅ Compra $149 o más e incluye al menos 2 productos de las marcas participantes: Saladitas, Tostitos, Atún Dolores, Helados Holanda, FUD Cuidat+ y Consomate\n✅ Registra tu ticket y tus datos aquí: https://cloud.hello.merco.email/cuaresma\n✅ ¡Listo! Ya estás participando 🤞🏽\n\n🔗 Consulta términos y condiciones aquí: https://bit.ly/3XqwHdk\n\n🎊 ¡No dejes pasar esta gran oportunidad! Participa ahora. 🎊",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://cloud.hello.merco.email/cuaresma",
+                                        "title": "¡Participa aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Tienes hasta 16 de abril para participar."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

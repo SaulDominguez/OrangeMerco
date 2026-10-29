@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "BuenFin_161124 ",
+    "description": "",
+    "createdDate": "2024-11-16T09:51:29.55",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-11-16T10:41:24.963",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-8b8b7697-aa0f-930a-fa36-21f4afb22c44",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-11-16T12:00:00",
+        "endDateTime": "2024-11-16T12:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "06835daf-b4f0-4b50-af4f-06996dfd77fc",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

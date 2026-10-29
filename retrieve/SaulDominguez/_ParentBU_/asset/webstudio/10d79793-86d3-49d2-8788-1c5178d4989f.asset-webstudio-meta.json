@@ -1,0 +1,41 @@
+{
+    "customerKey": "10d79793-86d3-49d2-8788-1c5178d4989f",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Promociones",
+    "description": "",
+    "owner": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "createdDate": "2025-01-21T12:43:42.063-06:00",
+    "createdBy": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "modifiedDate": "2025-03-13T15:38:10.573-06:00",
+    "modifiedBy": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/recibe-nuestras-promociones"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-03-13 15:38:10.573",
+            "c__published": true
+        },
+        "r__asset_key": "6973db77-56ee-4fd4-b84f-77fea44118c5"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/Recibir promociones"
+}

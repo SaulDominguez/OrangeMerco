@@ -1,0 +1,128 @@
+{
+    "definitionKey": "WhatsappBouncesCount",
+    "relationships": [
+        {
+            "canModify": true,
+            "canRemove": true,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": true,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeGroup",
+                "r__attributeGroup_key": "Whatsapp_Blacklist"
+            },
+            "leftRelationshipIDs": [
+                {
+                    "type": "int16",
+                    "value": "3"
+                }
+            ],
+            "leftRelationshipReferenceType": "CustomerData",
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Contact.Contact Key",
+                    "c__rightFullyQualifiedName": "WhatsappBouncesCount.Contact_Id"
+                }
+            ],
+            "relationshipID": "c2174d28-9d10-f011-a5d0-5cba2c19bc70",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "WhatsappBouncesCount"
+            }
+        }
+    ],
+    "valueDefinitions": [
+        {
+            "dataType": "LongNumber",
+            "description": "",
+            "definitionKey": "CustomObjectKey",
+            "isHidden": true,
+            "isIdentityValue": true,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": true,
+            "name": "Custom Object Key"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Contact_Id",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 254,
+            "scale": 0,
+            "name": "Contact_Id"
+        },
+        {
+            "dataType": "Number",
+            "description": "",
+            "definitionKey": "Bounces",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Bounces"
+        },
+        {
+            "dataType": "Boolean",
+            "defaultValue": "True",
+            "description": "",
+            "definitionKey": "has_bounce",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "has_bounce"
+        }
+    ],
+    "attributeCount": 0,
+    "canAddValues": true,
+    "canChangeValues": true,
+    "canModify": true,
+    "canRemove": true,
+    "createdBy": 747482588,
+    "createDate": "2025-04-03T09:06:00",
+    "dataRetentionProperties": {
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "isDeleteAtEndOfRetentionPeriod": false
+    },
+    "localizedDescription": {},
+    "isCustomObjectBacked": true,
+    "isEvent": false,
+    "isHidden": false,
+    "isReadOnly": false,
+    "isRoot": false,
+    "isSendable": false,
+    "isShared": false,
+    "isSystemDefined": false,
+    "isTestaable": false,
+    "parentID": "00000000-0000-0000-0000-000000000000",
+    "relationshipCount": 1,
+    "sendAttributeStorageName": "Contact_Id",
+    "sendContactKeyStorageName": "_SubscriberKey",
+    "storageLogicalType": "DataExtension",
+    "storageObjectIDs": [
+        "c3174d28-9d10-f011-a5d0-5cba2c19bc70"
+    ],
+    "setDefinitionKey": "WhatsappBouncesCount",
+    "name": "WhatsappBouncesCount",
+    "r__folder_Path": "Data Extensions/OrangeDCX/WhatsappBounces",
+    "r__dataExtension_key": "AAA4A452-72A5-48C5-87F8-189D3069C5AB"
+}

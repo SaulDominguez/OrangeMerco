@@ -1,0 +1,87 @@
+{
+    "customerKey": "c4178b8f-1917-48d3-911e-c38304fbc39c",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ofertas_050925-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-09-05T10:06:06.307-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-09-05T10:06:06.307-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ofertas_050925",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🔥 Este fin de semana es de Súper Preciazos en Merco. 😎\n\n- *Bistec del siete* o *Bistec del cero* - *$169 kg c/u*\n- *Flecha de res para asar* - *$119 kg*\n- *Carne para asar* o *Chuck para asar* - *$179 kg c/u*\n- Salchicha p/asar *Chero* medio kilo - *$27.99*\n- *Aguacate en malla*, *Manzana golden en bolsa* o *lechuga romana* - *$19.99 pieza c/u*\n- *Mango tommy* o *Uva globo* - $24.99 kg c/u\n- Aceite puro de soya *Nutrioli* 850 ml - $32.99\n\n¡No te quedes sin conocer todas nuestras ofertas! 🛒 \nRevisa nuestro folleto digital. 👇🏽\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Folleto digital aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 08 de septiembre de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

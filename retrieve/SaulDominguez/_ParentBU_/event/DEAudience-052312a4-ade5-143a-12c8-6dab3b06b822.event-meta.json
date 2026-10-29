@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Propuesta_Rem",
+    "description": "",
+    "createdDate": "2025-02-06T16:16:14.453",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-04-04T11:05:29.26",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-052312a4-ade5-143a-12c8-6dab3b06b822",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 20,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c8dea1ce-4321-47ff-ada8-be1d6a6be351",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

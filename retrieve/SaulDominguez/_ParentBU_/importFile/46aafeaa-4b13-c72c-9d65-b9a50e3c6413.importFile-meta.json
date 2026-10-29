@@ -1,0 +1,48 @@
+{
+    "allowErrors": true,
+    "customerKey": "46aafeaa-4b13-c72c-9d65-b9a50e3c6413",
+    "createdDate": "2025-08-14T17:26:44.613",
+    "modifiedDate": "2025-08-14T17:26:44.613",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "destinationObjectId": "00000000-0000-0000-0000-000000000000",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Contactkey",
+            "destinationFieldName": "_ContactKey"
+        },
+        {
+            "sourceFieldName": "Locale",
+            "destinationFieldName": "_CountryCode"
+        },
+        {
+            "sourceFieldName": "Telefono",
+            "destinationFieldName": "_MobileNumber"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": false,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Import actualizacion orange optin",
+    "notificationEmailAddress": "mxochipa@orangedcx.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": false,
+    "destination": {
+        "c__type": "WhatsApp"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

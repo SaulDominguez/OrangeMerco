@@ -1,0 +1,52 @@
+{
+    "name": "Filtro Zonas BDD_General",
+    "description": "",
+    "key": "acc66aa2-f052-f6d7-c40a-28090f91a1a7",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "startDate": "2025-09-07T03:15:00",
+        "endDate": "2025-09-14T00:00:00",
+        "icalRecur": "FREQ=WEEKLY;UNTIL=20250914;INTERVAL=1;BYDAY=SU",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "EE754515-D42C-4899-8F1C-E15A9A2A2CDA"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "filter",
+                    "r__key": "8962B0AA-8CE3-4C59-8143-5BEC4175C236"
+                },
+                {
+                    "r__type": "filter",
+                    "r__key": "C60D8C9F-A714-4161-B1FE-B12EC85BA78D"
+                },
+                {
+                    "r__type": "filter",
+                    "r__key": "B95045E9-3AD2-451F-BD29-DFDB80001250"
+                },
+                {
+                    "r__type": "filter",
+                    "r__key": "B129A6F9-63F7-4075-A0CF-960D1D8CCEB3"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-03-19T23:14:23.29Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-09-22T19:22:48.893Z",
+    "pausedName": "Guty Hernandez",
+    "pausedDate": "2025-09-02T20:23:00.58Z",
+    "r__folder_Path": "my automations/BDD_General_Audiencias"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Test_wapp_ID_171025_2",
+    "description": "",
+    "createdDate": "2025-10-17T13:49:07.61",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2025-10-17T13:49:07.61",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-346c1560-ba10-0b94-62b0-9abcf465666f",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 4,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "8e7a30fe-005f-4679-b91a-b995b1d9c683",
+    "r__dataExtension_key": "EE551A56-9239-4D4B-A291-2E8A75DC243F"
+}

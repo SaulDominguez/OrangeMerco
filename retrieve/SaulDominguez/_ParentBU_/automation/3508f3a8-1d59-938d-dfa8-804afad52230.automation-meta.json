@@ -1,0 +1,76 @@
+{
+    "name": "set_concentrados_fiestononon2024",
+    "description": "",
+    "key": "3508f3a8-1d59-938d-dfa8-804afad52230",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "startDate": "2024-09-17T17:05:00",
+        "endDate": "2024-12-15T00:00:00",
+        "icalRecur": "FREQ=MINUTELY;UNTIL=20241215;INTERVAL=15",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "4FD69A64-549A-4D70-9342-8082B1F30F9C"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "3 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "4FD69A64-549A-4D70-9342-8082B1F30F9C"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "3 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "4FD69A64-549A-4D70-9342-8082B1F30F9C"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "3 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        }
+    ],
+    "createdName": "Abraham Santos",
+    "createdDate": "2024-09-10T14:41:54.787Z",
+    "modifiedName": "Abraham Santos",
+    "modifiedDate": "2024-09-17T23:04:39.823Z",
+    "pausedName": "Abraham Santos",
+    "pausedDate": "2024-09-17T23:03:32.783Z",
+    "r__folder_Path": "my automations/fiestononon2024"
+}

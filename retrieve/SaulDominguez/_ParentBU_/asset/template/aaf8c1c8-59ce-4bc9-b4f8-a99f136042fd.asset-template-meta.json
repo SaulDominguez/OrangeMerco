@@ -1,0 +1,87 @@
+{
+    "customerKey": "aaf8c1c8-59ce-4bc9-b4f8-a99f136042fd",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-peso_210225-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-02-21T14:20:14.003-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-02-21T14:20:14.003-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "peso_210225",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡En Merco tus básicos te cuestan solo $1 Peso! 🛒🤑\n\nLlévate lo que necesitas por solo *$1 Peso* en la compra de productos seleccionados. 🎉\n\n- *Llévate a $1 peso harina para hot cakes Gamesa 700 gr*, comprando harina preparada para tortillas Selecta kilo.\n- *Llévate a $1 peso café Nescafé Clásico 42 gr*, comprando galletas Marías Cuétara 420 gr.\n- *Llévate a $1 peso blanqueador Cloralex 500 ml*, comprando higiénico Premier 225 hojas c/6 rollos.\n- *Llévate a $1 peso lavatrastes Nice Kleen Limón 1.4 Lts*, comprando detergente Nice Kleen Color 7 Lts.\n- *Llévate a $1 peso salsa picante La Botanera 810 ml comprando*, chiles jalapeños en rajas La Costeña 380 gr.\n- *Llévate a $1 peso producto lácteo Porsalud 950 ml*, comprando azúcar morena Mimarca 907 gr.\n\nQueremos que ahorres más y te lleves más. \nSolo en Merco. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 27 de febrero del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

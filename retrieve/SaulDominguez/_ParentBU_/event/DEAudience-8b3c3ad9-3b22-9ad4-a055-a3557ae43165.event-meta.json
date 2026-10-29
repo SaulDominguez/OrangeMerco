@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": " LlevaloAPeso-310125 ",
+    "description": "",
+    "createdDate": "2025-01-31T12:41:06.253",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-01-31T12:44:31.343",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-8b3c3ad9-3b22-9ad4-a055-a3557ae43165",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b85421aa-1b57-4c23-8eac-daf019956ad1",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

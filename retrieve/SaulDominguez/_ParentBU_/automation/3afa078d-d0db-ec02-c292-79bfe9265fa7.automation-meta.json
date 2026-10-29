@@ -1,0 +1,40 @@
+{
+    "name": "Registros no coincidentes",
+    "key": "3afa078d-d0db-ec02-c292-79bfe9265fa7",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "015EE937-3DCE-42F7-A87B-A45066BF9D13"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "EF5A93F2-5D69-43A0-8E47-610E7FFF916B"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "374F8BD8-DC03-4526-9C17-4AEC85D1AE86"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-10-09T01:00:47.143Z",
+    "modifiedName": "Alexis Dominguez",
+    "r__folder_Path": "my automations/OrangeDCX/SMS_APP/Comprobacion_Registros"
+}

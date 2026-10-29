@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ListaConTuLista - 090824-Envio2",
+    "description": "",
+    "createdDate": "2024-08-09T14:40:15.723",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-08-09T14:40:29.98",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-4e2faac3-1cd6-0770-7c9b-2b2f1bffa96c",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "5ae97ff1-c326-411d-ab9a-ea917531860f",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

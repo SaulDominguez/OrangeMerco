@@ -1,0 +1,80 @@
+{
+    "customerKey": "983ce34c-ad84-4f85-8313-8df11d04c5f9",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-semanadeloslacteos_051024-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-10-04T12:37:53.043-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-10-04T12:37:53.043-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "semanadeloslacteos_051024",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_ES"
+                        ],
+                        "display:languages:content": {
+                            "es_ES": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Muuuuuchos Súper Preciazos para este fin de semana! 🐄\n\nNosotros solo conocemos la Calidad y Frescura en nuestros productos.\nConoce lo que tenemos para ti: \n\nTodas las *margarinas 400 a 454 gr* _excepto primavera_ - 2 x $60\nYogurt bebible fresa *Danonino* 6 pack 90 gr c/u - *$41.99*\nQueso panela *La Villita* medio kilo - *$65.99*\nProducto lácteo UHT *Nutri* entera bolsa 900 ml - *$13.99*\nCrema líquida *Norteñita* 450 gr - *$37.99*\nYogurt bebible fresa y piña coco *Yoplait* 6 pack 200 gr c/u - *$57.99*\nQueso chihuahua *sello dorado* o *Oaxaca alpino* medio kilo - *$75.99 c/u*\nQueso gouda *Bafar* medio kilo - *$85.99*\n\n¿Qué te falta en tu despensa? \nSolo en Merco encuentras *TODO* lo que necesitas. 😉",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Ofertas aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 10 de octubre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

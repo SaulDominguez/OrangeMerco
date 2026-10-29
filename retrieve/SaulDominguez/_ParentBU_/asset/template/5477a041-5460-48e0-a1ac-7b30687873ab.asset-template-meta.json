@@ -1,0 +1,87 @@
+{
+    "customerKey": "5477a041-5460-48e0-a1ac-7b30687873ab",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ventilador_210325-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-03-21T17:28:21.923-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-03-21T17:28:21.923-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ventilador_210325",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Que el calor no te detenga! En *Merco* tenemos los ventiladores perfectos para refrescarte al mejor precio.👇\n\n- Ventilador de pedestal de plástico 16\" MOD. 3197 - *$499*\n- Ventilador de pedestal industrial 16\" MOD. 3388 - *$1,099*\n- Ventilador de pedestal industrial 20\" MOD. 3398 - *$1,649*\n- Ventilador de pedestal industrial 20\" MOD. 3396 - *$2,199*\n- Ventilador 2 en 1 industrial 18\" MOD. 3386 - *$1,499*\n- Ventilador de pedestal industrial 3 en 1 12\" MOD. 3315 - *$1,769*\n- Ventilador de pedestal industrial 18\" MOD. 3389 - *$1,399*\n- Ventilador de piso 2 en 1 industrial 18\" MOD. 3348 - *$1,049*\n- Ventilador de piso industrial 16\" MOD. 3347 - *$899*\n\n¡Elige el tuyo y mantente fresco con Merco! 🛒💨\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "Revisa nuestro folleto",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 27 de marzo del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST-SMS-240524",
+    "description": "",
+    "createdDate": "2024-05-24T08:41:00.903",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-05-24T08:41:00.903",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-69e38c6b-d740-573f-a5de-c2deab6cefa5",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c38cfeb1-44a6-44c5-871d-eee160e294da",
+    "r__dataExtension_key": "7B9E1E83-6673-4E11-9DE2-7870E21E4B87"
+}

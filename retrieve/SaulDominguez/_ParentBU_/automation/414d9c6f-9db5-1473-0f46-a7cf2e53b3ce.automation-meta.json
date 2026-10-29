@@ -1,0 +1,209 @@
+{
+    "name": "001_FIESTONONON_Concentrados",
+    "description": "",
+    "key": "414d9c6f-9db5-1473-0f46-a7cf2e53b3ce",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "startDate": "2023-10-13T15:00:00",
+        "endDate": "2023-11-12T00:00:00",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20231112;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "5 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "AB5BDB8A-BBE6-48BE-8C57-DB46FC74F61D"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2023-10-12T18:00:26.28Z",
+    "modifiedName": "Abraham Santos",
+    "modifiedDate": "2024-09-10T14:38:42.313Z",
+    "r__folder_Path": "my automations/FIESTONONON"
+}

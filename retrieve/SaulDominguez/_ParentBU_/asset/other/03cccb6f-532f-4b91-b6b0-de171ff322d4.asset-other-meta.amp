@@ -1,0 +1,90 @@
+%%[
+    var @codigo,
+        @ticket,
+        @fecha,
+        @tienda,
+        @nombre,
+        @apellido_P,
+        @apellido_M,
+        @correo,
+        @telefono,
+        @fechaNacimiento,
+        @premio,
+        @privacidad
+    set @ticket = Concat('#', RequestParameter('ticket'))
+    set @fecha = RequestParameter('fecha')
+    set @montoTicket = RequestParameter('montoTicket')
+    set @tienda = RequestParameter('tienda')
+    set @nombre = ProperCase(Trim(RequestParameter('nombre')))
+    set @apellido_P = ProperCase(Trim(RequestParameter('apellido_P')))
+    set @apellido_M = ProperCase(Trim(RequestParameter('apellido_M')))
+    set @correo = RequestParameter('correo')
+    set @telefono = RequestParameter('telefono')
+    set @fechaNacimiento = RequestParameter('fechaNacimiento')
+    set @premio = RequestParameter('premio')
+    set @privacidad = RequestParameter('privacidad')
+    set @Optin = RequestParameter('OptIn')
+    set @codigo = Substring(Uppercase(@nombre), 1, 1)
+    set @codigo = Concat(@codigo, Substring(Uppercase(@nombre), Subtract(Length(@nombre), 1)))
+    set @codigo = Concat(@codigo, Substring(Uppercase(@apellido_P), 1, 1))
+    set @codigo =
+        Concat(@codigo, Substring(Uppercase(@apellido_P), Subtract(Length(@apellido_P), 1)))
+    set @codigo = Concat(@codigo, Substring(Uppercase(@apellido_M), 1, 1))
+    set @codigo =
+        Concat(@codigo, Substring(Uppercase(@apellido_M), Subtract(Length(@apellido_M), 1)))
+    set @codigo = Concat(@codigo, Substring(@fechaNacimiento, 3))
+    set @rowsParticipantes = LookupRows('FIESTONONON_Registros', 'ClaveUnica_Fiestononon', @codigo)
+    set @rowsTikets = LookupRows('FIESTONONON_Registros', 'Ticket', @ticket)
+    if RowCount(@rowsParticipantes) == 0 then
+        if RowCount(@rowsTikets) == 0 then
+            InsertData(
+                'FIESTONONON_Registros',
+                'ClaveUnica_Fiestononon',
+                @codigo,
+                'Ticket',
+                @ticket,
+                'Fecha_Registro',
+                Now(),
+                'No_Tienda',
+                @tienda,
+                'Nombre',
+                @nombre,
+                'Apellido',
+                Concat(@apellido_P, ' ', @apellido_M),
+                'Correo',
+                @correo,
+                'Telefono',
+                @telefono,
+                'Fecha_Nacimiento',
+                @fechaNacimiento,
+                'Premio',
+                @premio,
+                'Privacidad',
+                @privacidad,
+                'Opt-in',
+                @Optin,
+                'Fecha_Compra',
+                @fecha,
+                'Monto_Ticket',
+                @montoTicket
+            )
+            Redirect('https://cloud.hello.merco.email/merco-fiestononon-registro-exitoso')
+        else
+            Redirect(
+                Concat(
+                    'https://cloud.hello.merco.email/mostrar-registro-fiestononon?id=',
+                    Substring(@ticket, 2),
+                    '&error=Ticket'
+                )
+            )
+        endif
+    else
+        Redirect(
+            Concat(
+                'https://cloud.hello.merco.email/mostrar-registro-fiestononon?id=',
+                @codigo,
+                '&error=Usuario'
+            )
+        )
+    endif
+]%%

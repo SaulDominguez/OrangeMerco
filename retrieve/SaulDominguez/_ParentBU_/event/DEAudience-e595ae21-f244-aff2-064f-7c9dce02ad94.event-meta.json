@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_TEST_App_Merco_140726",
+    "description": "",
+    "createdDate": "2026-07-14T20:00:28",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2026-07-14T20:00:28",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-e595ae21-f244-aff2-064f-7c9dce02ad94",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-07-15T09:00:00",
+        "endDateTime": "2026-07-15T09:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "ecc070ec-2411-47e4-9d84-d6fcc5093f77",
+    "r__dataExtension_key": "9D951ABB-D836-44BA-8CEB-35A4B2C28C60"
+}

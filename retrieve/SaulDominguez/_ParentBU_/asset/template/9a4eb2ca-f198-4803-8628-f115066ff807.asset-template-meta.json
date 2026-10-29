@@ -1,0 +1,78 @@
+{
+    "customerKey": "9a4eb2ca-f198-4803-8628-f115066ff807",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-mexicanizate_300824_wa-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-08-30T17:23:19.447-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-08-30T17:23:19.447-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "mexicanizate_300824_wa",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "Mexicanos al grito de… ¡SÚPER PRECIAZOS! 🫡🇲🇽\n\nEncuéntralos en tu tienda más cercana y *Mexicanízate* con *Merco*. 👇🏽\n\n*Aguacate* en malla (Vig. 30 Ago. al 02 Sep.) - *$29.99*\n*Lechuga* Romana (Vig. 30 Ago. al 02 Sep.) - *$16.99*\n*Bistec* del Cero o Siete - *$129*\n*Chuck* Para Asar - *$179*\nAderezo de *Mayonesa* con Limón *Kraft* 330 Gr - *$25.99*\nAceite Vegetal *Kártamus* 900 ml - *$32.99*\nDetergente En Polvo *Ace Naturals* 800 Gr - *$19.99*\nHigiénico *Premier Rendiplus* 500 Hojas Con 6 Rollos - *$44.99*\n\nTodo esto lo encuentras solo en Merco. 😉\n\n_Ofertas válidas hasta el 5 de Septiembre del 2024._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Conoce más aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

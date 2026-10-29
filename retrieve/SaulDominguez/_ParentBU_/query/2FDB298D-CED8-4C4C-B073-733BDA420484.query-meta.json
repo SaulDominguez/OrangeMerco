@@ -1,0 +1,11 @@
+{
+    "name": "Ingesta_BDDGeneral_DesdeSFTP_Comunicados",
+    "key": "2FDB298D-CED8-4C4C-B073-733BDA420484",
+    "description": "Se ingestan los usuarios cargados por el sftp de merco y ya se comprobo que comunicaciones recibieron \n",
+    "createdDate": "2026-08-28T14:11:37.713",
+    "modifiedDate": "2026-08-28T14:11:37.713",
+    "targetUpdateTypeName": "Update",
+    "isFrozen": false,
+    "r__folder_Path": "Query/OrangeDCX/BDD_General_Completa/Contactos_SFTP/AsignacionGUID",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

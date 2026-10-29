@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Blog_de_Notas_070326",
+    "description": "",
+    "createdDate": "2026-03-05T10:57:39.62",
+    "createdBy": "Facundo García",
+    "modifiedDate": "2026-03-05T18:29:20.823",
+    "modifiedBy": "Facundo García",
+    "eventDefinitionKey": "DEAudience-4c5a4304-c825-6245-1f3c-a9209820e966",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-03-07T10:00:00",
+        "endDateTime": "2026-03-07T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "fdfb82be-c9b6-4f39-84c2-db999120da3a",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

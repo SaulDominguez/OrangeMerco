@@ -1,0 +1,186 @@
+<script runat="server">
+    Platform.Load("core","1");
+
+    try{
+</script>
+%%[
+    set @contactId = RequestParameter('Id')
+    set @Email = RequestParameter('correo')
+    set @nombre = Trim(ProperCase(RequestParameter('nombre')))
+    set @apellidos = Trim(ProperCase(RequestParameter('apellidos')))
+    set @Genero = RequestParameter('Genero')
+    set @telefono = RequestParameter('telefono')
+    if Length(@telefono) == 10 then
+        set @telefono = Concat('52', @telefono)
+    endif
+    set @fechaNacimiento = RequestParameter('fechaNacimiento')
+    set @Estado = RequestParameter('Estado')
+    set @Ciudad = RequestParameter('Ciudad')
+    set @Sucursal = RequestParameter('Sucursal')
+    set @redSocial = RequestParameter('redSocial')
+    set @frutasVerduras = RequestParameter('frutasVerduras')
+    set @Salchichoneria = RequestParameter('Salchichonería')
+    set @Carnes = RequestParameter('Carnes')
+    set @Panaderia = RequestParameter('Panadería')
+    set @abarrotes = RequestParameter('abarrotes')
+    set @articulosBebe = RequestParameter('articulosBebe')
+    set @bebidas = RequestParameter('bebidas')
+    set @higieneCuidadoPersonal = RequestParameter('higieneCuidadoPersonal')
+    set @MercanciasGenerales = RequestParameter('MercanciasGenerales')
+    set @frecuencia = RequestParameter('frecuencia')
+    set @fechaRegistro = Now()
+
+    set @rowsCorreos = LookupRows('BDD_General', 'Email', @Email)
+    set @rowsTelefonos = LookupRows('BDD_General', 'Phone', @telefono)
+    if RowCount(@rowsCorreos) >= 1 or RowCount(@rowsTelefonos) >= 1 or not Empty(@contactId) then
+        if RowCount(@rowsCorreos) >= 1 then
+            set @row = Row(@rowsCorreos, 1)
+            set @Id = Field(@row, 'Contact_Id')
+        endif
+        if RowCount(@rowsTelefonos) >= 1 then
+            set @row = Row(@rowsTelefonos, 1)
+            set @Id = Field(@row, 'Contact_Id')
+        endif
+        if not Empty(@contactId) then
+            set @Id = @contactId
+        endif
+        UpsertData(
+            '002_Progressive_Profiling_Registros_Existentes',
+            1,
+            'Contact_Id',
+            @Id,
+            'Email',
+            @Email,
+            'nombre',
+            @nombre,
+            'apellidos',
+            @apellidos,
+            'Genero',
+            @Genero,
+            'telefono',
+            @telefono,
+            'fechaNacimiento',
+            @fechaNacimiento,
+            'Estado',
+            @Estado,
+            'Ciudad',
+            @Ciudad,
+            'Sucursal',
+            @Sucursal,
+            'redSocial',
+            @redSocial,
+            'frutasVerduras',
+            @frutasVerduras,
+            'Salchichoneria',
+            @Salchichoneria,
+            'CarnesPescados',
+            @Carnes,
+            'Panaderia',
+            @Panaderia,
+            'abarrotes',
+            @abarrotes,
+            'articulosBebe',
+            @articulosBebe,
+            'bebidas',
+            @bebidas,
+            'higieneCuidadoPersonal',
+            @higieneCuidadoPersonal,
+            'frecuencia',
+            @frecuencia,
+            'MercanciasGenerales',
+            @MercanciasGenerales,
+            'fechaRegistro',
+            @fechaRegistro,
+            'Locale',
+            'MX'
+        )
+    else
+        set @Id = GUID()
+        UpsertData(
+            '001_Progressive_Profiling_Registros_Nuevos',
+            1,
+            'Email',
+            @Email,
+            'nombre',
+            @nombre,
+            'apellidos',
+            @apellidos,
+            'Genero',
+            @Genero,
+            'telefono',
+            @telefono,
+            'fechaNacimiento',
+            @fechaNacimiento,
+            'Estado',
+            @Estado,
+            'Ciudad',
+            @Ciudad,
+            'Sucursal',
+            @Sucursal,
+            'redSocial',
+            @redSocial,
+            'frutasVerduras',
+            @frutasVerduras,
+            'Salchichoneria',
+            @Salchichoneria,
+            'CarnesPescados',
+            @Carnes,
+            'Panaderia',
+            @Panaderia,
+            'abarrotes',
+            @abarrotes,
+            'articulosBebe',
+            @articulosBebe,
+            'bebidas',
+            @bebidas,
+            'higieneCuidadoPersonal',
+            @higieneCuidadoPersonal,
+            'frecuencia',
+            @frecuencia,
+            'Contact_Id',
+            @Id,
+            'MercanciasGenerales',
+            @MercanciasGenerales,
+            'fechaRegistro',
+            @fechaRegistro,
+            'Locale',
+            'MX'
+        )
+    endif
+    UpsertData(
+        'BDD_General',
+        1,
+        'Contact_Id',
+        @Id,
+        'Email',
+        @Email,
+        'Nombre',
+        @nombre,
+        'Apellido',
+        @apellidos,
+        'Phone',
+        @telefono,
+        'Sucursal',
+        @Sucursal,
+        'FechaNacimiento',
+        @fechaNacimiento,
+        'Genero',
+        @Genero,
+        'Estado',
+        @Estado,
+        'Ciudad',
+        @Ciudad,
+        'MedioComunicacion',
+        @redSocial,
+        'frecuencia',
+        @frecuencia,
+        'Locale',
+        'MX'
+    )
+    Redirect('https://cloud.hello.merco.email/progressive-profiling-gracias')
+]%%
+<script runat="server">
+    }catch(error){
+        Write(Stringify(error));
+    }
+</script>

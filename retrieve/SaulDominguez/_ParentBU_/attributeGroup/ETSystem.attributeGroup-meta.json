@@ -1,0 +1,30 @@
+{
+    "isOwner": true,
+    "isSystemDefined": true,
+    "isHidden": false,
+    "canAddProperties": false,
+    "canAddRelationships": false,
+    "containsSchemaAttributes": true,
+    "canRemove": false,
+    "canChangeProperties": false,
+    "displayOrder": 0,
+    "requiredRelationships": [
+        "0be635ba-bf3a-ee11-a5bd-5cba2c19bc78",
+        "11e635ba-bf3a-ee11-a5bd-5cba2c19bc78",
+        "00e635ba-bf3a-ee11-a5bd-5cba2c19bc78"
+    ],
+    "canModify": false,
+    "applicationKey": "com.exacttarget.contacts",
+    "attributeGroupIconKey": "People",
+    "attributeGroupType": "Standard",
+    "attributeCount": 8,
+    "definitionName": {
+        "value": "System Data"
+    },
+    "definitionKey": "ETSystem",
+    "r__attributeSet_key": [
+        "EmailAddresses",
+        "Contact"
+    ],
+    "description": ""
+}

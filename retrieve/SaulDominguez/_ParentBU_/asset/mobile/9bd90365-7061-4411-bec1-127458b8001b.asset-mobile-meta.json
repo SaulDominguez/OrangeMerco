@@ -1,0 +1,303 @@
+{
+    "customerKey": "9bd90365-7061-4411-bec1-127458b8001b",
+    "assetType": {
+        "name": "jsonmessage",
+        "displayName": "JSON Message"
+    },
+    "name": "SAD_040425",
+    "owner": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "createdDate": "2025-04-03T18:08:27.17-06:00",
+    "createdBy": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "modifiedDate": "2025-04-03T18:08:27.17-06:00",
+    "modifiedBy": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsapptemplate": {
+            "thumbnail": {},
+            "content": "<!doctype html>\n<html>\n\t<head>\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t<meta name=\"description\" content=\"WhatsApp Preview\">\n\t\t<style>\n\t@font-face {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFProText-Regular.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\t\n\t@font-face {\n\t\tfont-family: 'SF Pro Text - Light';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFProText-Light.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\t\n\t@font-face {\n\t\tfont-family: 'SF Pro Text - Thin';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFProText-Thin.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\t\n\t@font-face {\n\t\tfont-family: 'Helvetica Neue - Roman';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/HelveticaNeue-Roman.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\t\n\t@font-face {\n\t\tfont-family: 'SF Compact Text - Light';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFCompactText-Light.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\t\n\thtml,\n\tbody {\n\t\tmargin: 0;\n\t\tpadding: 0;\n\t\theight: 100%;\n\t\twidth: 100%;\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tbackground-color: #ECE5DD;\n\t\tline-height: 1.4;\n\t}\n\t\n\theader #app-screen-header {\n\t\theight: 40px;\n\t\tbackground-color: #075E54;\n\t\ttext-align: center;\n\t\tcolor: #fff;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n\t\n\tbody {\n\t\toverflow: hidden;\n\t}\n\t\n\t.search-bar {\n\t\tflex-grow: 10;\n\t\theight: 15px;\n\t\tbackground-color: #FFFFFF;\n\t}\n\t\n\t.icons {\n\t\twidth: 18px;\n\t\theight: 18px;\n\t}\n\n\t.pdf-icon {\n\t\tpadding-right: 6px;\n\t}\n\n\t.video-play-icon {\n\t\tz-index: 1; \n\t\tposition: absolute;\n\t\tbackground-color: white; \n\t\twidth: 36px; \n\t\theight: 36px; \n\t\tborder-radius: 50%; \n\t\tpadding-right: 0px; \n\t\tdisplay: flex; \n\t\talign-items: center; \n\t\tjustify-content: center;\n\t}\n\n\t.audio-preview-background {\n\t\tposition: relative; \n\t\tbackground-color: #C9C9C9 !important;\n\t}\n\n\t.document-preview-background {\n\t\tposition: relative;\n\t}\n\n\t.audio-info-background {\n\t\tborder-radius: 50px;\n\t\tmargin-bottom: 2px;\n\t}\n\n\t.audio-play-icon {\n\t\tpadding-right: 6px;\n\t\tpadding-left: 10px;\n\t}\n\n\t.mute-audio-icon {\n\t\tpadding-right: 6px;\n\t}\n\t\n\t.audio-bar-icon {\n\t\tpadding-right: 6px;\n\t}\n\n\t.three-dots-icon {\n\t\tpadding-right: 6px;\n\t\ttransform: rotate(90deg);\n\t\tfont-size: 20px; \n\t}\n\n\t.backarrow-icon {\n\t\tmargin: 0px 25px 0px 8px;\n\t}\n\t\n\t.attach-icon {\n\t\tmargin-left: 20px;\n\t}\n\t\n\t.options-icon {\n\t\tmargin: 0px 8px 0px 8px;\n\t}\n\t\n\t.content-container {\n\t\tmax-height: calc(520px - 65px);\n\t\toverflow-x: hidden;\n\t\toverflow-y: auto;\n\t}\n\t\n\t.content-container.landscape {\n\t\tmax-height: calc(292px - 65px);\n\t}\n\t\n\t#previewer-container {\n\t\tdisplay: flex;\n\t\toverflow: hidden;\n\t}\n\t\n\t.previewer {\n\t\tbackground-color: #FFFFFF;\n\t\tborder-radius: .5rem;\n\t\tmin-width: 202px;\n\t\tmax-width: 202px;\n\t\tmargin: 0 5px 10px 5px;\n\t}\n\t\n\t.landscape .previewer {\n\t\tmax-width: 322px;\n\t\tmin-width: 322px;\n\t}\n\t\n\t.previewer:first-child {\n\t\tmargin-left: 10px;\n\t}\n\t\n\t.previewer:last-child {\n\t\tmargin-right: 10px;\n\t}\n\t\n\t.previewer.single {\n\t\tmargin: 0 auto 10px auto;\n\t}\n\t\n\t.previewer > div {\n\t\tpadding-left: 10px;\n\t\tpadding-right: 10px;\n\t}\n\t\n\t.previewer > div:first-child {\n\t\tborder-top-left-radius: .5rem;\n\t\tborder-top-right-radius: .5rem;\n\t}\n\t\n\t.previewer > div:last-child {\n\t\tborder-bottom-left-radius: .5rem;\n\t\tborder-bottom-right-radius: .5rem;\n\t}\n\t\n\t.previewer .media {\n\t\twidth: 202px;\n\t\theight: 134px;\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: center;\n\t\tpadding: 0;\n\t}\n\t\n\t.previewer .media.square {\n\t\theight: 202px;\n\t}\n\t\n\t.landscape .previewer .media {\n\t\twidth: 322px;\n\t}\n\t\n\t.titlemessage {\n\t\tpadding-top: 8px;\n\t\tpadding-bottom: 17px;\n\t}\n\t\n\t.previewer .title {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tfont-size: 12px;\n\t\tfont-weight: bold;\n\t\tcolor: #000000;\n\t\toverflow: hidden;\n\t\ttext-overflow: ellipsis;\n\t\tpadding-bottom: 8px;\n\t\tmax-height: 29px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tdisplay: -webkit-box;\n\t\t-webkit-line-clamp: 2;\n\t\t-webkit-box-orient: vertical;\n\t}\n\t\n\t.previewer .message {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tfont-size: 10px;\n\t\tcolor: #555555;\n\t\toverflow: hidden;\n\t\ttext-overflow: ellipsis;\n\t\tmax-height: 40px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tword-wrap: break-word;\n\t\tdisplay: -webkit-box;\n\t\t-webkit-line-clamp: 3;\n\t\t-webkit-box-orient: vertical;\n\t\twhite-space: pre-wrap;\n\t}\n\n\t.message {\n\t\twhite-space: pre-wrap;\n\t}\n\t\n\t.previewer .button1,\n\t.previewer .button2,\n\t.previewer .button3 {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tfont-size: 10px;\n\t\tcolor: #40649c;\n\t\twhite-space: nowrap;\n\t\toverflow: hidden;\n\t\ttext-overflow: ellipsis;\n\t\ttext-align: center;\n\t\tborder-top: 1px solid #ebebeb;\n\t\tpadding-top: 17px;\n\t\tpadding-bottom: 17px;\n\t}\n\t\n\t.app .container {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t}\n\t\n\t.app .message-container {\n\t\tposition: relative;\n\t\tpadding: 12px 13px;\n\t\tbackground: #FFFFFF;\n\t\tborder-radius: 0px 6px 6px 6px;\n\t\tcolor: black;\n\t\tfloat: left;\n\t\tfont-size: 12px;\n\t\tmax-width: 214px;\n\t\tmargin: 20px 54px 2px 16px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tword-wrap: break-word;\n\t\tbox-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.2);\n\t}\n\t\n\t.app .message-container span {\n\t\tcolor: black;\n\t}\n\t\n\t.app .message-container:after {\n\t\tcontent: \"\";\n\t\tposition: absolute;\n\t\tz-index: 3;\n\t\ttop: 0px;\n\t\tleft: -8px;\n\t\twidth: 0px;\n\t\theight: 0px;\n\t\tborder-top: 11px solid #FFFFFF;\n\t\tborder-left: 9px solid transparent;\n\t\tborder-radius: 2px 0px 0px 0px;\n\t}\n\t\n\t.app .message-container .title {\n\t\tmargin-bottom: 5px;\n\t}\n\t\n\t.app .message-container .footer {\n\t\tmargin-top: 5px;\n\t\tfont-size: 9px;\n\t}\n\t\n\t.app .message-container .title {\n\t\tfont-weight: bold;\n\t\tfont-size: 14px;\n\t}\n\t\n\t.app .message-container .title.image {\n\t\tbackground-color: #e3f7ff;\n\t\tbackground-size: cover;\n\t\theight: 150px;\n\t\tmin-width: 216px;\n\t\tbackground-position: center;\n\t\tbackground-repeat: no-repeat;\n\t\tmargin-left: -10px;\n\t\tmargin-top: -9px;\n\t\tmargin-right: -10px;\n\t\tborder-radius: 5px;\n\t\tmargin-bottom: 10px;\n\t}\n\t\n\t/* Image Preview */\n\t.image-container {\n\t\tposition: relative;\n\t\tpadding: 2px;\n\t\tpadding-bottom: 20px;\n\t\tbackground: white;\n\t\tborder-radius: 10px;\n\t\tcolor: black;\n\t\tfloat: left;\n\t\tfont-size: 12px;\n\t\tmax-width: 214px;\n\t\tmargin: 20px 54px 15px 16px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tword-wrap: break-word;\n\t}\n\t\n\t.image-container:before {\n\t\tcontent: \"\";\n\t\tposition: absolute;\n\t\tz-index: 2;\n\t\tbottom: -2px;\n\t\tleft: -7px;\n\t\theight: 20px;\n\t\tborder-left: 20px solid white;\n\t\tborder-bottom-right-radius: 16px 14px;\n\t\t-webkit-transform: translate(0, -2px);\n\t\ttransform: translate(0, -2px);\n\t}\n\t\n\t.image-container:after {\n\t\tcontent: \"\";\n\t\tposition: absolute;\n\t\tz-index: 3;\n\t\tbottom: -2px;\n\t\tleft: 4px;\n\t\twidth: 26px;\n\t\theight: 20px;\n\t\tbackground: #ecebea;\n\t\tborder-bottom-right-radius: 10px;\n\t\t-webkit-transform: translate(-30px, -2px);\n\t\ttransform: translate(-30px, -2px);\n\t}\n\t\n\t.image-container .image {\n\t\twidth: 214px;\n\t\theight: 140px;\n\t\tborder-radius: 8px 8px 0px 0px;\n\t\tbackground-size: cover;\n\t\tbackground-position: center;\n\t\tbackground-repeat: no-repeat;\n\t}\n\t\n\t.image-container .caption {\n\t\tpadding: 8px;\n\t\tpadding-bottom: 0px;\n\t}\n\n\t.message-container .info-footer {\n\t\twidth: 100%;\n\t\tdisplay: flex;\n\t\talign-items: center; \n\t\tmargin-top: 10px;\n\t}\n\n\t.app .message-container .info-footer span {\n\t\tcolor: #667781 \n\t}\n\n\t.info-footer .info-footer-right {\n\t\tmargin-left: auto; \n\t\tjustify-content: flex-end;\n\t}\n\n\t.info-footer .info-footer-left {\n\t\tdisplay: flex; \n\t\talign-items: center;\n\t}\n\n\t.info-footer .info-footer-left span {\n\t\tdisplay: flex; \n\t\talign-items: center;\n\t\tpadding-right: 2px;\n\t}\n\t\n\t.hidden {\n\t\tdisplay: none !important;\n\t}\n\t\n\t/* Buttons */\n\t.quick-replies {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding-left: 16px;\n\t\tpadding-right: 54px;\n\t\tflex-wrap: wrap;\n\t}\n\t\n\t.quick-replies .button {\n\t\tbackground: white;\n\t\tborder-radius: 7px;\n\t\twidth: 45%;\n\t\tdisplay: flex;\n\t\theight: 32px;\n\t\tmargin-right: 2px;\n\t\tmargin-bottom: 2px;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tfont-size: 12px;\n\t\tflex-grow: 1;\n\t\tcolor: #05a4f3;\n\t\tbox-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.2);\n\t}\n\t\n\t.quick-replies .button:last-child {\n\t\tmargin-right: 0px;\n\t}\n\t\n\t.quick-replies .button:nth-of-type(2) {\n\t\tmargin-right: 0px;\n\t}\n\t\n\t.button-container {\n\t\tmargin: 12px -13px -12px -13px;\n\t\tborder-top: 1px solid #ddd;\n\t}\n\t\n\t.button-container .button {\n\t\tdisplay: flex;\n\t\theight: 32px;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tfont-size: 12px;\n\t\tcolor: #05a4f3;\n\t}\n\t\n\t.icon-container {\n\t\twidth: 1rem;\n\t\theight: 100%;\n\t\tmargin-right: 4px;\n\t\tmargin-left: -12px;\n\t}\n\t\n\t.icon-container svg {\n\t\tfill: #05a4f3;\n\t}\n\t\n\t.button.URL .icon-container {\n\t\tpadding-bottom: 2px;\n\t}\n\n\t.media-filename-container {\n\t\tpadding: 8px;\n\t\tpadding-bottom: 5px;\n\t\tposition: absolute;\n\t\tbottom: 0;\n\t\tfont-size: 13px;\n\t\tfont-weight: 400;\n\t\tcolor: #111B21;\n\t\theight: 29px;\n\t\tbackground: #F5F6F6;\n\t\twidth: 198px;\n\t\tdisplay:flex;\n\t\talign-items: center;\n\t}\n\n\t.audio-info-bar {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: space-between;\n\t\twidth: 100%;\n\t}\n\n\t.content-selector-media {\n    \tpointer-events: none; /* Disable mouse events on the object */\n\t\tdisplay: flex; \n\t\talign-items: center; \n\t\tjustify-content: center;\n\t}\n\n\t.preview-fallback {\n\t\tcolor: red;\n\t}\n\n\t.content-selector-media-video {\n\t\tmax-width: 100%;\n\t\theight: auto;\t\n\t}\n\n\t.content-selector-media > video::-webkit-media-controls,\n\t.content-selector-media > audio::-webkit-media-controls {\n\t\tdisplay: none; /* Hide the default controls on WebKit browsers (e.g., Chrome, Safari) */\n\t}\n\n\t.content-selector-media > video::-webkit-media-controls-enclosure,\n\t.content-selector-media > audio::-webkit-media-controls-enclosure {\n\t\tdisplay: none; /* Hide the default controls on WebKit browsers (e.g., Chrome, Safari) */\n\t}\n\n\t.content-selector-media > video::-webkit-media-controls-panel,\n\t.content-selector-media > audio::-webkit-media-controls-panel {\n\t\tdisplay: none; /* Hide the default controls on WebKit browsers (e.g., Chrome, Safari) */\n\t}\n\n\t.content-selector-media > video::-moz-media-controls,\n\t.content-selector-media > audio::-moz-media-controls {\n\t\tdisplay: none; /* Hide the default controls on Firefox */\n\t}\n\n\t.content-selector-media > video::-ms-media-controls,\n\t.content-selector-media > audio::-ms-media-controls {\n\t\tdisplay: none; /* Hide the default controls on Microsoft Edge */\n\t}\n</style>\n\t</head>\n\t<body class=\"app portrait\">\n\t\t<div class=\"whatsapp-previewer\">\n\t\t\t<header>\n\t\t\t\t<div id=\"app-screen-header\">\n\t\t\t\t\t<div class=\"backarrow-icon icons\">\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t\t\t\t\t<path fill=\"#FFFFFF\" d=\"m48.6 23h-33.2c-0.9 0-1.3-1.1-0.7-1.7l9.6-9.6c0.6-0.6 0.6-1.5 0-2.1l-2.2-2.2c-0.6-0.6-1.5-0.6-2.1 0l-17.5 17.6c-0.6 0.6-0.6 1.5 0 2.1l17.5 17.5c0.6 0.6 1.5 0.6 2.1 0l2.1-2.1c0.6-0.6 0.6-1.5 0-2.1l-9.6-9.6c-0.6-0.7-0.2-1.8 0.7-1.8h33.2c0.8 0 1.5-0.6 1.5-1.4v-3c0-0.8-0.6-1.6-1.4-1.6z\"/>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"search-bar\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"attach-icon icons\">\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t\t\t\t\t<path fill=\"#FFFFFF\" d=\"M15.35,17.65a1.54,1.54,0,0,0,0,2.1l10,10a2,2,0,0,1,0,2.8,2.08,2.08,0,0,1-3,0l-12.1-12.3a7.06,7.06,0,0,1,0-9.9l.1-.1a7.06,7.06,0,0,1,9.9,0L42,32a7.06,7.06,0,0,1,0,9.9l-.1.1A7.06,7.06,0,0,1,32,42l-.1-.1a1.38,1.38,0,0,0-1.8-.2,15.06,15.06,0,0,1-3.5,1.4,1,1,0,0,0-.5,1.7c.8.8,1.6,1.5,1.6,1.5a13.1,13.1,0,0,0,18.5,0v-.2a13.1,13.1,0,0,0,0-18.5L24.55,5.85a13.1,13.1,0,0,0-18.5,0l-.2.2a13,13,0,0,0,0,18.4l12.3,12.4a8.13,8.13,0,1,0,11.3-11.7l-9.8-9.8a1.57,1.57,0,0,0-2.2,0Z\"/>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"options-icon icons\">\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t\t\t\t\t<path fill=\"#FFFFFF\" d=\"m20 44c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6-6-2.7-6-6z m0-18c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6-6-2.7-6-6z m0-18c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6-6-2.7-6-6z\"/>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div id=\"lock-screen-header\">\n\t\t\t\t\t<div class=\"time\"></div>\n\t\t\t\t\t<div class=\"date\"></div>\n\t\t\t\t</div>\n\t\t\t</header>\n\t\t\t<div class=\"content-container\">\n\t\t\t\t<div id=\"previewer-container\" class=\"portrait\">\n\t\t<div class=\"container\">\n\t\t\t\n\t\t<div class=\"message-container\">\n\t\t\t<div class=\"title image document-preview-background\" style=\"background-image: url(data:image/png;base64,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);\">\n\t\t\t\t\t\t\t<div class=\"media-filename-container \">\n\t\t\t\t\t\t\t\t<div class=\"pdf-icon icons\">\n    <svg width=\"16\" height=\"21\" viewBox=\"0 0 42 48\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n        <g clip-path=\"url(#clip0_11636_1312)\">\n        <path d=\"M3.825 0C1.725 0 0 1.725 0 3.825V44.175C0 46.275 1.725 48 3.825 48H38.175C40.275 48 42 46.275 42 44.175V15.225L27.825 0H3.825Z\" fill=\"#8C181A\"/>\n        <path d=\"M41.9998 15.3V16.05H32.3998C32.3998 16.05 27.6748 15.075 27.8248 11.025C27.8248 11.025 27.9748 15.3 32.3248 15.3H41.9998Z\" fill=\"#6B0D12\"/>\n        <path opacity=\"0.5\" d=\"M27.8252 0V10.95C27.8252 12.225 28.6502 15.3 32.4002 15.3H42.0002L27.8252 0Z\" fill=\"white\"/>\n        <path d=\"M11.1752 36.75H8.7002V39.825C8.7002 40.125 8.4752 40.35 8.1002 40.35C7.8002 40.35 7.5752 40.125 7.5752 39.825V32.175C7.5752 31.725 7.95019 31.35 8.40019 31.35H11.1752C12.9752 31.35 14.0252 32.625 14.0252 34.05C14.0252 35.55 12.9752 36.75 11.1752 36.75ZM11.1002 32.325H8.7002V35.775H11.1002C12.1502 35.775 12.9002 35.1 12.9002 34.05C12.9002 33 12.1502 32.325 11.1002 32.325ZM18.9002 40.35H16.6502C16.2002 40.35 15.8252 39.975 15.8252 39.525V32.175C15.8252 31.725 16.2002 31.35 16.6502 31.35H18.9002C21.6752 31.35 23.5502 33.3 23.5502 35.85C23.5502 38.4 21.7502 40.35 18.9002 40.35ZM18.9002 32.325H16.9502V39.3H18.9002C21.0752 39.3 22.3502 37.725 22.3502 35.775C22.4252 33.9 21.1502 32.325 18.9002 32.325ZM31.1252 32.325H26.7752V35.25H31.0502C31.3502 35.25 31.5002 35.475 31.5002 35.775C31.5002 36.075 31.2752 36.225 31.0502 36.225H26.7752V39.825C26.7752 40.125 26.5502 40.35 26.1752 40.35C25.8752 40.35 25.6502 40.125 25.6502 39.825V32.175C25.6502 31.725 26.0252 31.35 26.4752 31.35H31.1252C31.4252 31.35 31.5752 31.575 31.5752 31.875C31.6502 32.1 31.4252 32.325 31.1252 32.325Z\" fill=\"white\"/>\n        </g>\n        <defs>\n        <clipPath id=\"clip0_11636_1312\">\n        <rect width=\"42\" height=\"48\" fill=\"white\"/>\n        </clipPath>\n        </defs>\n    </svg>\n</div>\n\t\t\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t\t\t<span margin-top: 50%\">Folleto SAD 28 Marzo al 10 Abril</span>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t<div class=\"message\">🏠 ¡Haz tu despensa sin salir de casa! 🏠\n\nEn Merco, tenemos precios *EXCLUSIVOS* para *Servicio a Domicilio*. 🛒\n\nPide fácil, rápido y recibe directo en tu puerta. \n\n📲 ¡Ordena ya y aprovecha nuestros precios exclusivos para ti!</div>\n\t\t\t<div class=\"footer\">Estos precios son exclusivos de Servicio a Domicilio Merco.</div>\n\t\t\t<div class=\"button-container\"><div class=\"button URL\"><span class=\"icon-container\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\" id=\"new_window\" width=\"100%\" height=\"100%\"><path d=\"M48.7 2H29.6c-.8 0-1.6.5-1.6 1.3v3c0 .8.7 1.7 1.6 1.7h7.9c.9 0 1.4 1 .7 1.6l-17 17c-.6.6-.6 1.5 0 2.1l2.1 2.1c.6.6 1.5.6 2.1 0l17-17c.6-.6 1.6-.2 1.6.7v7.9c0 .8.8 1.7 1.6 1.7h2.9c.8 0 1.5-.9 1.5-1.7v-19c0-.9-.5-1.4-1.3-1.4z\"/><path d=\"M36.3 25.5L32.9 29c-.6.6-.9 1.3-.9 2.1v11.4c0 .8-.7 1.5-1.5 1.5h-21c-.8 0-1.5-.7-1.5-1.5v-21c0-.8.7-1.5 1.5-1.5H21c.8 0 1.6-.3 2.1-.9l3.4-3.4c.6-.6.2-1.7-.7-1.7H6c-2.2 0-4 1.8-4 4v28c0 2.2 1.8 4 4 4h28c2.2 0 4-1.8 4-4V26.2c0-.9-1.1-1.3-1.7-.7z\"/></svg></span>¡Pide aquí!</div><div class=\"button URL\"><span class=\"icon-container\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\" id=\"new_window\" width=\"100%\" height=\"100%\"><path d=\"M48.7 2H29.6c-.8 0-1.6.5-1.6 1.3v3c0 .8.7 1.7 1.6 1.7h7.9c.9 0 1.4 1 .7 1.6l-17 17c-.6.6-.6 1.5 0 2.1l2.1 2.1c.6.6 1.5.6 2.1 0l17-17c.6-.6 1.6-.2 1.6.7v7.9c0 .8.8 1.7 1.6 1.7h2.9c.8 0 1.5-.9 1.5-1.7v-19c0-.9-.5-1.4-1.3-1.4z\"/><path d=\"M36.3 25.5L32.9 29c-.6.6-.9 1.3-.9 2.1v11.4c0 .8-.7 1.5-1.5 1.5h-21c-.8 0-1.5-.7-1.5-1.5v-21c0-.8.7-1.5 1.5-1.5H21c.8 0 1.6-.3 2.1-.9l3.4-3.4c.6-.6.2-1.7-.7-1.7H6c-2.2 0-4 1.8-4 4v28c0 2.2 1.8 4 4 4h28c2.2 0 4-1.8 4-4V26.2c0-.9-1.1-1.3-1.7-.7z\"/></svg></span>No deseo recibir mensajes</div></div>\n\t\t\t<div class=\"info-footer\">\n\t\t\t\n\t\t\t<div class=\"info-footer-left\">\n\t\t\t\t<span class=\"\">5.6 MB</span>\n\t\t\t\t<span class=\"dot-separator \">•</span>\n\t\t\t\t<span>PDF</span>\n\t\t\t</div>\t\n\t\t\n\t\t\t\n\t\t<div class=\"info-footer-right\">\n\t\t\t<span>undefined</span>\n\t\t</div>\t\n\t\n\t\t</div>\n\t\t</div>\n\t\t\n\t\t\n\t\n\t\t</div>\n\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "display:message:format": "text",
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:title": "",
+                                "display:title:parameters": {
+                                    "1": {
+                                        "display:argument:name": "1",
+                                        "display:argument:format": "link",
+                                        "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/a3a0f79b-c23c-477d-9641-d186f3af7a91.pdf",
+                                        "display:media:filesize": 5835241,
+                                        "display:media:filename": "Folleto SAD 28 Marzo al 10 Abril.pdf",
+                                        "display:media:filetype": "PDF"
+                                    }
+                                },
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://www.merco.mx/servicio-a-domicilio",
+                                        "title": "¡Pide aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:title:media": {
+                                    "type": "DOCUMENT"
+                                },
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:message": "🏠 ¡Haz tu despensa sin salir de casa! 🏠\n\nEn Merco, tenemos precios *EXCLUSIVOS* para *Servicio a Domicilio*. 🛒\n\nPide fácil, rápido y recibe directo en tu puerta. \n\n📲 ¡Ordena ya y aprovecha nuestros precios exclusivos para ti!",
+                                "display:title:format": "DOCUMENT",
+                                "display:footer": "Estos precios son exclusivos de Servicio a Domicilio Merco.",
+                                "display:message:parameters": {}
+                            }
+                        },
+                        "channel": "whatsapptemplate",
+                        "display:title:parameters": {
+                            "1": {
+                                "display:argument:name": "1",
+                                "display:argument:format": "link",
+                                "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/a3a0f79b-c23c-477d-9641-d186f3af7a91.pdf",
+                                "display:media:filesize": 5835241,
+                                "display:media:filename": "Folleto SAD 28 Marzo al 10 Abril.pdf",
+                                "display:media:filetype": "PDF"
+                            }
+                        },
+                        "showTemplatePicker": false,
+                        "templateName": "sad_040425",
+                        "collapsedPanels": [],
+                        "display:lang": "ES_MX",
+                        "stack": "S13",
+                        "display:buttons": {
+                            "button1": {
+                                "id": "button1",
+                                "value": "https://www.merco.mx/servicio-a-domicilio",
+                                "title": "¡Pide aquí!",
+                                "actionType": "URL",
+                                "paramType": "text"
+                            },
+                            "button2": {
+                                "id": "button2",
+                                "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                "title": "No deseo recibir mensajes",
+                                "actionType": "URL",
+                                "paramType": "text",
+                                "paramValue": "%%[ set @parameters=concat('?','mobilenumber','=',[mobilenumber],'&','Contactkey','=',[Contactkey]) ]%% %%=v(@parameters)=%%"
+                            }
+                        },
+                        "display:components": [
+                            "title",
+                            "message",
+                            "footer",
+                            "buttons"
+                        ],
+                        "display:message": "🏠 ¡Haz tu despensa sin salir de casa! 🏠\n\nEn Merco, tenemos precios *EXCLUSIVOS* para *Servicio a Domicilio*. 🛒\n\nPide fácil, rápido y recibe directo en tu puerta. \n\n📲 ¡Ordena ya y aprovecha nuestros precios exclusivos para ti!",
+                        "currentColumn": 0,
+                        "display:title:format": "document",
+                        "display:footer": "Estos precios son exclusivos de Servicio a Domicilio Merco.",
+                        "selectedTemplate": {
+                            "display:title": "",
+                            "display:title:parameters": {
+                                "1": {
+                                    "display:argument:name": "1",
+                                    "display:argument:format": "link",
+                                    "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/a3a0f79b-c23c-477d-9641-d186f3af7a91.pdf",
+                                    "display:media:filesize": 5835241,
+                                    "display:media:filename": "Folleto SAD 28 Marzo al 10 Abril.pdf",
+                                    "display:media:filetype": "PDF"
+                                }
+                            },
+                            "display:buttons": {
+                                "button1": {
+                                    "id": "button1",
+                                    "value": "https://www.merco.mx/servicio-a-domicilio",
+                                    "title": "¡Pide aquí!",
+                                    "actionType": "URL",
+                                    "paramType": "text"
+                                },
+                                "button2": {
+                                    "id": "button2",
+                                    "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                    "title": "No deseo recibir mensajes",
+                                    "actionType": "URL",
+                                    "paramType": "text"
+                                }
+                            },
+                            "display:title:media": {
+                                "type": "DOCUMENT"
+                            },
+                            "display:components": [
+                                "title",
+                                "message",
+                                "footer",
+                                "buttons"
+                            ],
+                            "display:message": "🏠 ¡Haz tu despensa sin salir de casa! 🏠\n\nEn Merco, tenemos precios *EXCLUSIVOS* para *Servicio a Domicilio*. 🛒\n\nPide fácil, rápido y recibe directo en tu puerta. \n\n📲 ¡Ordena ya y aprovecha nuestros precios exclusivos para ti!",
+                            "display:title:format": "DOCUMENT",
+                            "display:footer": "Estos precios son exclusivos de Servicio a Domicilio Merco.",
+                            "display:message:parameters": {}
+                        },
+                        "display:message:parameters": {},
+                        "template": {
+                            "modifiedBy": {
+                                "id": 747152046,
+                                "email": "ana@orangedcx.com",
+                                "name": "Ana Pontigo",
+                                "userId": "747152046"
+                            },
+                            "customerKey": "444ea43f-71e4-4823-96ae-d8eb83226a08",
+                            "availableViews": [
+                                "whatsAppTemplate"
+                            ],
+                            "model": {
+                                "id": 235,
+                                "fileExtension": "",
+                                "name": "JSON Message Template",
+                                "key": "jsonmessagetemplate",
+                                "parentAssetTypeID": 4,
+                                "createdDate": "2020-06-29T15:25:11Z",
+                                "modifiedDate": "2020-06-29T15:25:11Z",
+                                "isCDNPublishable": false
+                            },
+                            "assetType": {
+                                "id": 235,
+                                "name": "jsonmessagetemplate",
+                                "displayName": "jsonmessagetemplate"
+                            },
+                            "name": "WhatsApp-sad_040425-123019964232394",
+                            "thumbnail": {
+                                "thumbnailUrl": "/v1/assets/72848/thumbnail"
+                            },
+                            "views": {
+                                "whatsAppTemplate": {
+                                    "content": "",
+                                    "meta": {
+                                        "options": {
+                                            "customBlockData": {
+                                                "channel": "WhatsApp",
+                                                "template": "template",
+                                                "containerId": "123019964232394",
+                                                "templateName": "sad_040425",
+                                                "category": "MARKETING",
+                                                "display:languages:approved": [
+                                                    "es_MX"
+                                                ],
+                                                "display:languages:content": {
+                                                    "es_MX": {
+                                                        "display:title": "",
+                                                        "display:title:parameters": {
+                                                            "1": {
+                                                                "display:argument:name": "1",
+                                                                "display:argument:format": "link",
+                                                                "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/a3a0f79b-c23c-477d-9641-d186f3af7a91.pdf",
+                                                                "display:media:filesize": 5835241,
+                                                                "display:media:filename": "Folleto SAD 28 Marzo al 10 Abril.pdf",
+                                                                "display:media:filetype": "PDF"
+                                                            }
+                                                        },
+                                                        "display:buttons": {
+                                                            "button1": {
+                                                                "id": "button1",
+                                                                "value": "https://www.merco.mx/servicio-a-domicilio",
+                                                                "title": "¡Pide aquí!",
+                                                                "actionType": "URL",
+                                                                "paramType": "text"
+                                                            },
+                                                            "button2": {
+                                                                "id": "button2",
+                                                                "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                                                "title": "No deseo recibir mensajes",
+                                                                "actionType": "URL",
+                                                                "paramType": "text"
+                                                            }
+                                                        },
+                                                        "display:title:media": {
+                                                            "type": "DOCUMENT"
+                                                        },
+                                                        "display:components": [
+                                                            "title",
+                                                            "message",
+                                                            "footer",
+                                                            "buttons"
+                                                        ],
+                                                        "display:message": "🏠 ¡Haz tu despensa sin salir de casa! 🏠\n\nEn Merco, tenemos precios *EXCLUSIVOS* para *Servicio a Domicilio*. 🛒\n\nPide fácil, rápido y recibe directo en tu puerta. \n\n📲 ¡Ordena ya y aprovecha nuestros precios exclusivos para ti!",
+                                                        "display:title:format": "DOCUMENT",
+                                                        "display:footer": "Estos precios son exclusivos de Servicio a Domicilio Merco.",
+                                                        "display:message:parameters": {}
+                                                    }
+                                                },
+                                                "display:lang": "ES_MX"
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "modelVersion": 2,
+                            "status": {
+                                "id": 1,
+                                "name": "Draft"
+                            },
+                            "owner": {
+                                "id": 747152046,
+                                "email": "ana@orangedcx.com",
+                                "name": "Ana Pontigo",
+                                "userId": "747152046"
+                            },
+                            "memberId": 546002749,
+                            "createdDate": "2025-04-03T17:33:58-06:00",
+                            "modifiedDate": "2025-04-03T17:33:58-06:00",
+                            "objectID": "ad2ffdc1-2606-454f-a449-3c527bde7d28",
+                            "id": 72848,
+                            "enterpriseId": 546002749,
+                            "category": {
+                                "id": 28467,
+                                "name": "Content Builder",
+                                "parentId": 0
+                            },
+                            "createdBy": {
+                                "id": 747152046,
+                                "email": "ana@orangedcx.com",
+                                "name": "Ana Pontigo",
+                                "userId": "747152046"
+                            }
+                        },
+                        "contents": [],
+                        "uncheckedPanels": [],
+                        "category": "MARKETING",
+                        "display:footer:format": "text"
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsapptemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

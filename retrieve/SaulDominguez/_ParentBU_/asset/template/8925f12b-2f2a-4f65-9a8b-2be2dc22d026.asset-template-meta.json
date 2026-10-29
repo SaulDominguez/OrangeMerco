@@ -1,0 +1,85 @@
+{
+    "customerKey": "8925f12b-2f2a-4f65-9a8b-2be2dc22d026",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ora_fiestononon_canjean_sin_app_231026-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-10-23T14:02:16.687-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-10-26T15:12:24.13-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "1469438161737442",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ora_fiestononon_canjean_sin_app_231026",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Ya estás participando en el FIESTONONÓN de Merco! 🎉\nVimos que estás juntando tus tickets en caja. ¡Vas por buen camino!\n\n🚨 Pero ojo: aún no tienes tu registro en la App Merco+ 🚨\nSin tu registro no podrás recibir tu boleto doble, aunque completes tus tickets.\n\nDescarga la app, regístrate con este mismo número y asegura tu lugar en la fiesta. 🤠",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://linktr.ee/merco_mx",
+                                        "title": "Descarga la App",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

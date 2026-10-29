@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "EDR_diadereyes_020126",
+    "description": "",
+    "createdDate": "2026-01-02T13:40:14.827",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-01-02T13:43:46.243",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-e7ffb007-605c-39b4-4bed-a59af83425db",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "91cf54de-4021-4c34-a302-b2b5d11075cb",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

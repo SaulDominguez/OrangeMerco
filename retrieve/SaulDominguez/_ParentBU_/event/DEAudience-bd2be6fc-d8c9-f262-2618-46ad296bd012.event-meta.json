@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Festival_de_la_belleza_2024",
+    "description": "",
+    "createdDate": "2024-03-01T14:47:31.663",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-03-01T17:02:33.253",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-bd2be6fc-d8c9-f262-2618-46ad296bd012",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "13f5e85c-0043-4f83-9de9-0bd967a065a2",
+    "r__dataExtension_key": "887CF525-4647-42EA-89A7-C68D3DC1171E"
+}

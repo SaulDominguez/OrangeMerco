@@ -1,0 +1,87 @@
+{
+    "customerKey": "fb99b578-d62a-41d3-abb3-c5cc1eafa3af",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-lunch_300825-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-08-29T12:09:19.957-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-08-29T12:09:19.957-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "lunch_300825",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🎒 ¡Arma el mejor lunch para tus peques en este regreso a clases!\n\n- Bebida *Ades* variedad 200 ml - *$6.99*\n- Bebida *Fruti Queko* variedad 330 ml - *$5.99*\n- Jugo *Boing* variedad 200 ml - *$7.99*\n- *Danonino* fresa 8 pack 42 gr c/u - *$39.99*\n- Bebida *Jumex* variedad 960 ml - *$22.50*\n- Yoghurt para beber *Yoplait* variedad 242 gr - *$10.99*\n- Leche saborizada *Lala Yomi* variedad 180 ml - *4x$32*\n- Yoghurt *Lala* batido variedad 900 gr - *$39.99*\n- Bebida *Vigor* variedad 946 ml - *$17.50*\n- Producto lácteo *Marsella* 1.5 lts - *$29.99*\n- Galletas *Mamut Gamesa* 240 gr - *$35.99*\n\n📚 El lunch de este lunes con Merco sabe mejor y ahorras más. 😎\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 4 de septiembre de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

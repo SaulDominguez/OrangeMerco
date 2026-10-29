@@ -1,0 +1,46 @@
+<table
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    role="presentation"
+    style="min-width: 100%; "
+    class="stylingblock-content-wrapper"
+>
+    <tr>
+        <td class="stylingblock-content-wrapper camarker-inner">
+            %%[
+                if ([Num_BuenFin] == '1') then
+            ]%%
+            %%= BeginImpressionRegion('01__Rule_1__BUENFIN-OFERTAS_BAFFLE8000-Primero') =%%
+            %%= ContentBlockByID('22403') =%% %%= EndImpressionRegion() =%%
+            %%[
+                elseif
+            ]%%
+            %%= BeginImpressionRegion('01__Rule_2__BUENFIN-OFERTAS_SMART-TV-32-Segundo') =%%
+            %%= ContentBlockByID('22404') =%% %%= EndImpressionRegion() =%%
+            %%[
+                elseif
+            ]%%
+            %%= BeginImpressionRegion('01__Rule_3__BUENFIN-OFERTAS_SMART-TV-43-Tercero') =%%
+            %%= ContentBlockByID('22405') =%% %%= EndImpressionRegion() =%%
+            %%[
+                elseif
+            ]%%
+            %%= BeginImpressionRegion('01__Rule_4__BUENFIN-OFERTAS_LUCES-cuarto') =%%
+            %%= ContentBlockByID('22406') =%% %%= EndImpressionRegion() =%%
+            %%[
+                elseif
+            ]%%
+            %%= BeginImpressionRegion('01__Rule_5__BUENFIN-OFERTAS_PINOS-Y-ACCESORIOS-quinto') =%%
+            %%= ContentBlockByID('22407') =%% %%= EndImpressionRegion() =%%
+            %%[
+                else
+            ]%%
+            %%= BeginImpressionRegion('01__Default_Content__BUENFIN-OFERTAS_BAFFLE8000-Primero') =%%
+            %%= ContentBlockByID('22403') =%% %%= EndImpressionRegion() =%%
+            %%[
+                endif
+            ]%%
+        </td>
+    </tr>
+</table>

@@ -1,0 +1,515 @@
+{
+    "definitionKey": "BDD_General",
+    "relationships": [
+        {
+            "canModify": true,
+            "canRemove": true,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": true,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeGroup",
+                "r__attributeGroup_key": "MainDataModel"
+            },
+            "leftRelationshipIDs": [
+                {
+                    "type": "int16",
+                    "value": "3"
+                }
+            ],
+            "leftRelationshipReferenceType": "CustomerData",
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Contact.Contact Key",
+                    "c__rightFullyQualifiedName": "BDD_General.Contact_Id"
+                }
+            ],
+            "relationshipID": "06d142be-e04a-f011-a5d0-5cba2c1928d8",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "BDD_General"
+            }
+        },
+        {
+            "canModify": true,
+            "canRemove": true,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": false,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "BDD_General"
+            },
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "BDD_General.Contact_Id",
+                    "c__rightFullyQualifiedName": "WhatsappExclusion.ContactKey"
+                }
+            ],
+            "relationshipID": "04e7c789-e34a-f011-a5d0-5cba2c1928d8",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "WhatsappExclusion"
+            }
+        },
+        {
+            "canModify": true,
+            "canRemove": true,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": false,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "BDD_General"
+            },
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "BDD_General.Phone",
+                    "c__rightFullyQualifiedName": "WhatsappSends.MobileNumber"
+                },
+                {
+                    "c__leftFullyQualifiedName": "BDD_General.Contact_Id",
+                    "c__rightFullyQualifiedName": "WhatsappSends.ContactKey"
+                }
+            ],
+            "relationshipID": "335b80df-e04a-f011-a5d0-5cba2c1928d8",
+            "rightItem": {
+                "cardinality": "Many",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "WhatsappBounces"
+            }
+        }
+    ],
+    "valueDefinitions": [
+        {
+            "dataType": "LongNumber",
+            "description": "",
+            "definitionKey": "CustomObjectKey",
+            "isHidden": true,
+            "isIdentityValue": true,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": true,
+            "name": "Custom Object Key"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Contact_Id",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "scale": 0,
+            "name": "Contact_Id"
+        },
+        {
+            "dataType": "EmailAddress",
+            "description": "",
+            "definitionKey": "Email",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 254,
+            "scale": 0,
+            "name": "Email"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Nombre",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 255,
+            "scale": 0,
+            "name": "Nombre"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Apellido",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 255,
+            "scale": 0,
+            "name": "Apellido"
+        },
+        {
+            "dataType": "Phone",
+            "description": "",
+            "definitionKey": "Phone",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "scale": 0,
+            "name": "Phone"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Sucursal",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 150,
+            "scale": 0,
+            "name": "Sucursal"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "NumSucursal",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "scale": 0,
+            "name": "NumSucursal"
+        },
+        {
+            "dataType": "Date",
+            "description": "",
+            "definitionKey": "FechaNacimiento",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "FechaNacimiento"
+        },
+        {
+            "dataType": "Locale",
+            "description": "",
+            "definitionKey": "Locale",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 5,
+            "scale": 0,
+            "name": "Locale"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Genero",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "name": "Genero"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Estado",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 250,
+            "name": "Estado"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Ciudad",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 250,
+            "name": "Ciudad"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "MedioComunicacion",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 250,
+            "name": "MedioComunicacion"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Frecuencia",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 250,
+            "name": "Frecuencia"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Colonia",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 250,
+            "name": "Colonia"
+        },
+        {
+            "dataType": "Number",
+            "description": "",
+            "definitionKey": "OptInWhatsapp",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "OptInWhatsapp"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "frutasVerduras",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "frutasVerduras"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "Salchichoneria",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "Salchichoneria"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "CarnesPescados",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "CarnesPescados"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "Panaderia",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "Panaderia"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "abarrotes",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "abarrotes"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "articulosBebe",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "articulosBebe"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "bebidas",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "bebidas"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "higieneCuidadoPersonal",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "higieneCuidadoPersonal"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "MercanciasGenerales",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "MercanciasGenerales"
+        },
+        {
+            "dataType": "Number",
+            "defaultValue": "0",
+            "description": "",
+            "definitionKey": "OptOutWhatsapp",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "OptOutWhatsapp"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Zona",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 254,
+            "name": "Zona"
+        }
+    ],
+    "attributeCount": 0,
+    "canAddValues": true,
+    "canChangeValues": true,
+    "canModify": true,
+    "canRemove": true,
+    "createdBy": 747482588,
+    "createDate": "2025-06-16T12:36:00",
+    "dataRetentionProperties": {
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "isDeleteAtEndOfRetentionPeriod": false
+    },
+    "localizedDescription": {
+        "value": "Base de Datos general integra bases de PowerUsers Activos y Nuevos actualizada 25-10-31"
+    },
+    "isCustomObjectBacked": true,
+    "isEvent": false,
+    "isHidden": false,
+    "isReadOnly": false,
+    "isRoot": false,
+    "isSendable": true,
+    "isShared": false,
+    "isSystemDefined": false,
+    "isTestaable": false,
+    "parentID": "00000000-0000-0000-0000-000000000000",
+    "relationshipCount": 3,
+    "sendAttributeStorageName": "Contact_Id",
+    "sendContactKeyStorageName": "_SubscriberKey",
+    "storageLogicalType": "DataExtension",
+    "storageObjectIDs": [
+        "07d142be-e04a-f011-a5d0-5cba2c1928d8"
+    ],
+    "setDefinitionKey": "BDD_General",
+    "name": "BDD_General",
+    "r__folder_Path": "Data Extensions/BDD Merco",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

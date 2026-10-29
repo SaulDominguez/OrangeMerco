@@ -1,0 +1,31 @@
+{
+    "name": "WA_BDD_Opens",
+    "key": "4c6bb92f-558d-237f-f738-4a0755a6ffa6",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B3FDBA92-07D9-4263-AADC-F6D1A93341EF"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "8D6E1D81-CBF5-4E93-954F-126A7C075044"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-03-20T00:46:48.247Z",
+    "modifiedName": "Alexis Dominguez",
+    "r__folder_Path": "my automations/OrangeDCX/02_BDD"
+}

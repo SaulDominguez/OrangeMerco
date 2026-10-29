@@ -1,0 +1,87 @@
+{
+    "customerKey": "089466f4-30b6-4442-ad6c-d1b2cf49fb00",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ntp_250725-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-07-25T11:56:15.063-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-07-25T11:56:15.063-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ntp_250725",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🔥 ¡Aprovecha las ofertas de fin semana en Merco! 🔥\n\n- *Plátano Chiapas, melón chino o mango Tommy* - *$18.99 kg c/u*\n- *Molida pulpa de res 90-10* - *$119 kg*\n- *Limón agrio, piña miel o jícama* - *$24.99 kg c/u*\n- Todos los cereales y barras nutritivas *Kellogg’s* - *¡Con un 30% de descuento!*\n- Aceite vegetal Gran Tradición 800 ml - *$25.99*\n- Producto lácteo *La Luz* 900 ml - *$11.99*\n- Papel higiénico *Premier Rendiplus* 500 hojas c/6 rollos - *$44.99*\n- Todos los *vinos y licores* - *¡Con un 30% de descuento!*\n- Todo el *departamento de dulcería* - *¡Con un 30% de descuento!*\n- *Dona decorada* surtido paquete c/5 + 1 gratis. *Paga 5 y llévate 6* - *$55*\n- *Pastel Mojadito tres leches frutas* - *$165*\n- Salchicha para asar *Chero* medio kilo - *$27.99*\n- Compra jamón de pavo y cerdo *Chimex* 396 gr por solo *$38.99* y llévate *GRATIS* chorizo de cerdo casero *Chimex* 200 gr \n\nLos Súper Preciazos te esperan en tu Merco favorito. 😉\n\n_Ofertas válidas en todas las las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 28 de julio de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

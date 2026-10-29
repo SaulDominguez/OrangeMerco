@@ -1,0 +1,22 @@
+{
+    "name": "Test_Import",
+    "key": "8607e2cd-0730-72f1-8e98-fcf190468de3",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "fa6318f9-4410-3c1c-21d9-7704889c9959"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-02-17T17:39:00.407Z",
+    "modifiedName": "Guty Hernandez",
+    "r__folder_Path": "my automations/Test"
+}

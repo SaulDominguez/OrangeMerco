@@ -1,0 +1,94 @@
+{
+    "customerKey": "3d96c4c7-fdd0-499a-a278-1bf3af5ea1df",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-salchi_260126-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-01-21T17:12:27.207-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-01-21T17:12:27.207-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "4302369956679371",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "salchi_260126",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Arma la torta perfecta y ahorra en grande con Merco! 🍳🥪\n\nLlévate el COMBO TORTA:\n✔️ *Huevo blanco Mimarca tapa c/30 piezas*\n✔️ *Pan lagunero c/4 piezas*\n✔️ *Chorizo norteño La Mexicana 170 g*\n\n 🤑 *¡Todo por solo $89.99!* \n\n¿Qué te falta para acompañar tu torta? ¡En nuestro folleto digital encuentras todos nuestros Súper Preciazos! 😉\n\n_Oferta válida en TODAS las tiendas Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://merco.mx/ofertas",
+                                        "title": "¡Folleto digital aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                        "title": "Hablar con un asesor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button3": {
+                                        "id": "button3",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Oferta válida hasta el 29 de enero de 2026."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

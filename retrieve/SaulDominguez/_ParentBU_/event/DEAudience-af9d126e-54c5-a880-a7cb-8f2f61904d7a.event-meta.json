@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Papa_040826",
+    "description": "",
+    "createdDate": "2026-08-04T12:55:47.53",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-08-04T12:55:47.53",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-af9d126e-54c5-a880-a7cb-8f2f61904d7a",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "de8d7203-f0e6-4b16-ae18-6ecdf4fd0e0e",
+    "r__dataExtension_key": "57EF833F-E7F8-4FB1-A3A5-5F6C25816C30"
+}

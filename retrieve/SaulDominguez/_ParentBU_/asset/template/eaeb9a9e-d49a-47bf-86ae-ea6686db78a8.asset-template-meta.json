@@ -1,0 +1,80 @@
+{
+    "customerKey": "eaeb9a9e-d49a-47bf-86ae-ea6686db78a8",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-diadelasmadres_100524",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-05-10T13:01:11.007-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-05-10T13:01:11.007-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "diadelasmadres_100524",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Mamá se merece siempre lo mejor! 👩🏻‍🍼\n\nPorque sabemos que mamá es única, te traemos Súper Preciazos únicos para que la consientas como se merece. 🥰\n\nConoce las promociones que te traemos: \n\n🥩 Costilla p/asar - $99,99 kg\n🥩 T-bone o chuletón - $139,00 kg c/u\n🍗 Pierna de c/muslo de pollo achiotada - $34,99 kg\n🍰 Compra un pastel 3 leches 8\" o 10\" variedad y llévate gratis refresco fanta, fresca, joya, sprite, coca cola light o sin azúcar de 1.75 Lts y ahorra $25.99 (Vigencia solo hoy viernes 10 de mayo)\n🍷 Todos los vinos y licores - 25% de descuento\n🍿 Botanas sabritas - 25% de descuento *excepto las de precio inferior a $15 pesos \n🍫 Todos los chocolates y estuches de chocolates - 25% de descuento\n💄 Juego de cosmetiqueras para dama, paleta nude chica, estuches de brochas p/maquillaje, paquete de labiales nude, espejos c/luz y kits de mochilas - 30% de descuento\n\n¡Dale lo mejor a Mamá con Merco! 🌹",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Consiente a mamá aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 16 de mayo del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

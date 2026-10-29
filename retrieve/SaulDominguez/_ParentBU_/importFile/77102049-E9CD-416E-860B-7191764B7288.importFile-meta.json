@@ -1,0 +1,36 @@
+{
+    "allowErrors": true,
+    "customerKey": "77102049-E9CD-416E-860B-7191764B7288",
+    "createdDate": "2026-04-17T15:27:38.397",
+    "modifiedDate": "2026-04-17T15:27:38.397",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [],
+    "fieldMappingType": "InferFromColumnHeadings",
+    "fileNamingPattern": "chat_Test_Error_Remainder_tracking.csv",
+    "fileSpec": "",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "TEST_EXTRACT_WA",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "sourceCustomObjectId": "",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "BB99DE88-D05D-47A9-8E71-0A1665F15D1A"
+    },
+    "source": {
+        "c__type": "File Location",
+        "r__fileLocation_name": "ExactTarget Enhanced FTP"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

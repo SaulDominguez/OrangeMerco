@@ -1,0 +1,20 @@
+{
+    "CustomerKey": "9998CE6A-69EC-4707-9388-ECE1EDA95CD6",
+    "Name": "Clientes_ID_correo",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "SubscriberKey",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/01_Setup/Revision_Contactos",
+    "c__retentionPolicy": "none"
+}

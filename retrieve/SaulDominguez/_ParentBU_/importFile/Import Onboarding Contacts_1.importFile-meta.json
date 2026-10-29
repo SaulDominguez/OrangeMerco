@@ -1,0 +1,65 @@
+{
+    "allowErrors": true,
+    "customerKey": "Import Onboarding Contacts_1",
+    "createdDate": "2025-05-06T11:39:53.103",
+    "modifiedDate": "2025-05-06T11:39:53.103",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Apellido",
+            "destinationFieldName": "Apellido"
+        },
+        {
+            "sourceFieldName": "Contact_Id",
+            "destinationFieldName": "Contact_Id"
+        },
+        {
+            "sourceFieldName": "Email",
+            "destinationFieldName": "Email"
+        },
+        {
+            "sourceFieldName": "MedioComunicacion",
+            "destinationFieldName": "MedioComunicacion"
+        },
+        {
+            "sourceFieldName": "Nombre",
+            "destinationFieldName": "Nombre"
+        },
+        {
+            "sourceFieldName": "Phone",
+            "destinationFieldName": "Phone"
+        },
+        {
+            "sourceFieldName": "Sucursal",
+            "destinationFieldName": "Sucursal"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Import Onboarding Contacts",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "492049C2-48FF-4685-8A16-9D2926A8DC6C"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

@@ -1,0 +1,34 @@
+{
+    "CustomerKey": "A71A8533-7F3D-4EB2-9E36-3FFF700C114E",
+    "Name": "Fiestononon_2025_Encuesta_Nuevos",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "SendableDataExtensionField": {
+        "Name": "Contact_Id"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "Fields": [
+        {
+            "Name": "Contact_Id",
+            "DefaultValue": "",
+            "MaxLength": 255,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "fechaRegistro",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Fiestononon2025",
+    "c__retentionPolicy": "none"
+}

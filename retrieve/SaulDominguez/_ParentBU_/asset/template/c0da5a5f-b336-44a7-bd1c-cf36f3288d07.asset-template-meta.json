@@ -1,0 +1,87 @@
+{
+    "customerKey": "c0da5a5f-b336-44a7-bd1c-cf36f3288d07",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-cuaresma_180425-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-18T11:08:12.57-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-18T11:08:12.57-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "cuaresma_180425",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Disfruta tus vacaciones con Súper Preciazos en Merco! 🏄🏼‍♂️🏝️🌞\n\n- *Costilla para asar* - *$119 kg*\n- *Chuletón de res* - *$169 kg*\n- *Pierna con muslo de pollo achiotada* - *$38.99 kg*\n- Cerveza Corona *Barrilito* 6 pack botella 325 ml - *$61.50*\n- Refresco *Coca-Cola* regular 2.5 lts - *$36.99*\n- Todos los *vinos, licores* y botanas *Sabritas* - *¡Con un 30% de descuento!* (excepto productos menores a $15)\n- Carne para hamburguesa Sirloin o Arrachera *Golden Bull* 1.2 kg c/8 pzas - *$105*\n- *Pan para hamburguesa* c/8 piezas - *$42*\n- Salchicha p/asar *Sazabor* 500 g - *$27.99*\n- Todos los helados *Sanmy* - *¡Con un 30% de descuento!*\n- Charola térmica *Mariel* o *Convermex* No.855 c/50 - *$27.99 c/u*\n\nTodo lo encuentras para que pases este puentecito de lo mejor. 😎 🏖️\nSolo en Merco. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 21 de abril."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

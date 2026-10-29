@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": " 4NOV-Envio-Fiestononon_Whatsapp_RutaNL",
+    "description": "",
+    "createdDate": "2023-11-03T14:28:18.253",
+    "createdBy": "Ana Pontigo",
+    "modifiedDate": "2023-11-03T17:26:01.083",
+    "modifiedBy": "Ana Pontigo",
+    "eventDefinitionKey": "DEAudience-6d59a14e-58c8-a9ef-3958-d808f510348a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2023-11-04T10:00:00",
+        "endDateTime": "2023-11-04T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "cf458217-174a-4638-bb6e-4d68fe7e951e",
+    "r__dataExtension_key": "18B5878E-0D9F-4880-BFDF-F6141D71F432"
+}

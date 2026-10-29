@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "LaEspecialidadDeLaCasa_070624",
+    "description": "",
+    "createdDate": "2024-06-07T18:17:59.36",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-06-07T18:17:59.36",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-5a32de4b-696d-81a6-dc94-b65b187d1672",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-06-08T08:00:00",
+        "endDateTime": "2024-06-08T08:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "6ad13b08-39e6-4904-abf4-6ab13957ea03",
+    "r__dataExtension_key": "DB0B1D14-3303-4D83-9373-F0B7EACC807D"
+}

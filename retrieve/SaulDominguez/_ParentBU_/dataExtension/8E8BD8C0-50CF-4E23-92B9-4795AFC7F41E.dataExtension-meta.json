@@ -1,0 +1,28 @@
+{
+    "CustomerKey": "8E8BD8C0-50CF-4E23-92B9-4795AFC7F41E",
+    "Name": "Registros_Datawifi",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "Correo electronico",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Telefono",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Phone"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/BDD Merco/Source",
+    "c__retentionPolicy": "none"
+}

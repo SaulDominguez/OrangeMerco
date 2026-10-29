@@ -1,0 +1,31 @@
+SELECT
+    Contact_Id,
+    Email,
+    Nombre,
+    Apellido,
+    Phone,
+    Sucursal,
+    NumSucursal,
+    FechaNacimiento,
+    Locale,
+    Genero,
+    Estado,
+    Ciudad,
+    MedioComunicacion,
+    Frecuencia,
+    Colonia,
+    OptInWhatsapp,
+    frutasVerduras,
+    Salchichoneria,
+    CarnesPescados,
+    Panaderia,
+    abarrotes,
+    articulosBebe,
+    bebidas,
+    higieneCuidadoPersonal,
+    MercanciasGenerales,
+    OptOutWhatsapp,
+    Zona
+FROM
+    BDD_General bg
+    INNER JOIN [UltimosOpens-2025-02-01] op ON bg.Contact_Id = op.SubscriberKey

@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Chicharrones_210826",
+    "description": "",
+    "createdDate": "2026-08-20T20:05:35.617",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-08-20T20:09:23.583",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-5e3c2169-e852-3254-159d-14969ec91b59",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-08-21T09:00:00",
+        "endDateTime": "2026-08-21T09:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "7fb1f8a1-4a0e-4cda-b4c3-58c73a4367c8",
+    "r__dataExtension_key": "9272B654-3F4D-4D85-832B-F8FF3DBE5BC2"
+}

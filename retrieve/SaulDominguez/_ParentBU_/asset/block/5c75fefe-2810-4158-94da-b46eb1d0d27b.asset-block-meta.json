@@ -1,0 +1,168 @@
+{
+    "customerKey": "5c75fefe-2810-4158-94da-b46eb1d0d27b",
+    "assetType": {
+        "name": "layoutblock",
+        "displayName": "Layout"
+    },
+    "fileProperties": {
+        "fileName": "cb-social"
+    },
+    "name": "cb-social",
+    "owner": {
+        "email": "avargas@orangedcx.com",
+        "name": "Yami Vargas"
+    },
+    "createdDate": "2025-04-02T17:18:54.527-06:00",
+    "createdBy": {
+        "email": "avargas@orangedcx.com",
+        "name": "Yami Vargas"
+    },
+    "modifiedDate": "2025-04-02T17:18:54.527-06:00",
+    "modifiedBy": {
+        "email": "avargas@orangedcx.com",
+        "name": "Yami Vargas"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #FF4713; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"><table cellspacing=\"0\" cellpadding=\"0\" role=\"presentation\" style=\"width: 100%;\"><tr><td><table cellspacing=\"0\" cellpadding=\"0\" role=\"presentation\" style=\"width: 100%;\"><tr><td valign=\"top\" class=\"responsive-td\" style=\"width: 100%; padding-bottom: 3px;\"><div data-type=\"slot\" data-key=\"14uie1ibl4u\"></div></td></tr></table></td></tr><tr><td><table cellspacing=\"0\" cellpadding=\"0\" role=\"presentation\" style=\"width: 100%;\"><tr><td valign=\"top\" class=\"responsive-td\" style=\"width: 100%; padding-top: 3px;\"><div data-type=\"slot\" data-key=\"wfi1phi3xi9\"></div></td></tr></table></td></tr></table></td></tr></table>",
+    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: #FF4713; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"></td></tr></table>",
+    "meta": {
+        "options": {
+            "layout": {
+                "key": "one_column",
+                "spacing": 6,
+                "css": {
+                    "padding": 10
+                },
+                "layoutClass": "contentlayouts-empty",
+                "rows": [
+                    {
+                        "columns": [
+                            {
+                                "width": 100,
+                                "slot": "14uie1ibl4u"
+                            }
+                        ]
+                    },
+                    {
+                        "columns": [
+                            {
+                                "width": 100,
+                                "slot": "wfi1phi3xi9"
+                            }
+                        ]
+                    }
+                ],
+                "rowDirection": "ltr"
+            }
+        },
+        "wrapperStyles": {
+            "mobile": {
+                "visible": true,
+                "columnOrder": "ltr"
+            },
+            "styling": {
+                "padding": "10px",
+                "background-color": "#FF4713",
+                "margin": "0px"
+            }
+        }
+    },
+    "availableViews": [],
+    "slots": {
+        "14uie1ibl4u": {
+            "content": "<div data-type=\"block\" data-key=\"w1n6hb15ff\"></div>",
+            "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+            "availableViews": [],
+            "blocks": {
+                "w1n6hb15ff": {
+                    "assetType": {
+                        "id": 196,
+                        "name": "textblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"><p style=\"text-align: center;color:#ffffff;\">\n\t<b>&iexcl;S&iacute;guenos en nuestras redes!</b></p></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden; display:block;\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien. Mauris ultricies laoreet ex, a viverra leo ornare eu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris commodo scelerisque arcu, id semper sem pharetra vel. Sed ut erat auctor lectus pretium blandit gravida vitae enim. Nullam eget ex et enim molestie porttitor. Duis vitae est fringilla, placerat nisi condimentum, tristique purus. Fusce lobortis mauris quis iaculis ultrices. In tempor ligula ac ex tempor rutrum. Pellentesque quis convallis mi.<br><br>Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor.</p></div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true,
+                                "columnOrder": "ltr"
+                            },
+                            "styling": {
+                                "background-color": "transparent",
+                                "margin": "0px",
+                                "padding": "10px"
+                            }
+                        }
+                    },
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        },
+        "wfi1phi3xi9": {
+            "content": "<div data-type=\"block\" data-key=\"3tuwlsacs8p\"></div>",
+            "design": "<p style=\"font-family: arial; color: #CCCCCC; font-size: 12px; font-weight: bold; text-align: center; display: flex; flex-direction: column; justify-content: center; height: 150px; padding: 10px; margin: 0; border: 1px dashed #CCCCCC;\">Drop blocks or content here</p>",
+            "availableViews": [],
+            "blocks": {
+                "3tuwlsacs8p": {
+                    "assetType": {
+                        "id": 195,
+                        "name": "freeformblock"
+                    },
+                    "content": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px 10px 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div style=\"text-align: center;\">\n\t&nbsp; <a href=\"\" target=\"_blank\"> </a><a alias=\"\" conversion=\"false\" data-linkto=\"other\" href=\"\" target=\"_blank\" title=\"\"><img alt=\"Youtube\" data-assetid=\"72721\" height=\"56\" src=\"https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/e708bb49-70c1-47de-8790-4bf297656126.png\" style=\"padding: 0px; height: 56px; width: 56px; border: 0px; text-align: center;\" width=\"56\"></a> &nbsp; <a alias=\"\" conversion=\"false\" data-linkto=\"other\" href=\"\" target=\"_blank\" title=\"\"><img alt=\"Instagram\" data-assetid=\"72719\" height=\"56\" src=\"https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/ff8e3d6d-f72b-4829-ae56-2fda343e31d9.png\" style=\"padding: 0px; text-align: center; height: 56px; width: 56px; border: 0px;\" width=\"56\"></a> &nbsp; <a alias=\"\" conversion=\"false\" data-linkto=\"other\" href=\"\" target=\"_blank\" title=\"\"><img alt=\"Facebook\" data-assetid=\"72720\" height=\"56\" src=\"https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/080356a6-baaa-4e5c-aa83-ff7a8e67e960.png\" style=\"padding: 0px; text-align: center; height: 56px; width: 56px; border: 0px;\" width=\"56\"></a> &nbsp;</div></td></tr></table>",
+                    "design": "<table cellpadding=\"0\" cellspacing=\"0\" width=\"100%\" role=\"presentation\" style=\"background-color: transparent; min-width: 100%; \" class=\"stylingblock-content-wrapper\"><tr><td style=\"padding: 0px 10px 10px; \" class=\"stylingblock-content-wrapper camarker-inner\"><div class=\"default-design\" style=\"height:150px; overflow:hidden;\"><p class=\"textblock\" style=\"margin:0; padding:0; overflow:hidden;\"><span style=\"float:left; margin: 0 6px 6px 0; width:50%; height: 75px; overflow:hidden; background: url(data:image/png;base64,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) repeat-x 0 0\"></span>In viverra et dui id fermentum. Nulla tortor libero, aliquam in dictum id, vestibulum nec lacus. Curabitur sit amet accumsan magna. Mauris mollis eu lorem sodales mattis. Mauris et iaculis odio. Suspendisse et metus maximus, dapibus lectus in, placerat est. Praesent sit amet lacinia ligula. Donec non magna dictum, feugiat arcu vel, volutpat augue. In hac habitasse platea dictumst. Nunc eleifend nulla elit, vel condimentum lectus dictum sit amet. Aliquam ante nulla, dapibus ut nisi vitae, convallis malesuada mauris. Duis mattis, ex a hendrerit ullamcorper, eros massa consectetur elit, vel lobortis justo arcu ac mi magna, blandit sit amet eros id, dapibus cursus justo. Suspendisse mauris odio, aliquet ut ligula in, porta mollis risus. Ut ultrices lectus dolor, sed euismod nulla ultrices ac. Phasellus laoreet ultricies facilisis. Fusce imperdiet maximus ipsum vitae rutrum. Maecenas faucibus vestibulum lorem sit amet varius. Vivamus et ultricies ligula. Mauris semper scelerisque ante id fermentum. Curabitur non odio pellentesque, consectetur odio eu, commodo risus. Mauris egestas elit vel ipsum sagittis fermentum. Cras varius quam ac enim eleifend, eu porttitor odio finibus. Aenean quis finibus dolor. Nunc bibendum aliquam auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vestibulum nunc feugiat porta consectetur. Sed vehicula vel ante suscipit sagittis. Ut metus metus, feugiat ut laoreet blandit, viverra non mi. Phasellus convallis, mauris ac vehicula posuere, ligula magna mattis ipsum, in sollicitudin nibh lacus eget sapien.</p></div></td></tr></table>",
+                    "meta": {
+                        "wrapperStyles": {
+                            "mobile": {
+                                "visible": true,
+                                "columnOrder": "ltr"
+                            },
+                            "styling": {
+                                "background-color": "transparent",
+                                "margin": "0px",
+                                "padding": "0px 10px 10px"
+                            }
+                        }
+                    },
+                    "availableViews": [],
+                    "data": {
+                        "email": {
+                            "options": {
+                                "generateFrom": ""
+                            }
+                        }
+                    },
+                    "modelVersion": 2
+                }
+            },
+            "data": {
+                "email": {
+                    "options": {
+                        "generateFrom": ""
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/OrangeDCX/Email Essential/02-cb/01 - cb_2025"
+}

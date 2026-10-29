@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Remainder_140926",
+    "description": "",
+    "createdDate": "2026-09-14T14:19:51.413",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2026-09-14T14:33:31.52",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-ac3e6e48-05b2-bf9b-42af-6f0732df859f",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "79ec8ddf-644a-4c0c-8e18-4916e1ec7fe8",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

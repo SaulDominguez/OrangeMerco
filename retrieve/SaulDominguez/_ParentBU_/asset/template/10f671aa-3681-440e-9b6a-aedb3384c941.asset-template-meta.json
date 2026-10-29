@@ -1,0 +1,94 @@
+{
+    "customerKey": "10f671aa-3681-440e-9b6a-aedb3384c941",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-general_070926-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-09-02T18:25:03.887-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-09-02T18:25:05.787-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "1370428171826032",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "general_070926",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡LA MEJOR CARNE ASADA SE HACE CON MERCO! 🔥🤠\n\n🥩 *Aguja Norteña, Costilla Cargada o Costilla Contry*\n💰 *¡A solo $189 el kg c/u!*\n\nVete preparando para el fin de semana con este Súper Preciazo. 😉🛒 \n\n_Oferta válida en TODAS las tiendas Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://merco.mx/ofertas",
+                                        "title": "¡Folleto digital aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                        "title": "Hablar con un asesor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button3": {
+                                        "id": "button3",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Oferta válida hasta el 10 de Septiembre de 2026."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

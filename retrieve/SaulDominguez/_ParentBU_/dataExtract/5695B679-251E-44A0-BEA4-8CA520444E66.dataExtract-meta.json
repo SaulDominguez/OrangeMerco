@@ -1,0 +1,41 @@
+{
+    "name": "Extract_Envio_Remainder",
+    "key": "5695B679-251E-44A0-BEA4-8CA520444E66",
+    "fileSpec": "Test_Error_Remainder.zip",
+    "createdDate": "2025-10-20T19:18:33.407",
+    "modifiedDate": "2026-04-17T15:17:07.333",
+    "createdBy": "Alexis Dominguez",
+    "modifiedBy": "Alexis Dominguez",
+    "intervalType": 0,
+    "description": "",
+    "startDate": "Apr 15 2026 12:00AM",
+    "endDate": "Apr 17 2026 12:00AM",
+    "dataFields": [
+        {
+            "name": "ChannelId",
+            "type": "string",
+            "value": "5218115537251"
+        },
+        {
+            "name": "ChannelType",
+            "type": "string",
+            "value": "WHATSAPP"
+        },
+        {
+            "name": "ContactTrackingDetail",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "InboundMessageLogs",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "PotentialChannelUnsubscribes",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "ChatMessagingDetailExtract"
+}

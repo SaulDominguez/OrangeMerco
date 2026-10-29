@@ -1,0 +1,87 @@
+{
+    "customerKey": "920243ea-1756-48ab-af00-8b1ec113e4a6",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-dinamicapapas_0680625-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-06-06T14:05:51.18-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-06-06T14:05:51.18-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "dinamicapapas_0680625",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🔥 ¡Este Día del Padre se celebra con sabor en Merco! 🔥\n\nTienes para participar hasta el *13 de junio de 2025* para ganar un *KIT DE CARNE ASADA CON ASADOR*🥩🎁\n\nSolo sigue estos pasos:\n👨‍👦 Tómate una foto con tu hijo donde parezcan como tu “mini clon”\n📸 Captúrala dentro de una *tienda Merco* y súbela en los comentarios del post de Facebook\n🔁 Comparte el post en modo público\n👥 Etiqueta a 3 amigos que también quieran participar\n\n🎉 ¡Y listo! Ya estarás participando. 🥳",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://www.facebook.com/MercoSupermercado/posts/pfbid02xNEzpMrAnC7ZXEHNYg1bA5Yg6LDucs5YPkpoMA6xY2efDurhERXgortcDhScfGp3l?locale=es_LA",
+                                        "title": "¡Participa aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Consulta términos y condiciones."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,48 @@
+{
+    "allowErrors": true,
+    "customerKey": "3204a97e-f631-3cec-48b1-5fe61485d49f",
+    "createdDate": "2026-07-09T14:09:42.66",
+    "modifiedDate": "2026-07-09T14:09:42.66",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "destinationObjectId": "00000000-0000-0000-0000-000000000000",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Contactkey",
+            "destinationFieldName": "_ContactKey"
+        },
+        {
+            "sourceFieldName": "Locale",
+            "destinationFieldName": "_CountryCode"
+        },
+        {
+            "sourceFieldName": "Telefono",
+            "destinationFieldName": "_MobileNumber"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": false,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "test cliente-orange",
+    "notificationEmailAddress": "elizabeth@orangedcx.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": false,
+    "destination": {
+        "c__type": "WhatsApp"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "70673928-D245-489B-9D79-38E5395FA5CB"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

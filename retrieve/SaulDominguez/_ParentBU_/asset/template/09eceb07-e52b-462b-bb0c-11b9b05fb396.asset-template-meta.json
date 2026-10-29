@@ -1,0 +1,80 @@
+{
+    "customerKey": "09eceb07-e52b-462b-bb0c-11b9b05fb396",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-buenfin_151124_3-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-11-15T16:42:04.34-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-11-15T16:42:04.34-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "buenfin_151124_3",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡El Buen Fin aún no se termina! 🥳\n\nEn Merco seguimos y seguimos con Súper Preciazos a montón. \n\n¡Aún no se acaban todas las ofertas!\n\n*Lavadora portátil plegable - $499*\n*Proyector astronauta - $389*\n*Proyector portátil - $599*\n*Robot* manual con variedad de formas - *$99.99*\n*Maletas de tela* con variedad de colores:\n*20” – $649*\n*24” – $799*\n*28” – $899*\n\nAprovecha en Merco lo que tenemos para toda la familia. 🤩\n\nOfertas válidas en todas las sucursales Merco.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertaDia/SEATI",
+                                        "title": "¡Aprovecha en Merco!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 18 de Noviembre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

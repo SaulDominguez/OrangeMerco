@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_test_Rem_240626 ",
+    "description": "",
+    "createdDate": "2026-06-15T13:40:14.243",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2026-07-03T11:08:53.293",
+    "modifiedBy": "Elizabeth Vásquez",
+    "eventDefinitionKey": "DEAudience-d2272391-1112-9d11-e7c2-9f40025e9534",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 7,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d4068953-e452-4dc3-b97a-0f75f14cdc1b",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

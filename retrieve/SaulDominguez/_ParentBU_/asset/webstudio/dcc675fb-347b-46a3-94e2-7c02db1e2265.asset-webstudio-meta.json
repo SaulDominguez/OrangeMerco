@@ -1,0 +1,41 @@
+{
+    "customerKey": "dcc675fb-347b-46a3-94e2-7c02db1e2265",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "TY",
+    "description": "",
+    "owner": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "createdDate": "2026-02-24T09:53:00.983-06:00",
+    "createdBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "modifiedDate": "2026-02-24T09:53:31.2-06:00",
+    "modifiedBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/ty_ec"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2026-02-24 09:53:31.200",
+            "c__published": true
+        },
+        "r__asset_key": "1dd083d7-928c-44bb-a95e-7251a7ae234e"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2026/01-ENGAGEMENTCHECK"
+}

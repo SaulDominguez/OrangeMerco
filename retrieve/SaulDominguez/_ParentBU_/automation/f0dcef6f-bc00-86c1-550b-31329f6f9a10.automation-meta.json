@@ -1,0 +1,29 @@
+{
+    "name": "progprofSemanal",
+    "description": "",
+    "key": "f0dcef6f-bc00-86c1-550b-31329f6f9a10",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "startDate": "2023-12-19T08:00:00",
+        "endDate": "2023-12-31T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20231231;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "3A390E9E-AB72-4799-A0F0-D6B6BD9E3A81"
+                }
+            ]
+        }
+    ],
+    "createdName": "Belen Banegas",
+    "createdDate": "2023-12-11T19:28:06.893Z",
+    "modifiedName": "Belen Banegas",
+    "modifiedDate": "2023-12-21T01:34:14.977Z",
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,51 @@
+{
+    "name": "set_Locale_general",
+    "description": "",
+    "key": "1ca0b826-19ed-c9c2-af9c-3bf047607fca",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B3B0A475-F7B6-4D0A-871A-2A31D69837B9"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "E285E28B-68FC-46B5-AF9D-6E95E2635CE5"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "012C1F69-2601-4BD6-82E3-76441C572FF1"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "6D1C0561-D1E6-459E-9650-CE41B03C4CFD"
+                }
+            ]
+        }
+    ],
+    "createdName": "Belen Banegas",
+    "createdDate": "2024-03-01T18:11:00.963Z",
+    "modifiedName": "Belen Banegas",
+    "modifiedDate": "2024-03-01T18:38:53.473Z",
+    "r__folder_Path": "my automations"
+}

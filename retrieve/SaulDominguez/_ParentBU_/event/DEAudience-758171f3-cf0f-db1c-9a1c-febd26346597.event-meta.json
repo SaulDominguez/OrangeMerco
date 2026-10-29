@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "PaChopear_270924",
+    "description": "",
+    "createdDate": "2024-09-27T13:07:41.45",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-09-27T13:07:41.45",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-758171f3-cf0f-db1c-9a1c-febd26346597",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-09-28T08:30:00",
+        "endDateTime": "2024-09-28T08:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "3f981f89-ddc4-4b66-8d3c-deb42a462b80",
+    "r__dataExtension_key": "DB0B1D14-3303-4D83-9373-F0B7EACC807D"
+}

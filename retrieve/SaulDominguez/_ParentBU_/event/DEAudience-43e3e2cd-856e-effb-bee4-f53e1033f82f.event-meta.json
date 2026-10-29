@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_ArrozMolida_140826",
+    "description": "",
+    "createdDate": "2026-08-13T19:44:47.057",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-08-13T19:44:47.057",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-43e3e2cd-856e-effb-bee4-f53e1033f82f",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-08-14T09:30:00",
+        "endDateTime": "2026-08-14T09:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "6542a956-d34e-481e-8a0a-d60577886726",
+    "r__dataExtension_key": "4239061D-892A-478C-8A88-FC605B6BA482"
+}

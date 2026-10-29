@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "New Journey - January 19 2024 at 12.41 PM",
+    "description": "",
+    "createdDate": "2024-01-19T12:59:43.983",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-01-19T12:59:43.983",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-0c9e5342-b6b9-0702-a020-c5cd287541d7",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e8ad1608-72d1-49fa-92c9-df77bf0e2c08",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

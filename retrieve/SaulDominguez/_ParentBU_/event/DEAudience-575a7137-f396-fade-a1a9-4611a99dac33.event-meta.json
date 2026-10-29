@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ProgressiveProfiling_Limpieza_Wifi_Ads",
+    "description": "",
+    "createdDate": "2024-02-02T13:54:51.24",
+    "createdBy": "Martín Orange",
+    "modifiedDate": "2024-02-02T16:18:15.86",
+    "modifiedBy": "Alma Arteaga",
+    "eventDefinitionKey": "DEAudience-575a7137-f396-fade-a1a9-4611a99dac33",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "5bbd0f32-76b6-4d84-a586-93278c17aa43",
+    "r__dataExtension_key": "B55EBF3A-3E16-440D-8D08-B45C8A96712A"
+}

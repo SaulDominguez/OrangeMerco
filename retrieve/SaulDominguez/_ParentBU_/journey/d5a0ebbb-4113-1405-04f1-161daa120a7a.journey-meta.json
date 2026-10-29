@@ -1,0 +1,437 @@
+{
+    "key": "d5a0ebbb-4113-1405-04f1-161daa120a7a",
+    "name": "TEST - Envio2-Fiestononon_SMS_Ruta_26-10-2023 (Copy)",
+    "lastPublishedDate": "2023-10-26T14:50:46",
+    "description": "",
+    "version": 1,
+    "workflowApiVersion": 1,
+    "createdDate": "2023-10-26T12:56:32.78",
+    "modifiedDate": "2023-11-02T14:51:20.227",
+    "activities": [
+        {
+            "key": "SMSSYNC-1",
+            "name": "SMS2_fiestononon_v1",
+            "description": "",
+            "type": "SMSSYNC",
+            "outcomes": [
+                {
+                    "key": "cc645435-bc01-44d2-8eb6-5f768c273024",
+                    "next": "WAITBYDURATION-32",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "contactKey": "{{Contact.Key}}",
+                "defaultSMSAddress": "{{Contact.Default.SMS}}",
+                "mobileNumber": "{{InteractionDefaults.MobileNumber}}",
+                "contactId": "{{Contact.Id}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "definitionId": "{{Context.DefinitionId}}",
+                "eventData": "{{Event}}"
+            },
+            "configurationArguments": {
+                "applicationExtensionKey": "jb-mobile-connect-send-sms-sync",
+                "messageId": "Njo2MjU6MA",
+                "isOptIn": true,
+                "honorBlackoutWindowEnum": 0,
+                "mobileBlackoutWindowStartTime": "",
+                "mobileBlackoutWindowEndTime": "",
+                "isUsingDEAttributesForPersonalization": true,
+                "description": "",
+                "fromName": "Merco",
+                "isFromNameCertificationAccepted": true,
+                "nextKeywordId": "",
+                "campaignId": 0,
+                "reportingId": "",
+                "isConcatenate": false,
+                "googleCampaignName": "",
+                "shortLinks": "",
+                "r__mobileKeyword_key": {
+                    "current": "79999.FIESTONONON"
+                },
+                "r__mobileCode_key": "79999",
+                "r__asset_name_readOnly": "SMS2_fiestononon_v1",
+                "r__asset_key": "41c94227-8e7b-4aef-9ab8-fa6e07083774"
+            },
+            "metaData": {
+                "isConfigured": true,
+                "sections": {},
+                "showGoogleAnalytics": true,
+                "trackingSettings": {
+                    "isTrackingEnabled": false,
+                    "isCustomCampaign": false
+                },
+                "globals": {
+                    "description": ""
+                },
+                "store": {
+                    "messageDefinition": {
+                        "views": {
+                            "sms": {
+                                "meta": {
+                                    "options": {
+                                        "customBlockData": {
+                                            "display:message": "Visita la Ruta del Fiestononon en Merco Paseo Monclova o Sierrita, presenta tu ticket con un minimo de $999 de compra y gana al instante. https://bit.ly/46DMzfa",
+                                            "shortLinks": []
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "messageConfiguration": {
+                        "selectedCode": {
+                            "countryCode": "MX",
+                            "id": "aVdEQjdQRkcyMEtYSUJkYTBlWGZxdzo4MTow",
+                            "code": "79999"
+                        }
+                    },
+                    "selectedContentBuilderMessage": "Visita la Ruta del Fiestononon en Merco Paseo Monclova o Sierrita, presenta tu ticket con un minimo de $999 de compra y gana al instante. https://bit.ly/46DMzfa"
+                },
+                "shortLinks": "[]"
+            },
+            "schema": {
+                "arguments": {
+                    "smsJobId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "isAddressCreated": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "isSubscriptionCreated": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "isTriggeredSend": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "isWithinBlackout": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "isValidMobileNumber": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outMessageId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outKeywordId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outIsOptIn": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outHonorBlackoutWindowEnum": {
+                        "dataType": "Number",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outMobileBlackoutWindowStartTime": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outMobileBlackoutWindowEndTime": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outUtcOffset": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outWindowStart": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outWindowEnd": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outTimeZoneId": {
+                        "dataType": "Number",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outIsTZValid": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outIsMobileBlackoutWindowEnabled": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outIsUsingDEAttributesForPersonalization": {
+                        "dataType": "Boolean",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "outCountProcessedSingletonDuringBatchMethod": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "defaultSMSAddress": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WAITBYDURATION-32",
+            "name": "1 day",
+            "description": "",
+            "type": "WAIT",
+            "outcomes": [
+                {
+                    "key": "c5e7e53d-a7ce-4141-acaf-49bf53c55038",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "waitEndDateAttributeDataBound": "",
+                "waitForEventId": "",
+                "executionMode": "{{Context.ExecutionMode}}",
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "waitQueueId": "{{Context.WaitQueueId}}"
+            },
+            "configurationArguments": {
+                "waitDuration": 1,
+                "waitUnit": "DAYS",
+                "specifiedTime": "",
+                "timeZone": "",
+                "description": "",
+                "waitEndDateAttributeExpression": "",
+                "specificDate": "",
+                "waitForEventKey": ""
+            },
+            "metaData": {
+                "isConfigured": true,
+                "uiType": "WAITBYDURATION"
+            },
+            "schema": {
+                "arguments": {
+                    "endDate": {
+                        "dataType": "Date",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitEndDateAttributeDataBound": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitForEventId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "executionMode": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "startActivityKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitQueueId": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        }
+    ],
+    "triggers": [
+        {
+            "key": "TRIGGER",
+            "name": "TEST - Envio2-Fiestononon_Whatsapp_Ruta_26-10-2023",
+            "description": "",
+            "type": "EmailAudience",
+            "outcomes": [],
+            "arguments": {
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "dequeueReason": "{{Context.DequeueReason}}",
+                "lastExecutedActivityKey": "{{Context.LastExecutedActivityKey}}",
+                "filterResult": "true"
+            },
+            "configurationArguments": {
+                "schemaVersionId": 0,
+                "criteria": ""
+            },
+            "metaData": {
+                "scheduleState": "No Schedule",
+                "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+                "chainType": "None",
+                "configurationRequired": false,
+                "iconUrl": "/images/icon-data-extension.svg",
+                "title": "Data Extension",
+                "category": "Audience",
+                "entrySourceGroupConfigUrl": "jb:///data/entry/audience/entrysourcegroupconfig.json",
+                "r__event_key": "DEAudience-7af65a40-368d-def1-f5b9-357d6f2cf8d4"
+            }
+        }
+    ],
+    "goals": [],
+    "exits": [],
+    "notifiers": [],
+    "entryMode": "OnceAndDone",
+    "definitionType": "Multistep",
+    "channel": "",
+    "defaults": {
+        "mobileNumber": [
+            "{{Event.DEAudience-7af65a40-368d-def1-f5b9-357d6f2cf8d4.\"mobilenumber\"}}"
+        ],
+        "properties": {
+            "analyticsTracking": {
+                "enabled": false,
+                "analyticsType": "google",
+                "urlDomainsToTrack": []
+            }
+        }
+    },
+    "metaData": {
+        "dataSource": "ContactsModel",
+        "hasCopiedActivity": true
+    },
+    "executionMode": "Production",
+    "status": "Stopped",
+    "scheduledStatus": "Draft",
+    "campaigns": [],
+    "r__folder_Path": "my journeys/2023/Test Journeys"
+}

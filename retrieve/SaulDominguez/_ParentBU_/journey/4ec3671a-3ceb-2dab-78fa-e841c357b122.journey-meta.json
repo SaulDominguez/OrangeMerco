@@ -1,0 +1,1901 @@
+{
+    "key": "4ec3671a-3ceb-2dab-78fa-e841c357b122",
+    "name": "ORA_Reminder_Wapp_261026",
+    "lastPublishedDate": "2026-10-26T09:47:08",
+    "description": "",
+    "version": 1,
+    "workflowApiVersion": 1,
+    "createdDate": "2026-10-23T11:35:33.793",
+    "modifiedDate": "2026-10-26T09:47:08.97",
+    "activities": [
+        {
+            "key": "MULTICRITERIADECISIONV2-1",
+            "name": "",
+            "description": "",
+            "type": "MULTICRITERIADECISION",
+            "outcomes": [
+                {
+                    "key": "default_path_1",
+                    "next": "WHATSAPPACTIVITY-4",
+                    "arguments": {},
+                    "metaData": {
+                        "label": "MVA",
+                        "skipI18n": true,
+                        "isLabelFromConversion": false,
+                        "criteriaDescription": "Zona contains Zona Monclova OR Ciudad equal Monclova OR ClienteMVA_CARB_PN is True",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "6a659e98-6479-4361-1713-269a2d4ea4eb",
+                    "next": "WHATSAPPACTIVITY-7",
+                    "arguments": {},
+                    "metaData": {
+                        "label": "NL-SALT",
+                        "skipI18n": true,
+                        "isLabelFromConversion": false,
+                        "criteriaDescription": "ClienteNL is True OR ClienteSALT is True OR Zona equal Zona Saltillo OR Zona equal Zona Nuevo Leon",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "remainder_path",
+                    "next": "RANDOMSPLITV2-2",
+                    "arguments": {},
+                    "metaData": {
+                        "label": "Remainder",
+                        "isLabelFromConversion": false,
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "filterResult": "default_path_1={{Contact.FilterId.09d9e0d4-7e12-4afa-ab1d-fac040029a4a}},6a659e98-6479-4361-1713-269a2d4ea4eb={{Contact.FilterId.c61d8753-bfe2-4b63-9741-916fbe8752de}},remainder_path=False"
+            },
+            "configurationArguments": {
+                "schemaVersionId": 252,
+                "criteria": {
+                    "default_path_1": "<FilterDefinition><ConditionSet Operator=\"OR\" ConditionSetName=\"Individual Filter Grouping\"><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.Zona\" Operator=\"Contains\" UiMetaData=\"{}\"><Value><![CDATA[Zona Monclova]]></Value></Condition><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.Ciudad\" Operator=\"Equal\" UiMetaData=\"{}\"><Value><![CDATA[Monclova]]></Value></Condition><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.ClienteMVA_CARB_PN\" Operator=\"Is\" UiMetaData=\"{}\"><Value><![CDATA[true]]></Value></Condition></ConditionSet></FilterDefinition>",
+                    "6a659e98-6479-4361-1713-269a2d4ea4eb": "<FilterDefinition><ConditionSet Operator=\"OR\" ConditionSetName=\"Individual Filter Grouping\"><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.ClienteNL\" Operator=\"Is\" UiMetaData=\"{}\"><Value><![CDATA[true]]></Value></Condition><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.ClienteSALT\" Operator=\"Is\" UiMetaData=\"{}\"><Value><![CDATA[true]]></Value></Condition><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.Zona\" Operator=\"Equal\" UiMetaData=\"{}\"><Value><![CDATA[Zona Saltillo]]></Value></Condition><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.Zona\" Operator=\"Equal\" UiMetaData=\"{}\"><Value><![CDATA[Zona Nuevo Leon]]></Value></Condition></ConditionSet></FilterDefinition>"
+                }
+            },
+            "metaData": {
+                "isConfigured": true
+            },
+            "schema": {
+                "arguments": {
+                    "actualChoice": {
+                        "dataType": "Number",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "filterResult": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "MULTICRITERIADECISIONV2-7",
+            "name": "BlackList",
+            "description": "",
+            "type": "MULTICRITERIADECISION",
+            "outcomes": [
+                {
+                    "key": "default_path_1",
+                    "arguments": {},
+                    "metaData": {
+                        "label": "True",
+                        "skipI18n": true,
+                        "isLabelFromConversion": false,
+                        "criteriaDescription": "( Excluded is True AND MedioComunicacion equal Whatsapp ) OR NoRecibirComunicacion is True",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "remainder_path",
+                    "next": "MULTICRITERIADECISIONV2-1",
+                    "arguments": {},
+                    "metaData": {
+                        "label": "False",
+                        "skipI18n": true,
+                        "isLabelFromConversion": false,
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "filterResult": "default_path_1={{Contact.FilterId.75f0d898-4c1e-4a71-9266-f2ca760e0f83}},remainder_path=False"
+            },
+            "configurationArguments": {
+                "schemaVersionId": 252,
+                "criteria": {
+                    "default_path_1": "<FilterDefinition><ConditionSet Operator=\"OR\" ConditionSetName=\"Individual Filter Grouping\"><ConditionSet Operator=\"AND\" ConditionSetName=\"Individual Filter Grouping\"><Condition Key=\"WhatsappExclusion.Excluded\" Operator=\"Is\" UiMetaData=\"{&quot;groupToSetRelationshipId&quot;:&quot;97ea6653-d5d6-f011-a5d6-5cba2c19bc78&quot;}\"><AttributePath RelationshipID=\"93b1d65f-d5d6-f011-a5d6-5cba2c19bc78\"><Value><![CDATA[true]]></Value></AttributePath></Condition><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.MedioComunicacion\" Operator=\"Equal\" UiMetaData=\"{}\"><Value><![CDATA[Whatsapp]]></Value></Condition></ConditionSet><Condition IsEphemeralAttribute=\"true\" Key=\"Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.NoRecibirComunicacion\" Operator=\"Is\" UiMetaData=\"{}\"><Value><![CDATA[true]]></Value></Condition></ConditionSet></FilterDefinition>"
+                }
+            },
+            "metaData": {
+                "isConfigured": true
+            },
+            "schema": {
+                "arguments": {
+                    "actualChoice": {
+                        "dataType": "Number",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "filterResult": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "RANDOMSPLITV2-2",
+            "name": "Random Split",
+            "description": "",
+            "type": "RANDOMSPLIT",
+            "outcomes": [
+                {
+                    "key": "branchResult-1",
+                    "next": "WHATSAPPACTIVITY-5",
+                    "arguments": {
+                        "percentage": 25
+                    },
+                    "metaData": {
+                        "label": "25%",
+                        "name": "Path 1",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "branchResult-2",
+                    "next": "WHATSAPPACTIVITY-6",
+                    "arguments": {
+                        "percentage": 25
+                    },
+                    "metaData": {
+                        "label": "25%",
+                        "name": "Path 2",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "3ad99e80-90b8-c2cc-0b64-80535e367166",
+                    "next": "WHATSAPPACTIVITY-1",
+                    "arguments": {
+                        "percentage": 25
+                    },
+                    "metaData": {
+                        "label": "25%",
+                        "name": "Path 3",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "6ff1dd0f-d17e-e68d-3d8d-e0e05390c1c1",
+                    "next": "WHATSAPPACTIVITY-2",
+                    "arguments": {
+                        "percentage": 25
+                    },
+                    "metaData": {
+                        "label": "25%",
+                        "name": "Path 4",
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {},
+            "configurationArguments": {},
+            "metaData": {
+                "icon": "/extensions/activities/random-split/images/randomsplit.svg",
+                "iconSmall": "/extensions/activities/random-split/images/randomsplit.svg",
+                "category": "flow",
+                "isConfigured": true,
+                "original_icon": "/extensions/activities/random-split/images/randomsplit.svg",
+                "original_iconSmall": "/extensions/activities/random-split/images/randomsplit.svg",
+                "sections": {}
+            },
+            "schema": {
+                "arguments": {
+                    "randomNumber": {
+                        "dataType": "Number",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "actualChoice": {
+                        "dataType": "Number",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "UPDATECONTACTDATAV2-1",
+            "name": "Update Contact - BDD_General_Completa",
+            "description": "",
+            "type": "UPDATECONTACTDATA",
+            "outcomes": [
+                {
+                    "key": "19b4496c-88e0-4af3-8440-2416574b402e",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "activityData": {
+                    "updateContactFields": [
+                        {
+                            "value": 1,
+                            "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC",
+                            "r__dataExtensionField_name": "NoRecibirComunicacion"
+                        }
+                    ]
+                },
+                "contactKey": "{{Context.ContactKey}}"
+            },
+            "configurationArguments": {
+                "isActivityBatchValidated": true
+            },
+            "metaData": {
+                "isConfigured": true
+            },
+            "schema": {
+                "arguments": {
+                    "activityData": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "UPDATECONTACTDATAV2-2",
+            "name": "Update Contact - BDD_General_Completa",
+            "description": "",
+            "type": "UPDATECONTACTDATA",
+            "outcomes": [
+                {
+                    "key": "51a53479-95ea-4802-a662-526e7d93dd83",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "activityData": {
+                    "updateContactFields": [
+                        {
+                            "value": 1,
+                            "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC",
+                            "r__dataExtensionField_name": "NoRecibirComunicacion"
+                        }
+                    ]
+                },
+                "contactKey": "{{Context.ContactKey}}"
+            },
+            "configurationArguments": {
+                "isActivityBatchValidated": true
+            },
+            "metaData": {
+                "isConfigured": true
+            },
+            "schema": {
+                "arguments": {
+                    "activityData": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WAITBYDURATION-1",
+            "name": "1 day",
+            "description": "",
+            "type": "WAIT",
+            "outcomes": [
+                {
+                    "key": "8deb33f3-5592-40a9-b1a3-57eb37d3d7ac",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "waitEndDateAttributeDataBound": "",
+                "waitForEventId": "",
+                "executionMode": "{{Context.ExecutionMode}}",
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "waitQueueId": "{{Context.WaitQueueId}}"
+            },
+            "configurationArguments": {
+                "waitDuration": 1,
+                "waitUnit": "DAYS",
+                "specifiedTime": "",
+                "timeZone": "",
+                "description": "",
+                "waitEndDateAttributeExpression": "",
+                "specificDate": "",
+                "waitForEventKey": ""
+            },
+            "metaData": {
+                "isConfigured": true,
+                "uiType": "WAITBYDURATION"
+            },
+            "schema": {
+                "arguments": {
+                    "endDate": {
+                        "dataType": "Date",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitEndDateAttributeDataBound": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitForEventId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "executionMode": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "startActivityKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitQueueId": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WAITBYDURATION-2",
+            "name": "1 day",
+            "description": "",
+            "type": "WAIT",
+            "outcomes": [
+                {
+                    "key": "b2bbb579-211d-456e-b8f3-e825956a1ce1",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "waitEndDateAttributeDataBound": "",
+                "waitForEventId": "",
+                "executionMode": "{{Context.ExecutionMode}}",
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "waitQueueId": "{{Context.WaitQueueId}}"
+            },
+            "configurationArguments": {
+                "waitDuration": 1,
+                "waitUnit": "DAYS",
+                "specifiedTime": "",
+                "timeZone": "",
+                "description": "",
+                "waitEndDateAttributeExpression": "",
+                "specificDate": "",
+                "waitForEventKey": ""
+            },
+            "metaData": {
+                "isConfigured": true,
+                "uiType": "WAITBYDURATION"
+            },
+            "schema": {
+                "arguments": {
+                    "endDate": {
+                        "dataType": "Date",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitEndDateAttributeDataBound": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitForEventId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "executionMode": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "startActivityKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitQueueId": {
+                        "dataType": "LongNumber",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WAITUNTILCHATRESPONSE-1",
+            "name": "",
+            "description": "",
+            "type": "WAITUNTILCHATRESPONSE",
+            "outcomes": [
+                {
+                    "key": "11b1f043-ef8f-ea27-4937-cb188ad580d3",
+                    "next": "UPDATECONTACTDATAV2-1",
+                    "arguments": {
+                        "when": "1"
+                    },
+                    "metaData": {
+                        "operator": "contains",
+                        "label": "1",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "EventFired",
+                    "arguments": {
+                        "when": "EventFired"
+                    },
+                    "metaData": {
+                        "defaultOutcome": true,
+                        "i18nLabel": "invalidResponse",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "no_event",
+                    "arguments": {
+                        "when": "WaitExpired"
+                    },
+                    "metaData": {
+                        "defaultOutcome": true,
+                        "i18nLabel": "waitExpired",
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "eventDefinitionId": "af419ff9-ca69-476e-8e19-09044ae2f3cb",
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "executeMode": "{{Context.ExecutionMode}}",
+                "dequeueReason": "{{Context.DequeueReason}}",
+                "dequeueData": "{{Context.DequeueData}}",
+                "filterResult": "1=Contact.FilterId.3f6cc08f-737e-46d7-b12c-215400dce97a,EventFired=True"
+            },
+            "configurationArguments": {
+                "applicationExtensionKey": "4172fc5e-59e4-4557-b7e8-09415948b55f",
+                "isFlowSuccessEnabled": false,
+                "isCatalogSuccessEnabled": false,
+                "isKeywordMatchingEnabled": true,
+                "channelType": "whatsapp",
+                "appChannelName": "",
+                "channelId": "5218115537251",
+                "appId": "136035249587888",
+                "keywords": "[{\"keyword\":\"1\",\"operator\":\"contains\"}]",
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "specifiedTime": "",
+                "timeZone": "",
+                "eventDefinitionKey": "WUCR-74af27b5-1f12-1e36-c836-046f5bd49f1e",
+                "criteria": {
+                    "1": "<FilterDefinition><ConditionSet Operator=\"AND\" ConditionSetName=\"Individual Filter Grouping\"><Condition Key=\"Event.WUCR-74af27b5-1f12-1e36-c836-046f5bd49f1e.Keyword\" Operator=\"Equal\" IsEphemeralAttribute=\"true\"><Value><![CDATA[1]]></Value></Condition></ConditionSet></FilterDefinition>"
+                },
+                "schemaVersionId": 0
+            },
+            "metaData": {
+                "isConfigured": true,
+                "sections": {},
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "triggeredEventDefinitionKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "endDate": {
+                        "dataType": "Date",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "actualChoice": {
+                        "dataType": "Number",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "startActivityKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "executeMode": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "dequeueReason": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "dequeueData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "filterResult": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WAITUNTILCHATRESPONSE-2",
+            "name": "",
+            "description": "",
+            "type": "WAITUNTILCHATRESPONSE",
+            "outcomes": [
+                {
+                    "key": "8202ff09-722e-1a85-4ad8-01e98f89260a",
+                    "next": "UPDATECONTACTDATAV2-2",
+                    "arguments": {
+                        "when": "1"
+                    },
+                    "metaData": {
+                        "operator": "contains",
+                        "label": "1",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "EventFired",
+                    "next": "WAITBYDURATION-1",
+                    "arguments": {
+                        "when": "EventFired"
+                    },
+                    "metaData": {
+                        "defaultOutcome": true,
+                        "i18nLabel": "invalidResponse",
+                        "invalid": false
+                    }
+                },
+                {
+                    "key": "no_event",
+                    "next": "WAITBYDURATION-2",
+                    "arguments": {
+                        "when": "WaitExpired"
+                    },
+                    "metaData": {
+                        "defaultOutcome": true,
+                        "i18nLabel": "waitExpired",
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "eventDefinitionId": "97603e9a-fc41-439b-8bcb-b72f90e58403",
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "executeMode": "{{Context.ExecutionMode}}",
+                "dequeueReason": "{{Context.DequeueReason}}",
+                "dequeueData": "{{Context.DequeueData}}",
+                "filterResult": "1=Contact.FilterId.dfc94cf6-e8f3-485b-93f8-fbacd6b808e1,EventFired=True"
+            },
+            "configurationArguments": {
+                "applicationExtensionKey": "4172fc5e-59e4-4557-b7e8-09415948b55f",
+                "isFlowSuccessEnabled": false,
+                "isCatalogSuccessEnabled": false,
+                "isKeywordMatchingEnabled": true,
+                "channelType": "whatsapp",
+                "appChannelName": "",
+                "channelId": "5218115537251",
+                "appId": "136035249587888",
+                "keywords": "[{\"keyword\":\"1\",\"operator\":\"contains\"}]",
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "specifiedTime": "",
+                "timeZone": "",
+                "eventDefinitionKey": "WUCR-e70c7071-6d89-899f-2249-d0018b9179ec",
+                "criteria": {
+                    "1": "<FilterDefinition><ConditionSet Operator=\"AND\" ConditionSetName=\"Individual Filter Grouping\"><Condition Key=\"Event.WUCR-e70c7071-6d89-899f-2249-d0018b9179ec.Keyword\" Operator=\"Equal\" IsEphemeralAttribute=\"true\"><Value><![CDATA[1]]></Value></Condition></ConditionSet></FilterDefinition>"
+                },
+                "schemaVersionId": 0
+            },
+            "metaData": {
+                "isConfigured": true,
+                "sections": {},
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "triggeredEventDefinitionKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "endDate": {
+                        "dataType": "Date",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "actualChoice": {
+                        "dataType": "Number",
+                        "isNullable": false,
+                        "direction": "Out",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "waitDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventDefinitionId": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "startActivityKey": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "executeMode": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "dequeueReason": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "dequeueData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "filterResult": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": true,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WHATSAPPACTIVITY-1",
+            "name": "Abarrotes_261026",
+            "description": "",
+            "type": "WHATSAPPACTIVITY",
+            "outcomes": [
+                {
+                    "key": "38e44861-71fc-4392-b44b-1de39c777586",
+                    "next": "WAITUNTILCHATRESPONSE-1",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false,
+                        "joinLabel": ""
+                    }
+                }
+            ],
+            "arguments": {
+                "contactId": "{{Context.ContactId}}",
+                "contactKey": "{{Context.ContactKey}}",
+                "eventData": "{{Event}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "mobileNumber": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}"
+            },
+            "configurationArguments": {
+                "triggerType": "",
+                "applicationExtensionKey": "942563c0-ad14-49ad-87e2-bd2a61c6d7d0",
+                "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+                "channelId": "5218115537251",
+                "applicationId": "136035249587888",
+                "assetId": 155216,
+                "assetType": "Template",
+                "activityId": "9cec59cc-dd22-4abf-81ee-1fe91c5f632f",
+                "definitionId": "65944208-5f8b-412d-b223-0c5f417ed4e1",
+                "requestBody": {
+                    "messaging_product": "WhatsApp",
+                    "to": null,
+                    "recipient": null,
+                    "category": null,
+                    "type": "template",
+                    "message_metadata": null,
+                    "text": null,
+                    "image": null,
+                    "document": null,
+                    "video": null,
+                    "audio": null,
+                    "interactive": null,
+                    "location": null,
+                    "sticker": null,
+                    "template": {
+                        "name": "abarrotes_261026",
+                        "language": {
+                            "code": "ES_MX"
+                        },
+                        "components": [
+                            {
+                                "type": "header",
+                                "parameters": [
+                                    {
+                                        "type": "image",
+                                        "text": null,
+                                        "image": {
+                                            "link": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/a938f136-03c3-443b-b744-f39fba25ddb6.jpg",
+                                            "filename": null
+                                        },
+                                        "video": null,
+                                        "document": null,
+                                        "payload": null,
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": null,
+                                "index": null,
+                                "cards": null
+                            },
+                            {
+                                "type": "button",
+                                "parameters": [
+                                    {
+                                        "type": "payload",
+                                        "text": null,
+                                        "image": null,
+                                        "video": null,
+                                        "document": null,
+                                        "payload": "1",
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": "QUICK_REPLY",
+                                "index": "2",
+                                "cards": null
+                            }
+                        ]
+                    }
+                },
+                "eventDefinitionKey": "WUCR-74af27b5-1f12-1e36-c836-046f5bd49f1e",
+                "eventType": "",
+                "flowToken": "",
+                "isCatalogMessage": false,
+                "isDirectSend": false,
+                "blockoutWindows": "",
+                "templateCategory": "MARKETING",
+                "mMLiteOnboardingStatus": "",
+                "mobileNumberAttributeName": "Phone",
+                "mobileNumberExpression": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}",
+                "followedByWaitUntil": true,
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "providerType": "",
+                "messagePriority": "NotDuringActive",
+                "precedingEventDefinitionKey": ""
+            },
+            "metaData": {
+                "icon": "https://jb-chat-messaging.s13.marketingcloudapps.com/whatsapp/images/icon.svg",
+                "category": "message",
+                "original_icon": "images/icon.svg",
+                "sections": {},
+                "isConfigured": true,
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "contactId": {
+                        "dataType": "LongNumber",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WHATSAPPACTIVITY-2",
+            "name": "General_SALT_291026",
+            "description": "",
+            "type": "WHATSAPPACTIVITY",
+            "outcomes": [
+                {
+                    "key": "421aabc8-af27-405f-a19c-129b1d36b7d1",
+                    "next": "WAITUNTILCHATRESPONSE-1",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false,
+                        "joinLabel": ""
+                    }
+                }
+            ],
+            "arguments": {
+                "contactId": "{{Context.ContactId}}",
+                "contactKey": "{{Context.ContactKey}}",
+                "eventData": "{{Event}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "mobileNumber": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}"
+            },
+            "configurationArguments": {
+                "triggerType": "",
+                "applicationExtensionKey": "942563c0-ad14-49ad-87e2-bd2a61c6d7d0",
+                "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+                "channelId": "5218115537251",
+                "applicationId": "136035249587888",
+                "assetId": 155211,
+                "assetType": "Template",
+                "activityId": "41291faf-ea38-4b04-a27d-3f9fb240635a",
+                "definitionId": "65944208-5f8b-412d-b223-0c5f417ed4e1",
+                "requestBody": {
+                    "messaging_product": "WhatsApp",
+                    "to": null,
+                    "recipient": null,
+                    "category": null,
+                    "type": "template",
+                    "message_metadata": null,
+                    "text": null,
+                    "image": null,
+                    "document": null,
+                    "video": null,
+                    "audio": null,
+                    "interactive": null,
+                    "location": null,
+                    "sticker": null,
+                    "template": {
+                        "name": "general_salt_261026",
+                        "language": {
+                            "code": "ES_MX"
+                        },
+                        "components": [
+                            {
+                                "type": "header",
+                                "parameters": [
+                                    {
+                                        "type": "image",
+                                        "text": null,
+                                        "image": {
+                                            "link": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/c4e2494a-8033-40c9-8cdc-526afbbb01cf.jpg",
+                                            "filename": null
+                                        },
+                                        "video": null,
+                                        "document": null,
+                                        "payload": null,
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": null,
+                                "index": null,
+                                "cards": null
+                            },
+                            {
+                                "type": "button",
+                                "parameters": [
+                                    {
+                                        "type": "payload",
+                                        "text": null,
+                                        "image": null,
+                                        "video": null,
+                                        "document": null,
+                                        "payload": "1",
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": "QUICK_REPLY",
+                                "index": "2",
+                                "cards": null
+                            }
+                        ]
+                    }
+                },
+                "eventDefinitionKey": "WUCR-74af27b5-1f12-1e36-c836-046f5bd49f1e",
+                "eventType": "",
+                "flowToken": "",
+                "isCatalogMessage": false,
+                "isDirectSend": false,
+                "blockoutWindows": "",
+                "templateCategory": "MARKETING",
+                "mMLiteOnboardingStatus": "",
+                "mobileNumberAttributeName": "Phone",
+                "mobileNumberExpression": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}",
+                "followedByWaitUntil": true,
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "providerType": "",
+                "messagePriority": "NotDuringActive",
+                "precedingEventDefinitionKey": ""
+            },
+            "metaData": {
+                "icon": "https://jb-chat-messaging.s13.marketingcloudapps.com/whatsapp/images/icon.svg",
+                "category": "message",
+                "original_icon": "images/icon.svg",
+                "sections": {},
+                "isConfigured": true,
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "contactId": {
+                        "dataType": "LongNumber",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WHATSAPPACTIVITY-4",
+            "name": "General_MVA_261026",
+            "description": "",
+            "type": "WHATSAPPACTIVITY",
+            "outcomes": [
+                {
+                    "key": "2c6b9aab-6975-4966-b9f0-5c777ad5b787",
+                    "next": "WAITUNTILCHATRESPONSE-2",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "contactId": "{{Context.ContactId}}",
+                "contactKey": "{{Context.ContactKey}}",
+                "eventData": "{{Event}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "mobileNumber": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}"
+            },
+            "configurationArguments": {
+                "triggerType": "",
+                "applicationExtensionKey": "942563c0-ad14-49ad-87e2-bd2a61c6d7d0",
+                "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+                "channelId": "5218115537251",
+                "applicationId": "136035249587888",
+                "assetId": 155213,
+                "assetType": "Template",
+                "activityId": "6a550eb8-be93-403b-bf91-a6bb60b94325",
+                "definitionId": "65944208-5f8b-412d-b223-0c5f417ed4e1",
+                "requestBody": {
+                    "messaging_product": "WhatsApp",
+                    "to": null,
+                    "recipient": null,
+                    "category": null,
+                    "type": "template",
+                    "message_metadata": null,
+                    "text": null,
+                    "image": null,
+                    "document": null,
+                    "video": null,
+                    "audio": null,
+                    "interactive": null,
+                    "location": null,
+                    "sticker": null,
+                    "template": {
+                        "name": "general_carb_261026",
+                        "language": {
+                            "code": "ES_MX"
+                        },
+                        "components": [
+                            {
+                                "type": "header",
+                                "parameters": [
+                                    {
+                                        "type": "image",
+                                        "text": null,
+                                        "image": {
+                                            "link": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/9ba1bd63-2097-485e-97e9-a7502ea172f2.jpg",
+                                            "filename": null
+                                        },
+                                        "video": null,
+                                        "document": null,
+                                        "payload": null,
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": null,
+                                "index": null,
+                                "cards": null
+                            },
+                            {
+                                "type": "button",
+                                "parameters": [
+                                    {
+                                        "type": "payload",
+                                        "text": null,
+                                        "image": null,
+                                        "video": null,
+                                        "document": null,
+                                        "payload": "1",
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": "QUICK_REPLY",
+                                "index": "2",
+                                "cards": null
+                            }
+                        ]
+                    }
+                },
+                "eventDefinitionKey": "WUCR-e70c7071-6d89-899f-2249-d0018b9179ec",
+                "eventType": "",
+                "flowToken": "",
+                "isCatalogMessage": false,
+                "isDirectSend": false,
+                "blockoutWindows": "",
+                "templateCategory": "MARKETING",
+                "mMLiteOnboardingStatus": "",
+                "mobileNumberAttributeName": "Phone",
+                "mobileNumberExpression": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}",
+                "followedByWaitUntil": true,
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "providerType": "",
+                "messagePriority": "NotDuringActive",
+                "precedingEventDefinitionKey": ""
+            },
+            "metaData": {
+                "icon": "https://jb-chat-messaging.s13.marketingcloudapps.com/whatsapp/images/icon.svg",
+                "category": "message",
+                "original_icon": "images/icon.svg",
+                "sections": {},
+                "isConfigured": true,
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "contactId": {
+                        "dataType": "LongNumber",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WHATSAPPACTIVITY-5",
+            "name": "MG_191026",
+            "description": "",
+            "type": "WHATSAPPACTIVITY",
+            "outcomes": [
+                {
+                    "key": "0237e512-232b-4711-840e-30f95b8e4928",
+                    "next": "WAITUNTILCHATRESPONSE-1",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "contactId": "{{Context.ContactId}}",
+                "contactKey": "{{Context.ContactKey}}",
+                "eventData": "{{Event}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "mobileNumber": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}"
+            },
+            "configurationArguments": {
+                "triggerType": "",
+                "applicationExtensionKey": "942563c0-ad14-49ad-87e2-bd2a61c6d7d0",
+                "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+                "channelId": "5218115537251",
+                "applicationId": "136035249587888",
+                "assetId": 154055,
+                "assetType": "Template",
+                "activityId": "265d4259-9dcd-408f-b9ce-344aacc3bebf",
+                "definitionId": "65944208-5f8b-412d-b223-0c5f417ed4e1",
+                "requestBody": {
+                    "messaging_product": "WhatsApp",
+                    "to": null,
+                    "recipient": null,
+                    "category": null,
+                    "type": "template",
+                    "message_metadata": null,
+                    "text": null,
+                    "image": null,
+                    "document": null,
+                    "video": null,
+                    "audio": null,
+                    "interactive": null,
+                    "location": null,
+                    "sticker": null,
+                    "template": {
+                        "name": "mg_191026",
+                        "language": {
+                            "code": "ES_MX"
+                        },
+                        "components": [
+                            {
+                                "type": "header",
+                                "parameters": [
+                                    {
+                                        "type": "image",
+                                        "text": null,
+                                        "image": {
+                                            "link": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/cdf0745e-0acd-40c0-b3cb-ab03e4e5577b.jpg",
+                                            "filename": null
+                                        },
+                                        "video": null,
+                                        "document": null,
+                                        "payload": null,
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": null,
+                                "index": null,
+                                "cards": null
+                            },
+                            {
+                                "type": "button",
+                                "parameters": [
+                                    {
+                                        "type": "payload",
+                                        "text": null,
+                                        "image": null,
+                                        "video": null,
+                                        "document": null,
+                                        "payload": "1",
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": "QUICK_REPLY",
+                                "index": "2",
+                                "cards": null
+                            }
+                        ]
+                    }
+                },
+                "eventDefinitionKey": "WUCR-74af27b5-1f12-1e36-c836-046f5bd49f1e",
+                "eventType": "",
+                "flowToken": "",
+                "isCatalogMessage": false,
+                "isDirectSend": false,
+                "blockoutWindows": "",
+                "templateCategory": "MARKETING",
+                "mMLiteOnboardingStatus": "",
+                "mobileNumberAttributeName": "Phone",
+                "mobileNumberExpression": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}",
+                "followedByWaitUntil": true,
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "providerType": "",
+                "messagePriority": "NotDuringActive",
+                "precedingEventDefinitionKey": ""
+            },
+            "metaData": {
+                "isConfigured": true,
+                "sections": {},
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "contactId": {
+                        "dataType": "LongNumber",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WHATSAPPACTIVITY-6",
+            "name": "Salchi_261026",
+            "description": "",
+            "type": "WHATSAPPACTIVITY",
+            "outcomes": [
+                {
+                    "key": "862d493a-f5a3-4f28-a219-d7cdba324d4f",
+                    "next": "WAITUNTILCHATRESPONSE-1",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false,
+                        "joinLabel": ""
+                    }
+                }
+            ],
+            "arguments": {
+                "contactId": "{{Context.ContactId}}",
+                "contactKey": "{{Context.ContactKey}}",
+                "eventData": "{{Event}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "mobileNumber": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}"
+            },
+            "configurationArguments": {
+                "triggerType": "",
+                "applicationExtensionKey": "942563c0-ad14-49ad-87e2-bd2a61c6d7d0",
+                "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+                "channelId": "5218115537251",
+                "applicationId": "136035249587888",
+                "assetId": 155215,
+                "assetType": "Template",
+                "activityId": "97e3193c-79d5-4810-bf02-748a4aec4246",
+                "definitionId": "65944208-5f8b-412d-b223-0c5f417ed4e1",
+                "requestBody": {
+                    "messaging_product": "WhatsApp",
+                    "to": null,
+                    "recipient": null,
+                    "category": null,
+                    "type": "template",
+                    "message_metadata": null,
+                    "text": null,
+                    "image": null,
+                    "document": null,
+                    "video": null,
+                    "audio": null,
+                    "interactive": null,
+                    "location": null,
+                    "sticker": null,
+                    "template": {
+                        "name": "salchi_261026",
+                        "language": {
+                            "code": "ES_MX"
+                        },
+                        "components": [
+                            {
+                                "type": "header",
+                                "parameters": [
+                                    {
+                                        "type": "image",
+                                        "text": null,
+                                        "image": {
+                                            "link": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/62c8ecaf-aadd-4d5f-a143-581849b49aa4.jpg",
+                                            "filename": null
+                                        },
+                                        "video": null,
+                                        "document": null,
+                                        "payload": null,
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": null,
+                                "index": null,
+                                "cards": null
+                            },
+                            {
+                                "type": "button",
+                                "parameters": [
+                                    {
+                                        "type": "payload",
+                                        "text": null,
+                                        "image": null,
+                                        "video": null,
+                                        "document": null,
+                                        "payload": "1",
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": "QUICK_REPLY",
+                                "index": "2",
+                                "cards": null
+                            }
+                        ]
+                    }
+                },
+                "eventDefinitionKey": "WUCR-74af27b5-1f12-1e36-c836-046f5bd49f1e",
+                "eventType": "",
+                "flowToken": "",
+                "isCatalogMessage": false,
+                "isDirectSend": false,
+                "blockoutWindows": "",
+                "templateCategory": "MARKETING",
+                "mMLiteOnboardingStatus": "",
+                "mobileNumberAttributeName": "Phone",
+                "mobileNumberExpression": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}",
+                "followedByWaitUntil": true,
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "providerType": "",
+                "messagePriority": "NotDuringActive",
+                "precedingEventDefinitionKey": ""
+            },
+            "metaData": {
+                "icon": "https://jb-chat-messaging.s13.marketingcloudapps.com/whatsapp/images/icon.svg",
+                "category": "message",
+                "original_icon": "images/icon.svg",
+                "sections": {},
+                "isConfigured": true,
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "contactId": {
+                        "dataType": "LongNumber",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        },
+        {
+            "key": "WHATSAPPACTIVITY-7",
+            "name": "General_NL_261026",
+            "description": "",
+            "type": "WHATSAPPACTIVITY",
+            "outcomes": [
+                {
+                    "key": "f20c4052-582b-4d24-b81b-b4fb7eefd65f",
+                    "next": "WAITUNTILCHATRESPONSE-2",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false,
+                        "joinLabel": ""
+                    }
+                }
+            ],
+            "arguments": {
+                "contactId": "{{Context.ContactId}}",
+                "contactKey": "{{Context.ContactKey}}",
+                "eventData": "{{Event}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "mobileNumber": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}"
+            },
+            "configurationArguments": {
+                "triggerType": "",
+                "applicationExtensionKey": "942563c0-ad14-49ad-87e2-bd2a61c6d7d0",
+                "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+                "channelId": "5218115537251",
+                "applicationId": "136035249587888",
+                "assetId": 155210,
+                "assetType": "Template",
+                "activityId": "57ca58c9-317d-4b44-8d5e-7ebf7f870a16",
+                "definitionId": "65944208-5f8b-412d-b223-0c5f417ed4e1",
+                "requestBody": {
+                    "messaging_product": "WhatsApp",
+                    "to": null,
+                    "recipient": null,
+                    "category": null,
+                    "type": "template",
+                    "message_metadata": null,
+                    "text": null,
+                    "image": null,
+                    "document": null,
+                    "video": null,
+                    "audio": null,
+                    "interactive": null,
+                    "location": null,
+                    "sticker": null,
+                    "template": {
+                        "name": "general_nl_261026_v2",
+                        "language": {
+                            "code": "ES_MX"
+                        },
+                        "components": [
+                            {
+                                "type": "header",
+                                "parameters": [
+                                    {
+                                        "type": "image",
+                                        "text": null,
+                                        "image": {
+                                            "link": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/c06f1527-c70b-4d3b-86d4-99398c8682e4.jpg",
+                                            "filename": null
+                                        },
+                                        "video": null,
+                                        "document": null,
+                                        "payload": null,
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": null,
+                                "index": null,
+                                "cards": null
+                            },
+                            {
+                                "type": "button",
+                                "parameters": [
+                                    {
+                                        "type": "payload",
+                                        "text": null,
+                                        "image": null,
+                                        "video": null,
+                                        "document": null,
+                                        "payload": "1",
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": "QUICK_REPLY",
+                                "index": "2",
+                                "cards": null
+                            }
+                        ]
+                    }
+                },
+                "eventDefinitionKey": "WUCR-e70c7071-6d89-899f-2249-d0018b9179ec",
+                "eventType": "",
+                "flowToken": "",
+                "isCatalogMessage": false,
+                "isDirectSend": false,
+                "blockoutWindows": "",
+                "templateCategory": "MARKETING",
+                "mMLiteOnboardingStatus": "",
+                "mobileNumberAttributeName": "Phone",
+                "mobileNumberExpression": "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}",
+                "followedByWaitUntil": true,
+                "waitDuration": 2,
+                "waitUnit": "DAYS",
+                "providerType": "",
+                "messagePriority": "NotDuringActive",
+                "precedingEventDefinitionKey": ""
+            },
+            "metaData": {
+                "icon": "https://jb-chat-messaging.s13.marketingcloudapps.com/whatsapp/images/icon.svg",
+                "category": "message",
+                "original_icon": "images/icon.svg",
+                "sections": {},
+                "isConfigured": true,
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "contactId": {
+                        "dataType": "LongNumber",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        }
+    ],
+    "triggers": [
+        {
+            "key": "TRIGGER",
+            "name": "TRIGGER",
+            "description": "",
+            "type": "EmailAudience",
+            "outcomes": [],
+            "arguments": {
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "dequeueReason": "{{Context.DequeueReason}}",
+                "lastExecutedActivityKey": "{{Context.LastExecutedActivityKey}}",
+                "filterResult": "true"
+            },
+            "configurationArguments": {
+                "schemaVersionId": 0,
+                "criteria": ""
+            },
+            "metaData": {
+                "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+                "chainType": "None",
+                "configurationRequired": false,
+                "iconUrl": "/images/icon-data-extension.svg",
+                "title": "Data Extension",
+                "entrySourceGroupConfigUrl": "jb:///data/entry/audience/entrysourcegroupconfig.json",
+                "r__event_key": "DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861"
+            }
+        }
+    ],
+    "goals": [],
+    "exits": [],
+    "notifiers": [],
+    "entryMode": "SingleEntryAcrossAllVersions",
+    "definitionType": "Multistep",
+    "channel": "",
+    "defaults": {
+        "email": [
+            "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Email\"}}"
+        ],
+        "mobileNumber": [
+            "{{Event.DEAudience-0ac364b1-5855-aa65-1117-9794a3fbc861.\"Phone\"}}"
+        ],
+        "properties": {
+            "analyticsTracking": {
+                "enabled": true,
+                "analyticsType": "google",
+                "urlDomainsToTrack": []
+            }
+        }
+    },
+    "metaData": {
+        "dataSource": "ContactsModel",
+        "hasCopiedActivity": true,
+        "disableEndWait": true,
+        "highThroughputSending": {
+            "email": false
+        }
+    },
+    "executionMode": "Production",
+    "status": "Published",
+    "scheduledStatus": "Draft",
+    "campaigns": [],
+    "r__folder_Path": "my journeys"
+}

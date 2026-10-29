@@ -1,0 +1,70 @@
+{
+    "name": "supresiontest",
+    "key": "8558F800-0BA8-405E-920C-C2FFA1DEF496",
+    "fileSpec": "supresion.csv",
+    "createdDate": "2025-12-08T15:15:01.537",
+    "modifiedDate": "2025-12-08T15:15:01.537",
+    "createdBy": "Alexis Dominguez",
+    "modifiedBy": "Alexis Dominguez",
+    "intervalType": 0,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "Add_Selected_File_Encoding",
+            "type": "bool",
+            "value": "false"
+        },
+        {
+            "name": "Add_Timestamp_to_FileName",
+            "type": "bool",
+            "value": "false"
+        },
+        {
+            "name": "ColumnDelimiter",
+            "type": "string",
+            "value": ","
+        },
+        {
+            "name": "Convert_AllDates_to_SelectedTimezone",
+            "type": "bool",
+            "value": "false"
+        },
+        {
+            "name": "Create_TarGz_OutputFile",
+            "type": "bool",
+            "value": "false"
+        },
+        {
+            "name": "DECustomerKey",
+            "type": "string"
+        },
+        {
+            "name": "HasColumnHeaders",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "OutputFormat",
+            "type": "dropdown",
+            "value": "UTF16",
+            "dropDownList": "ASCII,UNICODE,UTF16,UTF8,UTF8 WOB,UTF7"
+        },
+        {
+            "name": "TextQualified",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "Timezone",
+            "type": "integer",
+            "value": "1"
+        },
+        {
+            "name": "UsesLineFeed",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtension_key": "B1CD30CA-DDAF-4EBD-8D15-3B6BEEE9F1B0",
+    "r__dataExtractType_name": "Data Extension Extract"
+}

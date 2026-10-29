@@ -1,0 +1,36 @@
+{
+    "allowErrors": true,
+    "customerKey": "EAF931E9-DE15-4214-872E-71BB9D21B24C",
+    "createdDate": "2026-06-17T23:15:56.55",
+    "modifiedDate": "2026-06-17T23:15:56.55",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [],
+    "fieldMappingType": "InferFromColumnHeadings",
+    "fileNamingPattern": "Test_No_name - Sheet1.csv",
+    "fileSpec": "",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Test_Import_No_Name_Drop",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "sourceCustomObjectId": "",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "0EEC08AB-BE78-4D4F-912F-41F1A3F6A861"
+    },
+    "source": {
+        "c__type": "File Location",
+        "r__fileLocation_name": "Test"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

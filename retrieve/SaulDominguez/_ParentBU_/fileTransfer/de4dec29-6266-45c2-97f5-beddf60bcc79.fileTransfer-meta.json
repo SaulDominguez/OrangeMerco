@@ -1,0 +1,16 @@
+{
+    "name": "Transfer Whatsapp Blacklist",
+    "customerKey": "de4dec29-6266-45c2-97f5-beddf60bcc79",
+    "createdDate": "2025-01-16T12:08:03.143",
+    "modifiedDate": "2025-04-03T09:06:59.177",
+    "fileSpec": "Extract_Whatsapp_Bounce.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__fileLocation_name": "ExactTarget Enhanced FTP"
+}

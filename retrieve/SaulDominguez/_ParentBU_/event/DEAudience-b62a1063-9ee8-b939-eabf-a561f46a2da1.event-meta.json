@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Warming_Whatsapp_30052025 ",
+    "description": "",
+    "createdDate": "2025-05-29T12:35:48.037",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2025-05-29T13:22:10.627",
+    "modifiedBy": "Monica Rojano",
+    "eventDefinitionKey": "DEAudience-b62a1063-9ee8-b939-eabf-a561f46a2da1",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-05-30T10:00:00",
+        "endDateTime": "2025-05-30T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "25f2f300-bfcb-46f1-8bb4-47812d1e4b3f",
+    "r__dataExtension_key": "F458D32F-72F3-42F8-B22F-621ED32ABC7E"
+}

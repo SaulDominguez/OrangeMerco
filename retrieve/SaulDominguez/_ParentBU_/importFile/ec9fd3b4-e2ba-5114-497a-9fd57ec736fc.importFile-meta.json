@@ -1,0 +1,52 @@
+{
+    "allowErrors": true,
+    "customerKey": "ec9fd3b4-e2ba-5114-497a-9fd57ec736fc",
+    "createdDate": "2025-07-24T11:22:11.757",
+    "modifiedDate": "2025-07-24T11:22:11.757",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "destinationObjectId": "00000000-0000-0000-0000-000000000000",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Contactkey",
+            "destinationFieldName": "_ContactKey"
+        },
+        {
+            "sourceFieldName": "Locale",
+            "destinationFieldName": "_CountryCode"
+        },
+        {
+            "sourceFieldName": "Firstname",
+            "destinationFieldName": "_FirstName"
+        },
+        {
+            "sourceFieldName": "mobilenumber",
+            "destinationFieldName": "_MobileNumber"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": false,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "TEST-SMS-WHATSAPP-OPTIN",
+    "notificationEmailAddress": "ghernandez@orangedcx.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": false,
+    "destination": {
+        "c__type": "WhatsApp"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "59D382B5-E9B3-4733-8D55-4C72504F81B5"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

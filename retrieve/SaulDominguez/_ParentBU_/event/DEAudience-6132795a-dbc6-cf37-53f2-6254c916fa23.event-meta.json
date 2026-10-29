@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Bienvenida-Envio-Nuevos-Progressive-profiling-27-12-23",
+    "description": "",
+    "createdDate": "2023-12-27T11:01:51.307",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-12-27T11:01:51.307",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-6132795a-dbc6-cf37-53f2-6254c916fa23",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": true,
+        "resetHighWatermark": true,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "recurring"
+    },
+    "schedule": {
+        "startDateTime": "2023-12-28T11:30:00",
+        "endDateTime": "2073-12-28T11:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 18264,
+        "endType": "EndDate",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d7457fbf-ae7b-45f9-9aac-57631178c4bf",
+    "r__dataExtension_key": "6EE6A8FD-FB4E-435E-8B60-2771CD93E4D8"
+}

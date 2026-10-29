@@ -1,0 +1,31 @@
+{
+    "name": "Tickets_App",
+    "key": "7579624b-04ae-5832-85f5-39f6a50be6f8",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B8210F72-4B68-4D22-9DC8-A0CD617E0D0F"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "57D7C435-9DBC-43E0-81D8-77C51AD57DB8"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-10-02T21:37:49.107Z",
+    "modifiedName": "Alexis Dominguez",
+    "r__folder_Path": "my automations/OrangeDCX/Envios/Reminder"
+}

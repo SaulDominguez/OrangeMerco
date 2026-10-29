@@ -1,0 +1,87 @@
+{
+    "customerKey": "fb79bfc0-39f9-40fc-b596-71f5831a0501",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-descuentones_200725-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-07-18T18:29:40.807-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-07-18T18:29:40.807-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "descuentones_200725",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🎉 ¡Ven por tus Descuentones a Montón que solo en Merco encuentras! 🛒\nAprovecha y llévate con *30% de descuento* en los siguientes productos:\n\n🥪 Todas las mayonesas y aderezos *McCormick*\n🌽 Elotes y ensaladas *Del Monte*\n🍝 Pastas para sopa *La Moderna*\n🍰 Todos los pastelitos *Marinela*\n⚡ Bebidas energéticas *Volt, cócteles Kermato y New Mix*\n🌿 Suavizantes *Ensueño Zero* y *Natureza* (varias presentaciones)\n🧼 Todos los limpiadores *Flash*\n🍼 Pañales *Tiny, BB Tips, Suavelastic y Huggies Supreme*\n🧼 Jabones de tocador *Palmolive* 120 g\n\n💚 ¡Ven por todo lo que necesitas al mejor precio en Merco! 🧡\n\nOfertas válidas en todas las sucursales Merco.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 24 de julio de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

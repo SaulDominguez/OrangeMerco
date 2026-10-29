@@ -1,0 +1,20 @@
+{
+    "CustomerKey": "97300627-BD26-41BD-ACB3-C2CCBC03AFD0",
+    "Name": "AUTOSUPRESSION_DELETE_09122025",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "SubscriberKey",
+            "DefaultValue": "",
+            "MaxLength": 255,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/01_Setup/Borrado",
+    "c__retentionPolicy": "none"
+}

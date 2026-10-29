@@ -1,0 +1,407 @@
+{
+    "definitionKey": "PredictiveIntelProfiles",
+    "relationships": [
+        {
+            "canModify": false,
+            "canRemove": false,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": true,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeGroup",
+                "r__attributeGroup_key": "ETPredictiveIntel"
+            },
+            "leftRelationshipIDs": [
+                {
+                    "type": "int16",
+                    "value": "4"
+                }
+            ],
+            "leftRelationshipReferenceType": "CustomerData",
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Email Addresses.Email Address",
+                    "c__rightFullyQualifiedName": "Predictive Intelligence Profiles.Email"
+                }
+            ],
+            "relationshipID": "31526186-c13a-ee11-a5bd-5cba2c19bc78",
+            "rightItem": {
+                "cardinality": "Many",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelProfiles"
+            }
+        },
+        {
+            "canModify": false,
+            "canRemove": false,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": false,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelProfiles"
+            },
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Predictive Intelligence Profiles.User ID",
+                    "c__rightFullyQualifiedName": "Predictive Intelligence Content Views.User ID"
+                }
+            ],
+            "relationshipID": "0a536186-c13a-ee11-a5bd-5cba2c19bc78",
+            "rightItem": {
+                "cardinality": "Many",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelContentViews"
+            }
+        },
+        {
+            "canModify": false,
+            "canRemove": false,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": false,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelProfiles"
+            },
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Predictive Intelligence Profiles.User ID",
+                    "c__rightFullyQualifiedName": "Predictive Intelligence AbandonedCartEvents.user_id"
+                }
+            ],
+            "relationshipID": "42536186-c13a-ee11-a5bd-5cba2c19bc78",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelAbandonedCartEvents"
+            }
+        },
+        {
+            "canModify": false,
+            "canRemove": false,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": false,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelProfiles"
+            },
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Predictive Intelligence Profiles.User ID",
+                    "c__rightFullyQualifiedName": "Predictive Intelligence Product Views.User ID"
+                }
+            ],
+            "relationshipID": "9e526186-c13a-ee11-a5bd-5cba2c19bc78",
+            "rightItem": {
+                "cardinality": "Many",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelProductViews"
+            }
+        },
+        {
+            "canModify": false,
+            "canRemove": false,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": false,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelProfiles"
+            },
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Predictive Intelligence Profiles.User ID",
+                    "c__rightFullyQualifiedName": "Predictive Intelligence Product Purchases.User ID"
+                }
+            ],
+            "relationshipID": "e1526186-c13a-ee11-a5bd-5cba2c19bc78",
+            "rightItem": {
+                "cardinality": "Many",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "PredictiveIntelProductPurchases"
+            }
+        }
+    ],
+    "valueDefinitions": [
+        {
+            "dataSourceID": 1,
+            "dataType": "LongNumber",
+            "description": "",
+            "definitionKey": "CustomObjectKey",
+            "isHidden": true,
+            "isIdentityValue": true,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "name": "Custom Object Key"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "User_ID",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "User ID"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Email",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Email"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Value_1",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Value 1"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Value_2",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Value 2"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Value_3",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Value 3"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Value_4",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Value 4"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Value_5",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Value 5"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Attribute_1",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Attribute 1"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Attribute_2",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Attribute 2"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Attribute_3",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Attribute 3"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Attribute_4",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Attribute 4"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Attribute_5",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Attribute 5"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "City",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "City"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Region",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Region"
+        },
+        {
+            "dataSourceID": 10,
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Country",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": false,
+            "length": 256,
+            "name": "Country"
+        }
+    ],
+    "applicationID": "f4981f88-a13e-4abf-b331-47f41c73258d",
+    "applicationKey": "com.exacttarget.Predictive Web",
+    "attributeCount": 0,
+    "canAddValues": false,
+    "canChangeValues": false,
+    "canModify": false,
+    "canRemove": false,
+    "createdBy": -1000,
+    "createDate": "2023-08-14T10:42:00",
+    "dataRetentionProperties": {
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "isDeleteAtEndOfRetentionPeriod": false
+    },
+    "localizedDescription": {},
+    "isCustomObjectBacked": true,
+    "isEvent": false,
+    "isHidden": false,
+    "isReadOnly": true,
+    "isRoot": false,
+    "isSendable": false,
+    "isShared": false,
+    "isSystemDefined": true,
+    "isTestaable": false,
+    "parentID": "00000000-0000-0000-0000-000000000000",
+    "relationshipCount": 5,
+    "storageLogicalType": "DataExtension",
+    "storageObjectIDs": [
+        "fd516186-c13a-ee11-a5bd-5cba2c19bc78"
+    ],
+    "setDefinitionKey": "PredictiveIntelProfiles",
+    "name": "Predictive Intelligence Profiles",
+    "r__folder_Path": "Data Extensions",
+    "r__dataExtension_key": "IGO_PROFILES"
+}

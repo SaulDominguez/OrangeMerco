@@ -1,0 +1,235 @@
+<script runat="server">
+     /* -------------------------------------------------------------------------
+
+     Short description of the purpose of the script.
+
+     1. Global Variables
+     1.1. Error Handling
+     2. Helper Functions
+     2.1. Debugging
+     2.2. Error handling
+     3. {{Section Name}}
+     ...
+
+     -------------------------------------------------------------------------- */
+
+     Platform.Load('core', '1');
+     // var api = new Script.Util.WSProxy();
+     // Uncomment below if you will be using SOAP API via WSProxy in the script
+     // var soap = new Script.Util.WSProxy();
+
+     /* ----------------------------------------------------------------------- */
+     /* ---------------------- 1. GLOBAL VARIABLES ---------------------------- */
+     /* ----------------------------------------------------------------------- */
+
+     var debugging = false;
+     Variable.SetValue("@debug", debugging)
+
+     /* -------------------- 1.1. Error Handling------------------------------- */
+     var scriptName = 'AAAAAAAAAAAAAAAAAAAA';
+
+     /* ----------------------------------------------------------------------- */
+     /* ---------------------- 2. HELPER FUNCTIONS ---------------------------- */
+     /* ----------------------------------------------------------------------- */
+
+    function formatJson(json) {
+     var formattedJson = TreatAsContent("\%\%=replace('" + Stringify(json) + "', ',', ',<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '{', '{<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '}', '<br>}')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '[', '<br>[<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', ']', '<br>]')=\%\%")
+     return formattedJson
+    }
+
+    Array.inc = function (val, arr) {
+       var ret = false;
+       for (var i = 0; i < arr.length; i++) {
+         if (!ret || ret == false) {
+           ret = val == arr[i];
+         }
+       }
+       return ret;
+     };
+
+
+     /* ---------------------- 2.1. Debugging --------------------------------- */
+
+     /**
+     * @function debugValue
+     * @description Outputs provided description and SSJS value to front-end in a type-safe & consistent way
+     * @param {string} description - Describes meaning of the second parameter in the output
+     * @param {*} value - The value that needs to be debugged
+     */
+     function debugValue(description, value) {
+       if (debugging) {
+         Write(description + ': ' + (typeof value == 'object' ? Stringify(value) : value) + '<br><br>');
+       }
+     };
+
+     function outputLink(display, url) {
+       if (debugging) {
+         Write("<a href='"+ url + "'>" + display + "</a>")
+       }
+     }
+
+     /* ---------------------- 2.2. Error handling ---------------------------- */
+
+     /**
+     * @function handleError
+     * @description Adds the error with context to error logging Data Extension and redirects to error page.
+     * @param {Object} error - The caught error object. Can come from the try/catch block or be manually created.
+     * @param {string} error.message - First error key stores short error message describing the issue.
+     * @param {string} error.description - Second error key stores detailed error path helping with root cause analysis
+     */
+     function handleError(error) {
+       if (debugging) {
+         debugValue('Found error', error);
+       }
+     };
+
+     try {
+       /* ----------------------------------------------------------------------- */
+       /* ----------------------- 3. {{SECTION NAME}} --------------------------- */
+       /* ----------------------------------------------------------------------- */
+
+       /**
+       * There can be just one section for simpler scripts, or there can be multiple.
+       * As your code grow, split it into separate numbered sections for easier navigation.
+       * Always try to make each section coherent with code logic to make the split meaningful.
+       */
+</script>
+%%[
+    set @DATA_EXTENSION = 'Fiestononon_2025_Encuesta'
+    if @debug then
+        set @DATA_EXTENSION = Concat('TEST_', @DATA_EXTENSION)
+    endif
+    set @contactId = RequestParameter('Id')
+    set @nombre = Trim(ProperCase(RequestParameter('nombre')))
+    set @apellidos = Trim(ProperCase(RequestParameter('apellidos')))
+    set @Genero = RequestParameter('genero')
+    set @telefono = RequestParameter('celular')
+    set @rawTelefono = RequestParameter('celular')
+    set @privacidad = IIf(RequestParameter('privacidad') == 'TRUE', 1, 0)
+    set @comunicacion = IIf(RequestParameter('comunicacion') == 'TRUE', 1, 0)
+    if Length(@telefono) == 10 then
+        set @telefono = Concat('52', @telefono)
+    endif
+
+    set @fechaNacimiento = RequestParameter('fecha_nacimiento')
+    if Empty(@fechaNacimiento) then
+        set @fechaNacimiento = ''
+    endif
+
+    set @Sucursal = RequestParameter('Sucursal')
+    set @fechaRegistro = Now()
+    set @rowsTelefonos = Lookup('BDD_General', 'Contact_Id', 'Phone', @telefono)
+    set @lookRawTelefono = Lookup('BDD_General', 'Contact_Id', 'Phone', @rawTelefono)
+    var @Id,
+        @new,
+        @upsertCount
+    if not Empty(@rowsTelefonos) >= 1 or not Empty(@contactId) or not Empty(@lookRawTelefono) then
+        set @stillNullId = true
+        if not Empty(@contactId) then
+            set @Id = @contactId
+            set @stillNullId = false
+        endif
+        if not Empty(@lookRawTelefono) and @stillNullId then
+            set @Id = @lookRawTelefono
+            set @stillNullId = false
+        endif
+        if not Empty(@rowsTelefonos) and @stillNullId then
+            set @Id = @rowsTelefonos
+        endif
+        set @upsertCount =
+            UpsertData(
+                'Fiestononon_2025_Encuesta_Existentes',
+                1,
+                'Contact_Id',
+                @Id,
+                'fechaRegistro',
+                @fechaRegistro
+            )
+        set @new = 0
+    else
+        set @new = 1
+        set @Id = GUID()
+        set @upsertCount =
+            UpsertData(
+                'Fiestononon_2025_Encuesta_Nuevos',
+                1,
+                'Contact_Id',
+                @Id,
+                'fechaRegistro',
+                @fechaRegistro
+            )
+    endif
+    set @upsertCount =
+        UpsertData(
+            @DATA_EXTENSION,
+            1,
+            'Contact_Id',
+            @Id,
+            'nombres',
+            @nombre,
+            'apellidos',
+            @apellidos,
+            'Genero',
+            @Genero,
+            'telefono',
+            @telefono,
+            'fechaNacimiento',
+            @fechaNacimiento,
+            'Sucursal',
+            @Sucursal,
+            'locale',
+            'MX',
+            'isNew',
+            @new,
+            'privacidad',
+            @privacidad,
+            'comunicacion',
+            @comunicacion
+        )
+    set @upsertBDDGeneral =
+        UpsertData(
+            'BDD_General',
+            1,
+            'Contact_Id',
+            @Id,
+            'nombre',
+            @nombre,
+            'Apellido',
+            @apellidos,
+            'Phone',
+            @telefono,
+            'Sucursal',
+            @Sucursal,
+            'fechaNacimiento',
+            @fechaNacimiento,
+            'Genero',
+            @Genero,
+            'Locale',
+            'MX'
+        )
+    if not @debug then
+        Redirect('https://cloud.hello.merco.email/gracias-fiestononon2025')
+    endif
+]%%
+<script runat="server">
+    } catch (error) {
+      handleError(error);
+    }
+</script>
+nombre: %%= v(@nombre) =%% <br />
+apellidos: %%= v(@apellidos) =%% <br />
+telefono: %%= v(@telefono) =%% <br />
+fechaNacimiento: %%= v(@fechaNacimiento) =%% <br />
+Sucursal: %%= v(@Sucursal) =%% <br />
+redSocial: %%= v(@redSocial) =%% <br />
+Contact_Id: %%= v(@contact_Id) =%% <br />
+Id: %%= v(@Id) =%% <br />
+fechaRegistro: %%= v(@fechaRegistro) =%% <br />
+UpsertCount: %%= v(@upsertCount) =%% <br />
+UpsertBGCount: %%= v(@upsertBDDGeneral) =%% <br />
+IsNew: %%= v(@new) =%% <br />
+<a href="https://cloud.hello.merco.email/gracias-fiestononon2025">TY PAGE</a> <br />

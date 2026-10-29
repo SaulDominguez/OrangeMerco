@@ -1,0 +1,33 @@
+{
+    "name": "set_Deleted",
+    "description": "",
+    "key": "3840060c-6ec7-f62d-5c15-c4ed4bc1462f",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "726203E9-04C0-4610-8D65-8E5BA127F32B"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "797F887F-0D05-4F61-A5EB-D847DDCF4ECC"
+                }
+            ]
+        }
+    ],
+    "createdName": "Belen Banegas",
+    "createdDate": "2024-02-29T19:13:45.257Z",
+    "modifiedName": "Martín Orange",
+    "modifiedDate": "2024-04-05T16:01:40.057Z",
+    "r__folder_Path": "my automations/Delete"
+}

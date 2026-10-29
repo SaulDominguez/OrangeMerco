@@ -1,0 +1,16 @@
+{
+    "name": "File_Transfer_WA",
+    "customerKey": "9fe4b5d1-9673-4db2-b079-65624872c1e5",
+    "createdDate": "2024-04-16T09:13:59.513",
+    "modifiedDate": "2024-04-17T14:54:30.687",
+    "fileSpec": "%%Year%% %%Month%% %%Day%% %%Hour%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": true,
+    "r__fileLocation_name": "ExactTarget Enhanced FTP"
+}

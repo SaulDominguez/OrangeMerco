@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Merconviene_220825",
+    "description": "",
+    "createdDate": "2025-08-22T12:00:31.667",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-08-22T12:00:31.667",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-fd6e02be-8bdb-1145-9b00-02fb24b8c3ae",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "8de7b970-123b-4b81-a1f9-21c133d2daf1",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

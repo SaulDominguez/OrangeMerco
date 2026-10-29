@@ -1,0 +1,80 @@
+{
+    "customerKey": "b9c38ae5-2815-48c6-b075-ae6a55fa8fdc",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-tu_eliges_con_merco",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-02-23T10:12:37.757-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-02-23T10:12:37.757-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "tu_eliges_con_merco",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡En Merco TÚ ELIGES que llevarte! 🌟\n\nEsta semana tenemos dos promociones para que no te falte nada de sazón en tus platillos, puedes elegir entre: \n\n🥑¡Aguacate en Malla o Nopal Limpio! ¡Perfectos para tus recetas más saludables y deliciosas!\n\n🌿¿Prefieres darle un toque fresco a tus platillos? ¡Elige entre Cilantro, Acelga o Espinaca y añade ese sabor único a tus comidas!\n\nEn Merco te damos pa' escoger.🛒✨\n\n¡No te quedes sin elegir lo que más te gusta en Merco!",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Elige aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Válido del viernes 23 al lunes 26 de febrero."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

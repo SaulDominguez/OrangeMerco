@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Gansito_140826",
+    "description": "",
+    "createdDate": "2026-08-14T17:00:24.687",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-08-14T17:00:24.687",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-4bafae39-13b1-5426-87a9-562a7d6c8ee4",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "1a6512bc-42e9-4e5b-ab06-929155d983af",
+    "r__dataExtension_key": "3E4FF703-CE53-4BCF-B37C-E6C72A8544C8"
+}

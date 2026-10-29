@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Test_whatsapp_optout",
+    "description": "",
+    "createdDate": "2024-12-06T12:55:10.317",
+    "createdBy": "Aidee Orange",
+    "modifiedDate": "2024-12-06T14:46:45.92",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "DEAudience-9a741cdb-8569-b1b7-23f0-97cadebe9cc5",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 9,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "6f541c6e-fd9f-4b6e-8167-b1005a3d28c9",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

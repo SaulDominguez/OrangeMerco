@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Remainder_050525 ",
+    "description": "",
+    "createdDate": "2025-04-29T11:07:43.023",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2025-05-05T11:47:16.103",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-c3976298-d2ff-94c5-be3e-377deebd7453",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "fc1e80c9-b446-4a6b-8e2c-78904dd498cd",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

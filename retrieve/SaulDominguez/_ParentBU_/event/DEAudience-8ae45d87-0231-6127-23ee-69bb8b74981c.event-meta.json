@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Dia_de_Reyes",
+    "description": "",
+    "createdDate": "2025-01-02T10:18:25.337",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-01-02T13:09:02.353",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-8ae45d87-0231-6127-23ee-69bb8b74981c",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "730e8d69-0e8d-4216-99df-076ddbb871a8",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

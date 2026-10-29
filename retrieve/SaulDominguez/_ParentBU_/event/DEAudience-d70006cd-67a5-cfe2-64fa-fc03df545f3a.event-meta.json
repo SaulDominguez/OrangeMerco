@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "MamaEsUnica_FestivalDeLaBelleza_190424",
+    "description": "",
+    "createdDate": "2024-04-19T17:22:26.217",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-04-19T17:25:15.22",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-d70006cd-67a5-cfe2-64fa-fc03df545f3a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-04-20T13:00:00",
+        "endDateTime": "2024-04-20T13:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c3d4616b-c5c8-4dc0-ae1c-adf9aca9b136",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

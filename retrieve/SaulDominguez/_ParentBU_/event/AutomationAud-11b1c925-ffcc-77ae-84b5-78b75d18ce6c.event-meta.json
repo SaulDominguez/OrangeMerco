@@ -1,0 +1,42 @@
+{
+    "type": "AutomationAudience",
+    "name": "ORA_Fiestononon_Puntos_Acumulados_150826",
+    "description": "",
+    "createdDate": "2026-08-14T17:37:31.75",
+    "createdBy": "Diana Ayala",
+    "modifiedDate": "2026-08-14T17:37:31.75",
+    "modifiedBy": "Diana Ayala",
+    "eventDefinitionKey": "AutomationAud-11b1c925-ffcc-77ae-84b5-78b75d18ce6c",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 9,
+        "criteria": "",
+        "useHighWatermark": true,
+        "resetHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "automation"
+    },
+    "schedule": {
+        "startDateTime": "2026-08-14T18:00:00",
+        "endDateTime": "2079-06-06T00:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 154307,
+        "endType": "EndDate",
+        "frequency": "Hourly",
+        "recurrencePattern": "Interval",
+        "interval": 3
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d5a5de11-a633-e558-f5a1-9aab4af48eda",
+    "r__dataExtension_key": "0B593B92-3E68-46B3-9737-ADE1EFD8F336"
+}

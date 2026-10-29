@@ -1,0 +1,206 @@
+<script runat="server">
+    /* -------------------------------------------------------------------------
+
+    Short description of the purpose of the script.
+
+    1. Global Variables
+    1.1. Error Handling
+    2. Helper Functions
+    2.1. Debugging
+    2.2. Error handling
+    3. {{Section Name}}
+    ...
+
+    -------------------------------------------------------------------------- */
+
+    Platform.Load('core', '1');
+    // var api = new Script.Util.WSProxy();
+    // Uncomment below if you will be using SOAP API via WSProxy in the script
+    // var soap = new Script.Util.WSProxy();
+
+    /* ----------------------------------------------------------------------- */
+    /* ---------------------- 1. GLOBAL VARIABLES ---------------------------- */
+    /* ----------------------------------------------------------------------- */
+
+    var debugging = false;
+    Variable.SetValue("@debug", debugging)
+    var objectData = {
+     url: Request.GetQueryStringParameter("LANDING_URL")
+    };
+    var form = Request.GetQueryStringParameter('LANDING_ID')
+    var thankYouPage = "";
+    var campaignName = Request.GetQueryStringParameter("utm_campaign")
+
+    /* -------------------- 1.1. Error Handling------------------------------- */
+    var scriptName = 'AMPScript Tickets'
+    var scriptId = ''
+    var errorDE = "01-Script_Error_Logs"
+    /* ----------------------------------------------------------------------- */
+    /* ---------------------- 2. HELPER FUNCTIONS ---------------------------- */
+    /* ----------------------------------------------------------------------- */
+
+    function buildRestEndpoint(subdomain) {
+     return "https://" + subdomain + ".rest.marketingcloudapis.com/interaction/v1/events"
+    }
+
+    function formatJson(json) {
+     var formattedJson = TreatAsContent("\%\%=replace('" + Stringify(json) + "', ',', ',<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '{', '{<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '}', '<br>}')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '[', '<br>[<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', ']', '<br>]')=\%\%")
+     return formattedJson
+    }
+
+    Array.inc = function (val, arr) {
+     var ret = false;
+     for (var i = 0; i < arr.length; i++) {
+     if (!ret || ret == false) {
+      ret = val == arr[i];
+     }
+     }
+     return ret;
+    };
+
+    /**
+     * @function ampScript
+     * @description Executes provided AMPScript code and returns value assigned to @Response variable
+     * @param {string} code - String of AMPScript code without start/end delimiters. Final outcome should be assigned to @Response to enable passing back to SSJS
+     * @return {?string} - Returns value from AMPScript execution if any was assigned to @Response variable
+     */
+    function ampScript(code) {
+     var ampBlock = "%%[
+
+    ]%%";
+     Platform.Function.TreatAsContent(ampBlock);
+     return Variable.GetValue("@response");
+    }
+
+    /* ---------------------- 2.1. Debugging --------------------------------- */
+
+    /**
+    * @function debugValue
+    * @description Outputs provided description and SSJS value to front-end in a type-safe & consistent way
+    * @param {string} description - Describes meaning of the second parameter in the output
+    * @param {*} value - The value that needs to be debugged
+    */
+    function debugValue(description, value) {
+     objectData[description] = Stringify(value)
+     if (debugging) {
+     Write(description + ': ' + (typeof value == 'object' ? Stringify(value) : value) + '<br><br>');
+     }
+    };
+
+    function outputLink(display, url) {
+     if (debugging) {
+     Write("<a href='" + url + "'>" + display + "</a>")
+     }
+    }
+
+    /* ---------------------- 2.2. Error handling ---------------------------- */
+
+    /**
+    * @function handleError
+    * @description Adds the error with context to error logging Data Extension and redirects to error page.
+    * @param {Object} error - The caught error object. Can come from the try/catch block or be manually created.
+    * @param {string} error.message - First error key stores short error message describing the issue.
+    * @param {string} error.description - Second error key stores detailed error path helping with root cause analysis
+    */
+    /**
+     * @function handleError
+     * @description Adds the error with context to error logging Data Extension and redirects to error page.
+     * @param {Object} error - The caught error object. Can come from the try/catch block or be manually created.
+     * @param {Object} rawData - Data that was tried to be inserted.
+     * @param {String} landing - Landing page which sent the information.
+     */
+    function handleError(error, rawData, landing) {
+     // Remember that if your Logging Data Extension is in Shared Folder, you need to add the "ENT." prefix to name
+     Platform.Function.InsertData(
+     errorDE,
+     [
+      "id",
+      "script",
+      "errorMessage",
+      "errorDescription",
+      "rawData",
+      "LandingPage",
+      "created_at"
+     ],
+     [
+      GUID(),
+      scriptId + ': ' + scriptName,
+      error.message,
+      error.description,
+      rawData,
+      landing,
+      (new Date().toISOString())
+     ]
+     );
+     if (debugging) {
+     debugValue("Found error", error);
+     } else {
+     Redirect(thankYouPage, true);
+     //Platform.Response.Redirect(errorURL + '?error=' + error.message + '&error_description=' + error.description);
+     }
+    }
+
+    try {
+     /* ----------------------------------------------------------------------- */
+     /* ----------------------- 3. {{SECTION NAME}} --------------------------- */
+     /* ----------------------------------------------------------------------- */
+
+     /**
+     * There can be just one section for simpler scripts, or there can be multiple.
+     * As your code grow, split it into separate numbered sections for easier navigation.
+     * Always try to make each section coherent with code logic to make the split meaningful.
+     */
+</script>
+%%[
+    set @totalRows = DataExtensionRowCount('Cuaresma_Registros_Totales')
+    set @curSession = RequestParameter('session')
+    set @sessionRows = LookupRows('Sesiones Cuaresma', 'Session', @curSession)
+    var @currentUser
+    set @authorized = 1
+    if RowCount(@sessionRows) > 0 then
+        set @sr = Row(@sessionRows, 1)
+        set @expiresIn = Field(@sr, 'Expires')
+        set @currentUser = Field(@sr, 'Email')
+        set @now = Now()
+        if @now > @expiresIn then
+            set @authorized = 0
+        endif
+    else
+        set @authorized = 0
+    endif
+]%%
+<script runat="server">
+     var auth = Variable.GetValue("@authorized")
+     var page = Request.GetQueryStringParameter("page")
+     if (!page) {
+     page = 1
+     }
+     Variable.SetValue("@page", page)
+     if (auth == 1) {
+     var dataExtension = DataExtension.Init("Cuaresma_Registros_Totales")
+     var filter = {
+      LeftOperand: {
+       Property: "RowNo",
+        SimpleOperator: "greaterThan",
+        Value: Number(page) * 6 - 6
+      },
+      LogicalOperator: "AND",
+      RightOperand: {
+       Property: "RowNo",
+        SimpleOperator: "lessThanOrEqual",
+        Value: Number(page) * 6
+      }
+     };
+     var rows = dataExtension.Rows.Retrieve(filter)
+
+     Variable.SetValue("@rows", Stringify(rows))
+     debugValue("Rows", formatJson(rows))
+     }
+    } catch (error) {
+     handleError(error, Stringify(objectData), form);
+    }
+</script>

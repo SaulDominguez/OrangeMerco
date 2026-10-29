@@ -1,0 +1,89 @@
+{
+    "type": "WaitUntilChatResponse",
+    "name": "WaitUntil Chat Response Event",
+    "description": "",
+    "createdDate": "2026-09-04T10:03:45.117",
+    "createdBy": "Diana Ayala",
+    "modifiedDate": "2026-09-04T10:03:45.117",
+    "modifiedBy": "Diana Ayala",
+    "eventDefinitionKey": "WUCR-2f71c19d-14b7-5dc8-1b6a-af00123513d2",
+    "schema": {
+        "fields": [
+            {
+                "name": "ContactKey",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "MobileNumber",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "channelType",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "ChannelId",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "Keyword",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "Message",
+                "dataType": "text",
+                "maxLength": "4000",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            }
+        ],
+        "sendableCustomObjectField": "contactKey",
+        "sendableSubscriberField": "_subscriberKey"
+    },
+    "sourceApplicationExtensionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "",
+    "arguments": {
+        "serializedObjectType": 0,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": true,
+    "r__dataExtension_key": "EAFFE61A-7B9B-40DB-A045-AC056B0FCFB7"
+}

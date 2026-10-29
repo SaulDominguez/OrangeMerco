@@ -1,0 +1,89 @@
+{
+    "type": "WaitUntilChatResponse",
+    "name": "WaitUntil Chat Response Event",
+    "description": "",
+    "createdDate": "2025-12-26T09:06:06.527",
+    "createdBy": "Facundo García",
+    "modifiedDate": "2025-12-26T09:06:06.527",
+    "modifiedBy": "Facundo García",
+    "eventDefinitionKey": "WUCR-45143adf-8014-5168-997f-3766918237fd",
+    "schema": {
+        "fields": [
+            {
+                "name": "ContactKey",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "MobileNumber",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "channelType",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "ChannelId",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "Keyword",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "Message",
+                "dataType": "text",
+                "maxLength": "4000",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            }
+        ],
+        "sendableCustomObjectField": "contactKey",
+        "sendableSubscriberField": "_subscriberKey"
+    },
+    "sourceApplicationExtensionId": "00000000-0000-0000-0000-000000000000",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "",
+    "arguments": {
+        "serializedObjectType": 0,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": true,
+    "r__dataExtension_key": "1C313109-2F54-45C0-92BD-E5EA17383A3E"
+}

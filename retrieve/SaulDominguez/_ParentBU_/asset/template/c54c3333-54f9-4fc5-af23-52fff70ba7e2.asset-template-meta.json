@@ -1,0 +1,87 @@
+{
+    "customerKey": "c54c3333-54f9-4fc5-af23-52fff70ba7e2",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-descuentonesamonton_220625-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-06-20T15:27:51.997-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-06-20T15:27:51.997-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "descuentonesamonton_220625",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🎉 ¡En Merco te damos más por menos!\nAprovecha que tenemos un 30% DE DESCUENTO en estos productos seleccionados: 👇\n\n- *Harinas preparadas* para *hot cakes* y para *pastel*\n- *Consomé Tomatísimo y Knorr Suiza*\n- Cereales *Nestlé*\n- Botanas *Barcel*\n- Sopas *Maruchan* tipo Ramen 85 g\n- Pastas para sopa *Yemina*\n- Lavatrastes *Eficaz*\n- Insecticidas *Raid* y *Baygon* (excepto packs)\n- Pastas dentales *Colgate*\n- Shampoo y acondicionador *TRESemmé* 715 ml, mascarilla *Garnier Fructis* Hair Food y tratamiento capilar *Nutribela 10*\n- Desodorantes en stick *Speed Stick*, *Lady Speed Stick* y *Stefano* (excepto Clinical y aerosol Savilé y Ego)\n- Retocadores *Nutrisse*, toallas femeninas *Always* y tintes para dama *Preference*\n\n¡Ven ya a tu Merco más cercano y aprovecha estos Súper Preciazos! 🛒✨\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 26 de junio de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

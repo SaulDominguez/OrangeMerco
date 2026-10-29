@@ -1,0 +1,35 @@
+{
+    "allowErrors": true,
+    "customerKey": "60DF4752-0486-41E1-A6AC-40E38E4CD404",
+    "createdDate": "2023-10-23T16:21:32.213",
+    "modifiedDate": "2023-10-23T16:21:32.213",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [],
+    "fieldMappingType": "InferFromColumnHeadings",
+    "fileNamingPattern": "chat_Extract_WhatsApp_tracking.csv",
+    "fileSpec": "",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Import_Extract_WhatsApp",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "sourceCustomObjectId": "",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "D3EA79EC-263C-4781-A1D4-ADE91E9D13E1"
+    },
+    "source": {
+        "c__type": "File Location",
+        "r__fileLocation_name": "ExactTarget Enhanced FTP"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

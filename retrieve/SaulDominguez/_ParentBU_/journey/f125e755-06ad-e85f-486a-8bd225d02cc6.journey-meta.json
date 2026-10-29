@@ -1,0 +1,241 @@
+{
+    "key": "f125e755-06ad-e85f-486a-8bd225d02cc6",
+    "name": "New Journey - April 24 2026 at 11.01 AM",
+    "lastPublishedDate": "2026-04-24T11:49:44",
+    "description": "",
+    "version": 1,
+    "workflowApiVersion": 1,
+    "createdDate": "2026-04-24T11:46:58.903",
+    "modifiedDate": "2026-04-27T12:01:00.947",
+    "activities": [
+        {
+            "key": "WHATSAPPACTIVITY-1",
+            "name": "ofertas_240426",
+            "description": "",
+            "type": "WHATSAPPACTIVITY",
+            "outcomes": [
+                {
+                    "key": "2f00acf8-6c24-4139-9383-37211ea57520",
+                    "arguments": {},
+                    "metaData": {
+                        "invalid": false
+                    }
+                }
+            ],
+            "arguments": {
+                "contactId": "{{Context.ContactId}}",
+                "contactKey": "{{Context.ContactKey}}",
+                "eventData": "{{Event}}",
+                "definitionInstanceId": "{{Context.DefinitionInstanceId}}",
+                "mobileNumber": "{{Event.DEAudience-fabd3fdc-590e-ff47-538c-6c807c7153f3.\"Phone\"}}"
+            },
+            "configurationArguments": {
+                "applicationExtensionKey": "942563c0-ad14-49ad-87e2-bd2a61c6d7d0",
+                "applicationExtensionId": "00000000-0000-0000-0000-000000000000",
+                "channelId": "5218115537251",
+                "applicationId": "136035249587888",
+                "assetId": 128554,
+                "assetType": "Template",
+                "activityId": "43690a2b-8c5b-4c5f-98b5-fc0ebfdb1d20",
+                "definitionId": "ffc56fdd-2499-4f64-9ade-22a60fd8789d",
+                "requestBody": {
+                    "messaging_product": "WhatsApp",
+                    "to": null,
+                    "category": null,
+                    "type": "template",
+                    "message_metadata": null,
+                    "text": null,
+                    "image": null,
+                    "document": null,
+                    "video": null,
+                    "audio": null,
+                    "interactive": null,
+                    "location": null,
+                    "sticker": null,
+                    "template": {
+                        "name": "ofertas_240426",
+                        "language": {
+                            "code": "ES_MX"
+                        },
+                        "components": [
+                            {
+                                "type": "header",
+                                "parameters": [
+                                    {
+                                        "type": "image",
+                                        "text": null,
+                                        "image": {
+                                            "link": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/67d665a2-c15d-4ba3-8894-d1506986fc30.jpg",
+                                            "filename": null
+                                        },
+                                        "video": null,
+                                        "document": null,
+                                        "payload": null,
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": null,
+                                "index": null,
+                                "cards": null
+                            },
+                            {
+                                "type": "button",
+                                "parameters": [
+                                    {
+                                        "type": "payload",
+                                        "text": null,
+                                        "image": null,
+                                        "video": null,
+                                        "document": null,
+                                        "payload": "1",
+                                        "coupon_code": null,
+                                        "action": null,
+                                        "limited_time_offer": null,
+                                        "order_status": null,
+                                        "parameter_name": null,
+                                        "location": null,
+                                        "product": null
+                                    }
+                                ],
+                                "sub_type": "QUICK_REPLY",
+                                "index": "2",
+                                "cards": null
+                            }
+                        ]
+                    }
+                },
+                "eventDefinitionKey": "",
+                "eventType": "",
+                "flowToken": "",
+                "isCatalogMessage": false,
+                "isDirectSend": false,
+                "blockoutWindows": "",
+                "templateCategory": "MARKETING",
+                "mMLiteOnboardingStatus": "ONBOARDED",
+                "mobileNumberAttributeName": "Phone",
+                "mobileNumberExpression": "{{Event.DEAudience-fabd3fdc-590e-ff47-538c-6c807c7153f3.\"Phone\"}}",
+                "followedByWaitUntil": false,
+                "waitDuration": 0,
+                "waitUnit": "",
+                "providerType": "",
+                "messagePriority": "NotDuringActive",
+                "precedingEventDefinitionKey": ""
+            },
+            "metaData": {
+                "icon": "https://jb-chat-messaging.s13.marketingcloudapps.com/whatsapp/images/icon.svg",
+                "category": "message",
+                "original_icon": "images/icon.svg",
+                "sections": {},
+                "isConfigured": true,
+                "ottPlatform": "whatsapp",
+                "ottChannel": "5218115537251"
+            },
+            "schema": {
+                "arguments": {
+                    "contactId": {
+                        "dataType": "LongNumber",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "contactKey": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "eventData": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "definitionInstanceId": {
+                        "dataType": "Text",
+                        "isNullable": false,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    },
+                    "mobileNumber": {
+                        "dataType": "Text",
+                        "isNullable": true,
+                        "direction": "In",
+                        "readOnly": false,
+                        "access": "Hidden"
+                    }
+                }
+            }
+        }
+    ],
+    "triggers": [
+        {
+            "key": "TRIGGER",
+            "name": "TRIGGER",
+            "description": "",
+            "type": "EmailAudience",
+            "outcomes": [],
+            "arguments": {
+                "startActivityKey": "{{Context.StartActivityKey}}",
+                "dequeueReason": "{{Context.DequeueReason}}",
+                "lastExecutedActivityKey": "{{Context.LastExecutedActivityKey}}",
+                "filterResult": "true"
+            },
+            "configurationArguments": {
+                "schemaVersionId": 0,
+                "criteria": ""
+            },
+            "metaData": {
+                "sourceInteractionId": "00000000-0000-0000-0000-000000000000",
+                "chainType": "None",
+                "configurationRequired": false,
+                "iconUrl": "/images/icon-data-extension.svg",
+                "title": "Data Extension",
+                "entrySourceGroupConfigUrl": "jb:///data/entry/audience/entrysourcegroupconfig.json",
+                "r__event_key": "DEAudience-fabd3fdc-590e-ff47-538c-6c807c7153f3"
+            }
+        }
+    ],
+    "goals": [],
+    "exits": [],
+    "notifiers": [],
+    "entryMode": "OnceAndDone",
+    "definitionType": "Multistep",
+    "channel": "",
+    "defaults": {
+        "email": [
+            "{{Event.DEAudience-fabd3fdc-590e-ff47-538c-6c807c7153f3.\"Email\"}}"
+        ],
+        "mobileNumber": [
+            "{{Event.DEAudience-fabd3fdc-590e-ff47-538c-6c807c7153f3.\"Phone\"}}"
+        ],
+        "properties": {
+            "analyticsTracking": {
+                "enabled": true,
+                "analyticsType": "google",
+                "urlDomainsToTrack": []
+            }
+        }
+    },
+    "metaData": {
+        "disableEndWait": true,
+        "dataSource": "ContactsModel",
+        "highThroughputSending": {
+            "email": false
+        }
+    },
+    "executionMode": "Production",
+    "status": "Stopped",
+    "scheduledStatus": "Draft",
+    "campaigns": [],
+    "r__folder_Path": "my journeys"
+}

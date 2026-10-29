@@ -1,0 +1,40 @@
+{
+    "customerKey": "ebfb27c3-c271-48f0-b873-626cc289751f",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Thank you page",
+    "owner": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "createdDate": "2025-03-10T18:38:09.383-06:00",
+    "createdBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "modifiedDate": "2025-03-11T18:15:39.12-06:00",
+    "modifiedBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/tygana-tarjeta"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-03-11 18:15:39.120",
+            "c__published": true
+        },
+        "r__asset_key": "e74a0028-0d4c-43f5-9a9a-b31ebbe0a37d"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/progressive profiling3"
+}

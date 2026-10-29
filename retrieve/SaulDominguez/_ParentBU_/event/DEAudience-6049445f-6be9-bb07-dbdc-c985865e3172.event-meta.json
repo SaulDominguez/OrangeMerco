@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "QueTeCaigaEl20-210624_WA",
+    "description": "",
+    "createdDate": "2024-06-21T17:54:31.817",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-06-21T17:56:41.13",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-6049445f-6be9-bb07-dbdc-c985865e3172",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-06-22T08:30:00",
+        "endDateTime": "2024-06-22T08:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b33a194c-1770-49ca-acda-25a3a7134ef1"
+}

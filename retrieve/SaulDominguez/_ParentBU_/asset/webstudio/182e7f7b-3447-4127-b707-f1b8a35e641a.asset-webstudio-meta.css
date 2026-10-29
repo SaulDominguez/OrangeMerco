@@ -1,0 +1,429 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Resets */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #e6e6e6;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff4713;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff4713;
+  transition: all 0.3s ease;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.noPadding {
+  padding: 0;
+}
+
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+section.noPadding {
+  padding: 0em 0;
+}
+
+/* Fonts */
+/* Fonts */
+body,
+input,
+textarea,
+select {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  ffont-family: "Montserrat", sans-serif;
+  font-display: swap;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+.form-check-label,
+p,
+li,
+label {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(1.12rem, 1.088rem + 0.0517vw, 1.15rem);
+}
+
+.smallTxt {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+/* Color */
+/* Color */
+.bg-rojo {
+  background: red;
+}
+
+.bg-verde {
+  background: green;
+}
+
+.bg-amarillo {
+  background: yellow;
+}
+
+.bg-blanco {
+  background: white;
+}
+
+/* links */
+/* links */
+a {
+  color: #f73939;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #fe4912 !important;
+}
+
+.linkMain {
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.linkMain:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Buttons */
+/* Buttons */
+.btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0.8em 1.3em !important;
+  text-decoration: none;
+  transition:
+    color 0.4s,
+    border 0.3s;
+  position: relative;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
+  text-transform: none !important;
+  -webkit-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  border-radius: 0.4em;
+}
+
+.btnMain {
+  background: #9b8143;
+  color: #fff !important;
+  border: 1px solid #9b8143;
+}
+
+.btnMain:hover {
+  color: #846825 !important;
+  background: #fff;
+  border: 1px solid #846825;
+}
+
+/*Contenido*/
+.iconos {
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1rem 2rem;
+  width: 100%;
+}
+.iconos-caja {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+.iconos-caja .form-check {
+  padding: 0;
+}
+.iconos-caja .form-check-input {
+  /* float: none;
+    margin: 0 auto;
+    padding: 0; */
+}
+.iconos-caja .form-check-input:checked + label i {
+  color: #f73939;
+}
+.Email {
+}
+.Whatsapp {
+}
+
+.SMS {
+}
+.form-check-input:checked {
+  background-color: #fe4912;
+  border-color: #fe4912;
+}
+.pe {
+  font-size: clamp(1.15rem, 0.9367rem + 0.3445vw, 1.35rem);
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.peicon {
+  font-size: 0.9em;
+}
+
+.mttxt {
+  margin-top: 30px;
+}
+
+.ulcenter {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  background: #76bc21;
+}
+
+.section1 {
+  position: relative;
+  background-color: #ffffff;
+}
+.section1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-image: url("https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/8d2fc027-a974-4d6b-a08b-dafe55b369e7.png");
+  background-repeat: repeat;
+  background-size: 4%;
+  opacity: 0.2;
+}
+.section1 .contentForm {
+  position: relative;
+  background-color: #eeeeee;
+  box-shadow: 0 0 10px #8d8d8d;
+  border-radius: 1em;
+  z-index: 1;
+}
+
+.section1 .contentForm a:focus,
+.section1 .contentForm a:active,
+.section1 .contentForm a:hover {
+  color: inherit !important;
+  opacity: 0.85;
+}
+.section1 form .labelInput {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section1 form .form-control,
+.section1 form select {
+  border-radius: 0.7em;
+  font-size: 0.9em;
+}
+.form-select:disabled {
+  opacity: 0.35;
+}
+.form-select.smallSelect {
+  border-radius: 0.7em;
+  font-size: 0.9em;
+  max-width: 150px !important;
+  width: 100%;
+  box-shadow: 0 0 10px rgb(171, 171, 171);
+}
+
+.section1 form .form-check-label {
+  font-size: clamp(1.12rem, 1.088rem + 0.0517vw, 1.15rem);
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.section1 form .form-check-label a {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.btnForm {
+  border: 0;
+  max-width: 250px;
+  width: 100%;
+  font-size: clamp(1.12rem, 1.088rem + 0.0517vw, 1.15rem);
+  text-align: center;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  color: #fff;
+  background-color: #76bc21;
+  transition: 0.3s ease;
+  font-weight: 700;
+}
+
+.btnForm:hover {
+  background-color: #444444;
+}
+
+a.btnForm {
+  text-decoration: none;
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  color: #fff;
+  background-color: #ff4713;
+  transition: 0.3s ease;
+  font-weight: 700;
+}
+
+a.btnForm:hover {
+  background-color: #444444;
+  color: #fff !important;
+}
+
+.wrapLanding {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  position: relative;
+  min-height: 100dvh;
+  background-color: #76bc21;
+}
+
+/*tABLE*/
+
+.contentForm.table {
+  overflow-y: scroll;
+  max-height: 600px;
+}
+
+.contentTable table th,
+.contentTable table td {
+  padding: 1em 0.5em;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+}
+
+.search {
+  border-radius: 1em;
+  box-shadow: 0 0 10px rgb(171, 171, 171);
+}
+
+.iconSearch {
+  background-color: #ff4713;
+  border: 1px solid #ff4713;
+  padding: 0.5em;
+  border-radius: 0 1em 1em 0;
+  box-shadow: 0 0 10px rgb(171, 171, 171);
+}
+
+.iconSearch i {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+/*Footer*/
+
+footer {
+  background-color: #ff4713;
+}
+footer .logoMerco {
+  max-width: 200px;
+  width: 100%;
+  margin: 1em auto;
+}
+footer p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+footer p a:hover,
+footer p a:focus,
+footer p a:active {
+  color: #fff !important;
+  opacity: 0.5;
+}
+/* Responsive */
+@media only screen and (min-width: 768px) {
+  .iconos-caja {
+    flex: 1;
+  }
+}
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 1.5em;
+    padding: 1em 0;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  .contentForm.table {
+    overflow-x: scroll;
+  }
+  .iconos-caja {
+    width: 100%;
+  }
+  .iconos-caja img {
+    width: 35px;
+    height: 35px;
+  }
+}

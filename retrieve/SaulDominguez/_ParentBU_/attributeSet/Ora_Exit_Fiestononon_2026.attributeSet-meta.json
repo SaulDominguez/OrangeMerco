@@ -1,0 +1,224 @@
+{
+    "definitionKey": "Ora_Exit_Fiestononon_2026",
+    "relationships": [
+        {
+            "canModify": true,
+            "canRemove": true,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": true,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeGroup",
+                "r__attributeGroup_key": "Ora_Exit_Fiestononon_2026"
+            },
+            "leftRelationshipIDs": [
+                {
+                    "type": "int16",
+                    "value": "3"
+                }
+            ],
+            "leftRelationshipReferenceType": "CustomerData",
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Contact.Contact Key",
+                    "c__rightFullyQualifiedName": "Ora_Exit_Fiestononon_2026.SubscriberKey"
+                }
+            ],
+            "relationshipID": "41221876-83d1-f111-a5e3-5cba2c19bc78",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "Ora_Exit_Fiestononon_2026"
+            }
+        }
+    ],
+    "valueDefinitions": [
+        {
+            "dataType": "LongNumber",
+            "description": "",
+            "definitionKey": "CustomObjectKey",
+            "isHidden": true,
+            "isIdentityValue": true,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": true,
+            "name": "Custom Object Key"
+        },
+        {
+            "dataType": "Number",
+            "description": "",
+            "definitionKey": "Puntos",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Puntos"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "SubscriberKey",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "scale": 0,
+            "name": "SubscriberKey"
+        },
+        {
+            "dataType": "Date",
+            "description": "",
+            "definitionKey": "EntryDate",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "EntryDate"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Dinamica",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 500,
+            "name": "Dinamica"
+        },
+        {
+            "dataType": "Number",
+            "description": "",
+            "definitionKey": "Cantidad_ticket",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Cantidad_ticket"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Nombre_sucursal",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 100,
+            "name": "Nombre_sucursal"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Zona",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 100,
+            "name": "Zona"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "Tiene_App",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Tiene_App"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "Premio_Canjeado",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Premio_Canjeado"
+        },
+        {
+            "dataType": "Boolean",
+            "description": "",
+            "definitionKey": "Premio_Entregado",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Premio_Entregado"
+        }
+    ],
+    "attributeCount": 0,
+    "canAddValues": true,
+    "canChangeValues": true,
+    "canModify": true,
+    "canRemove": true,
+    "createdBy": 747723988,
+    "createDate": "2026-10-26T15:23:00",
+    "dataRetentionProperties": {
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "isDeleteAtEndOfRetentionPeriod": false
+    },
+    "localizedDescription": {},
+    "isCustomObjectBacked": true,
+    "isEvent": false,
+    "isHidden": false,
+    "isReadOnly": false,
+    "isRoot": false,
+    "isSendable": false,
+    "isShared": false,
+    "isSystemDefined": false,
+    "isTestaable": false,
+    "parentID": "00000000-0000-0000-0000-000000000000",
+    "relationshipCount": 1,
+    "storageLogicalType": "DataExtension",
+    "storageObjectIDs": [
+        "42221876-83d1-f111-a5e3-5cba2c19bc78"
+    ],
+    "setDefinitionKey": "Ora_Exit_Fiestononon_2026",
+    "name": "Ora_Exit_Fiestononon_2026",
+    "r__folder_Path": "Data Extensions/OrangeDCX/06_App_Fiestononon/Exit_Fiestononon_2026",
+    "r__dataExtension_key": "EB94DBC8-FDF7-404F-979F-D6E6025FB01D"
+}

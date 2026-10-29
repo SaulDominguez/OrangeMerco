@@ -1,0 +1,20 @@
+{
+    "CustomerKey": "6DFD8AE5-5EC5-4793-8A4D-F92CD10B0F3E",
+    "Name": "Contactos_Whatsapp_Onboarding_2025",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "SubscriberKey",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/Promociones",
+    "c__retentionPolicy": "none"
+}

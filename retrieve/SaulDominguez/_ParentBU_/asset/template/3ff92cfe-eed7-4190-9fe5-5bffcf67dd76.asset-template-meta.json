@@ -1,0 +1,87 @@
+{
+    "customerKey": "3ff92cfe-eed7-4190-9fe5-5bffcf67dd76",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-renovamos_tu_casa_para_mama_120324",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-04-12T15:51:45.927-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-04-12T15:51:45.927-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "renovamos_tu_casa_para_mama_120324",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Queremos premiar a mamá! 🥰 \n\nParticipa y obtén la oportunidad de regalarle a Mamá una RENOVACIÓN DE MUEBLES que incluye sala, comedor, refrigerador, lavadora, microondas y cama matrimonial\n\nEs muy fácil participar, sigue estos pasos: 👇😉\n\n💖 Compra $99 pesos del departamento de Belleza y Cuidado Personal.\n💖 Sigue nuestra página Merco Supermercado\n💖 Sube tu ticket junto con un breve comentario de “¿Qué te gusta de ser mamá\nMerco?”. \n💖 Etiqueta a dos amigas que también sean mamás.\n\n¡Y ya estarías participando!\n\nMerco junto con Caprice, Revlon Colorsilk, Kotex y Xtreme quieren darle a Mamá el amor que se merecen.😍\n\n*Válido en compras efectuadas del 8 de abril al 12 de mayo*",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://www.facebook.com/MercoSupermercado/posts/pfbid02j31vGwk4FuXbxdiTvTysY1Gd5ACdmVJGDQAkEaNftKyo851gHxVuJG3HDp5pT9Egl?locale=es_LA",
+                                        "title": "¡Participa aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://bit.ly/3VOObAc",
+                                        "title": "Términos y condiciones.",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Consulta términos y condiciones."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

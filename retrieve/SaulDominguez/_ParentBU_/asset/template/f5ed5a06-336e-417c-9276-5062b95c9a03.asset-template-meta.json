@@ -1,0 +1,94 @@
+{
+    "customerKey": "f5ed5a06-336e-417c-9276-5062b95c9a03",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-dinamicapapa_300526-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-05-29T16:37:47.917-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-05-29T16:37:47.917-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "876005254789636",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "dinamicapapa_300526",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¿Listos para jugar en equipo? ¡Participa con tu hijo y ganen un *kit de carne asada* + un *asador Weber* para lucirse en grande! 🥩🤩\n\nSolo sigan estos sencillos pasos para ganar. 👇🏽\n\n1. Vayan a su tienda Merco favorita vistiendo una camiseta futbolera.\n2. Graben un video juntos de mínimo 1 minuto dentro de la tienda.\n3. ¡Ojo! En su video deben incluir al menos un producto de nuestras marcas patrocinadoras.\n4. Suban el video en los comentarios de nuestra publicación oficial de Facebook, compártanla en modo público y etiqueten a 3 amigos.\n\n¡Así de fácil pueden llevarse el gran premio a casa! 🏆✨\n\n¡Participa en el botón de abajo! 👇🏽",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://www.facebook.com/MercoSupermercado/posts/pfbid02HeKRBGaG19S1jvSdAf3Ygw1V4F3sWyej3jPhJgP9ARh9Kh65RkFMs4uQcrgEwqc8l",
+                                        "title": "¡Participa aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                        "title": "Hablar con un asesor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button3": {
+                                        "id": "button3",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Consulta términos y condiciones."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

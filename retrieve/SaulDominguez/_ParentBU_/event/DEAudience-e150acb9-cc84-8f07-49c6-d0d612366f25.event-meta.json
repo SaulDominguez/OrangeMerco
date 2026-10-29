@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "New Journey - February 9 2024 at 12.50 PM",
+    "description": "",
+    "createdDate": "2024-02-09T13:00:30.617",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-02-09T13:00:30.617",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-e150acb9-cc84-8f07-49c6-d0d612366f25",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e775b8b4-5e9d-4462-a657-7080a187f497",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

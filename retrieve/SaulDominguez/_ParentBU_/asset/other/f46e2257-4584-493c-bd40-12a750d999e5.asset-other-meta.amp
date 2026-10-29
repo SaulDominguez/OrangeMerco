@@ -1,0 +1,218 @@
+%%= ContentBlockByID(66628) =%%
+%%[
+    set @Id = RequestParameter('Id')
+    set @Email = RequestParameter('Email')
+    set @nombre = Trim(ProperCase(RequestParameter('nombre')))
+    set @apellidos = Trim(ProperCase(RequestParameter('apellidos')))
+    set @telefono = RequestParameter('telefono')
+    if Length(@telefono) == 10 then
+        set @telefono = Concat('52', @telefono)
+    endif
+    set @Sucursal = RequestParameter('Sucursal')
+    set @redSocial = RequestParameter('redSocial')
+    set @fechaRegistro = Now()
+    set @rowsCorreos = LookupRows('BDD_General', 'Email', @Email)
+    set @rowsTelefonos = LookupRows('BDD_General', 'Phone', @telefono)
+    var @IsNew
+    set @exists = false
+    if not Empty(@Id) then
+        set @exists = true
+    endif
+    if RowCount(@rowsCorreos) > 0 then
+        set @exists = true
+        set @rowCorreo = Row(@rowsCorreos, 1)
+        set @Id = Field(@rowCorreo, 'Contact_Id')
+    endif
+    if RowCount(@rowsTelefonos) > 0 then
+        set @exists = true
+        set @rowTelefono = Row(@rowsTelefonos, 1)
+        set @Id = Field(@rowTelefono, 'Contact_Id')
+    endif
+    if not @exists then
+        set @Id = GUID()
+    endif
+]%%
+<script runat="server">
+    Platform.Load('core', '1');
+    var debugging = false;
+    Variable.SetValue('@debug', debugging);
+
+    function buildRestEndpoint(subdomain) {
+        return 'https://' + subdomain + '.rest.marketingcloudapis.com/interaction/v1/events';
+    }
+
+    function debugValue(description, value) {
+        if (debugging) {
+            Write(
+                description +
+                    ': ' +
+                    (typeof value == 'object' ? Stringify(value) : value) +
+                    '<br><br>'
+            );
+        }
+    }
+
+    function handleError(error) {
+        if (debugging) {
+            debugValue('Found error', error);
+        }
+    }
+    try {
+        var subEmail = Variable.GetValue('@Email');
+        var subName = Variable.GetValue('@nombre');
+        var subLastName = Variable.GetValue('@apellidos');
+        var subPhone = Variable.GetValue('@telefono');
+        var ubicacion = Variable.GetValue('@Sucursal');
+        var subscriberKey = Variable.GetValue('@Id');
+
+        debugValue('ubicacion', ubicacion);
+
+        var MedioComunicacion = Variable.GetValue('@redSocial');
+        var fechaRegistro = Variable.GetValue('@fechaRegistro');
+
+        var subdomain = Variable.GetValue('@subdomain');
+        var accessToken = Variable.GetValue('@accessToken');
+        var restUrl = buildRestEndpoint(subdomain);
+        var exists = Variable.GetValue('@exists');
+
+        var emailDomain = subEmail.substring(subEmail.indexOf('@'));
+        debugValue('domain', emailDomain);
+        if (emailDomain == '@orangedcx.com') {
+            subscriberKey = subEmail;
+            if (emailDomain == '@orangedcx.com') exists = false;
+        }
+        Variable.SetValue('@subscriberKey', subscriberKey);
+        debugValue('subkey', subscriberKey);
+        var requestData = {
+            ContactKey: subscriberKey,
+            EventDefinitionKey: 'APIEvent-b3188974-bc50-399b-58db-7f1896ea8ac6',
+            Data: {
+                Contact_Id: subscriberKey,
+                Email: subEmail,
+                Nombre: subName,
+                Apellido: subLastName,
+                Phone: subPhone,
+                Sucursal: ubicacion,
+                MedioComunicacion: MedioComunicacion,
+                fechaRegistro: fechaRegistro
+            }
+        };
+
+        debugValue('req', requestData);
+
+        debugValue('Not Exists', !exists);
+        if (!exists) {
+            var prefRequest = new Script.Util.HttpRequest(restUrl);
+            prefRequest.emptyContentHandling = 0;
+            prefRequest.retries = 2;
+            prefRequest.continueOnError = true;
+            prefRequest.contentType = 'application/json';
+            prefRequest.encoding = 'UTF-8';
+            prefRequest.method = 'POST';
+            prefRequest.postData = Stringify(requestData);
+            prefRequest.setHeader('Authorization', 'Bearer ' + accessToken);
+
+            var prefRes = prefRequest.send();
+
+            debugValue('Pref Request returnStatus', prefRes.returnStatus);
+            debugValue('Pref Request Status', prefRes.statusCode);
+            if (prefRes.statusCode == 200) {
+                var prefResponse = prefRes.content;
+                debugValue('Pref Response', formatJson(prefResponse));
+            } else {
+                debugValue('Pref Error Response', prefRes.content);
+            }
+        }
+    } catch (error) {
+        handleError(error);
+    }
+</script>
+%%[
+    set @Id = @subscriberKey
+    if @exists then
+        set @IsNew = 0
+        set @upsertCount =
+            UpsertData(
+                'Recibe_Promociones_2025_Existentes',
+                1,
+                'Contact_Id',
+                @Id,
+                'Email',
+                @Email,
+                'Nombre',
+                @nombre,
+                'Apellido',
+                @apellidos,
+                'Phone',
+                @telefono,
+                'Sucursal',
+                @Sucursal,
+                'MedioComunicacion',
+                @redSocial,
+                'fechaRegistro',
+                @fechaRegistro
+            )
+    else
+        set @IsNew = 1
+        set @upsertCount =
+            UpsertData(
+                'Recibe_Promociones_2025_Nuevos',
+                1,
+                'Contact_Id',
+                @Id,
+                'Email',
+                @Email,
+                'Nombre',
+                @nombre,
+                'Apellido',
+                @apellidos,
+                'Phone',
+                @telefono,
+                'Sucursal',
+                @Sucursal,
+                'MedioComunicacion',
+                @redSocial,
+                'fechaRegistro',
+                @fechaRegistro
+            )
+    endif
+
+    set @upsertBG =
+        UpsertData(
+            'BDD_General',
+            1,
+            'Contact_Id',
+            @Id,
+            'Email',
+            @Email,
+            'nombre',
+            @nombre,
+            'Apellido',
+            @apellidos,
+            'Phone',
+            @telefono,
+            'Sucursal',
+            @Sucursal,
+            'MedioComunicacion',
+            @redSocial,
+            'Locale',
+            'MX'
+        )
+    if not @debug then
+        Redirect('https://cloud.hello.merco.email/registro-exitoso')
+    endif
+]%%
+Email: %%= v(@Email) =%% <br />
+nombre: %%= v(@nombre) =%% <br />
+apellidos: %%= v(@apellidos) =%% <br />
+telefono: %%= v(@telefono) =%% <br />
+Sucursal: %%= v(@Sucursal) =%% <br />
+redSocial: %%= v(@redSocial) =%% <br />
+Contact_Id: %%= v(@Contact_Id) =%% <br />
+fechaRegistro: %%= v(@fechaRegistro) =%% <br />
+SubscriberKey: %%= v(@subscriberKey) =%% <br />
+Id: %%= v(@Id) =%% <br />
+UpsertCount: %%= v(@upsertCount) =%% <br />
+IsNew: %%= v(@IsNew) =%% <br />
+UpsertBG: %%= v(@upsertBG) =%% <br />
+<a href="https://cloud.hello.merco.email/registro-exitoso">TY PAGE</a> <br />

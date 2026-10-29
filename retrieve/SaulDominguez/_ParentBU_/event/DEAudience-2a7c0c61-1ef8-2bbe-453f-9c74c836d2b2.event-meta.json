@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST-SMS-2840524_PiernaMusloPollo",
+    "description": "",
+    "createdDate": "2024-05-28T10:53:28.803",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-05-28T10:53:28.803",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-2a7c0c61-1ef8-2bbe-453f-9c74c836d2b2",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "a48a572d-cc06-4433-9796-3bfdcad7447d",
+    "r__dataExtension_key": "7B9E1E83-6673-4E11-9DE2-7870E21E4B87"
+}

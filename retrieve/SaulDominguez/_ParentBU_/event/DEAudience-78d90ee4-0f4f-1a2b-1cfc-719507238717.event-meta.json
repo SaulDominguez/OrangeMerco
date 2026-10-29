@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_EDR_Navidad-281125  ",
+    "description": "",
+    "createdDate": "2025-11-21T12:50:40.8",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-11-28T12:38:52.143",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-78d90ee4-0f4f-1a2b-1cfc-719507238717",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "2b933d00-288d-4624-801c-edd811d709e3",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

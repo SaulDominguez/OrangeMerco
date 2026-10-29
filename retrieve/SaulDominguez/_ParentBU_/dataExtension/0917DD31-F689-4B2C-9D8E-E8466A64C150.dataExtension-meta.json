@@ -1,0 +1,28 @@
+{
+    "CustomerKey": "0917DD31-F689-4B2C-9D8E-E8466A64C150",
+    "Name": "LISTA_CLIENTES_EL_JARAL",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "telefono",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Phone"
+        },
+        {
+            "Name": "email",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "EmailAddress"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/BDD Merco/Source",
+    "c__retentionPolicy": "none"
+}

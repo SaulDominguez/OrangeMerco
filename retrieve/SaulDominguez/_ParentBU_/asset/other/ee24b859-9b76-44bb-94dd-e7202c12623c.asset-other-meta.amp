@@ -1,0 +1,275 @@
+%%[
+    var @codigo,
+        @ticket,
+        @fecha,
+        @tienda,
+        @nombre,
+        @apellido_P,
+        @apellido_M,
+        @correo,
+        @telefono,
+        @fechaNacimiento,
+        @premio,
+        @privacidad,
+        @colaborador,
+        @fechaRegistro,
+        @boleto,
+        @Optin,
+        @montoTicket
+    /* Captura de los parámetros de la solicitud */
+    set @ticket = Concat('#', RequestParameter('ticket'))
+    set @fecha = RequestParameter('fecha')
+    set @montoTicket = RequestParameter('montoTicket')
+    set @tienda = RequestParameter('tienda')
+    set @nombre = ProperCase(Trim(RequestParameter('nombre')))
+    set @apellido_P = ProperCase(Trim(RequestParameter('apellido_P')))
+    set @apellido_M = ProperCase(Trim(RequestParameter('apellido_M')))
+    set @correo = RequestParameter('correo')
+    set @telefono = RequestParameter('telefono')
+    set @fechaNacimiento = RequestParameter('fechaNacimiento')
+    set @premio = RequestParameter('premio')
+    set @privacidad = RequestParameter('privacidad')
+    set @colaborador = RequestParameter('colaborador')
+    set @Optin = RequestParameter('OptIn')
+    /* Salida de los parámetros capturados para depuración */
+    Output(
+        Concat(
+            '<br>Ticket: ',
+            @ticket,
+            '<br>Fecha: ',
+            @fecha,
+            '<br>Monto Ticket: ',
+            @montoTicket,
+            '<br>Tienda: ',
+            @tienda
+        )
+    )
+    Output(
+        Concat(
+            '<br>Nombre: ',
+            @nombre,
+            '<br>Apellido P: ',
+            @apellido_P,
+            '<br>Apellido M: ',
+            @apellido_M
+        )
+    )
+    Output(
+        Concat(
+            '<br>Correo: ',
+            @correo,
+            '<br>Telefono: ',
+            @telefono,
+            '<br>Fecha Nacimiento: ',
+            @fechaNacimiento
+        )
+    )
+    Output(
+        Concat(
+            '<br>Premio: ',
+            @premio,
+            '<br>Privacidad: ',
+            @privacidad,
+            '<br>Colaborador: ',
+            @colaborador,
+            '<br>Opt-in: ',
+            @Optin
+        )
+    )
+    /* Generar código único basado en nombre, apellido y ticket */
+    set @codigo = Concat(@nombre, @apellido_P, @ticket)
+    Output(Concat('<br>Código generado: ', @codigo))
+    /* Verificar si el ticket ya existe */
+    set @rowsTikets = LookupRows('FIESTONONON_Registros_2024', 'Ticket', @ticket)
+    set @rowCount = RowCount(@rowsTikets)
+    Output(Concat('<br>Row Count (tickets encontrados): ', @rowCount))
+    /* Si el ticket ya existe, revisar si premio y boleto existen */
+    if @rowCount > 0 then
+        /* Lookup para obtener los valores de Premio y Boleto */
+        set @premioDB = Lookup('FIESTONONON_Registros_2024', 'Premio', 'Ticket', @ticket)
+        set @boletoDB = Lookup('FIESTONONON_Registros_2024', 'Boleto', 'Ticket', @ticket)
+        Output(Concat('<br>Premio desde DE: ', @premioDB, ' | Boleto desde DE: ', @boletoDB))
+        /* Si tanto Premio como Boleto tienen valores, redirigir */
+        if not Empty(@premioDB) and not Empty(@boletoDB) then
+            Output('<br>Premio y boleto existen, redirigiendo a la página de error.')
+            /* Lookup para obtener más datos desde la DE */
+            set @nombre = Lookup('FIESTONONON_Registros_2024', 'Nombre', 'Ticket', @ticket)
+            set @apellido_P = Lookup('FIESTONONON_Registros_2024', 'Apellido', 'Ticket', @ticket)
+            set @correo = Lookup('FIESTONONON_Registros_2024', 'Correo', 'Ticket', @ticket)
+            set @tienda = Lookup('FIESTONONON_Registros_2024', 'No_Tienda', 'Ticket', @ticket)
+            set @fechaRegistro =
+                Lookup('FIESTONONON_Registros_2024', 'Fecha_Registro', 'Ticket', @ticket)
+            set @premioRedirect = Lookup('FIESTONONON_Registros_2024', 'Premio', 'Ticket', @ticket)
+            set @boletoRedirect = Lookup('FIESTONONON_Registros_2024', 'Boleto', 'Ticket', @ticket)
+            /* Redirige a la página de error con los datos obtenidos de la DE */
+            Redirect(
+                Concat(
+                    'https://cloud.hello.merco.email/urfiestononon2024?id=',
+                    Substring(@ticket, 2),
+                    '&error=Ticket',
+                    '&nombre=',
+                    URLEncode(@nombre),
+                    '&apellido=',
+                    URLEncode(@apellido_P),
+                    '&correo=',
+                    URLEncode(@correo),
+                    '&ticket=',
+                    Substring(@ticket, 2),
+                    '&sucursal=',
+                    URLEncode(@tienda),
+                    '&fecha_registro=',
+                    URLEncode(FormatDate(@fechaRegistro, 'YYYY-MM-DD')),
+                    '&premioDB=',
+                    URLEncode(@premioRedirect),
+                    '&boletoDB=',
+                    URLEncode(@boletoRedirect)
+                )
+            )
+        else
+            /* Verificar si ya existe un valor en Premio o Boleto y redirigir si ya existe un valor */
+            if @premio == 'Premio' and not Empty(@premioDB) then
+                Output('<br>El campo Premio ya tiene un valor, redirigiendo a la página de error.')
+                /* Lookup para obtener más datos desde la DE */
+                set @nombre = Lookup('FIESTONONON_Registros_2024', 'Nombre', 'Ticket', @ticket)
+                set @apellido_P =
+                    Lookup('FIESTONONON_Registros_2024', 'Apellido', 'Ticket', @ticket)
+                set @correo = Lookup('FIESTONONON_Registros_2024', 'Correo', 'Ticket', @ticket)
+                set @tienda = Lookup('FIESTONONON_Registros_2024', 'No_Tienda', 'Ticket', @ticket)
+                set @fechaRegistro =
+                    Lookup('FIESTONONON_Registros_2024', 'Fecha_Registro', 'Ticket', @ticket)
+                set @premioRedirect =
+                    Lookup('FIESTONONON_Registros_2024', 'Premio', 'Ticket', @ticket)
+                set @boletoRedirect =
+                    Lookup('FIESTONONON_Registros_2024', 'Boleto', 'Ticket', @ticket)
+                /* Redirige a la página de error con los datos obtenidos de la DE */
+                Redirect(
+                    Concat(
+                        'https://cloud.hello.merco.email/urfiestononon2024?id=',
+                        Substring(@ticket, 2),
+                        '&error=Ticket',
+                        '&nombre=',
+                        URLEncode(@nombre),
+                        '&apellido=',
+                        URLEncode(@apellido_P),
+                        '&correo=',
+                        URLEncode(@correo),
+                        '&ticket=',
+                        Substring(@ticket, 2),
+                        '&sucursal=',
+                        URLEncode(@tienda),
+                        '&fecha_registro=',
+                        URLEncode(FormatDate(@fechaRegistro, 'YYYY-MM-DD')),
+                        '&premioDB=',
+                        URLEncode(@premioRedirect),
+                        '&boletoDB=',
+                        URLEncode(@boletoRedirect)
+                    )
+                )
+            elseif @premio == 'Boleto' and not Empty(@boletoDB) then
+                Output('<br>El campo Boleto ya tiene un valor, redirigiendo a la página de error.')
+                /* Lookup para obtener más datos desde la DE */
+                set @nombre = Lookup('FIESTONONON_Registros_2024', 'Nombre', 'Ticket', @ticket)
+                set @apellido_P =
+                    Lookup('FIESTONONON_Registros_2024', 'Apellido', 'Ticket', @ticket)
+                set @correo = Lookup('FIESTONONON_Registros_2024', 'Correo', 'Ticket', @ticket)
+                set @tienda = Lookup('FIESTONONON_Registros_2024', 'No_Tienda', 'Ticket', @ticket)
+                set @fechaRegistro =
+                    Lookup('FIESTONONON_Registros_2024', 'Fecha_Registro', 'Ticket', @ticket)
+                set @premioRedirect =
+                    Lookup('FIESTONONON_Registros_2024', 'Premio', 'Ticket', @ticket)
+                set @boletoRedirect =
+                    Lookup('FIESTONONON_Registros_2024', 'Boleto', 'Ticket', @ticket)
+                /* Redirige a la página de error con los datos obtenidos de la DE */
+                Redirect(
+                    Concat(
+                        'https://cloud.hello.merco.email/urfiestononon2024?id=',
+                        Substring(@ticket, 2),
+                        '&error=Ticket',
+                        '&nombre=',
+                        URLEncode(@nombre),
+                        '&apellido=',
+                        URLEncode(@apellido_P),
+                        '&correo=',
+                        URLEncode(@correo),
+                        '&ticket=',
+                        Substring(@ticket, 2),
+                        '&sucursal=',
+                        URLEncode(@tienda),
+                        '&fecha_registro=',
+                        URLEncode(FormatDate(@fechaRegistro, 'YYYY-MM-DD')),
+                        '&premioDB=',
+                        URLEncode(@premioRedirect),
+                        '&boletoDB=',
+                        URLEncode(@boletoRedirect)
+                    )
+                )
+            else
+                /* Si el campo está vacío, actualizamos */
+                if Empty(@premioDB) and @premio == 'Premio' then
+                    Output('<br>Actualizando Premio en DE')
+                    UpdateData(
+                        'FIESTONONON_Registros_2024',
+                        1,
+                        'Ticket',
+                        @ticket,
+                        'Premio',
+                        @premio
+                    )
+                elseif Empty(@boletoDB) and @premio == 'Boleto' then
+                    Output('<br>Actualizando Boleto en DE')
+                    UpdateData(
+                        'FIESTONONON_Registros_2024',
+                        1,
+                        'Ticket',
+                        @ticket,
+                        'Boleto',
+                        @premio
+                    )
+                endif
+                /* Redirige a la página de éxito */
+                Output('<br>Redirigiendo a la página de éxito.')
+                Redirect('https://cloud.hello.merco.email/tyfiestononon2024')
+            endif
+        endif
+    else
+        /* Si no existe el ticket, insertar los datos */
+        Output('<br>Ticket no encontrado, insertando nuevo registro.')
+        InsertData(
+            'FIESTONONON_Registros_2024',
+            'ClaveUnica_Fiestononon',
+            @codigo,
+            'Ticket',
+            @ticket,
+            'Fecha_Registro',
+            Now(),
+            'No_Tienda',
+            @tienda,
+            'Nombre',
+            @nombre,
+            'Apellido',
+            Concat(@apellido_P, ' ', @apellido_M),
+            'Correo',
+            @correo,
+            'Telefono',
+            @telefono,
+            'Fecha_Nacimiento',
+            @fechaNacimiento,
+            IIf(@premio == 'Premio', 'Premio', 'Boleto'),
+            @premio,
+            'Privacidad',
+            @privacidad,
+            'Opt-in',
+            @Optin,
+            'Fecha_Compra',
+            @fecha,
+            'Monto_Ticket',
+            @montoTicket,
+            'Colaborador',
+            @colaborador
+        )
+        /* Salida de confirmación de inserción */
+        Output('<br>Nuevo registro insertado con éxito.')
+        /* Redirige a la página de éxito */
+        Redirect('https://cloud.hello.merco.email/tyfiestononon2024')
+    endif
+]%%

@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": " EstamosDeRegalo_General-271224",
+    "description": "",
+    "createdDate": "2024-12-27T11:58:08.403",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-12-27T11:58:08.403",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-5a672436-db95-b1df-5970-21cb574c781c",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-12-27T13:00:00",
+        "endDateTime": "2024-12-27T13:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d5827569-9f90-42aa-a9ab-49462abcecd4",
+    "r__dataExtension_key": "A139ECE8-AA71-4EFD-9A63-ABB43E162F5E"
+}

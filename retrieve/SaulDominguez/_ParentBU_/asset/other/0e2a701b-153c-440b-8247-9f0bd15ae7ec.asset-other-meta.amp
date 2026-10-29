@@ -1,0 +1,23 @@
+%%[
+    var @name,
+        @lastName,
+        @phone,
+        @email
+    set @Contact_Id = QueryParameter('id')
+    set @rows = LookupRows('Cuaresma_Registros_Totales', 'Contact_Id', @Contact_Id)
+    if RowCount(@rows) > 1 then
+        set @row = Row(@rows, 1)
+        set @name = Field(@row, 'Nombre')
+        set @lastName = Field(@row, 'Apellido')
+        set @phone = Field(@row, 'Telefono')
+        set @email = Field(@row, 'Correo')
+    endif
+]%%
+<!--
+sub: <b>%%= v(@Contact_Id) =%%</b><br />
+sub: <b>%%= RowCount(@rows) =%%</b><br />
+correo: <b>%%= v(@email) =%%</b><br />
+telefono: <b>%%= v(@phone) =%%</b><br />
+nombre: <b>%%= v(@name) =%%</b><br />
+apellido_P: <b>%%= v(@lastName) =%%</b><br />
+-->

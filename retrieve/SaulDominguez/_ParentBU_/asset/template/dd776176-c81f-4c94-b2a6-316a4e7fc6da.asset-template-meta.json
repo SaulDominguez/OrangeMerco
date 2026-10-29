@@ -1,0 +1,80 @@
+{
+    "customerKey": "dd776176-c81f-4c94-b2a6-316a4e7fc6da",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-festival_del_bebe_240524",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-05-23T23:38:33.09-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-05-23T23:38:33.09-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "festival_del_bebe_240524",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Dale lo mejor a tu bebé con Merco!👶🏻\n\nTe traemos la semana del bebé... ¡y con eso vienen Súper Preciazos a montón!\n\nConoce lo que tenemos para tu pequeño:\n\n💧 Agua p/bebé purificada Mimarca 6 lts - *$19,99*\n👶🏻 Todos los pañales p/bebé de las marcas Smarty Baby, Tiny Maxi, Kikolastic, Cicolastic, Kiddies, BB Tips, Bio Baby, Absorsec, Suavelastic, Huggies Ultraconfort y Huggies Supreme - *¡Con 30% de descuento!*\n🧴Todas las toallitas húmedas p/bebé - *¡Con 25% de descuento!*\n🍼Toda la marca Ricitos de Oro, ropa p/bebé y fórmulas infantiles NAN 3 y Nidal Infantil - *¡Tienen un 20% de descuento!*\n\nSiempre queremos consentirte y darte lo mejor para tu bebé. 🥰\n\n¡Nos vemos en tu Merco más cercano!",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Compra aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas del 24 al 30 de mayo 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

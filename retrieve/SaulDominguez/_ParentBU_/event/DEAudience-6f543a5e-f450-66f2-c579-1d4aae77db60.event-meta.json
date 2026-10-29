@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Oferta_FyV_131026",
+    "description": "",
+    "createdDate": "2026-10-13T09:08:34.617",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-10-13T09:14:03.417",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-6f543a5e-f450-66f2-c579-1d4aae77db60",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "bfc53b45-ec08-41a8-9394-a91d1842e716",
+    "r__dataExtension_key": "57EF833F-E7F8-4FB1-A3A5-5F6C25816C30"
+}

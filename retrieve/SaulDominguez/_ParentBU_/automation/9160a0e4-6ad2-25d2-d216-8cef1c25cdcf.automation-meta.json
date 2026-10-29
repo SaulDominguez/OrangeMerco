@@ -1,0 +1,31 @@
+{
+    "name": "Fiestononon_2026_Saltillo_NL",
+    "key": "9160a0e4-6ad2-25d2-d216-8cef1c25cdcf",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B59F5F80-D7FD-411A-871C-97B53D47DB34"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "D614A4ED-C7B8-4379-B734-A6CDDF35997D"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-10-21T22:39:37.467Z",
+    "modifiedName": "Alexis Dominguez",
+    "r__folder_Path": "my automations/FIESTONONON/2026"
+}

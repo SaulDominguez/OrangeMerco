@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Reminder_Email_261026",
+    "description": "",
+    "createdDate": "2026-10-23T18:01:35.25",
+    "createdBy": "Felipe Sosa",
+    "modifiedDate": "2026-10-23T18:01:35.25",
+    "modifiedBy": "Felipe Sosa",
+    "eventDefinitionKey": "DEAudience-987455b1-2831-8aff-3ec4-07208ce0f4b4",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-10-26T10:00:00",
+        "endDateTime": "2026-10-26T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "528be369-7492-43b3-a7f1-8a55abc01538",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

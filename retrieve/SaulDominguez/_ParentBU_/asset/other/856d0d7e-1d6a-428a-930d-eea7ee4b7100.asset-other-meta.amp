@@ -1,0 +1,54 @@
+%%[
+    /* Capturamos el valor del parámetro 'sucursal' de la URL */
+    set @sucursal = RequestParameter('sucursal')
+    /* Verificamos si el usuario seleccionó una opción válida */
+    if @sucursal != 'null' and not Empty(@sucursal) then
+        /* Buscamos las filas que coincidan con la sucursal seleccionada */
+        set @rows = LookupRows('FIESTONONON_Concentrados_Tiendas', 'No_Tienda', @sucursal)
+        set @rowCount = RowCount(@rows)
+    else
+        /* Si no se selecciona ninguna sucursal, no mostramos datos */
+        set @rowCount = 0
+    endif
+]%%
+%%[
+    /* Si hay filas, las mostramos */
+    if @rowCount > 0 then
+        for @i = 1 to @rowCount do
+            set @row = Row(@rows, @i)
+            set @No_Tienda = Field(@row, 'No_Tienda')
+            set @Fecha_Registro = Field(@row, 'Fecha_Registro')
+            set @Conteo_Participantes = Field(@row, 'Conteo_Participantes')
+            set @Conteo_Boleto = Field(@row, 'Conteo_Boleto')
+            set @Conteo_Premio = Field(@row, 'Conteo_Premio')
+            set @Monto_Ticket = Field(@row, 'Monto_Ticket')
+]%%
+<tr>
+    <!-- Columna Fecha -->
+    <td>%%= v(@Fecha_Registro) =%%</td>
+
+    <!-- Columna Tienda -->
+    <td>%%= v(@No_Tienda) =%%</td>
+
+    <!-- Columna Conteo Participantes -->
+    <td>%%= v(@Conteo_Participantes) =%%</td>
+
+    <!-- Columna Conteo Boletos -->
+    <td>%%= v(@Conteo_Boleto) =%%</td>
+
+    <!-- Columna Conteo Premios -->
+    <td>%%= v(@Conteo_Premio) =%%</td>
+
+    <!-- Columna Suma Monto -->
+    <td>%%= v(@Monto_Ticket) =%%</td>
+</tr>
+%%[
+        next
+    else
+]%%
+<tr>
+    <td colspan="6">No hay datos disponibles</td>
+</tr>
+%%[
+    endif
+]%%

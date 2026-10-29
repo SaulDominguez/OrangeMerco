@@ -1,0 +1,33 @@
+{
+    "name": "Claws_Test",
+    "description": "",
+    "key": "0b941066-a501-9a63-18e8-9403ea54d134",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "script",
+                    "r__key": "a69d4ef7-e9b9-4858-afdc-01db5c657467"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "script",
+                    "r__key": "9c988b2d-e9e1-4e36-bd12-ff1fff8b87e6"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-10-10T05:44:33.607Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-10-10T05:50:04.32Z",
+    "r__folder_Path": "my automations/OrangeDCX/Test"
+}

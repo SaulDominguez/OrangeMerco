@@ -1,0 +1,23 @@
+{
+    "key": "A0176786-1B2B-4C0B-9DF3-FB60DA96F986",
+    "createdDate": "2025-03-19T17:02:33.497",
+    "createdByName": "Guty Hernandez",
+    "lastUpdated": "2025-03-19T17:19:37.823",
+    "lastUpdatedByName": "Guty Hernandez",
+    "name": "Filtro_Zona_Nuevo_Leon",
+    "description": "",
+    "isSendable": true,
+    "r__folder_Path": "Data Filters/Filtros Zonas",
+    "c__filterDefinition": {
+        "ConditionSet": {
+            "Condition": {
+                "Value": "Cadereyta, Montemorelos, Pueblo Nuevo, Solidaridad, Mixcoac, Nuevo Repueblo, Aramberri, García, Linda Vista, Sendero Santa Catarina, Buena Vista, San Roque, Los Pilares, Colinas del Aeropuerto, Girasoles / Escobedo, Merco Israel Cavazos, Paraje San José, Santa Elena, Mirador de San Antonio , Apodaca Centro, El Jaral ",
+                "@_Operator": "ExistsIn",
+                "r__dataExtensionField_name": "Sucursal"
+            },
+            "@_Operator": "AND",
+            "@_ConditionSetName": "Outer Grouping"
+        }
+    },
+    "r__source_dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

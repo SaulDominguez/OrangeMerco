@@ -1,0 +1,80 @@
+{
+    "customerKey": "67e73337-9e1c-4612-9051-fee063639e17",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-fiestononon_251024-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-10-24T14:59:42.157-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-10-24T14:59:42.157-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "fiestononon_251024",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Aprovecha, ahorra y festeja en el Fiestononón de Merco!\n\nAquí sí ahorras un montón con los Súper Preciazos que tenemos para ti:\n\n*Aguacate* malla - *$24.99 pieza*\n*Manzana* golden o roja en bolsa - *$19.99 pieza c/u*\n*Pierna de cerdo* con hueso - *$64.99 kg*\n*Carne para asar - $129 kg*\nAceite vegetal *Kártamus* 900 ml - *$29.99*\nHarina de trigo *Selecta* kilo - *$15.99*\nTodos los *disfraces, antifaz, guantes, máscaras, medias y sombreros* (excepto accesorios y decoración) - *¡Con un 50% de descuento!*\nVariedad de artículos de *Halloween* - *¡Con un 30% de descuento!*\n\n¿Ya aprovechaste los Súper Preciazos de la fiesta que tenemos?\n¡No te pierdas ninguno!\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Échale un ojo!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 28 de octubre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

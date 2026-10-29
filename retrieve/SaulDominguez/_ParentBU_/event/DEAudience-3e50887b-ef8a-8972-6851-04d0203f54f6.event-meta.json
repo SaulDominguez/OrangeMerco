@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "EstamosDeRegalo_Monclova-131224",
+    "description": "",
+    "createdDate": "2024-12-13T14:08:06.017",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-12-13T14:08:06.017",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-3e50887b-ef8a-8972-6851-04d0203f54f6",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "a30cbcca-2263-4535-8cff-d2960415a0d2",
+    "r__dataExtension_key": "A76754CA-646F-442E-BC18-28D8C6632454"
+}

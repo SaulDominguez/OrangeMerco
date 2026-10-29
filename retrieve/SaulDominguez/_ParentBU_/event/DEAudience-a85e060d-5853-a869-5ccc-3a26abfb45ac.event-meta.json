@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "IP - Warming - Pieza 6 Ultimos Contactos",
+    "description": "",
+    "createdDate": "2023-10-04T16:16:39.923",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-10-04T16:16:39.923",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-a85e060d-5853-a869-5ccc-3a26abfb45ac",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "f03e9a1e-fecc-4695-9701-4e56a26c86c3",
+    "r__dataExtension_key": "F0AB461A-DBFD-49CC-9C07-4AB4098BFBD6"
+}

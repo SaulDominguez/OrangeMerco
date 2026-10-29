@@ -1,0 +1,87 @@
+{
+    "customerKey": "b70db9f0-ff50-48c3-a1c7-426b4f1fd6cb",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-cuaresma_040425-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-04T12:28:49.2-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-04T12:28:49.2-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "cuaresma_040425",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡La Cuaresma y los Súper Preciazos siguen en Merco! 🛒🐟\n\n- Atún en agua o aceite *El Dorado* 285 gr - *$22.99 c/u*\n- Barritas de pescado empanizadas - *$109.00 kg*\n- *Filete de bagre bassa* - *¡A un Súper Preciazo!*\n- Atún en agua o aceite *Tuny Standard* 130 gr - *$13.99 c/u*\n- Galletas *Crackets Gamesa* 208 gr - *$21.99*\n- Sardina *Ponto* variedad 120 gr - *$28.99*\n- Salsa *Guacamaya* Habanera Roja 150 ml - *$15.99*\n- *Pan para capirotada* - *$57 kg*\n- Lenteja *Cazerola* 500 gr - *$16.99*\n\nEn esta Cuaresma, cocina con sabor y tradición. Encuentra todo lo que necesitas a un Súper Preciazo. 🐟🌿\n*Solo en Merco.* 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 10 de abril de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

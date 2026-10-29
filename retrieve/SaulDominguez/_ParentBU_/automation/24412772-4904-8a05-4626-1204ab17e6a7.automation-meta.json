@@ -1,0 +1,22 @@
+{
+    "name": "Clean Undeliverable Phones",
+    "key": "24412772-4904-8a05-4626-1204ab17e6a7",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "5CCA3568-F7BC-4931-BED8-D20E0FFA1FFF"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-09-18T22:43:34.823Z",
+    "modifiedName": "Guty Hernandez",
+    "r__folder_Path": "my automations/Whatsapp"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "BuenFin_131125",
+    "description": "",
+    "createdDate": "2025-11-13T09:07:45.26",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-11-13T09:07:45.26",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-59c41f39-9c4f-b73c-ca4b-72e029688373",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "50a3aa62-efdc-4189-bc6b-cc62e8e0d31a",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

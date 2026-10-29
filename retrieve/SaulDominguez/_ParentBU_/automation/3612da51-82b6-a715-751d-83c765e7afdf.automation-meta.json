@@ -1,0 +1,78 @@
+{
+    "name": "Contactos_sobrantes",
+    "description": "",
+    "key": "3612da51-82b6-a715-751d-83c765e7afdf",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "28832BF9-8C95-49B7-9618-A6D705271C23"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "82A9E983-C842-4071-8F06-FD651A9F0E8B"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "Correos_Enviados_Copy_1"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "0A7AD0B9-6821-42B8-B752-2C9BC3449F3E"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "DFF40692-130A-497A-9AC9-73BA398B350C"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "115E986F-40FD-4EFB-8E91-FAB439BF975C"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "6C85B7BC-F73A-4526-ABB6-92AE04AB372B"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-10-21T03:32:01.593Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-10-21T21:55:19.633Z",
+    "r__folder_Path": "my automations/OrangeDCX/00_Setup/Revision_Contactos"
+}

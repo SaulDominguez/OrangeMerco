@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Molida_010826",
+    "description": "",
+    "createdDate": "2026-07-31T19:24:22.47",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-07-31T19:28:05.323",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-23e1c5fd-0b0f-b00c-3049-8243e71b0952",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-08-01T09:30:00",
+        "endDateTime": "2026-08-01T09:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d70c360b-fdda-40cc-8be6-4fc73bf41f3d",
+    "r__dataExtension_key": "3E4FF703-CE53-4BCF-B37C-E6C72A8544C8"
+}

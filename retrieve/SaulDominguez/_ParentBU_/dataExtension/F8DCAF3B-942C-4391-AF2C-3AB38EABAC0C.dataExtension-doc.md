@@ -1,0 +1,32 @@
+## F8DCAF3B-942C-4391-AF2C-3AB38EABAC0C
+
+**Name** (not equal to External Key)**:** FIESTONONON_Registros_Test
+
+**Description:** n/a
+
+**Folder:** Data Extensions/FIESTONONON/
+
+**Fields in table:** 14
+
+**Sendable:** No
+
+**Testable:** No
+
+**Retention Policy:** none
+
+| Name | FieldType | MaxLength | IsPrimaryKey | IsNullable | DefaultValue |
+| --- | --- | --- | --- | --- | --- |
+| ClaveUnica_Fiestononon | Text | 50 | + | - |  |
+| Ticket | Text | 50 | + | - |  |
+| Fecha_Registro | Date |  | - | + |  |
+| No_Tienda | Number |  | - | + |  |
+| Nombre | Text | 50 | - | + |  |
+| Apellido | Text | 50 | - | + |  |
+| Correo | EmailAddress | 254 | - | + |  |
+| Telefono | Phone | 50 | - | + |  |
+| Fecha_Nacimiento | Date |  | - | + |  |
+| Premio | Text | 50 | - | + |  |
+| Privacidad | Boolean |  | - | + |  |
+| Opt-in | Boolean |  | - | + |  |
+| Fecha_Compra | Date |  | - | + |  |
+| Monto_Ticket | Decimal | 16,2 | - | + |  |

@@ -1,0 +1,565 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* Resets */
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #e6e6e6;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #76bc21;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #76bc21;
+  transition: all 0.3s ease;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.noPadding {
+  padding: 0;
+}
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+section.noPadding {
+  padding: 0em 0;
+}
+/* Fonts */
+/* Fonts */
+body,
+input,
+textarea,
+select {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-display: swap;
+}
+h1 {
+  font-size: clamp(1.6rem, 1.56rem + 0.2vw, 1.8rem);
+  font-weight: 900;
+}
+h2 {
+  font-size: clamp(1.3rem, 1.26rem + 0.2vw, 1.5rem);
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+p,
+li,
+label {
+  font-family: "Montserrat", sans-serif;
+  font-size: clamp(0.9rem, 0.88rem + 0.1vw, 1rem);
+}
+.smallTxt {
+  font-size: 0.7em;
+  text-align: center;
+}
+/* links */
+/* links */
+a {
+  color: #f73939;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+a:hover,
+a:active,
+a:focus {
+  color: #fe4912 !important;
+}
+.linkMain {
+  color: #fff;
+  transition: color 0.3s;
+}
+.linkMain:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+/* Buttons */
+/* Buttons */
+.btn {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  padding: 0.8em 1.3em !important;
+  text-decoration: none;
+  transition:
+    color 0.4s,
+    border 0.3s;
+  position: relative;
+  transition:
+    color 0.3s,
+    background-color 0.3s;
+  text-transform: none !important;
+  -webkit-border-radius: 0.4em;
+  -ms-border-radius: 0.4em;
+  -o-border-radius: 0.4em;
+  border-radius: 0.4em;
+}
+.btnMain {
+  background: #9b8143;
+  color: #fff !important;
+  border: 1px solid #9b8143;
+}
+.btnMain:hover {
+  color: #846825 !important;
+  background: #fff;
+  border: 1px solid #846825;
+}
+/*Contenido*/
+.wrapLanding {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  position: relative;
+  min-height: 100dvh;
+}
+header .logoMercoHero {
+  max-width: 150px;
+  width: 100%;
+}
+.section1 {
+  background-color: #ffffff;
+  position: relative;
+}
+.section1 .content-text-ty {
+  z-index: 2;
+  position: relative;
+}
+.section1 .banner {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #8d8d8d;
+  margin: 0 auto;
+}
+.section1 .bannerMovil {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px #8d8d8d;
+  margin: 0 auto;
+  display: none;
+}
+.section1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/8d2fc027-a974-4d6b-a08b-dafe55b369e7.png);
+  background-repeat: repeat;
+  background-size: 4%;
+  opacity: 0.2;
+  z-index: 0;
+}
+.section1 .row {
+  position: relative;
+  z-index: 1;
+}
+.section1 .contentForm {
+  background-color: #eeeeee;
+  box-shadow: 0 0 10px #8d8d8d;
+  border-radius: 1em;
+  position: relative;
+  z-index: 1;
+}
+.section1 form .labelInput {
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  color: rgba(0, 0, 0, 0.8);
+}
+.section1 form .form-control,
+.section1 form select {
+  border-radius: 0.7em;
+  font-size: 0.9em;
+}
+.section1 form .form-check-label {
+  font-size: clamp(0.8rem, 0.76rem + 0.2vw, 1rem);
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.8);
+}
+.section1 form .form-check-label a {
+  color: rgba(0, 0, 0, 0.8);
+}
+.btnForm {
+  border: 0;
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  color: #fff;
+  background-color: #76bc21;
+  transition: 0.3s ease;
+  font-weight: 700;
+}
+.btnForm:hover {
+  background-color: #444444;
+}
+a.btnForm {
+  text-decoration: none;
+  max-width: 250px;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  color: #fff;
+  background-color: #ff4713;
+  transition: 0.3s ease;
+  font-weight: 700;
+}
+a.btnForm:hover {
+  background-color: #444444;
+  color: #fff !important;
+}
+/*Footer*/
+footer {
+  position: relative;
+  z-index: 1;
+  background-color: #ff4713 !important;
+}
+footer .logoMerco {
+  max-width: 150px;
+  width: 100%;
+  margin: 1em auto;
+}
+footer p {
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+.wrap-ty {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100dvh;
+  position: relative;
+}
+/* Responsive */
+@media only screen and (max-width: 991px) {
+  .section1 .banner {
+    display: none;
+  }
+  .section1 .bannerMovil {
+    display: block;
+  }
+}
+/* form login */
+.logoMercopeque {
+  max-width: 150px;
+  width: 100%;
+}
+.login-page {
+  width: 300px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #76bc21;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  text-align: center;
+  box-shadow:
+    0 0 20px 0 rgba(0, 0, 0, 0.2),
+    0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 15px;
+}
+.form input {
+  font-family: "Montserrat", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 12px;
+  padding: 12px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.form button {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #ff4c00;
+  width: 100%;
+  border: 0px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background: #444444;
+}
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+}
+.form .message a {
+  color: #4caf50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #ef3b3a;
+}
+body {
+  background: #76b852; /* fallback for old browsers */
+  background: rgb(141, 194, 111);
+  background: linear-gradient(
+    90deg,
+    rgba(141, 194, 111, 1) 0%,
+    rgba(118, 184, 82, 1) 50%
+  );
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* cards */
+h2 {
+  font-size: 1.4rem;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  line-height: 1;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.cards > * {
+  flex: 0 1 25em;
+}
+.card {
+  margin: 0.75em;
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px #ccc solid;
+  border-radius: 20px;
+  background-color: #e8e8e8;
+  max-width: 300px;
+  margin: 0 auto;
+}
+img {
+  width: 250px;
+  height: 400px;
+}
+/* Start of moving the image above the heading */
+.reorder {
+  display: flex;
+  flex-direction: column;
+}
+.reorder img {
+  max-width: 100%;
+}
+/* End of moving the image above the heading */
+.card > * a,
+.card > .cta {
+  display: block;
+}
+.card h2 > a {
+  text-decoration: none;
+  color: inherit;
+}
+.cards button {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #76bc21;
+  width: 100%;
+  border: 0px;
+  padding: 10px;
+  margin: 20;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.btnticket:hover {
+  background-color: #444444;
+}
+.btncargar button {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  border: 0px;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: black;
+}
+/* modal */
+.modal-footer button {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  width: 40%;
+  border: 0px;
+  padding: 10px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.button1 {
+  background-color: #76bc21;
+  color: white;
+  border: 0px;
+}
+.button1:hover {
+  background-color: #444444;
+  color: white;
+}
+.button2 {
+  background-color: #ff4713;
+  color: white;
+  border: 0px;
+}
+.button2:hover {
+  background-color: #444444;
+  color: white;
+}
+.card-m {
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px #ccc solid;
+  background-color: #e8e8e8;
+}
+.img-ticket {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+/* pagination */
+.pagination {
+  display: flex;
+  align-items: center;
+}
+.pagination a {
+  text-decoration: none;
+  color: white;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+.pagination a:hover {
+  background-color: darkgray;
+}
+.pagination a.active {
+  background-color: #ff4713;
+}
+.pagination a.arrow {
+  font-size: 20px;
+}
+
+/* seccion filtro */
+.filtro-ticket {
+  position: relative;
+  background-color: #ececec;
+  z-index: 3;
+}
+
+.etiqueta-filtro {
+  max-width: 550px;
+  width: 100%;
+  background-color: #0ad687;
+  color: #fff;
+}

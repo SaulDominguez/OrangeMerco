@@ -1,0 +1,33 @@
+{
+    "customerKey": "A8094338-1FFD-472F-957C-7A0828829285",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "name": "TEST",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-04-23T08:15:41.027-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-04-23T08:15:41.027-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "cloudPages": {
+            "c__published": false
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2023/ValueTools"
+}

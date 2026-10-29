@@ -1,0 +1,51 @@
+{
+    "name": "Test_Engagement_Check",
+    "description": "",
+    "key": "d734fde9-36f7-a108-e5b4-2827b9beed38",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "5695B679-251E-44A0-BEA4-8CA520444E66"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "8c236b44-b176-4b89-abdc-a2bc57ab550c"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "c6aa7605-6132-410a-8cae-d2b6646d2340"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "77102049-E9CD-416E-860B-7191764B7288"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2025-10-21T01:19:31.95Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-04-17T21:27:40.09Z",
+    "r__folder_Path": "my automations/OrangeDCX/Extract"
+}

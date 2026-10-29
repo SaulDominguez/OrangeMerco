@@ -1,0 +1,29 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST_update_contact",
+    "description": "",
+    "createdDate": "2025-12-05T17:25:41.667",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2025-12-05T17:25:41.667",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-086d1a23-c784-8d71-5bc8-1407a4d2d85a",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "8cdfcfea-6ff7-4974-832c-db5afe79e4ab",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

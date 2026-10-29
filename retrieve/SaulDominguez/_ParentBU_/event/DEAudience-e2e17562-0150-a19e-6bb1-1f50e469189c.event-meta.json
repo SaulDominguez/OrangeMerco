@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Cuaderno_MVA_180726",
+    "description": "",
+    "createdDate": "2026-07-17T20:11:48.53",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-07-17T20:11:48.53",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-e2e17562-0150-a19e-6bb1-1f50e469189c",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-07-18T09:00:00",
+        "endDateTime": "2026-07-18T09:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "4eafb0c2-a96a-42f1-8fe4-fffe8eb63d3d",
+    "r__dataExtension_key": "3EDE9CDD-8C04-4726-B08B-A4D857B89325"
+}

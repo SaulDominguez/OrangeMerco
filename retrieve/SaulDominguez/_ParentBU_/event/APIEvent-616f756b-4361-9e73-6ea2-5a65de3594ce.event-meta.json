@@ -1,0 +1,29 @@
+{
+    "type": "APIEvent",
+    "name": "Ora_Fiestononon_Tickets_No_Redimidos_Entry",
+    "description": "",
+    "createdDate": "2026-07-13T17:18:45.68",
+    "createdBy": "Alexis Dominguez",
+    "modifiedDate": "2026-07-13T17:28:23.48",
+    "modifiedBy": "Alexis Dominguez",
+    "eventDefinitionKey": "APIEvent-616f756b-4361-9e73-6ea2-5a65de3594ce",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "criteria": "",
+        "useHighWatermark": false,
+        "automationId": "00000000-0000-0000-0000-000000000000"
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": ""
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": true,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "81CCB07C-56A1-4967-864A-54A956E95726"
+}

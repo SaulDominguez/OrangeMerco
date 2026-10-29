@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_TEST_Cuaresma_210226",
+    "description": "",
+    "createdDate": "2026-02-19T14:54:58.173",
+    "createdBy": "Facundo García",
+    "modifiedDate": "2026-02-19T15:01:35.177",
+    "modifiedBy": "Facundo García",
+    "eventDefinitionKey": "DEAudience-ba17ce27-850d-92c8-1dae-4788e2a4d029",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "dc7ffbde-6103-402c-84d8-870292766f69",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

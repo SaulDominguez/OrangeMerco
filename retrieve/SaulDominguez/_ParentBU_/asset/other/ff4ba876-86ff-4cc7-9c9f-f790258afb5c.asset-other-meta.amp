@@ -1,0 +1,25 @@
+%%[
+    set @id = QueryParameter('id')
+    set @error = QueryParameter('error')
+    if @error == 'Usuario' then
+        set @field = 'ClaveUnica_Fiestononon'
+        set @mensaje = 'Oops! parece que este usuario ya está participando.'
+    elseif @error == 'Ticket' then
+        set @field = 'Ticket'
+        set @mensaje = 'Oops! parece que este ticket ya está participando.'
+        set @id = Concat('#', @id)
+    else
+    endif
+
+    if Empty(@error) then
+    else
+        set @rowsParticipantes = LookupRows('FIESTONONON_Registros', @field, @id)
+        set @row = Row(@rowsParticipantes, 1)
+        set @nombre = Field(@row, 'Nombre')
+        set @apellidos = Field(@row, 'Apellido')
+        set @correo = Field(@row, 'Correo')
+        set @ticket = Field(@row, 'Ticket')
+        set @fecha = FormatDate(Field(@row, 'Fecha_Compra'), 's')
+        set @monto = Field(@row, 'Monto_Ticket')
+    endif
+]%%

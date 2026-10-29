@@ -1,0 +1,40 @@
+{
+    "name": "Actualizacion_DD_General_con_registros_otp",
+    "description": "",
+    "key": "f27436b1-94db-8f1d-a4cf-8353b22a32e3",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2026-06-03T08:15:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "32F29E14-21FF-4C33-A3C2-F377A09482BA"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "0D17DE6C-100D-4D42-94BA-6EC3E0E28D94"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-06-02T06:15:01.987Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-10-17T01:19:57.433Z",
+    "pausedName": "Alexis Dominguez",
+    "pausedDate": "2026-10-17T01:19:40.61Z",
+    "r__folder_Path": "my automations/OrangeDCX/00_Setup"
+}

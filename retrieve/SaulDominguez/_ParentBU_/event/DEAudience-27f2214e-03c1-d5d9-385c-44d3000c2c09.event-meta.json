@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST - Envio2-Fiestononon_Whatsapp_Ruta_26-10-2023",
+    "description": "",
+    "createdDate": "2023-10-26T12:45:50.843",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-10-26T12:49:21.953",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-27f2214e-03c1-d5d9-385c-44d3000c2c09",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "51027aaa-748a-40b2-9cc2-ff74bf0ed22b",
+    "r__dataExtension_key": "59D382B5-E9B3-4733-8D55-4C72504F81B5"
+}

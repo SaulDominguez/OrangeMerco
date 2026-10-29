@@ -1,0 +1,80 @@
+{
+    "customerKey": "b2cd4b0e-d24b-49b1-afcc-8c27911ee8f5",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-diadelnino_270424",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-04-26T22:54:51.84-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-04-26T22:54:51.84-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "diadelnino_270424",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Queremos darle el cariño que se merecen los pequeños del hogar! 👧🏻🧒🏻\n\nCelebramos la alegría y los momentos de risas que nos regalan todos los días, es por eso que en Merco traemos increíbles promociones que les encantarán. 🥰\n\n🍰 Compra un Pastel de 3 Leches de 8\" o 10\" y llévate gratis un refresco Fanta, Fresca, Joya, Sprite, Coca Cola Light o Sin Azúcar - ¡A un Súper Preciazo! Válido del 27 al 30 de Abril\n🍩 Donas Decoradas C/6 piezas - $55\n🍰 Paletas de Pastel Magnate - $32 PIEZA\n🎂 Pastel Americano de Temporada 8\" - $129 PIEZA\n\nDales mucho amor a tus peques este Día del Niño con Merco. ✨",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Promociones aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Promociones válidas 26 de abril al 2 de mayo."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

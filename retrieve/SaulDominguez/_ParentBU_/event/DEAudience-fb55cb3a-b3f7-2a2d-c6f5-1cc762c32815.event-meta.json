@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "EstamosDeRegalo_SALT-271224",
+    "description": "",
+    "createdDate": "2024-12-27T11:52:42.68",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-12-27T11:52:42.68",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-fb55cb3a-b3f7-2a2d-c6f5-1cc762c32815",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-12-27T13:00:00",
+        "endDateTime": "2024-12-27T13:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "0d374bb4-7d08-4236-9ef9-6477935f4d09",
+    "r__dataExtension_key": "158BD254-4318-45F4-AA9A-D4DCF940D49A"
+}

@@ -1,0 +1,69 @@
+{
+    "name": "WA identificacion Zonas",
+    "description": "",
+    "key": "e5722703-c620-c176-2edb-bb69a20fafa9",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "60A67CF6-7556-46FC-A7E1-6AC3098F7E1D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "D0965BA7-195B-4D76-B6EF-3DA375174440"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "A44C204D-4B6F-4151-899B-8CEF258D1398"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "433F811B-A884-40C3-B441-B4BE17508B15"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "A418B0B1-2991-4A19-8CFC-967F451F83B3"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "A33AF538-F023-4898-AFCB-9D5D846FE68F"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-05-19T00:37:55.283Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-05-22T17:21:42.627Z",
+    "r__folder_Path": "my automations/OrangeDCX/02_BDD/WA"
+}

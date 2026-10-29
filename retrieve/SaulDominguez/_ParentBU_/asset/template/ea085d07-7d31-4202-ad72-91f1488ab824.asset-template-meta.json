@@ -1,0 +1,87 @@
+{
+    "customerKey": "ea085d07-7d31-4202-ad72-91f1488ab824",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-peso_240125-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-01-24T13:26:45.54-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-01-24T13:26:45.54-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "peso_240125",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "En Merco te llevas tus básicos a $1 Peso. 😱\n¡Así como lo escuchaste! En la compra de un producto, te llevas un básico a $1 Peso. 🪙\n\n- *Llévate a $1 peso harina para hot cakes Cuétara 500 gr*, comprando galletas Marías Cuétara 420 gr.\n- *Llévate a $1 peso arroz Mimarca súper extra 750 gr*, comprando harina de trigo La Perla 907 gr.\n- *Llévate a $1 peso blanqueador Nice Kleen 960 ml*, comprando detergente en polvo Foca 1 kilo.\n- *Llévate a $1 peso pasta para sopa Yemina variedad 200 gr*, comprando pan blanco Mimarca 567 gr.\n- *Llévate a $1 peso leche saborizada Nutri chocolate 190 ml*, comprando producto lácteo combinado Mimarca 950 ml.\n- *Llévate a $1 peso manteca de cerdo Muma 500 gr*, comprando 1 kilo de chuleta de cerdo natural.\n- *Llévate a $1 peso jamón de pavo Bafar 340 gr*, comprando salchicha para asar Ponderosa 800 gr.\n\nEn esta cuesta de enero, en Merco sí nos preocupamos por tu bolsillo. 👛\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 27 de enero del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

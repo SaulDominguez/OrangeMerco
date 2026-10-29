@@ -1,0 +1,28 @@
+{
+    "type": "APIEvent",
+    "name": "TEST_Ingesta_Data",
+    "description": "",
+    "createdDate": "2026-04-10T14:35:15.523",
+    "createdBy": "Alexis Dominguez",
+    "modifiedDate": "2026-04-10T14:35:15.523",
+    "modifiedBy": "Alexis Dominguez",
+    "eventDefinitionKey": "APIEvent-ce4a468a-266a-6004-3dee-daac84d8124a",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": true,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "FC81CCE5-9F26-4C2A-8202-20324FF823ED"
+}

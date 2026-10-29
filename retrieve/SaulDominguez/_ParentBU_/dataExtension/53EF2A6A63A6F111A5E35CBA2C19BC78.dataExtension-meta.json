@@ -1,0 +1,37 @@
+{
+    "CustomerKey": "53EF2A6A63A6F111A5E35CBA2C19BC78",
+    "Name": "_DeleteTracking_53EF2A6A63A6F111A5E35CBA2C19BC78",
+    "Description": "_DeleteTracking_Object Created",
+    "IsSendable": false,
+    "IsTestable": false,
+    "DataRetentionPeriodLength": 90,
+    "ResetRetentionPeriodOnImport": false,
+    "Fields": [
+        {
+            "Name": "Contact_Id",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": false,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "_CustomObjectTrackingActionType",
+            "DefaultValue": "",
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "_SourceCustomObjectKey",
+            "DefaultValue": "",
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions",
+    "c__retentionPolicy": "individialRecords",
+    "c__dataRetentionPeriodUnitOfMeasure": "Days"
+}

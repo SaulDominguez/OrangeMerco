@@ -1,0 +1,41 @@
+{
+    "customerKey": "c7f942bc-d658-43ec-9b01-582cbd480b8c",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Ya Registrado",
+    "description": "",
+    "owner": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "createdDate": "2026-02-27T15:16:05.357-06:00",
+    "createdBy": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "modifiedDate": "2026-02-27T15:16:19.01-06:00",
+    "modifiedBy": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/ya_estas_registrado"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2026-02-27 15:16:19.010",
+            "c__published": true
+        },
+        "r__asset_key": "fe0e04a8-bc87-409b-a71f-73642aba1b37"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2026/01-ENGAGEMENTCHECK"
+}

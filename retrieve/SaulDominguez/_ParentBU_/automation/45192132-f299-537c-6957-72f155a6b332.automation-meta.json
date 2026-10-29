@@ -1,0 +1,58 @@
+{
+    "name": "Whatsapp_Handle_OptOut_Request",
+    "description": "",
+    "key": "45192132-f299-537c-6957-72f155a6b332",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "startDate": "2025-03-11T18:45:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20790606;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B0EE27FC-DCD2-4EFF-A385-C4F42D630211"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "bcb7e3fa-79bf-8605-60f1-9ce16f46b9bb"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "FB96EBEF-655D-4B4C-8965-7D88AE1651A7"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "992EB1E9-BC01-46CF-BC81-8F72BE53E7AC"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2024-12-06T19:41:04.757Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-09-18T22:14:09.267Z",
+    "pausedName": "Alexis Dominguez",
+    "pausedDate": "2025-12-11T18:35:21.57Z",
+    "r__folder_Path": "my automations/Whatsapp"
+}

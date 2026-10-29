@@ -1,0 +1,85 @@
+{
+    "customerKey": "ad9509f1-3bb0-4c4b-b40c-ee9251933b8e",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-peso_140225-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-02-14T18:14:12.857-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-02-14T18:14:12.857-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "peso_140225",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "Llévate tus básicos a solo $1 Peso. 🪙🤑\n¡Chécalos! 👇🏼\n\n- *Llévate a $1 peso harina de maíz para tamal Maseca 1 kilo*, comprando aceite vegetal Gran Tradición 800 ml.\n- *Llévate a $1 peso leche condensada La Lechera 375 gr*, comprando café Nescafé Clásico 200 o 225 gr.\n- *Lleva a $1 peso manteca vegetal Lirio 500 gr*, comprando cereal Corn Flakes Kellogg's 410 gr.\n- *Llévate a $1 peso alimento para perro Gran Chunk 1 kilo*, comprando galletas Triki Trakes Marinela caja 204 gr.\n- *Llévate a $1 peso detergente en polvo Mimarca 800 gr*, comprando detergente líquido Nice Kleen 4.65 lts.\n- *Llévatela a $1 peso jamón cocido Chimex 396 gr*, comprando salchicha Viena Iberomex 800 gr.\n\nNosotros solo sabemos darte Súper Preciazos todos los días. 😉\n¡Ven a Merco y compruébalo!\n\nOfertas válidas en todas las sucursales Merco.\nOfertas válidas hasta el 17 de febrero del 2025.\n\nCTA: Revisa nuestro folleto.\nLink: https://ofertas.merco.mx/",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

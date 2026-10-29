@@ -1,0 +1,78 @@
+{
+    "customerKey": "44d274a5-013a-457d-8987-05b87d356a48",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-preciazos_tv-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-12-06T10:32:54.27-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-12-06T10:32:54.27-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "preciazos_tv",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "*¡Vive tus películas y series navideñas con la mejor calidad! ✨*\n\nPorque sabemos que la Calidad y los Súper Preciazos se juntan en un solo en Merco.\n\nEncuentra en cualquiera de nuestras sucursales:\n\nSmart TV Roku JVC de 43 pulgadas FHD - ¡A solo $3,999!\n\n¿Qué esperas para aprovechar este Súper Preciazo?\n¡Te esperamos! 😉\n\nPromoción válida en todas las tiendas Merco hasta el 12 de diciembre del 2024 o hasta agotar existencias.\n\nLa disponibilidad del producto puede variar por tienda.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/oferta5/SEATI?utm_source=WhatsApp&utm_medium=Mensaje&utm_campaign=EstamosDeRegaloPantalla",
+                                        "title": "¡Conoce más ofertas!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

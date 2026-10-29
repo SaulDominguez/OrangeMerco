@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "DíadeMuertos_011125",
+    "description": "",
+    "createdDate": "2025-10-31T10:40:41.24",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-10-31T10:40:41.24",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-9021921f-d20e-5b17-ca7e-d29a95205ee0",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-11-01T10:00:00",
+        "endDateTime": "2025-11-01T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "18657e0a-59be-495a-a348-6da981a8ba64",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

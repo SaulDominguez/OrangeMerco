@@ -1,0 +1,87 @@
+{
+    "customerKey": "fcc2109a-4214-46da-99cd-6050c8d33fce",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ntp_180725-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-07-18T10:55:58.733-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-07-18T10:55:58.733-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ntp_180725",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "😎 ¡Frescura y Calidad que encuentras a un Súper Preciazo!\nRevisa lo que tenemos para ti este fin de semana. 👇🏽\n\n- *Aguacate en malla* - *$29.99*\n- *Chile jalapeño*, *Limón agrio* o *Piña miel* - *$24.99 kg c/u*\n- *Flecha de res p/asar* - *$109 kg*\n- *Mango Tommy* o *Melón chino* - *$19.99 kg c/u*\n- Producto lácteo *MiMarca* 950 ml - *$12.99*\n- Aceite *Hogar* 800 ml - *$24.99*\n- Detergente *Foca* 1 kg - *$33.99*\n- Papel higiénico *MiMarca* o *Regio Rinde +* - *$45.99*\n- Galletas *La Moderna* y *Tres Estrellas* - *¡Con un 30% de descuento!*\n- Salchicha p/asar *Chimex* 800 g - *$67.99*\n\n¡Ven por tus favoritos a Merco, donde siempre hay más por menos! 🛒💚\n\nOfertas válidas en todas las sucursales Merco.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 21 de julio de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

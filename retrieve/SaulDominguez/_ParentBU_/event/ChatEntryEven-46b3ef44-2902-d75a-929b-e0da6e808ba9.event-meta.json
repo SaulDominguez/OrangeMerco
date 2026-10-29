@@ -1,0 +1,104 @@
+{
+    "type": "ChatEntryEvent",
+    "name": "Inbound Chat",
+    "description": "whatsapp",
+    "createdDate": "2024-12-06T13:13:31.627",
+    "createdBy": "Aidee Orange",
+    "modifiedDate": "2024-12-06T13:13:31.627",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "ChatEntryEven-46b3ef44-2902-d75a-929b-e0da6e808ba9",
+    "schema": {
+        "fields": [
+            {
+                "name": "ContactKey",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "MobileNumber",
+                "dataType": "phone",
+                "isNullable": false,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "ChannelType",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "ChannelId",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            },
+            {
+                "name": "Keyword",
+                "dataType": "text",
+                "maxLength": "100",
+                "isNullable": true,
+                "defaultValue": "",
+                "isPrimaryKey": false,
+                "isDevicePreference": false
+            }
+        ],
+        "sendableCustomObjectField": "contactKey",
+        "sendableSubscriberField": "_subscriberKey"
+    },
+    "sourceApplicationExtensionId": "6ec1b29b-1a59-4854-ac57-abf03035fbba",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "https://jb-chat-messaging.s13.marketingcloudapps.com/inbound-chat/images/icon.svg",
+    "arguments": {
+        "serializedObjectType": 0,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {
+        "applicationExtensionKey": "ChatEntryEvent",
+        "channelType": "whatsapp",
+        "appChannelName": "Ofertas Merco",
+        "channelId": "5218115537251",
+        "keywords": "[{\"keyword\":\"No deseo recibir mensajes\",\"operator\":\"contains\"}]",
+        "appId": "136035249587888",
+        "eventDefinitionKey": "ChatEntryEven-46b3ef44-2902-d75a-929b-e0da6e808ba9"
+    },
+    "metaData": {
+        "icon": "https://jb-chat-messaging.s13.marketingcloudapps.com/inbound-chat/images/icon.svg",
+        "iconSmall": null,
+        "statsContactIcon": null,
+        "original_icon": "images/icon.svg",
+        "ottPlatform": "whatsapp",
+        "ottChannel": "5218115537251",
+        "summary": {
+            "title": "Inbound Chat",
+            "hideName": true,
+            "items": [
+                {
+                    "label": "Channel",
+                    "fieldName": "appChannelName",
+                    "value": "whatsapp - Ofertas Merco"
+                }
+            ]
+        },
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": true,
+    "r__dataExtension_key": "151B35DE-16D3-4527-A634-4642184A7819"
+}

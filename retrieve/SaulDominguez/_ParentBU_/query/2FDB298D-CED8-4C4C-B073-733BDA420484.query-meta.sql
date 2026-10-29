@@ -1,0 +1,42 @@
+SELECT
+    s.GUID AS Contact_Id,
+    s.Correo AS Email,
+    s.Nombres AS Nombre,
+    s.Apellidos AS Apellido,
+    s.Phone_52 AS Phone,
+    NULL AS Sucursal,
+    NULL AS NumSucursal,
+    NULL AS FechaNacimiento,
+    'MX' AS Locale,
+    NULL AS Genero,
+    NULL AS Estado,
+    NULL AS Ciudad,
+    NULL AS MedioComunicacion,
+    NULL AS Frecuencia,
+    NULL AS Colonia,
+    NULL AS OptInWhatsapp,
+    NULL AS frutasVerduras,
+    NULL AS Salchichoneria,
+    NULL AS CarnesPescados,
+    NULL AS Panaderia,
+    NULL AS abarrotes,
+    NULL AS articulosBebe,
+    NULL AS bebidas,
+    NULL AS higieneCuidadoPersonal,
+    NULL AS MercanciasGenerales,
+    0 AS OptOutWhatsapp,
+    s.Zona AS Zona,
+    NULL AS NoRecibirComunicacion,
+    0 AS ClienteNL,
+    0 AS ClienteSALT,
+    0 AS ClienteMVA_CARB_PN,
+    GETDATE() AS DateModified,
+    NULL AS ServicioDomicilio,
+    NULL AS WA_VIP,
+    NULL AS WA_ALL,
+    0 AS SMS_codigo_entry
+FROM
+    Contactos_SFTP_Recibieron_Comunicacion s
+    LEFT JOIN BDD_General_Completa b ON s.GUID = b.Contact_Id
+WHERE
+    b.Contact_Id IS NULL

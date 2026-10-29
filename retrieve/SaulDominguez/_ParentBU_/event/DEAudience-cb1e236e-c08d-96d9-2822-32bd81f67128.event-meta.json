@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST2 - Fiestononon_Whatsapp_10-10-2023  (Copy)",
+    "description": "",
+    "createdDate": "2023-10-20T11:01:25.597",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-10-20T11:46:53.097",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-cb1e236e-c08d-96d9-2822-32bd81f67128",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b9bb0e40-4c3c-4bd5-8fac-b2fc46e24ec5",
+    "r__dataExtension_key": "59D382B5-E9B3-4733-8D55-4C72504F81B5"
+}

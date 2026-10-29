@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Test_Merconviene_WhatsApp",
+    "description": "",
+    "createdDate": "2025-08-13T15:01:07.443",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2025-08-13T18:39:37.71",
+    "modifiedBy": "Monica Rojano",
+    "eventDefinitionKey": "DEAudience-68eebdea-bf15-4d6e-1dd7-7018d90c0309",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "90e5692c-0873-491e-9ac8-e23b4d8d5f45",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

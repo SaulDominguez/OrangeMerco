@@ -1,0 +1,85 @@
+{
+    "name": "Whatsapp Blacklist",
+    "description": "",
+    "key": "3bfde09f-c969-f248-42fe-ea29aff913f5",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2025-06-17T08:12:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "8BEFB244-BE1F-433D-AE9F-B84F992EB95C"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "de4dec29-6266-45c2-97f5-beddf60bcc79"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "89d5c58a-ca9c-4f85-adf3-86e57364f865"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "505E4C6B-107B-4976-93EB-B9BEA9DBEA33"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B18D3BEA-67FA-4296-B65F-081BCE96CCDA"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "208BBABE-6DD2-447B-9F18-AA24FB705029"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-01-16T18:08:21.173Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-09-18T22:18:53.093Z",
+    "pausedName": "Guty Hernandez",
+    "pausedDate": "2025-09-18T22:19:37.787Z",
+    "notifications": [
+        {
+            "email": [
+                "ghernandez@orangedcx.com"
+            ],
+            "message": "",
+            "type": "Error"
+        }
+    ],
+    "r__folder_Path": "my automations/Whatsapp"
+}

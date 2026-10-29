@@ -1,0 +1,24 @@
+{
+    "name": "Test_Filtro_Email",
+    "description": "",
+    "key": "f75d6f11-a939-49bd-a9f2-d9a00b33a1b1",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "filter",
+                    "r__key": "21CECC03-2F9F-44E6-8476-44F14D09E807"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2023-12-28T22:24:07.503Z",
+    "modifiedName": "Martín Orange",
+    "modifiedDate": "2023-12-28T22:24:10.58Z",
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_test_reminder_170926",
+    "description": "",
+    "createdDate": "2026-09-17T12:30:46.533",
+    "createdBy": "Diana Ayala",
+    "modifiedDate": "2026-09-17T14:02:49.307",
+    "modifiedBy": "Diana Ayala",
+    "eventDefinitionKey": "DEAudience-8aac9f84-76c5-78ed-1473-9e1f696acda4",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-09-17T14:05:00",
+        "endDateTime": "2026-09-17T14:05:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "eddd2f3f-622f-4abd-8209-35d6854dbd97",
+    "r__dataExtension_key": "9D951ABB-D836-44BA-8CEB-35A4B2C28C60"
+}

@@ -1,0 +1,87 @@
+{
+    "customerKey": "350adac7-7ea5-4643-8e5f-220c2dfbff83",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-dinamicaminutoparaganar_100425-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-10T16:59:09.757-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-10T16:59:09.757-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "dinamicaminutoparaganar_100425",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡*ÚLTIMOS DÍAS PARA PARTICIPAR* y ser uno de 3 ganadores de *1 MINUTO DE DESPENSA GRATIS*! ⏱️ 🎉\n\nGana 1 minuto para llenar tu carrito de compras con todos los productos que puedas. 🛒💨\n\nParticipa siguiendo estos pasos:\n1️⃣Sube tu ticket de $149 o más donde incluyas al menos dos productos de las marcas participantes *Saladitas, Tostitos, Atún Dolores, Helados Holanda, FUD Cuidat+ y Consomate*.\n2️⃣Registra tus datos y tu ticket de compra en el botón de abajo. 👇\n\n¡Y ya estás participando!🤞\n\n⏳ Tienes hasta el 16 de abril para participar. ¡No dejes pasar esta gran oportunidad! 💥",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://cloud.hello.merco.email/cuaresma",
+                                        "title": "¡Participa aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Revisa términos y condiciones."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

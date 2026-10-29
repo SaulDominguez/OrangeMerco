@@ -1,0 +1,33 @@
+{
+    "name": "Extract_Remainder_061025",
+    "description": "",
+    "key": "d247db09-bf56-691a-7a8c-d1f5646fd89a",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "90F2485E-8864-43C5-908A-4EA779D9256B"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "a6356103-2816-4b7d-b211-dbb1b9551c3f"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2025-10-07T00:22:09.54Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2025-10-07T00:23:46.51Z",
+    "r__folder_Path": "my automations"
+}

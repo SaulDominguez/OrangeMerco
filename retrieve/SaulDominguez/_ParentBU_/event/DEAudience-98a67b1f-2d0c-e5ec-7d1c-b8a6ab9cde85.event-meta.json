@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_TEST_SMS_shortcode_new",
+    "description": "",
+    "createdDate": "2026-03-10T18:18:57.343",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2026-03-10T18:18:57.343",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-98a67b1f-2d0c-e5ec-7d1c-b8a6ab9cde85",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b962e228-8eec-4cb1-86ca-3b8d737fa553",
+    "r__dataExtension_key": "9D951ABB-D836-44BA-8CEB-35A4B2C28C60"
+}

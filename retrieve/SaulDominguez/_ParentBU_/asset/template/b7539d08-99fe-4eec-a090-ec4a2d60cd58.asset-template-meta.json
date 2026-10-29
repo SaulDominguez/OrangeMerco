@@ -1,0 +1,87 @@
+{
+    "customerKey": "b7539d08-99fe-4eec-a090-ec4a2d60cd58",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-listacontulista_120725-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-07-11T00:16:05.613-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-07-11T00:16:05.613-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "listacontulista_120725",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "📚🖍️ ¡Todo lo que necesitas para el regreso a clases está en Merco! 🎒✏️\n\n- Cuaderno Profesional Tasky 100 hojas - *$18.99*\n- Lápiz *Dixon* No.2 C/5 - *$17.99*\n- *Colores Mapita* largos C/12 - *$34.99*\n- Bolígrafo *Bic Fashion* C/10 - *$39.99*\n- Borrador *Barrilito* Migajón C/3 - *$29.99*\n- Tijeras *Delta* Escolares - *$15.99*\n- Calculadora *Barrilito* - *$42.99*\n- Lápiz adhesivo *Resistol* C/12 piezas 10gr - *$24.99*\n- *Calceta escolar* con 2 pares, varias tallas - *$27.99*\n- *Papel Contact* 10 m - *$169* / 20 m - *$269*\n\n🎒 Y además: *¡20% de descuento en TODAS las mochilas de licencia RUZ, artículos Kores, y útiles Combate y Colorcitos!*\n\n📍 Ven a tu Merco más cercano y prepárate con todo para este ciclo escolar.\nAquí SÍ ahorras. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 24 de julio de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

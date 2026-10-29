@@ -1,0 +1,94 @@
+{
+    "customerKey": "79c3ea1e-8845-4913-b91a-f8d72c9f6710",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-dinamica_mama_v2_090526-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2026-05-08T15:07:54.237-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2026-05-08T15:07:54.237-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "templateId": "2127882364629197",
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "dinamica_mama_v2_090526",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡QUEDAN POCOS DÍAS PARA PARTICIPAR! 🥳\n\nNo te quedes sin darle el mejor regalo a mamá con una renovación de muebles para el hogar. 💖\n\nTe doy 3 promos con las que puedas participar. 👇🏽\n\n- Desodorantes en aerosol *Secret* y *Old Spice* (excepto línea Clinical)\n💰 *¡2 x $100!*\n- Todos los *Tintes Koleston Deluxe*\n💰 *¡2 x $119!*\nRastrillo para *Dama Venus Suave 3H* paq. con 4 piezas\n💰 *A solo $99.99*\n\nSube tu ticket de compra en la publicación que está en el botón de aquí abajo y ya estarás participando. 👇🏽\n\n_Ofertas válidas en TODOS las tiendas Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://www.facebook.com/MercoSupermercado/posts/pfbid02ZdVk5tkMbSTW4gPwHrxtTQhHN58YfwemKgm5REqL69ZjyLfUTjWeUSxh6dhXHR6cl",
+                                        "title": "¡Participa aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                        "title": "Hablar con un asesor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button3": {
+                                        "id": "button3",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 10 de mayo de 2026."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

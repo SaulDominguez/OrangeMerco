@@ -1,0 +1,28 @@
+{
+    "type": "APIEvent",
+    "name": "SMS_APP_Codigo",
+    "description": "",
+    "createdDate": "2026-03-24T18:33:15.297",
+    "createdBy": "Alexis Dominguez",
+    "modifiedDate": "2026-03-24T18:33:15.297",
+    "modifiedBy": "Alexis Dominguez",
+    "eventDefinitionKey": "APIEvent-9769cb07-4e46-9704-84e8-f12d448eb1d9",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 4,
+    "isVisibleInPicker": true,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "05607BB0-5E6F-4183-9B77-FA0A4FE25F0A"
+}

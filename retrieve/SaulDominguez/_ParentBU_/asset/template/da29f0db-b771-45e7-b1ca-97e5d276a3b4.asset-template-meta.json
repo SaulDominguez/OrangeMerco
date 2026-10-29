@@ -1,0 +1,80 @@
+{
+    "customerKey": "da29f0db-b771-45e7-b1ca-97e5d276a3b4",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-festival_de_la_mascota_31024",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-05-31T20:30:58.427-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-05-31T20:30:58.427-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "festival_de_la_mascota_31024",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Los peluditos del hogar se consienten en Merco! 🐱🐶\n\nTenemos Súper Preciazos que les encantarán a tus mascotas.\n\nCheca los productos que tenemos:\n\n🐶 Alimento p/perro Pedigree variedad 2 kilos - $119,00\n🐕 Alimento p/perro Dog Chow variedad 4 kilos - $219,00\n🐩 Alimento p/perro Mainstay 15 kilos - $469,00\n🐱 Alimento p/gato Whiskas carne original 500 gr - $34,99\n🐾 Alimento p/perro Gran Chunk todas las razas 9 kilos - $219,00\n🐕‍🦺 Alimento p/perro Ganador variedad 2 kilos - $129,00\n🐈 Alimento p/gato Minino 1.3 kilos - $74,99\n🐾 Arena para gato Clean & Dry Premium 7.7 kilos - $64,99\n\nY aún tenemos más Súper Preciazos para tus compañeros peluditos. 🥰\n\nTe esperamos en tu Merco más cercano para vivir el Festival de la Mascota.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "A tus peluditos lo mejor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas del 1 al 4 de junio del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

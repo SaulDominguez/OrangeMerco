@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Propuesta_Whatsapp_Dic_V2",
+    "description": "",
+    "createdDate": "2024-12-04T20:35:05.993",
+    "createdBy": "Aidee Orange",
+    "modifiedDate": "2024-12-04T20:35:05.993",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "DEAudience-fc9b2589-0d02-b3a5-cd38-3dfdaa7ca265",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e9262c00-d6e0-4b9b-a656-b722a5524e6c",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

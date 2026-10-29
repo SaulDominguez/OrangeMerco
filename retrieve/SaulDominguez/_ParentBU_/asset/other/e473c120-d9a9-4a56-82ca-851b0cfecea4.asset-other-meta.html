@@ -1,0 +1,80 @@
+document.addEventListener("DOMContentLoaded", () => {
+ document.querySelector("form").addEventListener("submit", handleSubmit);
+}
+);
+function handleSubmit(e) {
+ e.preventDefault();
+ const formData = new FormData(e.target);
+ const nombre = formData.get("nombre");
+ const apellidos = formData.get("apellidos");
+ const Genero = formData.get("genero");
+ const telefono = formData.get("celular");
+ const fechaNacimiento = formData.get("fecha_nacimiento");
+ const Sucursal = formData.get("Sucursal");
+ const privacidad = formData.get("privacidad");
+ const comunicacion = formData.get('comunicacion')
+
+ //Regex
+ const telefonoRegex =
+  /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+ const correoRegex =
+  /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+ // Para Date() Enero = 0, Diciembre = 11
+ var today = new Date();
+ var fechaMayorEdad = new Date();
+ var fechaNacimientoFormatted = new Date(fechaNacimiento);
+ fechaMayorEdad.setDate(today.getDate() - 6572);
+ fechaNacimientoFormatted.setDate(
+  fechaNacimientoFormatted.getDate() + 1
+ );
+ if (!nombre.trim()) {
+  showAlert("nombre");
+  return;
+ }
+ if (!apellidos.trim()) {
+  showAlert("apellidos");
+  return;
+ }
+ if (!Genero) {
+  showAlert("genero")
+  return
+ }
+ 
+ if (fechaNacimiento) {
+  if (fechaNacimientoFormatted >= fechaMayorEdad) {
+    showAlert("fecha_nacimiento", 'Debe ser mayor de edad');
+    return;
+  }
+}
+
+ if(!telefono) {
+  showAlert("celular")
+ }
+
+ if (!telefonoRegex.test(telefono)) {
+  showAlert("celular", "Debe ser un número telefónico válido");
+  return;
+ }
+ if (!Sucursal) {
+  showAlert("sucursal");
+  return;
+ }
+ if (!privacidad) {
+  showAlert("privacidad");
+  return;
+ }
+ e.target.submit();
+}
+function showAlert(id, msg = null) {
+ console.log('failure', id)
+ const alert = document.getElementById(`${id}_solicitud_error`);
+ if (msg) {
+  alert.innerHTML = msg
+ }
+ alert.classList.remove("d-none");
+ alert.parentElement.parentElement.scrollIntoView({
+  behavior: "smooth",
+ }
+ );
+ setTimeout(() => alert.classList.add("d-none"), 5000);
+}

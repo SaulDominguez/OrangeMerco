@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "SuperTazon_GRAL-070225 ",
+    "description": "",
+    "createdDate": "2025-02-07T13:13:18.78",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-02-07T13:14:15.487",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-a1855e9f-919e-d3e5-3f50-397339d20886",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "7562089f-95c4-44eb-adc7-e3a0ab790367",
+    "r__dataExtension_key": "A139ECE8-AA71-4EFD-9A63-ABB43E162F5E"
+}

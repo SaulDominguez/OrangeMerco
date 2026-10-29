@@ -1,0 +1,89 @@
+<script runat="server">
+    Platform.Load('Core', '1.1.1');
+
+    try {
+        var deExternalKey = '563C8D83-FEA9-456F-8B14-9D6AAF1D15D2'; // Update if different
+
+        var prox = new Script.Util.WSProxy();
+
+        // Step 1: Retrieve the Data Extension ObjectID
+        var cols = ['ObjectID', 'CustomerKey', 'Name'];
+        var filter = {
+            Property: 'CustomerKey',
+            SimpleOperator: 'equals',
+            Value: deExternalKey
+        };
+
+        var result = prox.retrieve('DataExtension', cols, filter);
+
+        if (result.Status == 'OK' && result.Results.length > 0) {
+            var deObjectID = result.Results[0].ObjectID;
+            Write(
+                'Found DE: ' + result.Results[0].Name + ' (ObjectID: ' + deObjectID + ')<br><br>'
+            );
+
+            // Step 2: Retrieve existing fields to check for duplicates
+            var fieldCols = ['Name', 'FieldType'];
+            var fieldFilter = {
+                Property: 'DataExtension.CustomerKey',
+                SimpleOperator: 'equals',
+                Value: deExternalKey
+            };
+            var existingFields = prox.retrieve('DataExtensionField', fieldCols, fieldFilter);
+            var existingFieldNames = [];
+            if (existingFields.Status == 'OK') {
+                for (var e = 0; e < existingFields.Results.length; e++) {
+                    existingFieldNames.push(existingFields.Results[e].Name.toUpperCase());
+                }
+            }
+            Write('Existing fields: ' + existingFieldNames.join(', ') + '<br><br>');
+
+            // Step 3: Define Boolean fields to add
+            var newFieldNames = ['FLOW', 'HBO', 'Universal', 'Paramount', 'Disney', 'Soccer'];
+
+            // Step 4: Add fields one at a time using updateItem on the DataExtension
+            for (var i = 0; i < newFieldNames.length; i++) {
+                // Skip if field already exists
+                if (existingFieldNames.indexOf(newFieldNames[i].toUpperCase()) > -1) {
+                    Write("SKIPPED: Field '" + newFieldNames[i] + "' already exists.<br>");
+                    continue;
+                }
+
+                var updateObj = {
+                    CustomerKey: deExternalKey,
+                    Fields: {
+                        Field: [
+                            {
+                                Name: newFieldNames[i],
+                                FieldType: 'Boolean',
+                                IsRequired: false,
+                                DefaultValue: 'False'
+                            }
+                        ]
+                    }
+                };
+
+                var updateResult = prox.updateItem('DataExtension', updateObj);
+
+                if (updateResult.Status == 'OK') {
+                    Write("SUCCESS: Added field '" + newFieldNames[i] + "'<br>");
+                } else {
+                    Write(
+                        "ERROR adding '" +
+                            newFieldNames[i] +
+                            "': " +
+                            Stringify(updateResult) +
+                            '<br>'
+                    );
+                }
+            }
+
+            Write('<br>Process completed!');
+        } else {
+            Write("ERROR: Data Extension '" + deExternalKey + "' not found.<br>");
+            Write('Debug: ' + Stringify(result));
+        }
+    } catch (ex) {
+        Write('EXCEPTION: ' + Stringify(ex));
+    }
+</script>

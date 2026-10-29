@@ -1,0 +1,27 @@
+{
+    "CustomerKey": "BDF30FC3-38F6-46E9-A2F0-9D3C58468ABF",
+    "Name": "WhatsappOrderRank",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "Variable",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Rank",
+            "DefaultValue": "",
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Number"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/WhatsappBounces",
+    "c__retentionPolicy": "none"
+}

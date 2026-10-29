@@ -1,0 +1,29 @@
+{
+    "name": "OPTIN_BDD_GENERAL",
+    "description": "",
+    "key": "0cb7d9a4-f4fa-3f4f-b210-dc4cfd979560",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2026-08-29T08:00:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "0e0c30b4-af8b-0368-c9f6-b453dab755c7"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-08-28T20:13:33.67Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-08-28T20:13:57.943Z",
+    "r__folder_Path": "my automations/OrangeDCX/02_BDD"
+}

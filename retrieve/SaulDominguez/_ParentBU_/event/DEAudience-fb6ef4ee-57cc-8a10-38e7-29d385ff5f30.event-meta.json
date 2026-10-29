@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Servicio_A_Domicilio_230126",
+    "description": "",
+    "createdDate": "2026-01-21T17:33:32.78",
+    "createdBy": "Facundo García",
+    "modifiedDate": "2026-01-23T16:29:05.553",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-fb6ef4ee-57cc-8a10-38e7-29d385ff5f30",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b71372aa-447a-4a55-b71b-0aeddb80e6d6",
+    "r__dataExtension_key": "0722BF27-576C-4AC7-B48B-12E027D25EAE"
+}

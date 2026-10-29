@@ -1,0 +1,41 @@
+{
+    "customerKey": "2b790f96-db89-4f95-8d0a-632dff2fde2e",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Cuaresma registro",
+    "description": "",
+    "owner": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "createdDate": "2025-02-07T14:27:19.183-06:00",
+    "createdBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "modifiedDate": "2025-02-07T14:43:37.66-06:00",
+    "modifiedBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/cuaresma_datos_registrados"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-02-07 14:43:37.660",
+            "c__published": true
+        },
+        "r__asset_key": "9df540c8-35b6-44f7-85bc-a35a0242ebc8"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/Presiazos Cuaresma"
+}

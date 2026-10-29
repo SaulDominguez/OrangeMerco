@@ -1,0 +1,33 @@
+{
+    "name": "SMS INBOUND TEST",
+    "description": "",
+    "key": "8943245e-ae2d-80fd-6e3c-0f08df7e2910",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "D681C1C8-DB6F-4710-BEA7-24CB76D3F196"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "4d1e9e31-04ae-4591-93c5-8ba67a23da4d"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-08-01T12:42:49.72Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-08-01T12:46:13.147Z",
+    "r__folder_Path": "my automations/Test"
+}

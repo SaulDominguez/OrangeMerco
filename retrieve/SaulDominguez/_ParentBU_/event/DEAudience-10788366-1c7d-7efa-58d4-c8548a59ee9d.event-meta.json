@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "DINAMICA_CUARESMA_110325",
+    "description": "",
+    "createdDate": "2025-03-11T09:53:48.503",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-03-11T18:03:29.213",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-10788366-1c7d-7efa-58d4-c8548a59ee9d",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "f02f27a6-4b24-4f62-8f73-c98bc7346383",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

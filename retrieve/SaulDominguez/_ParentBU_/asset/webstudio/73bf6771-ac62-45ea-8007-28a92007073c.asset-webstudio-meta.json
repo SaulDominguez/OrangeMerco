@@ -1,0 +1,45 @@
+{
+    "customerKey": "73bf6771-ac62-45ea-8007-28a92007073c",
+    "contentType": "application/javascript",
+    "assetType": {
+        "name": "jscoderesource",
+        "displayName": "Javascript Code Resource"
+    },
+    "version": 1,
+    "name": "ciudadEstadoSucursalInfo2",
+    "description": "",
+    "owner": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "createdDate": "2025-01-02T12:08:26.197-06:00",
+    "createdBy": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "modifiedDate": "2025-03-11T17:09:22.937-06:00",
+    "modifiedBy": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-03-11 17:09:22.937",
+            "c__published": true
+        }
+    },
+    "availableViews": [],
+    "data": {
+        "site": {
+            "content": {
+                "url": "https://cloud.hello.merco.email/ciudadEstadoSucursalInfo2"
+            }
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/Progressive-Profiling2"
+}

@@ -1,0 +1,41 @@
+{
+    "customerKey": "08c7b3f3-a82a-4769-a627-ac3c82638b8a",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "process-fiestononon-2024",
+    "description": "",
+    "owner": {
+        "email": "asantos@orangedcx.com",
+        "name": "Abraham Santos"
+    },
+    "createdDate": "2024-09-08T17:56:16.793-06:00",
+    "createdBy": {
+        "email": "asantos@orangedcx.com",
+        "name": "Abraham Santos"
+    },
+    "modifiedDate": "2024-09-08T18:15:41.457-06:00",
+    "modifiedBy": {
+        "email": "asantos@orangedcx.com",
+        "name": "Abraham Santos"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/fiestononon-process-2024"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2024-09-08 18:15:41.457",
+            "c__published": true
+        },
+        "r__asset_key": "7625bfa7-89af-4b36-af52-9fa91eac32fa"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2024/Fiestononon 2024"
+}

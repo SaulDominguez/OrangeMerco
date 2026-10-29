@@ -1,0 +1,24 @@
+{
+    "name": "bdd_General_para_Prog_Prof",
+    "description": "",
+    "key": "fa58160f-965c-6c0d-8ced-64989781fce8",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "D20D54E9-7E97-4D76-B4B8-5ADA719B325F"
+                }
+            ]
+        }
+    ],
+    "createdName": "Belen Banegas",
+    "createdDate": "2023-12-08T19:50:41.997Z",
+    "modifiedName": "Belen Banegas",
+    "modifiedDate": "2023-12-08T19:50:43.943Z",
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,26 @@
+{
+    "CustomerKey": "26EAC43F-04E2-4293-BF9D-069A37D3841A",
+    "Name": "Clientes_No_En_BDD_General",
+    "Description": "",
+    "IsSendable": true,
+    "IsTestable": false,
+    "SendableDataExtensionField": {
+        "Name": "SubscriberKey"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "Fields": [
+        {
+            "Name": "SubscriberKey",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/01_Setup/Revision_Contactos",
+    "c__retentionPolicy": "none"
+}

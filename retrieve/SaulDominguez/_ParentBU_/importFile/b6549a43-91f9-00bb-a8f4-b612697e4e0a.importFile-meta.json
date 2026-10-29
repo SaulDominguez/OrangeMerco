@@ -1,0 +1,48 @@
+{
+    "allowErrors": true,
+    "customerKey": "b6549a43-91f9-00bb-a8f4-b612697e4e0a",
+    "createdDate": "2025-10-17T13:38:31.61",
+    "modifiedDate": "2025-10-17T13:38:31.61",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "destinationObjectId": "00000000-0000-0000-0000-000000000000",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Contact_Id",
+            "destinationFieldName": "_ContactKey"
+        },
+        {
+            "sourceFieldName": "locale",
+            "destinationFieldName": "_CountryCode"
+        },
+        {
+            "sourceFieldName": "telefono",
+            "destinationFieldName": "_MobileNumber"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": false,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "ORA_Test_wapp_fiestononon",
+    "notificationEmailAddress": "moises@orangedcx.com",
+    "sendEmailNotification": true,
+    "standardQuotedStrings": false,
+    "destination": {
+        "c__type": "WhatsApp"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "EE551A56-9239-4D4B-A291-2E8A75DC243F"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

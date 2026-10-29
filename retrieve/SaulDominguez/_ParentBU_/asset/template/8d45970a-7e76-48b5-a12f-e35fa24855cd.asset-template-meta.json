@@ -1,0 +1,85 @@
+{
+    "customerKey": "8d45970a-7e76-48b5-a12f-e35fa24855cd",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-bellezaycuidadopersonal_050525-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-30T16:52:47.54-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-30T16:52:47.54-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "bellezaycuidadopersonal_050525",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "✨¡Mamá, este descuentazo es para ti!✨\nConsiente tu cuidado personal y tu estilo con *25% de DESCUENTO* en todo esto:\n\n*Tintes para dama:* D de la Vega, Nutrisse, Imédia Excellence, Preference, Palette, Revlon, Koleston, Soft Color y Miss Clairol (excepto Óleo).\n\n*Toallas femeninas:* Saba Buenas Noches, Stela con alas regular c/10 y nocturna c/8, Always con alas nocturna c/8, Fiore anatómica con o sin alas c/8 y nocturna c/8.\n\n*Desodorantes:* En aerosol Dove, Rexona, Axe, Obao, Secret, Old Spice y Gillette; en stick Speed Stick, Lady Speed Stick, Stefano; y en roll on Obao (excepto Clinical).\n\nPorque tú mereces calidad y ahorro, ¡solo en Merco! 💚🧡\n\nOfertas válidas en todas las sucursales Merco.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "Revisa nuestro folleto",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

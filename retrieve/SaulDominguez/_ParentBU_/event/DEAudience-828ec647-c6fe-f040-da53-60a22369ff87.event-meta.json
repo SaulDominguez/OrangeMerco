@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Progresive_profilling_SMS_1",
+    "description": "",
+    "createdDate": "2025-01-03T14:07:35.047",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-01-03T17:08:57.197",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-828ec647-c6fe-f040-da53-60a22369ff87",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "f9824817-ae55-479b-92e6-bccb20c4c370",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

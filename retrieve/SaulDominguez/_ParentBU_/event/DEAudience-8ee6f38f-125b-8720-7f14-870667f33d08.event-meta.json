@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Cuaresma-210325  ",
+    "description": "",
+    "createdDate": "2025-03-21T14:32:21.063",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-03-21T14:34:12.39",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-8ee6f38f-125b-8720-7f14-870667f33d08",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "431e6bf8-0e67-48ac-b743-d0a7ae9a4ca8",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

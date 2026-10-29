@@ -1,0 +1,87 @@
+{
+    "customerKey": "4ad63438-b435-4452-86e4-d5fbe2052504",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-cuaresmagral_210325-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-03-21T17:15:26.687-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-03-21T17:15:26.687-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "cuaresmagral_210325",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🌊🐟 ¡Disfruta los sabores de la Cuaresma con estas ofertas en Merco! 🛒✨\n\n- *Barritas de pescado empanizado* - *$109 kg*\n- Atún en agua o aceite *Tuny* Pouch 75 gr - *¡A un Súper Preciazo!*\n- Atún con ensalada *Dolores* 110 gr a 140 gr - *¡25% de descuento!*\n- *Filete de bagre Bassa* - *¡A un Súper Preciazo!*\n- Sardina en tomate *Guaymex* 425 gr - *$38.99*\n- Lenteja *Cazerola* 500 gr - *$16.99*\n- Galletas Tostas *Cuétara* 300 gr - *$22.99*\n- *Pan para capirotada* - *$57 kg*\n- Atún en agua o aceite *El Dorado* 130 gr - *$11.99 c/u*\n\n¡Vive la Cuaresma en Merco! 🧡💚\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "Revisa nuestro folleto",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 24 de marzo del 2025"
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

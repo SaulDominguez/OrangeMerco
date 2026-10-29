@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Merco_congelado-260724",
+    "description": "",
+    "createdDate": "2024-07-26T20:30:06.95",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-07-26T20:31:22.183",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-674ee5ac-cb6d-a453-1a5c-f1adc2bffb3a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-07-27T08:00:00",
+        "endDateTime": "2024-07-27T08:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "5ebc6916-b508-4a07-8f90-f779d7c17377",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

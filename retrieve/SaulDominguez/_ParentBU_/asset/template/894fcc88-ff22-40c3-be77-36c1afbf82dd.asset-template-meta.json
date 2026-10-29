@@ -1,0 +1,80 @@
+{
+    "customerKey": "894fcc88-ff22-40c3-be77-36c1afbf82dd",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-semanadelbebe_200924_wa-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-09-20T17:06:19.847-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-09-20T17:06:19.847-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "semanadelbebe_200924_wa",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "En la semana del bebé de Merco tenemos TODO lo indispensable para tu pequeñ@. 👶🏻 \n\nConoce los Súper Preciazos que tenemos para ti: \n\nAlimento p/bebé *Gerber* y *Heinz*, pañales *Bebin Súper* y toda la marca *Prinsel* - *¡Con 30% de descuento!*\nTodos los pañales *Baby Sec Flexi Protect*, *Suavelastic*, *Huggies Ultra Confort* y *Supreme* - *¡Con 25% de descuento!*\nToda la marca *Ricitos de Oro* y *Honeykeeper* - *¡Con 20% de descuento!*\nTodas las *toallitas húmedas para bebé* - *¡Al 3x2!*\nPañales *Bebin Super* c/40+4 piezas - *Etapa 4 $129 y Etapa 5 $139*\nPañal *Chicolastic* Etapa 3 c/40 pañales, Pañal *Kikolastic* Etapa 4 c/40 pañales, Pañal *Brazil* Etapa 3 y Etapa 4 c/40 pañales, Pañal *Tiny Maxi* Etapa 3 y Etapa 4 c/40 pañales - *$109 c/u*\nPañal *Kikolastic* Etapa 5 c/40 pañales, Pañal *Tiny Maxi* Etapa 5 c/40 pañales, Pañal *Brazil* Etapa 5 c/40 pañales o Pañal *Chicolastic Classic* Etapa 5 c/40 pañales - *$119 c/u*\n\n¿Qué le falta a tu bebé? 👩🏻‍🍼\nSolo en Merco encuentras lo que necesitas. 😉",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Conoce más aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 26 de septiembre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

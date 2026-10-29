@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "New Journey - March 10 2026 at 6.08 PM",
+    "description": "",
+    "createdDate": "2026-03-10T18:09:55.09",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2026-03-10T18:09:55.09",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-f10cacf4-365f-b968-2dc3-2c37015600db",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c3d60342-8e1f-4085-ac2b-d168923f7fbe",
+    "r__dataExtension_key": "EE551A56-9239-4D4B-A291-2E8A75DC243F"
+}

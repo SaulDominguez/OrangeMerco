@@ -1,0 +1,26 @@
+{
+    "CustomerKey": "81CCB07C-56A1-4967-864A-54A956E95726",
+    "Name": "Ora_Fiestononon_Tickets_No_Redimidos",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "SendableDataExtensionField": {
+        "Name": "Number"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "Fields": [
+        {
+            "Name": "SubscriberKey",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/06_App_Fiestononon",
+    "c__retentionPolicy": "none"
+}

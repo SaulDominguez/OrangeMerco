@@ -1,0 +1,41 @@
+{
+    "name": "Data_Extract_WA_180424",
+    "key": "D42EE40E-02D1-4B27-85CA-F40781DCA3B7",
+    "description": "extract details on WA sends to learn the cause of low deliverability rates. Case #466963181",
+    "fileSpec": "test_mo_log_%%Year%%%%Month%%%%Day%%.zip",
+    "createdDate": "2024-04-18T11:43:20.853",
+    "modifiedDate": "2024-04-18T11:52:53.643",
+    "createdBy": "Alma Arteaga",
+    "modifiedBy": "Alma Arteaga",
+    "intervalType": 0,
+    "startDate": "Mar 20 2024 12:00AM",
+    "endDate": "Apr 18 2024 12:00AM",
+    "dataFields": [
+        {
+            "name": "ChannelId",
+            "type": "string",
+            "value": "528115537251"
+        },
+        {
+            "name": "ChannelType",
+            "type": "string",
+            "value": "WHATSAPP"
+        },
+        {
+            "name": "ContactTrackingDetail",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "InboundMessageLogs",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "PotentialChannelUnsubscribes",
+            "type": "bool",
+            "value": "True"
+        }
+    ],
+    "r__dataExtractType_name": "ChatMessagingDetailExtract"
+}

@@ -1,0 +1,28 @@
+{
+    "CustomerKey": "C240238A-2ED2-4396-A575-3F4DDF86B078",
+    "Name": "Sucursales_domicilio",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "Nombre_Sucursal",
+            "DefaultValue": "",
+            "MaxLength": 100,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Sucursal",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/03_Journeys/Envio_a_domicilio",
+    "c__retentionPolicy": "none"
+}

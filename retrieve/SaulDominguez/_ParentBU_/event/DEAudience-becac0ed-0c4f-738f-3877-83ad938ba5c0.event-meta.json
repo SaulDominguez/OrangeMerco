@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "PromoNestle_070225",
+    "description": "",
+    "createdDate": "2025-02-07T14:44:45.373",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-02-07T14:44:45.373",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-becac0ed-0c4f-738f-3877-83ad938ba5c0",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b629ee7f-b54b-4420-b118-e83527a1b5ec",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

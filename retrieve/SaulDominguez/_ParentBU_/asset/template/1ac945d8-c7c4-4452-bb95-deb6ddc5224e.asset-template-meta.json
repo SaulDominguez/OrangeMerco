@@ -1,0 +1,87 @@
+{
+    "customerKey": "1ac945d8-c7c4-4452-bb95-deb6ddc5224e",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ntp_010825-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-07-31T17:11:58.523-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-07-31T17:11:58.523-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ntp_010825",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¿Ya viste los Súper Preciazos de este fin de semana? 🫣\n¡No te los pierdas! 👇🏽\n\n- *Tomate saladette* o *Chile jalapeño* – *$18.99 kg c/u*\n- *Melón chino* o *Pepino* – *$18.99 kg c/u*\n- *Molida pulpa de res 90-10* – *$119 kg*\n- *Limón agrio* – *$24.99 kg*\n- Todas las galletas dulces *Gamesa* – *¡Con un 30% de descuento!*\n- Aceite vegetal *Kártamus* 900 ml – *$29.99*\n- Detergente en polvo *Foca* 1 kilo – *$33.99*\n- Papel higiénico *MiMarca* 500 hojas c/5 + 1 rollo o Papel higiénico *Regio Rinde+* 500 hojas c/6 rollos – *$45.99 c/u*\n- Frijol pinto *De la Olla* 907 gr – *$26.99*\n- Pan dulce c/5 piezas – *$49*\n- *Telera* c/8 piezas – *$36*\n- Salchicha para asar *Sazabor* medio kilo – *$27.99*\n- Jamón horneado especial de pierna *FUD* medio kilo – *$64.99*\n\nTe esperamos en tu Merco favorito con la mejor Calidad y Frescura. 😉\n\n_Ofertas válidas en todas las las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 4 de agosto de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

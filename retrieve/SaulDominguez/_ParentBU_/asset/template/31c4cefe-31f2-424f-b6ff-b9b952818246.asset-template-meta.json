@@ -1,0 +1,87 @@
+{
+    "customerKey": "31c4cefe-31f2-424f-b6ff-b9b952818246",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-mamaesunica_020525-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-05-02T16:22:57.27-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-05-02T16:22:57.27-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "mamaesunica_020525",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "✨ Este Día de las Madres consiente a mamá y ahorra en Merco.\n\n- Toda la línea *EKCO y Vasconia* – *¡Con un 40% de descuento!*\n- Toda la línea *Tramontina, Ilko, Cinsa y Plásticos Yuliana* – *¡Con un 30% de descuento!*\n- *Secadoras, tenazas y alaciadoras Conair, sets de cremas, body, labiales, brochas y esponjas, paletas de sombras, kits Maja, Secret Scents y Pop Life* – *¡Con un 30% de descuento!*\n- Toda la línea *Philco, American, Taurus y Timco* – *¡Con un 20% de descuento!*\n- *Sandalia p/dama Twinky, plataforma negro, camel y con pines, ropa interior p/dama y brassier Jolie* (excepto tin y pantaleta de botanero) – *¡Con un 20% de descuento!*\n- *Brassier Ensueño* copa BYC (tallas iguales) – *2x1*\n- *Playeras para dama manga corta* – *$59.99*\n\n¡Merco lo tiene todo para mamá y todo a un Súper Preciazo! 🎁\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 8 de mayo del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

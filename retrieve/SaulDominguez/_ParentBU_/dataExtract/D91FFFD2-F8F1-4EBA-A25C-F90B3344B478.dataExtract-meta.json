@@ -1,0 +1,39 @@
+{
+    "name": "Data_Extract_WA_160424",
+    "key": "D91FFFD2-F8F1-4EBA-A25C-F90B3344B478",
+    "description": "Salesforce Support has requested information to resolve Case #466963181",
+    "fileSpec": "%%Year%% %%Month%% %%Day%% %%Hour%%.zip",
+    "createdDate": "2024-04-16T09:10:33.983",
+    "modifiedDate": "2024-04-19T14:42:16.553",
+    "createdBy": "Alma Arteaga",
+    "modifiedBy": "Alma Arteaga",
+    "intervalType": 6,
+    "dataFields": [
+        {
+            "name": "ChannelId",
+            "type": "string",
+            "value": "5218115537251"
+        },
+        {
+            "name": "ChannelType",
+            "type": "string",
+            "value": "WHATSAPP"
+        },
+        {
+            "name": "ContactTrackingDetail",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "InboundMessageLogs",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "PotentialChannelUnsubscribes",
+            "type": "bool",
+            "value": "True"
+        }
+    ],
+    "r__dataExtractType_name": "ChatMessagingDetailExtract"
+}

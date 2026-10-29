@@ -1,0 +1,6 @@
+SELECT
+    *
+FROM
+    BDD_WA_ALL
+WHERE
+    Zona IS NULL

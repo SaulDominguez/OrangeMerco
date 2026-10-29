@@ -1,0 +1,33 @@
+{
+    "name": "Chat Messaging Data Extract - Whatsapp",
+    "description": "Case - 466963181",
+    "key": "5837b943-2ab9-ce54-6ec3-832fbc50b23b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "D91FFFD2-F8F1-4EBA-A25C-F90B3344B478"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "9fe4b5d1-9673-4db2-b079-65624872c1e5"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alma Arteaga",
+    "createdDate": "2024-04-16T15:15:52.653Z",
+    "modifiedName": "Alma Arteaga",
+    "modifiedDate": "2024-04-19T20:42:19.84Z",
+    "r__folder_Path": "my automations"
+}

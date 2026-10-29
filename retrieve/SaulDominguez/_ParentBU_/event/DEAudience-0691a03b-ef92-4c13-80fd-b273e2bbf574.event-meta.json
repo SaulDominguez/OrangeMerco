@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ora_test_reminder_whatsapp_270826",
+    "description": "",
+    "createdDate": "2026-08-27T10:25:23.647",
+    "createdBy": "Diana Ayala",
+    "modifiedDate": "2026-08-27T12:44:48.077",
+    "modifiedBy": "Diana Ayala",
+    "eventDefinitionKey": "DEAudience-0691a03b-ef92-4c13-80fd-b273e2bbf574",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "fdbd62d1-6064-4764-8326-70e073b2d2f7",
+    "r__dataExtension_key": "9D951ABB-D836-44BA-8CEB-35A4B2C28C60"
+}

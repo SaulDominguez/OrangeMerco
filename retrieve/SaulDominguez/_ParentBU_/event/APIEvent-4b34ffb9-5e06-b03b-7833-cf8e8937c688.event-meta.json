@@ -1,0 +1,29 @@
+{
+    "type": "APIEvent",
+    "name": "Ora_Pre_Fiestononon_Entry",
+    "description": "",
+    "createdDate": "2026-07-13T17:22:45.43",
+    "createdBy": "Alexis Dominguez",
+    "modifiedDate": "2026-07-13T17:24:00.653",
+    "modifiedBy": "Alexis Dominguez",
+    "eventDefinitionKey": "APIEvent-4b34ffb9-5e06-b03b-7833-cf8e8937c688",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "criteria": "",
+        "useHighWatermark": false,
+        "automationId": "00000000-0000-0000-0000-000000000000"
+    },
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": ""
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": true,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "796D2A09-46BE-4969-A813-0CBE4D7CE010"
+}

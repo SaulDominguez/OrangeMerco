@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "New Journey - December 22 2023 at 2.15 PM",
+    "description": "",
+    "createdDate": "2023-12-22T14:17:09.08",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2023-12-22T14:17:09.08",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-7fcf32bb-dd6f-e048-0763-221b71a9b236",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "49666f6d-ae5b-490e-87e6-4740b69823e9",
+    "r__dataExtension_key": "B884DEEF-02FA-4A5C-8169-2148D0F04EB5"
+}

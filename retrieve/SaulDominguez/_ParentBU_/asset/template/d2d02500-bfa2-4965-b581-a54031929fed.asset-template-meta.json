@@ -1,0 +1,80 @@
+{
+    "customerKey": "d2d02500-bfa2-4965-b581-a54031929fed",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-laespecialidaddelacasa_070624",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-06-07T08:33:58.563-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-06-07T08:33:58.563-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "laespecialidaddelacasa_070624",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Te traemos la especialidad de la casa! 😎🏡\n\nEn Merco tenemos nuestros propios productos, con la Calidad y Súper Preciazos de siempre.\n\nConoce las ofertas que tenemos para ti 👇🏽\n\n🍚 Arroz súper extra Mimarca 750 gr - $13.99\n💧 Agua purificada para bebé Mimarca 6 lts - $19.99\n🧻 Toallitas húmedas Mimarca c/80 piezas - $17.99\n🧾 Papel aluminio Mimarca 7.6 mts - $13.99\n🐟 Atún en agua o aceite Mimarca 130 gr - $9.99\n🧴 Limpiador Nice Kleen lavanda 10 lts - $89.99\n\nConoce todos los demás productos de nuestra marca que tenemos para ti. \n¡Solo en Merco!",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Conoce más!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas del 7 al 13 de junio de 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

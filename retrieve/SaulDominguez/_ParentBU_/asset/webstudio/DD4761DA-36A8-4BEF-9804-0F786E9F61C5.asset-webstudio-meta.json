@@ -1,0 +1,39 @@
+{
+    "customerKey": "DD4761DA-36A8-4BEF-9804-0F786E9F61C5",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "name": "Opt-out whatsApp process",
+    "description": "",
+    "owner": {
+        "email": "martin@orangedcx.com",
+        "name": "Martín Orange"
+    },
+    "createdDate": "2024-04-23T08:15:41.047-06:00",
+    "createdBy": {
+        "email": "martin@orangedcx.com",
+        "name": "Martín Orange"
+    },
+    "modifiedDate": "2024-12-06T13:40:20.437-06:00",
+    "modifiedBy": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/whats-app-out"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2024-12-06 13:40:20.437",
+            "c__published": true
+        },
+        "r__asset_key": "1b28acb6-0c8a-4268-bab9-4144d555e1ac"
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2023/Opt-out"
+}

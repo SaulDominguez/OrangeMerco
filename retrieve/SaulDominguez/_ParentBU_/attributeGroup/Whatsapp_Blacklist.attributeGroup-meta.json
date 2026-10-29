@@ -1,0 +1,23 @@
+{
+    "isOwner": true,
+    "isHidden": false,
+    "canAddProperties": true,
+    "canAddRelationships": true,
+    "canRemove": true,
+    "canChangeProperties": true,
+    "displayOrder": 15,
+    "requiredRelationships": [],
+    "canModify": true,
+    "attributeGroupIconKey": "et-icon-mobile-",
+    "attributeGroupType": "Standard",
+    "attributeCount": 8,
+    "definitionName": {
+        "value": "Whatsapp_Blacklist"
+    },
+    "definitionKey": "Whatsapp_Blacklist",
+    "r__attributeSet_key": [
+        "WhatsappBouncesCount",
+        "Exclusion_Remainder"
+    ],
+    "description": ""
+}

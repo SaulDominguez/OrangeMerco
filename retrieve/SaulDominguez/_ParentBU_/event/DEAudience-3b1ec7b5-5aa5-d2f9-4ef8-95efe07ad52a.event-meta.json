@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Cuaresma-130326",
+    "description": "",
+    "createdDate": "2026-03-13T11:49:53.92",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2026-03-13T11:52:05.543",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-3b1ec7b5-5aa5-d2f9-4ef8-95efe07ad52a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-03-13T12:30:00",
+        "endDateTime": "2026-03-13T12:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "0480d216-abc5-4e00-b17f-acd69ac73c00",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

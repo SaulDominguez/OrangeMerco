@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Purina_Patrocinio_091026",
+    "description": "",
+    "createdDate": "2026-10-07T16:54:10.093",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-10-07T16:54:10.093",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-8c729ea5-acf4-2ed3-273f-8aa814305ee1",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-10-09T09:00:00",
+        "endDateTime": "2026-10-09T09:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "9e5e0456-74e1-492c-bafa-ab23521eb256",
+    "r__dataExtension_key": "30FCBA31-AA73-4582-87EF-FB127FEE16EE"
+}

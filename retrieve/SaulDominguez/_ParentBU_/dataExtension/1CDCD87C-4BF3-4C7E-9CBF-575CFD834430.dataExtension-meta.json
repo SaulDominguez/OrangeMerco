@@ -1,0 +1,20 @@
+{
+    "CustomerKey": "1CDCD87C-4BF3-4C7E-9CBF-575CFD834430",
+    "Name": "Bounces_ASL_Email_081225",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "Email",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "EmailAddress"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/01_Setup/Borrado",
+    "c__retentionPolicy": "none"
+}

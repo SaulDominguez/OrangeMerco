@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "DíaDelPadre_130625_V2",
+    "description": "",
+    "createdDate": "2025-06-13T14:41:30.157",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-06-13T14:46:24.52",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-ad205d95-ac7b-4227-8e42-e70c46754db6",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-06-14T11:00:00",
+        "endDateTime": "2025-06-14T11:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "bd94cf9a-fc89-46e6-b475-c4aa3f5aa287",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

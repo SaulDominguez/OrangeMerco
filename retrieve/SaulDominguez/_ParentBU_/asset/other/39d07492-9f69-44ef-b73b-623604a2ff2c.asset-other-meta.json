@@ -1,0 +1,32 @@
+{
+    "customerKey": "39d07492-9f69-44ef-b73b-623604a2ff2c",
+    "assetType": {
+        "name": "codesnippetblock",
+        "displayName": "Code Snippet Block"
+    },
+    "fileProperties": {
+        "fileName": "GetAutomationInventory"
+    },
+    "name": "GetAutomationInventory",
+    "owner": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "createdDate": "2024-12-19T09:25:40.467-06:00",
+    "createdBy": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "modifiedDate": "2024-12-19T09:38:48.78-06:00",
+    "modifiedBy": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder/OrangeDCX"
+}

@@ -1,0 +1,175 @@
+<!doctype html>
+<html class="no-js" lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Fiestononón-Merco-Registros</title>
+        <meta name="description" content="Tabla de registros" />
+        <link href="https://merco.mx/images/favicon.png" rel="shortcut icon" type="image/x-icon" />
+
+        <!-- CSS BOOTSTRAP -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+        <!-- CSS -->
+        <link rel="stylesheet" href="https://cloud.hello.merco.email/style-fiestononon" />
+    </head>
+
+    <body>
+        <div class="container-fluid noPadding">
+            <!-- Content -->
+            <header>
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-10 col-lg-8 col-xl-6">
+                        <img
+                            src="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/892417a8-10f3-4ae9-a0fa-76bd28d85a37.jpg"
+                            alt="Fiestononón Merco"
+                            class="img-fluid"
+                        />
+                    </div>
+                </div>
+            </header>
+
+            <section class="section1 pt-2 pb-4 pt-md-5 pb-md-5">
+                <div class="row justify-content-center">
+                    <div class="col-11 col-md-11 col-lg-10 col-xl-9 col-xxl-7 noPadding">
+                        <h1 class="text-center mb-2 mb-md-2">Consulta los registros</h1>
+                        <div class="row">
+                            <div class="col-12 col-sm-10 col-md-9 col-lg-8  mx-auto my-4">
+                                <div class="input-group">
+                                    <select
+                                        class="form-select smallSelect col-lg-2 mx-2"
+                                        aria-label="Default select example"
+                                        name="field"
+                                        id="field"
+                                    >
+                                        <option selected value="Correo">Correo</option>
+                                        <option value="Nombre">Nombre</option>
+                                        <option value="Apellido">Apellido</option>
+                                        <option value="Ticket">No. de ticket</option>
+                                    </select>
+                                    <input
+                                        class="form-control border  search"
+                                        type="search"
+                                        placeholder="Busca el registro..."
+                                        id="search-input"
+                                    />
+                                    <button class="iconSearch" onclick="search()">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center contentForm table">
+                            <div class="col-12 p-2 p-md-5">
+                                <div class="contentTable">
+                                    <table class="w-100">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Fecha</th>
+                                                <th scope="col">Tienda</th>
+                                                <th scope="col">Conteo participantes</th>
+                                                <th scope="col">Conteo boletos</th>
+                                                <th scope="col">Conteo premios</th>
+                                                <th scope="col">Suma monto</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            %%[
+                                                set @Return = 'TRUE'
+                                                set @rowsParticipantes =
+                                                    LookupOrderedRows(
+                                                        'FIESTONONON_Concentrados',
+                                                        0,
+                                                        'Fecha_Registro desc',
+                                                        'Return',
+                                                        @Return
+                                                    )
+                                                for @i = 1 to RowCount(@rowsParticipantes) do
+                                                    set @row = Row(@rowsParticipantes, @i)
+                                                    set @No_Tienda = Field(@row, 'No_Tienda')
+                                                    set @Conteo_Premio =
+                                                        Field(@row, 'Conteo_Premio')
+                                                    set @Conteo_Boleto =
+                                                        Field(@row, 'Conteo_Boleto')
+                                                    set @Monto_Ticket = Field(@row, 'Monto_Ticket')
+                                                    set @Conteo_Participantes =
+                                                        Field(@row, 'Conteo_Participantes')
+                                                    set @fecha =
+                                                        FormatDate(
+                                                            Field(@row, 'Fecha_Registro'),
+                                                            's'
+                                                        )
+                                            ]%%
+                                            <tr>
+                                                <th scope="row">%%= v(@fecha) =%%</th>
+                                                <td>%%= v(@No_Tienda) =%%</td>
+                                                <td>%%= v(@Conteo_Participantes) =%%</td>
+                                                <td>%%= v(@Conteo_Boleto) =%%</td>
+                                                <td>%%= v(@Conteo_Premio) =%%</td>
+                                                <td>%%= v(@Monto_Ticket) =%%</td>
+                                            </tr>
+                                            %%[
+                                                next
+                                                endif
+                                            ]%%
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="py-1">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="logo text-center">
+                            <img
+                                src="https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/6d845bd4-5822-4d33-829b-faffec1d0632.png"
+                                alt="Logo Merco"
+                                class="img-fluid logoMerco"
+                            />
+                            <p>® All rights reserved — MERCO 2023</p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Content -->
+        </div>
+
+        <!-- JS BOOTSTRAP -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- fontawesome -->
+        <script src="https://kit.fontawesome.com/9845fe7041.js" crossorigin="anonymous"></script>
+
+        <!-- Search Function -->
+        <script>
+            function search() {
+                const field = document.getElementById('field');
+                const searchInput = document.getElementById('search-input');
+                let search = searchInput.value;
+                if (search.includes('#')) search = search.substr(search.indexOf('#') + 1);
+                const link = document.createElement('a');
+                link.href =
+                    'https://cloud.hello.merco.email/fiestononon-resultados-busqueda?field=' +
+                    field.value +
+                    '&search=' +
+                    search;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        </script>
+    </body>
+</html>

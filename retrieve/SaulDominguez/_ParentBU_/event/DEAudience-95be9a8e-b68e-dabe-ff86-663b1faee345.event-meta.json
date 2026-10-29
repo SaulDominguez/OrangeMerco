@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Envio2-Fiestononon_SMS_Ruta_26-10-2023",
+    "description": "",
+    "createdDate": "2023-10-26T17:48:08.123",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-10-27T10:21:58.76",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-95be9a8e-b68e-dabe-ff86-663b1faee345",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c4f1ad78-cc42-4916-9920-6b98cf636e26",
+    "r__dataExtension_key": "3F056F57-194A-4F8C-90C0-96604700C787"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Estamos de regalo - Diciembre 15 2023",
+    "description": "",
+    "createdDate": "2023-12-15T15:01:56.367",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2023-12-15T15:01:56.367",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-843ffa7f-65a4-1c4e-738b-e24d1545d278",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "832ac016-3157-4396-a21f-315aa58175a5",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

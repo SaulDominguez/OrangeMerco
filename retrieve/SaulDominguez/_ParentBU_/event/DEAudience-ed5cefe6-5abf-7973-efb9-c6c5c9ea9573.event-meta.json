@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Pañales_310726",
+    "description": "",
+    "createdDate": "2026-07-31T11:43:03.92",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-07-31T11:45:57.427",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-ed5cefe6-5abf-7973-efb9-c6c5c9ea9573",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "cc8b6e45-59c0-48f2-934f-a3964fecad0e",
+    "r__dataExtension_key": "9272B654-3F4D-4D85-832B-F8FF3DBE5BC2"
+}

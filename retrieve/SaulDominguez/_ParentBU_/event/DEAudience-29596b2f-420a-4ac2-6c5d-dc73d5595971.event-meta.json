@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Remainder_151225",
+    "description": "",
+    "createdDate": "2025-12-12T13:37:46.42",
+    "createdBy": "Facundo García",
+    "modifiedDate": "2025-12-12T15:44:51.663",
+    "modifiedBy": "Facundo García",
+    "eventDefinitionKey": "DEAudience-29596b2f-420a-4ac2-6c5d-dc73d5595971",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-12-15T10:30:00",
+        "endDateTime": "2025-12-15T10:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "79a30d31-0fc4-41cc-ae48-0389303aee6f",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

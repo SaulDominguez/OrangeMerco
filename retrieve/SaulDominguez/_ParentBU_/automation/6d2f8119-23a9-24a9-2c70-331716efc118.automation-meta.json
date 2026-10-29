@@ -1,0 +1,29 @@
+{
+    "name": "Onboarding Import Contacts",
+    "description": "",
+    "key": "6d2f8119-23a9-24a9-2c70-331716efc118",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "startDate": "2025-05-06T11:45:00",
+        "endDate": "2025-07-31T00:00:00",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20250731;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "Import Onboarding Contacts_1"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-05-06T17:40:02.053Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-08-01T12:40:50.183Z",
+    "r__folder_Path": "my automations/Test"
+}

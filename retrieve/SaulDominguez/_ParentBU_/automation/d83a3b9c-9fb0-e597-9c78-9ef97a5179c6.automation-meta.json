@@ -1,0 +1,40 @@
+{
+    "name": "BDD_General_Whatsapp_OptIn",
+    "description": "",
+    "key": "d83a3b9c-9fb0-e597-9c78-9ef97a5179c6",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2024-12-11T09:15:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20790606;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "7754DBA0-7E52-46F1-8DBA-F9009E0D4924"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "4764F6B0-50BF-4503-83B3-0950AD2BC74A"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2024-11-27T10:54:01.233Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2025-10-17T16:46:56.82Z",
+    "pausedName": "Alexis Dominguez",
+    "pausedDate": "2025-10-17T16:46:26.253Z",
+    "r__folder_Path": "my automations/Whatsapp"
+}

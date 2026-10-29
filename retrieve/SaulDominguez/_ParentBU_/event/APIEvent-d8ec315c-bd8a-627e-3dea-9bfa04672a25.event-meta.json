@@ -1,0 +1,27 @@
+{
+    "type": "APIEvent",
+    "name": "CUARESMA_GRACIASPORPARTICIPAR_110325",
+    "description": "",
+    "createdDate": "2025-03-11T10:13:15.1",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-03-12T09:17:47.603",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "APIEvent-d8ec315c-bd8a-627e-3dea-9bfa04672a25",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "automationId": "00000000-0000-0000-0000-000000000000",
+        "criteria": ""
+    },
+    "metaData": {
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "Cuaresma_Registros_Totales"
+}

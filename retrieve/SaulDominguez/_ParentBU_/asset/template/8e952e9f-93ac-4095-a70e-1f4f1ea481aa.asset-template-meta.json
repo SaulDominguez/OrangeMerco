@@ -1,0 +1,87 @@
+{
+    "customerKey": "8e952e9f-93ac-4095-a70e-1f4f1ea481aa",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-diadelasmadres_090525-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-05-09T18:06:37.38-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-05-09T18:06:37.38-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "diadelasmadres_090525",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡En Merco tenemos todo para tu reunión del *Día de las Madres* a un Súper Preciazo! 🥳😍\n\n- *Sirloin c/hueso* o *Chuletón de res* – *$159 KG c/u*\n- Todos los *vinos y licores* – *¡Con un 30% de descuento!*\n- Todos los *estuches de chocolates, chocolates y botanas Sabritas* (Excepto las de precio inferior de $15 pesos) – *¡Con un 25% de descuento!*\n- *Compra un pastel de 3 leches de 8\" o 10\"* pieza y llévate *GRATIS* refresco *Coca Cola Light, Sin Azúcar, Fanta, Fresca, Joya o Sprite* 2.5 Lts – *Esta oferta tiene vigencia al domingo 11 de mayo*\n- *Charola térmica Convermex o Mariel* No.855 c/50 piezas – *$27.99*\n- *Vaso térmico Convermex* No.10 c/25 – *$13.99*\n- Salchicha p/asar *Chero* medio kilo – *$27.99*\n- Helados *Sanmy* – *¡Con un 25% de descuento!*\n- *Melón chino*, *Mango Tommy* o *Piña miel* – *$19.99 KG c/u*\n- *Dona decorada surtida de temporada* paq c/5 + 1 gratis – *$53*\n\n¡Todo para consentir a mamá! ❤\nSolo en Merco. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 12 de mayo del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

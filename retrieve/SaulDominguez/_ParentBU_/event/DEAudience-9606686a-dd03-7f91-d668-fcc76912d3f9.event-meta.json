@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "DíaDeLasMadres_090525",
+    "description": "",
+    "createdDate": "2025-05-09T18:13:33.96",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-05-09T18:13:33.96",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-9606686a-dd03-7f91-d668-fcc76912d3f9",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-05-10T08:30:00",
+        "endDateTime": "2025-05-10T08:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "68c10ee9-2617-4724-b714-24a77402e2d9",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Remainder_20042026 ",
+    "description": "",
+    "createdDate": "2026-04-17T11:56:43.413",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2026-04-17T12:25:18.29",
+    "modifiedBy": "Monica Rojano",
+    "eventDefinitionKey": "DEAudience-44aad3a0-d3c0-c82f-2b6c-af08ea49ce1a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-04-20T10:00:00",
+        "endDateTime": "2026-04-20T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "973359ff-c4a7-47d0-8e7a-bab58870a5b6",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

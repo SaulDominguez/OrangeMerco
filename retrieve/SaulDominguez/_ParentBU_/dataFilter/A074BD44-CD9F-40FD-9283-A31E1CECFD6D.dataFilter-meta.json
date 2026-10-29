@@ -1,0 +1,23 @@
+{
+    "key": "A074BD44-CD9F-40FD-9283-A31E1CECFD6D",
+    "createdDate": "2023-12-28T16:30:33.897",
+    "createdByName": "Martín Orange",
+    "lastUpdated": "2023-12-28T16:30:33.897",
+    "lastUpdatedByName": "Martín Orange",
+    "name": "Filtro-Sucursal",
+    "description": "",
+    "isSendable": true,
+    "r__folder_Path": "Data Filters",
+    "c__filterDefinition": {
+        "ConditionSet": {
+            "Condition": {
+                "Value": "Cadereyta",
+                "@_Operator": "Equals",
+                "r__dataExtensionField_name": "Sucursal"
+            },
+            "@_Operator": "AND",
+            "@_ConditionSetName": "Outer Grouping"
+        }
+    },
+    "r__source_dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

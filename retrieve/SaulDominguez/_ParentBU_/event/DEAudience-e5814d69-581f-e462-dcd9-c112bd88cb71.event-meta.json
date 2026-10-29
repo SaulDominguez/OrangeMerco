@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Engagement_Check_050326",
+    "description": "",
+    "createdDate": "2026-03-04T16:18:41.343",
+    "createdBy": "Facundo García",
+    "modifiedDate": "2026-03-06T10:05:15.72",
+    "modifiedBy": "Facundo García",
+    "eventDefinitionKey": "DEAudience-e5814d69-581f-e462-dcd9-c112bd88cb71",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e73efe39-f4fd-46b7-8ec7-a16c52fd60ec",
+    "r__dataExtension_key": "797FC62B-A942-4085-BCA4-9769862C275A"
+}

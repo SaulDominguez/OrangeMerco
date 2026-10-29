@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Propuesta_Rem_V4 _080925",
+    "description": "",
+    "createdDate": "2025-08-28T10:24:41.85",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2025-09-04T10:36:51.317",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-e3481d60-8482-aa33-e1ab-4c215752c1ae",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "2284f7f8-48c0-4111-9f5d-2c597c86ce1e",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

@@ -1,0 +1,22 @@
+{
+    "isOwner": true,
+    "isHidden": false,
+    "canAddProperties": true,
+    "canAddRelationships": true,
+    "canRemove": true,
+    "canChangeProperties": true,
+    "displayOrder": 14,
+    "requiredRelationships": [],
+    "canModify": true,
+    "attributeGroupIconKey": "et-icon-mobile-",
+    "attributeGroupType": "Standard",
+    "attributeCount": 6,
+    "definitionName": {
+        "value": "WhatsApp_OptOut"
+    },
+    "definitionKey": "WhatsApp_OptOut",
+    "r__attributeSet_key": [
+        "Whatsapp_OptOut_Requests"
+    ],
+    "description": ""
+}

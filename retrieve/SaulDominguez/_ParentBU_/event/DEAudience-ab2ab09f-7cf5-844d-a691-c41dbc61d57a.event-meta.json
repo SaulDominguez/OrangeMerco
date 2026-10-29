@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "SuperTazon_MVA-070225 ",
+    "description": "",
+    "createdDate": "2025-02-07T13:10:59.267",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-02-07T13:12:01.66",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-ab2ab09f-7cf5-844d-a691-c41dbc61d57a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "5ee1e6c6-833d-4373-9642-fb3a3d46c3c2",
+    "r__dataExtension_key": "A76754CA-646F-442E-BC18-28D8C6632454"
+}

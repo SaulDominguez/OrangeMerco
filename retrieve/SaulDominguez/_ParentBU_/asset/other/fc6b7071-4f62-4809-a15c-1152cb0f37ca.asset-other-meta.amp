@@ -1,0 +1,83 @@
+%%[
+    /* Capturamos los parámetros de la búsqueda */
+    set @criterio = RequestParameter('criterio')
+    set @valor = Trim(RequestParameter('valor'))
+    /* Elimina espacios adicionales */
+
+    /* Convertimos el valor ingresado a minúsculas */
+    set @valorLower = Lowercase(@valor)
+    /* Inicializamos el contador de filas */
+    set @rowCount = 0
+    /* Verificamos si el criterio es diferente de 'null' y si hay valor ingresado */
+    if @criterio != 'null' and not Empty(@valorLower) then
+        /* Realizamos la búsqueda según el criterio seleccionado */
+        if @criterio == 'Correo' then
+            set @rows = LookupRows('FIESTONONON_Registros_2024', 'Correo', @valorLower)
+        elseif @criterio == 'Nombre' then
+            set @rows = LookupRows('FIESTONONON_Registros_2024', 'Nombre', @valorLower)
+        elseif @criterio == 'Apellido' then
+            set @rows = LookupRows('FIESTONONON_Registros_2024', 'Apellido', @valorLower)
+        elseif @criterio == 'No_Ticket' then
+            set @rows = LookupRows('FIESTONONON_Registros_2024', 'Ticket', @valorLower)
+        endif
+        /* Contamos el número de filas encontradas */
+        set @rowCount = RowCount(@rows)
+    endif
+]%%
+
+<div class="row justify-content-center">
+    <div class="col-12">
+        %%[
+            /* Si se encontraron registros, los mostramos */
+            if @rowCount > 0 then
+                /* Iniciamos un contador */
+                set @counter = 1
+        ]%%
+        <table class="table table-bordered w-100">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    <th>Ticket</th>
+                    <th>Fecha</th>
+                    <th>Tienda</th>
+                    <th>Premio</th>
+                    <th>Boleto</th>
+                </tr>
+            </thead>
+            <tbody>
+                %%[
+                    for @i = 1 to @rowCount do
+                        set @row = Row(@rows, @i)
+                        set @Nombre = Field(@row, 'Nombre')
+                        set @Apellido = Field(@row, 'Apellido')
+                        set @Correo = Field(@row, 'Correo')
+                        set @Ticket = Field(@row, 'Ticket')
+                        set @Fecha_Registro = Field(@row, 'Fecha_Registro')
+                        set @No_Tienda = Field(@row, 'No_Tienda')
+                        set @Premio = Field(@row, 'Premio')
+                        set @Boleto = Field(@row, 'Boleto')
+                ]%%
+                <tr>
+                    <td>%%= v(@counter) =%%</td>
+                    <td>%%= v(@Nombre) =%%</td>
+                    <td>%%= v(@Apellido) =%%</td>
+                    <td>%%= v(@Correo) =%%</td>
+                    <td>%%= v(@Ticket) =%%</td>
+                    <td>%%= v(@Fecha_Registro) =%%</td>
+                    <td>%%= v(@No_Tienda) =%%</td>
+                    <td>%%= v(@Premio) =%%</td>
+                    <td>%%= v(@Boleto) =%%</td>
+                </tr>
+                %%[
+                    /* Incrementamos el contador */
+                    set @counter = Add(@counter, 1)
+                    next
+                    endif
+                ]%%
+            </tbody>
+        </table>
+    </div>
+</div>

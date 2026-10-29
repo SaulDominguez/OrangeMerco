@@ -1,0 +1,80 @@
+{
+    "customerKey": "aeb91417-d745-4e98-90e5-8563b3b2f975",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-papaesunico_140624",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-06-14T22:23:24.68-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-06-14T22:23:24.68-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "papaesunico_140624",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "Papá es único como los Súper Preciazos de Merco. 🤩\n\nEstamos listos para consentirlo como se merece, por eso te traemos estos productos en oferta para el:\n\n🥩 T-bone o chuletón de res - $139,00 kg c/u\n🍖 Costilla para asar - $99,99 kg\n🍗 Pierna con muslo de pollo achiotada - $34,99 kg\n🍷 Todos los vinos y licores - ¡Tienen un 25% de descuento!\n🥨 Botanas Sabritas excepto las de precio inferior a $15 pesos - ¡Tienen un 25% de descuento!\n🍺 Cerveza Barrilito 6 pack-botella 325 ml - $57,99\n🥑 Aguacate en malla - $29,99 pieza\n🍋 Limón agrio, chile jalapeño o tomatillo verde -  $19,99 kg c/u\n\nSabemos que papá es único, por eso solo les traemos la Calidad y Frescura para que vivan su día al máximo. 😍\n\n¡Solo en Merco tienes estos Súper Preciazos!",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Consiente a papá!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas del 14 al 20 de junio del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

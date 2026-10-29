@@ -1,0 +1,39 @@
+{
+    "customerKey": "3E1D99D8-DAA7-48B1-8030-245E22CAF7A7",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "name": "TY WhatsApp Baja",
+    "description": "",
+    "owner": {
+        "email": "martin@orangedcx.com",
+        "name": "Martín Orange"
+    },
+    "createdDate": "2024-04-23T08:15:41.05-06:00",
+    "createdBy": {
+        "email": "martin@orangedcx.com",
+        "name": "Martín Orange"
+    },
+    "modifiedDate": "2024-12-06T15:02:26.193-06:00",
+    "modifiedBy": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2024-12-06 15:02:26.193",
+            "c__published": true
+        },
+        "r__asset_key": "ed684e6e-ee61-4767-ba4e-bbffd894b709"
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2023/Opt-out"
+}

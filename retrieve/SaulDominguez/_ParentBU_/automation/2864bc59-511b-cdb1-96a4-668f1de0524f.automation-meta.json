@@ -1,0 +1,42 @@
+{
+    "name": "unsub_Bounce",
+    "description": "",
+    "key": "2864bc59-511b-cdb1-96a4-668f1de0524f",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "BDDAEE61-A978-4C59-836A-C9EF6B14EFF6"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "EC66430B-773D-41A3-A904-E4B86941978D"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "60D80665-FB8B-4015-8872-0926AC0CF523"
+                }
+            ]
+        }
+    ],
+    "createdName": "Belen Banegas",
+    "createdDate": "2024-01-15T18:25:26.3Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2024-12-23T20:13:49.21Z",
+    "r__folder_Path": "my automations/DeleteContact"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "VLF_NL_SALT_290425",
+    "description": "",
+    "createdDate": "2025-04-29T12:26:51.503",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-04-29T12:26:51.503",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-42e79f44-dd51-ebdf-a8be-7530f6dd7e86",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "fe0939f2-3913-40ac-a798-b9df455d70f5",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

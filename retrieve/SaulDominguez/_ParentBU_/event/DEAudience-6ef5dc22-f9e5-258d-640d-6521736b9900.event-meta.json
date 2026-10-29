@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST-WA-240524",
+    "description": "",
+    "createdDate": "2024-05-24T08:24:23.893",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-05-24T08:24:23.893",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-6ef5dc22-f9e5-258d-640d-6521736b9900",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "829d6ea6-6b71-487b-b3d5-555b23f47386",
+    "r__dataExtension_key": "7B9E1E83-6673-4E11-9DE2-7870E21E4B87"
+}

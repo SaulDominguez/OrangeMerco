@@ -1,0 +1,42 @@
+{
+    "name": "Extract_WA_Rem_081225",
+    "description": "",
+    "key": "68283360-4d07-9b4b-99b3-2eb3deed46e6",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "C67106FA-240B-412F-ADC0-D5071762D9C5"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "ae3aac18-e7c2-4fcf-8895-fd17a8d7c541"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "2EA025F4-DC74-476B-8988-9162119D8A6F"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2025-12-08T18:35:07.337Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-10-21T03:15:33.403Z",
+    "r__folder_Path": "my automations/OrangeDCX/Extract"
+}

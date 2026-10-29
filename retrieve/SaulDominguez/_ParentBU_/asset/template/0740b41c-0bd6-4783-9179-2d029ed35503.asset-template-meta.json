@@ -1,0 +1,80 @@
+{
+    "customerKey": "0740b41c-0bd6-4783-9179-2d029ed35503",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-mexicanizate_060924-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-09-05T16:49:52.447-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-09-05T16:49:52.447-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "mexicanizate_060924",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Échate un grito por los Súper Preciazos de Merco! 🤩🇲🇽🎺 \n\nBúscalos en tu tienda más cercana 👇🏽\n\n*Aguacate* en mal - *$29.99 pieza*\n*Manzana* Golden o Roja bolsa - *$19.99 pieza c/u*\n*Chuletón* de res para asar - *$139 kg*\n*Combo para discada:* 500 gr de pulpa blanca, 750 gr de pierna de cerdo, 450 gr de salchicha para asar, todo en trocitos - *$159*\n*Harina* de *maíz* regular o para *tamal* Hari Masa - *$15.99 kg c/u*\n*Maíz pozolero* El Mexicano 3 kilos - *$49.99*\n*Papel Higiénico* Premier 225 hojas c/6 rollos - *$21.99*\n\nMexicanízate con Merco.😉",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Conoce más aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 9 de Septiembre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

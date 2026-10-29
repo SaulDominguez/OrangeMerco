@@ -1,0 +1,37 @@
+
+%%[
+    set @Id = RequestParameter('Contact_Id')
+    set @Folio = RequestParameter('TicketFolio')
+    set @action = RequestParameter('action')
+    set @user = RequestParameter('user')
+    var @actionStr
+    if @action == 'discard' then
+        set @actionStr = 'DESCALIFICADO'
+        UpdateData(
+            'Cuaresma_Registros_Totales',
+            2,
+            'Contact_Id',
+            @Id,
+            'TicketFolio',
+            @Folio,
+            'Descalificado',
+            1,
+            'ProcesadoPor',
+            @user
+        )
+    else
+        set @actionStr = 'VALIDADO'
+        UpdateData(
+            'Cuaresma_Registros_Totales',
+            2,
+            'Contact_Id',
+            @Id,
+            'TicketFolio',
+            @Folio,
+            'Validado',
+            1,
+            'ProcesadoPor',
+            @user
+        )
+    endif
+]%%

@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Festival_de_la_Mascota_2024 (Copy)",
+    "description": "",
+    "createdDate": "2024-02-01T15:31:43.797",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-02-02T12:21:33.85",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-f809efca-ce1a-0586-57bc-3a341dcc28bc",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-02-03T12:30:00",
+        "endDateTime": "2024-02-03T12:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e0f070ee-34fb-4eb6-9ad4-d26eafc05e6f",
+    "r__dataExtension_key": "6EE6A8FD-FB4E-435E-8B60-2771CD93E4D8"
+}

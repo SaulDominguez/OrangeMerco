@@ -1,0 +1,37 @@
+{
+    "name": "Create_Inventory_DE",
+    "description": "",
+    "key": "424b39a4-391a-df6b-ddc1-f86d9f315a19",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "script",
+                    "r__key": "f347f8ea-bc97-4c90-b235-6c1544aafbd0"
+                },
+                {
+                    "r__type": "script",
+                    "r__key": "43024070-4c9e-4f14-9bbb-5fe83053a0fb"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "803C325F-ED67-4543-B7CF-9C9BF6D2EDFF"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2024-12-12T09:00:14.92Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2024-12-12T10:04:31.297Z",
+    "r__folder_Path": "my automations"
+}

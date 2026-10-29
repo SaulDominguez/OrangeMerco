@@ -1,0 +1,80 @@
+{
+    "customerKey": "642aaf4b-d015-4a3f-b242-a3a1ca10e2c2",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-buenfin_151124_1-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-11-15T16:08:37.1-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-11-15T16:08:37.1-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "buenfin_151124_1",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡EL BUEN FIN YA EMPEZÓ Y EMPEZARON LOS SÚPER PRECIAZOS EN MERCO!\n\nConoce TODO lo que tenemos para ti: \n\nTelevisor inteligente *Roku JVC* HD de 32\" - *$1,990*\nTelevisor inteligente *Roku JVC* FHD de 43\" - *$3,399*\nTelevisor inteligente *Roku JVC* UHD 4K de 55\" - *$5,299*\n*Todos los pinos artificiales* - *¡Con un 40% de descuento!*\n*Todas las luces y accesorios navideños* - *¡Con un 30% de descuento!*\n\n¡Aprovecha las ofertas que tenemos para ti! \nSolo en Merco. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertaDia/SEATI",
+                                        "title": "Súper Preciazos a montón",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 18 de Noviembre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,41 @@
+{
+    "allowErrors": true,
+    "customerKey": "supresion_1",
+    "createdDate": "2025-12-08T15:19:14.543",
+    "modifiedDate": "2025-12-08T15:19:14.543",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Email Address",
+            "destinationFieldName": "Email"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "supresion",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "1CDCD87C-4BF3-4C7E-9CBF-575CFD834430"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "B1CD30CA-DDAF-4EBD-8D15-3B6BEEE9F1B0"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

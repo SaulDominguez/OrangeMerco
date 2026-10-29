@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Blog_de_Notas_13082025",
+    "description": "",
+    "createdDate": "2025-08-11T17:26:18.657",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-08-12T17:03:31.03",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-bbdd23c9-48bd-6bd6-26fa-f14ce4d8886c",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-08-13T07:00:00",
+        "endDateTime": "2025-08-13T07:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "9dd425cf-39eb-42e2-8f78-1182f1eeec07",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

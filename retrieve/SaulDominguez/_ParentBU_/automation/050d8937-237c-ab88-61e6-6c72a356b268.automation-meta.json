@@ -1,0 +1,31 @@
+{
+    "name": "supresion.csv",
+    "key": "050d8937-237c-ab88-61e6-6c72a356b268",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "8558F800-0BA8-405E-920C-C2FFA1DEF496"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "7f3555a5-18de-48f0-88f2-70f39f877f5f"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2025-12-08T21:15:41.167Z",
+    "modifiedName": "Alexis Dominguez",
+    "r__folder_Path": "my automations/Test"
+}

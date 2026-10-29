@@ -1,0 +1,78 @@
+{
+    "customerKey": "2b39c6a1-47d6-4db5-8b9b-581b91d34698",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-081124_fiestononon_wa-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-11-08T19:00:40.677-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-11-08T19:00:40.677-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "081124_fiestononon_wa",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡El Fiestononón Merco aún no termina! Aprovecha todos los Súper Preciazos que tenemos para ti:\n\n*Plátano* Chiapas kg o *Lechuga* romana pieza - *$12.99 c/u*\n*Repollo* blanco kg o *Calabacita* kg - *$14.99 c/u*\n*Manzana* Golden o Roja bolsa - *$18.99 pieza c/u*\n*Pierna de cerdo* con hueso - *$59.99 kg*\n*Costilla para asar* - *$116 kg*\nDetergente en polvo *1·2·3 Rocío del Campo* 800 gr - *$18.99*\nAceite puro de soya *Mimarca* 800 ml - *$24.99*\n*Todos los pinos y accesorios navideños - ¡Con un 30% de descuento!*\n\nPásale a la fiesta de los Súper Preciazos. 😉\n¡Que no te falte nada!",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Vive el Fiestononón!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

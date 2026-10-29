@@ -1,0 +1,29 @@
+{
+    "name": "FIESTONONON 2025 TO BDD GENERAL",
+    "description": "",
+    "key": "1e0f08c4-2626-3b72-eb72-de7c0094aa4a",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "startDate": "2025-09-11T18:07:00",
+        "endDate": "2025-10-13T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20251013;INTERVAL=1",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "0154dea6-adaf-8ad7-99a6-4516bbe2a655"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-09-11T20:31:40.073Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-09-11T20:57:53.163Z",
+    "r__folder_Path": "my automations/FIESTONONON"
+}

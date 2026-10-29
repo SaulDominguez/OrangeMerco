@@ -1,0 +1,87 @@
+{
+    "customerKey": "f936191d-a913-4d3a-a1c0-bf464276dc9b",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-sad_280325-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-03-28T16:43:42.17-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-03-28T16:43:42.17-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "sad_280325",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "DOCUMENT",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "DOCUMENT"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🛒 ¡*Merco* te lleva el súper hasta la puerta de tu casa! 🏡\n\nAprovecha nuestros *Súper Preciazos EXCLUSIVOS* de nuestro *Servicio a Domicilio* y recibe tus compras fácil, rápido y sin salir de casa. 🛻💨\n\n📲 ¡Haz tu pedido hoy mismo y disfruta de la comodidad de comprar en Merco sin moverte de tu hogar! ✨",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://www.merco.mx/servicio-a-domicilio",
+                                        "title": "¡Pide aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Estos precios son exclusivos de Servicio a Domicilio Merco."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

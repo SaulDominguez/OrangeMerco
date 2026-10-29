@@ -1,0 +1,156 @@
+{
+    "definitionKey": "Whatsapp_OptOut_Requests",
+    "relationships": [
+        {
+            "canModify": true,
+            "canRemove": true,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": true,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeGroup",
+                "r__attributeGroup_key": "WhatsApp_OptOut"
+            },
+            "leftRelationshipIDs": [
+                {
+                    "type": "int16",
+                    "value": "3"
+                }
+            ],
+            "leftRelationshipReferenceType": "CustomerData",
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Contact.Contact Key",
+                    "c__rightFullyQualifiedName": "Whatsapp_OptOut_Requests.Contactkey"
+                }
+            ],
+            "relationshipID": "d7b67285-2c80-ee11-a5be-5cba2c1928d0",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "Whatsapp_OptOut_Requests"
+            }
+        }
+    ],
+    "valueDefinitions": [
+        {
+            "dataType": "LongNumber",
+            "description": "",
+            "definitionKey": "CustomObjectKey",
+            "isHidden": true,
+            "isIdentityValue": true,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": true,
+            "name": "Custom Object Key"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "Contactkey",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "scale": 0,
+            "name": "Contactkey"
+        },
+        {
+            "dataType": "Phone",
+            "description": "",
+            "definitionKey": "Mobilenumber",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "scale": 0,
+            "name": "Mobilenumber"
+        },
+        {
+            "dataType": "Number",
+            "description": "",
+            "definitionKey": "Optoutstatus",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Optoutstatus"
+        },
+        {
+            "dataType": "Locale",
+            "description": "",
+            "definitionKey": "Locale",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 5,
+            "scale": 0,
+            "name": "Locale"
+        },
+        {
+            "dataType": "Date",
+            "defaultValue": "GETDATE()",
+            "description": "",
+            "definitionKey": "Submit_Date",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "name": "Submit_Date"
+        }
+    ],
+    "attributeCount": 0,
+    "canAddValues": true,
+    "canChangeValues": true,
+    "canModify": true,
+    "canRemove": true,
+    "createdBy": 747155881,
+    "createDate": "2023-11-10T18:52:00",
+    "dataRetentionProperties": {
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "isDeleteAtEndOfRetentionPeriod": false
+    },
+    "localizedDescription": {},
+    "isCustomObjectBacked": true,
+    "isEvent": false,
+    "isHidden": false,
+    "isReadOnly": false,
+    "isRoot": false,
+    "isSendable": false,
+    "isShared": false,
+    "isSystemDefined": false,
+    "isTestaable": false,
+    "parentID": "00000000-0000-0000-0000-000000000000",
+    "relationshipCount": 1,
+    "storageLogicalType": "DataExtension",
+    "storageObjectIDs": [
+        "d8b67285-2c80-ee11-a5be-5cba2c1928d0"
+    ],
+    "setDefinitionKey": "Whatsapp_OptOut_Requests",
+    "name": "Whatsapp_OptOut_Requests",
+    "r__folder_Path": "Data Extensions/BDD Merco/Whatsapp",
+    "r__dataExtension_key": "EE8B4994-07A5-46C5-B850-863A4CD633D8"
+}

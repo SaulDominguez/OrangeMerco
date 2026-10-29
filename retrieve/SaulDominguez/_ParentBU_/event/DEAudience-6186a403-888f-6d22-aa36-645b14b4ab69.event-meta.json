@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_ListaConTuLista-180725  ",
+    "description": "",
+    "createdDate": "2025-07-18T12:48:52.2",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-07-18T12:48:52.2",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-6186a403-888f-6d22-aa36-645b14b4ab69",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "581318a3-4f87-4565-b299-c069f6e946a9",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

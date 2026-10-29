@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Mercomania_090126",
+    "description": "",
+    "createdDate": "2026-01-08T18:11:30.03",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-01-08T18:11:30.03",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-aa472c40-2f53-4e69-ab46-6a849fd77252",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-01-09T09:00:00",
+        "endDateTime": "2026-01-09T09:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "5c932252-c989-43ef-91f2-9f07e30f4338",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

@@ -1,0 +1,87 @@
+{
+    "customerKey": "4968961e-27b2-4daa-ae19-b41cbaafe91f",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-diadelpadre_130625_v1-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-06-13T11:19:49.1-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-06-13T11:19:49.1-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "diadelpadre_130625_v1",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¿Se va hacer o no se va a hacer la carnita asada para Papá? 🎉\n\n- *Costilla para asar* – *¡A un Súper Preciazo!*\n- *Chuletón de res* – *$169 kg*\n- *Sirloin c/hueso* – *¡A un Súper Preciazo!*\n- *Todos los vinos y licores* – *¡Con un 30% de descuento!*\n- *Todas las botanas Sabritas* – *¡Con un 25% de descuento!* (Excepto las de precio inferior a $15)\n- *Cerveza Corona Barrilito* 6 pack 325 ml – *$56.99*\n- *Papel aluminio Mimarca* 7.6 mts – *$13.99*\n- *Vaso térmico Convermex* No.10 c/25 – *$13.99*\n- Salchicha para asar *Ponderosa/Bafar/Alpino/Kir* 800 gr – *$69.99*\n- *Aguacate en malla* – *$29.99 pieza*\n\n🌟 ¡Celebra a papá en grande con Merco! 🌟\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 16 de junio del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

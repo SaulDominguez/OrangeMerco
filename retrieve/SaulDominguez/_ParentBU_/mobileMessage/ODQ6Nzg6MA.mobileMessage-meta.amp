@@ -1,0 +1,6 @@
+%%[
+    set @rows = LookupRows('BDD_General_PP2', 'Contact_Id', AttributeValue('Contact_Id'))
+    set @record = Row(@rows, 1)
+    set @ContactKey = Field(@record, 'Contact_Id')
+    set @link = Concat('https://cloud.hello.merco.email/gana-tarjeta-merco?id=', @ContactKey)
+]%%Contesta la encuesta Merco, participa para ganar un increible premio %%= RedirectTo(@link) =%%

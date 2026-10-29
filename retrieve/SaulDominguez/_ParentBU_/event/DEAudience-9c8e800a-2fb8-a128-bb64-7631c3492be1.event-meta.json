@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Propuesta_Progresive_profilling",
+    "description": "",
+    "createdDate": "2024-12-10T16:56:03.913",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-01-06T16:16:49.407",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-9c8e800a-2fb8-a128-bb64-7631c3492be1",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "df6229c3-25c3-42f9-8831-afc5f4cacbae",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

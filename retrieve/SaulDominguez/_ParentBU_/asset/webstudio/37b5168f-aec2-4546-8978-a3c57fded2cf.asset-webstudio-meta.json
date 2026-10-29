@@ -1,0 +1,45 @@
+{
+    "customerKey": "37b5168f-aec2-4546-8978-a3c57fded2cf",
+    "contentType": "text/css",
+    "assetType": {
+        "name": "csscoderesource",
+        "displayName": "CSS Code Resource"
+    },
+    "version": 1,
+    "name": "style_merco",
+    "description": "",
+    "owner": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "createdDate": "2026-02-23T19:38:25.46-06:00",
+    "createdBy": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "modifiedDate": "2026-02-23T19:41:43.567-06:00",
+    "modifiedBy": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2026-02-23 19:41:43.567",
+            "c__published": true
+        }
+    },
+    "availableViews": [],
+    "data": {
+        "site": {
+            "content": {
+                "url": "https://cloud.hello.merco.email/estilos"
+            }
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2026/01-ENGAGEMENTCHECK"
+}

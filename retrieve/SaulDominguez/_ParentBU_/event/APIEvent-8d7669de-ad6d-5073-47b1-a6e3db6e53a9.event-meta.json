@@ -1,0 +1,28 @@
+{
+    "type": "APIEvent",
+    "name": "WA_OTP_Merco_PRD",
+    "description": "",
+    "createdDate": "2026-05-11T17:44:16.683",
+    "createdBy": "Alexis Dominguez",
+    "modifiedDate": "2026-05-11T17:44:16.683",
+    "modifiedBy": "Alexis Dominguez",
+    "eventDefinitionKey": "APIEvent-8d7669de-ad6d-5073-47b1-a6e3db6e53a9",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": true,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "05607BB0-5E6F-4183-9B77-FA0A4FE25F0A"
+}

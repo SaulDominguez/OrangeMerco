@@ -1,0 +1,24 @@
+{
+    "name": "Test-Segmentacion",
+    "description": "",
+    "key": "216a4015-7289-b558-5f33-d1e8b89a7767",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "5D6F4D1C-8A89-4715-BBF2-A958158B0D87"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2024-12-11T15:57:29.557Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2024-12-11T16:00:13.697Z",
+    "r__folder_Path": "my automations/Test"
+}

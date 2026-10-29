@@ -1,0 +1,40 @@
+{
+    "customerKey": "e93dd189-0b74-468b-9232-b49776868418",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Validación tickets",
+    "owner": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "createdDate": "2025-02-18T10:30:08.393-06:00",
+    "createdBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "modifiedDate": "2025-03-03T19:48:17.807-06:00",
+    "modifiedBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/tickets-inicio"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-03-03 19:48:17.807",
+            "c__published": true
+        },
+        "r__asset_key": "c149344b-1475-49a5-b8f0-37013fbaed72"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/Presiazos Cuaresma"
+}

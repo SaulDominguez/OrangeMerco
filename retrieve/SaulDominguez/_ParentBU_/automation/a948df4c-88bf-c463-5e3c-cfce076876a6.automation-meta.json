@@ -1,0 +1,31 @@
+{
+    "name": "Backup_BDD_Merco_General",
+    "description": "",
+    "key": "a948df4c-88bf-c463-5e3c-cfce076876a6",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2024-04-15T01:00:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=WEEKLY;UNTIL=20790606;INTERVAL=2;BYDAY=MO",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "65EC9304-9C5A-4DA9-8694-F10D9B4CBE27"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2024-04-05T15:37:48.193Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2025-11-11T17:05:53.43Z",
+    "pausedName": "Alexis Dominguez",
+    "pausedDate": "2025-11-11T17:05:47.257Z",
+    "r__folder_Path": "my automations"
+}

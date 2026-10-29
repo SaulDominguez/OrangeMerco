@@ -1,0 +1,41 @@
+{
+    "customerKey": "22a071d5-21e9-492a-868a-642552d85c77",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Cuaresma",
+    "description": "",
+    "owner": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "createdDate": "2025-02-07T14:23:18.887-06:00",
+    "createdBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "modifiedDate": "2025-03-18T15:06:55.703-06:00",
+    "modifiedBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/cuaresma"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-03-18 15:06:55.703",
+            "c__published": true
+        },
+        "r__asset_key": "d2715324-6de7-40a8-9ee3-62cf7efa5c6d"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/Presiazos Cuaresma"
+}

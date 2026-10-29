@@ -1,0 +1,129 @@
+{
+    "definitionKey": "Ora_Pre_Fiestononon_2026_Exit_Puntos",
+    "relationships": [
+        {
+            "canModify": true,
+            "canRemove": true,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": true,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeGroup",
+                "r__attributeGroup_key": "Ora_Pre_Fiestononon_2026_Exit_Puntos"
+            },
+            "leftRelationshipIDs": [
+                {
+                    "type": "int16",
+                    "value": "3"
+                }
+            ],
+            "leftRelationshipReferenceType": "CustomerData",
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Contact.Contact Key",
+                    "c__rightFullyQualifiedName": "Ora_Pre_Fiestononon_2026_Exit_Puntos.SubscriberKey"
+                }
+            ],
+            "relationshipID": "28d0821d-0691-f111-a5dd-5cba2c19b7e8",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "Ora_Pre_Fiestononon_2026_Exit_Puntos"
+            }
+        }
+    ],
+    "valueDefinitions": [
+        {
+            "dataType": "LongNumber",
+            "description": "",
+            "definitionKey": "CustomObjectKey",
+            "isHidden": true,
+            "isIdentityValue": true,
+            "isNullable": false,
+            "isPrimaryKey": false,
+            "isReadOnly": true,
+            "isSystemDefined": true,
+            "isUpdateable": true,
+            "name": "Custom Object Key"
+        },
+        {
+            "dataType": "Number",
+            "description": "",
+            "definitionKey": "Puntos",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "Puntos"
+        },
+        {
+            "dataType": "Text",
+            "description": "",
+            "definitionKey": "SubscriberKey",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "length": 50,
+            "scale": 0,
+            "name": "SubscriberKey"
+        },
+        {
+            "dataType": "Date",
+            "defaultValue": "GETDATE()",
+            "description": "",
+            "definitionKey": "EntryDate",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": true,
+            "isPrimaryKey": false,
+            "isReadOnly": false,
+            "isSystemDefined": false,
+            "isUpdateable": true,
+            "scale": 0,
+            "name": "EntryDate"
+        }
+    ],
+    "attributeCount": 0,
+    "canAddValues": true,
+    "canChangeValues": true,
+    "canModify": true,
+    "canRemove": true,
+    "createdBy": 747723988,
+    "createDate": "2026-08-05T13:45:00",
+    "dataRetentionProperties": {
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "isDeleteAtEndOfRetentionPeriod": false
+    },
+    "localizedDescription": {},
+    "isCustomObjectBacked": true,
+    "isEvent": false,
+    "isHidden": false,
+    "isReadOnly": false,
+    "isRoot": false,
+    "isSendable": true,
+    "isShared": false,
+    "isSystemDefined": false,
+    "isTestaable": true,
+    "parentID": "00000000-0000-0000-0000-000000000000",
+    "relationshipCount": 1,
+    "sendAttributeStorageName": "SubscriberKey",
+    "sendContactKeyStorageName": "_SubscriberKey",
+    "storageLogicalType": "DataExtension",
+    "storageObjectIDs": [
+        "29d0821d-0691-f111-a5dd-5cba2c19b7e8"
+    ],
+    "setDefinitionKey": "Ora_Pre_Fiestononon_2026_Exit_Puntos",
+    "name": "Ora_Pre_Fiestononon_2026_Exit_Puntos",
+    "r__folder_Path": "Data Extensions/OrangeDCX/Carga BBD csv/Exit_Puntos_Fiestononon",
+    "r__dataExtension_key": "AC15AD97-D7C4-4CAA-A0AE-1772B78D5205"
+}

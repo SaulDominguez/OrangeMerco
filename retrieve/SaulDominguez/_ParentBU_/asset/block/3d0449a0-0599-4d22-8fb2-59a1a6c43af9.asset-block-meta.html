@@ -1,0 +1,153 @@
+<table
+    cellpadding="0"
+    cellspacing="0"
+    width="100%"
+    role="presentation"
+    style="min-width: 100%; "
+    class="stylingblock-content-wrapper"
+>
+    <tr>
+        <td class="stylingblock-content-wrapper camarker-inner">
+            <script runat="server">
+                Platform.Load('Core', '1.1');
+
+                // Obtener parámetros de búsqueda
+                var searchType = Request.GetQueryStringParameter('searchType');
+                var searchValue = Request.GetQueryStringParameter('searchValue');
+                var selectedBranch = Request.GetQueryStringParameter('selectedBranch');
+
+                // Verificar que se hayan recibido los parámetros de búsqueda
+                Write(
+                    'Parámetros: Tipo de búsqueda: ' +
+                        searchType +
+                        ', Valor: ' +
+                        searchValue +
+                        ', Sucursal: ' +
+                        selectedBranch +
+                        '<br>'
+                );
+
+                // Inicializar la Data Extension y construir la consulta
+                var filterCriteria = [];
+                var rows;
+
+                // Filtrar por tipo de búsqueda
+                if (searchType === 'Correo') {
+                    rows = LookupOrderedRows(
+                        'FIESTONONON_Registros_2024',
+                        0,
+                        'Fecha_Registro DESC',
+                        'Correo',
+                        searchValue
+                    );
+                } else if (searchType === 'Nombre') {
+                    rows = LookupOrderedRows(
+                        'FIESTONONON_Registros_2024',
+                        0,
+                        'Fecha_Registro DESC',
+                        'Nombre',
+                        '%' + searchValue + '%'
+                    );
+                } else if (searchType === 'Apellido') {
+                    rows = LookupOrderedRows(
+                        'FIESTONONON_Registros_2024',
+                        0,
+                        'Fecha_Registro DESC',
+                        'Apellido',
+                        '%' + searchValue + '%'
+                    );
+                } else if (searchType === 'No de ticket') {
+                    rows = LookupOrderedRows(
+                        'FIESTONONON_Registros_2024',
+                        0,
+                        'Fecha_Registro DESC',
+                        'Ticket',
+                        searchValue
+                    );
+                } else {
+                    // Si no se especifica ningún tipo de búsqueda, obtener todos los registros
+                    rows = LookupOrderedRows(
+                        'FIESTONONON_Registros_2024',
+                        0,
+                        'Fecha_Registro DESC'
+                    );
+                }
+
+                // Filtrar por sucursal si ha sido seleccionada
+                if (selectedBranch && selectedBranch !== 'null') {
+                    rows = Rows.Filter(rows, 'No_Tienda', selectedBranch);
+                }
+
+                var rowCount = RowCount(rows);
+                Write('Total de registros encontrados: ' + rowCount + '<br>');
+
+                // Inicializar contadores y estructura HTML
+                var html = '';
+                var participantes = {};
+
+                if (rowCount > 0) {
+                    html += '<table class="w-100">';
+                    html += '<thead>';
+                    html += '<tr>';
+                    html += '<th scope="col">#</th>';
+                    html += '<th scope="col">Fecha</th>';
+                    html += '<th scope="col">Sucursal</th>';
+                    html += '<th scope="col">Conteo Participantes</th>';
+                    html += '<th scope="col">Conteo Boletos</th>';
+                    html += '<th scope="col">Conteo Premios</th>';
+                    html += '<th scope="col">Suma Monto</th>';
+                    html += '</tr>';
+                    html += '</thead>';
+                    html += '';
+
+                    // Procesar cada fila de resultados
+                    for (var i = 0; i < rowCount; i++) {
+                        var row = Row(rows, i);
+                        var tienda = Field(row, 'No_Tienda');
+                        var premio = Field(row, 'Premio');
+                        var monto = Field(row, 'Monto_Ticket');
+
+                        // Si la sucursal no existe en el objeto, inicializarla
+                        if (!participantes[tienda]) {
+                            participantes[tienda] = {
+                                count: 0,
+                                boletos: 0,
+                                premios: 0,
+                                sumaMonto: 0
+                            };
+                        }
+
+                        // Aumentar los contadores
+                        participantes[tienda].count++;
+                        participantes[tienda].boletos++;
+                        participantes[tienda].premios += premio ? 1 : 0;
+                        participantes[tienda].sumaMonto += parseFloat(monto);
+                    }
+
+                    // Generar filas de la tabla
+                    var rowNumber = 1;
+                    for (var tienda in participantes) {
+                        var tiendaData = participantes[tienda];
+                        html += '<tr>';
+                        html += '<th scope="row">' + rowNumber + '</th>';
+                        html += '<td>DD/MM/AAAA</td>'; // Aquí puedes usar Field para obtener la fecha real si es necesario
+                        html += '<td>' + tienda + '</td>';
+                        html += '<td>' + tiendaData.count + '</td>';
+                        html += '<td>' + tiendaData.boletos + '</td>';
+                        html += '<td>' + tiendaData.premios + '</td>';
+                        html += '<td>' + FormatNumber(tiendaData.sumaMonto, 'C2') + '</td>';
+                        html += '</tr>';
+                        rowNumber++;
+                    }
+
+                    html += '</table>';
+                } else {
+                    html += '<p>No se encontraron registros.</p>';
+                }
+
+                // Escribir la tabla HTML generada
+                Write(html);
+            </script>
+        </td>
+    </tr>
+</table>

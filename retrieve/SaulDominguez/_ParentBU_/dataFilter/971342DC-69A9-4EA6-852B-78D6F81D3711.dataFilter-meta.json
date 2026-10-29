@@ -1,0 +1,23 @@
+{
+    "key": "971342DC-69A9-4EA6-852B-78D6F81D3711",
+    "createdDate": "2025-03-19T17:16:49.573",
+    "createdByName": "Guty Hernandez",
+    "lastUpdated": "2025-06-11T16:50:33.01",
+    "lastUpdatedByName": "Guty Hernandez",
+    "name": "Filtro_Zona_Carbonifera",
+    "description": "",
+    "isSendable": true,
+    "r__folder_Path": "Data Filters/Filtros Zonas",
+    "c__filterDefinition": {
+        "ConditionSet": {
+            "Condition": {
+                "Value": "Rosita, Piedras Negras, Acuña, Libramiento, Sierrita, Paseo Monclova",
+                "@_Operator": "ExistsIn",
+                "r__dataExtensionField_name": "Sucursal"
+            },
+            "@_Operator": "AND",
+            "@_ConditionSetName": "Outer Grouping"
+        }
+    },
+    "r__source_dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

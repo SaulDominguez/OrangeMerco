@@ -1,0 +1,45 @@
+{
+    "customerKey": "bf6c671a-770f-4ad6-9143-bef3e8abd2ac",
+    "contentType": "text/css",
+    "assetType": {
+        "name": "csscoderesource",
+        "displayName": "CSS Code Resource"
+    },
+    "version": 1,
+    "name": "Style Promociones",
+    "description": "",
+    "owner": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "createdDate": "2025-01-21T12:41:59.4-06:00",
+    "createdBy": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "modifiedDate": "2025-01-28T11:25:40.487-06:00",
+    "modifiedBy": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-01-28 11:25:40.487",
+            "c__published": true
+        }
+    },
+    "availableViews": [],
+    "data": {
+        "site": {
+            "content": {
+                "url": "https://cloud.hello.merco.email/style-promociones"
+            }
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/Recibir promociones"
+}

@@ -1,0 +1,87 @@
+{
+    "customerKey": "1cfb4354-0aec-4bec-85df-08e94f308935",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-mexicanizate_130925-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-09-11T15:40:57.377-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-09-11T15:40:57.377-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "mexicanizate_130925",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🌟 ¡En Merco celebramos el sabor mexicano con precios que sí Merconvienen! 🌟\n\n- Maíz pozolero *El Mexicano* 3 kilos - *$49.99*\n- Harina de maíz o para tamal *Hari Masa* 1 kilo - *$17.99 c/u*\n- Compra flautas *El Cazo* variedad 360 o 480 gr por solo *$69.99* y *llévate GRATIS* crema *Norteñita* 250 gr\n- *Pastel de temporada 8”* - *$160 pieza*\n- Queso Oaxaca *Alpino* medio kilo - *$79.99*\n- Todos los dulces regionales *La Muy Mexicana, Mi Región y Virtudes de la Tierra* - *¡Con un 30% de descuento!*\n- Empalmes *La Mexicana* 450 gr - *3x2*\n- *Vaporera Ekco* No.34 - *$499 pieza*\n\n🎇 Estas fiestas patrias prepara tus antojitos, disfruta lo mejor de nuestra tradición y ahorra como nunca. 🎊🇲🇽\n¡Que no te falte nada! Revisa nuestro folleto digital. 👇🏽\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Folleto digital aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 18 de septiembre de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,24 @@
+{
+    "isOwner": true,
+    "isHidden": false,
+    "canAddProperties": true,
+    "canAddRelationships": true,
+    "canRemove": true,
+    "canChangeProperties": true,
+    "displayOrder": 8,
+    "requiredRelationships": [],
+    "canModify": true,
+    "attributeGroupIconKey": "et-icon-databas",
+    "attributeGroupType": "Standard",
+    "attributeCount": 42,
+    "definitionName": {
+        "value": "MainDataModel"
+    },
+    "definitionKey": "MainDataModel",
+    "r__attributeSet_key": [
+        "WhatsappBounces",
+        "BDD_General",
+        "WhatsappExclusion"
+    ],
+    "description": ""
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST_Rem_V6_061025",
+    "description": "",
+    "createdDate": "2025-10-03T09:48:29.23",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-10-03T12:37:50.053",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-0470f20c-4410-1c06-511b-144621c48588",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "31ac3c52-155c-4154-8e5f-c4f9a523a5e8",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

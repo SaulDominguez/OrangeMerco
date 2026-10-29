@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "EstamosDeRegalo_NL_Salt-131224",
+    "description": "",
+    "createdDate": "2024-12-13T14:04:25.31",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-12-13T14:04:25.31",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-985b3023-b1b9-7a08-2394-eff8a07a4b8c",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "afc14405-a5bd-4fe1-9f5a-c6fff1a96d04",
+    "r__dataExtension_key": "BE14B673-22AA-49DA-8400-D1F6A91D6CE0"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_101025",
+    "description": "",
+    "createdDate": "2025-10-10T09:26:40.19",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-10-10T09:26:40.19",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-d9fc1f0b-a7a3-27bc-de15-82cb7935fdca",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c47a233f-5980-4ab4-ae33-e646daa1e0d6",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

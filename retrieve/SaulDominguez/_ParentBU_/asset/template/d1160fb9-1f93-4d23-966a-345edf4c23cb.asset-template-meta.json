@@ -1,0 +1,87 @@
+{
+    "customerKey": "d1160fb9-1f93-4d23-966a-345edf4c23cb",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ntp_230525-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-05-23T09:09:21.343-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-05-23T09:09:21.343-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ntp_230525",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🛒💨 ¡No te preocupes, en Merco encuentras TODO para esta semana!\nAhorra y disfruta con estos Súper Preciazos:\n\n- *Aguacate en malla* - *$29.99*\n- *Manzana golden en bolsa* pieza, *melón chino* kg, *piña miel* kg o *jícama* kg - *$19.99 c/u*\n- *Sirloin con hueso* - *$164 kg*\n- Producto lácteo *Porsalud* 950 ml - *$11.99*\n- Detergente en polvo *Foca* 1 kg - *$33.99*\n- Papel Higiénico *MiMarca* 5+1 o *Regio Rinde+* 6 rollos - *$45.99 c/u*\n- Galletas *Mamut Gamesa* 240 gr - *$39.99*\n- *Pan dulce* con 5 piezas - *$49*\n- Salchicha p/asar *Chero* medio kilo - *$27.99*\n\n¡Ven a Merco y llévate lo mejor al mejor precio! 🎉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 26 de mayo del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

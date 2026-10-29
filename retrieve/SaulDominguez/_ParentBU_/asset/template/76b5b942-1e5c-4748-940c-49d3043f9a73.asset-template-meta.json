@@ -1,0 +1,87 @@
+{
+    "customerKey": "76b5b942-1e5c-4748-940c-49d3043f9a73",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-garantias_100125-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-01-10T18:20:02.74-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-01-10T18:20:02.74-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "garantias_100125",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Súper Preciazos en Merco! \nEncuentra todo con la Calidad y Frescura que te mereces. 🤩\n\n- *Tomate* Saladette - *$24,99 kg*\n- *Aguacate* en malla pieza  o *Limón* agrio kg - *$19.99 c/u*\n- *Chamberete de res con hueso* - *$99.99 kg*\n- *Fajitas de pechuga de pollo* - *$109 kg*\n- *Chuleta de cerdo natural* - *$86.99 kg*\n- Aceite puro de soya *Mimarca* 800 ml - *$24.99*\n- Cereal *Zucaritas* 600 gr o *Choco Krispis* 540 gr - *$57.99 c/u*\n- Papel higiénico *Premier* 225 hojas c/6 rollos - *$21.99*\n- Detergente en polvo *Ace* variedad 540 gr - *$18.99*\n- *Mini pan dulce* c/12 piezas - *$61*\n- Salchicha para asar *Chero* medio kilo - *$29.99*\n- Jamón de pavo Virginia *FUD* 450 gr - *$67.99*\n\nLas Garantías de Merco respaldan y garantizan cada una de tus compras. ✨\nSolo en Merco. 😉 \n\n_Ofertas válidas solo en Nuevo León._\n_Ofertas válidas hasta el 13 de enero del 2025._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "Revisa nuestro folleto.",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseó recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Limitado a 5 pares de producto por cliente."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

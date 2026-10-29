@@ -1,0 +1,39 @@
+{
+    "name": "Ora_Fiestononon_2026_Puntos",
+    "description": "",
+    "key": "d5a5de11-a633-e558-f5a1-9aab4af48eda",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2026-08-14T18:00:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20790606;INTERVAL=3",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "6E597590-B378-44BD-B2BE-D6755793399C"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "ORA_Fiestononon_Puntos_Acumulados_140826",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-08-14T23:31:28.913Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-08-14T23:51:47.367Z",
+    "r__folder_Path": "my automations/OrangeDCX/Fiestononon_2026/PreFiestononon_2026"
+}

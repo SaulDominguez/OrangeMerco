@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "CUARESMA_GRACIASPORPARTICIPAR_110325",
+    "description": "",
+    "createdDate": "2025-03-11T09:59:20.72",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-03-11T09:59:20.72",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-c9677188-2eeb-0207-09be-ea45bcffea30",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "4a1a8898-b645-49cc-9a57-19f18d8867cc",
+    "r__dataExtension_key": "989D3F74-EB5A-477D-9EDF-5486DAB547F9"
+}

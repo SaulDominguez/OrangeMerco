@@ -1,0 +1,85 @@
+{
+    "allowErrors": true,
+    "customerKey": "Update_BDD_General_EngagementCheck_1",
+    "createdDate": "2026-03-18T13:12:28.583",
+    "modifiedDate": "2026-03-18T13:47:57.567",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Abarrotes_Ofertas",
+            "destinationFieldName": "abarrotes"
+        },
+        {
+            "sourceFieldName": "Apellido",
+            "destinationFieldName": "Apellido"
+        },
+        {
+            "sourceFieldName": "Bebes_Ofertas",
+            "destinationFieldName": "articulosBebe"
+        },
+        {
+            "sourceFieldName": "Carnes_Ofertas",
+            "destinationFieldName": "CarnesPescados"
+        },
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "Contact_Id"
+        },
+        {
+            "sourceFieldName": "Email",
+            "destinationFieldName": "Email"
+        },
+        {
+            "sourceFieldName": "FrutasVerduras_Ofertas",
+            "destinationFieldName": "frutasVerduras"
+        },
+        {
+            "sourceFieldName": "BellezaCuidado_Ofertas",
+            "destinationFieldName": "higieneCuidadoPersonal"
+        },
+        {
+            "sourceFieldName": "MercanciasGenerales_Ofertas",
+            "destinationFieldName": "MercanciasGenerales"
+        },
+        {
+            "sourceFieldName": "Nombre",
+            "destinationFieldName": "Nombre"
+        },
+        {
+            "sourceFieldName": "SalchichoneriaLacteos_Ofertas",
+            "destinationFieldName": "Salchichoneria"
+        },
+        {
+            "sourceFieldName": "Sucursal",
+            "destinationFieldName": "Sucursal"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Update_BDD_General_EngagementCheck",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "B253AD8F-8415-4EB1-B01F-7DDF1953C43F"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Update"
+}

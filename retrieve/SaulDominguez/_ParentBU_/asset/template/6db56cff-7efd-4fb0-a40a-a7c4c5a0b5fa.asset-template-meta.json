@@ -1,0 +1,117 @@
+{
+    "customerKey": "6db56cff-7efd-4fb0-a40a-a7c4c5a0b5fa",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-fiestononon_nl_mensaje5",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2023-11-10T16:10:22.857-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2023-11-10T16:22:14.313-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "fiestononon_nl_mensaje5",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX",
+                            "es_ES"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🎉¡Premios y diversión en la Ruta del Fiestononón! 🎉\n                                  \n*ÚLTIMOS DIAS.* Este viernes 10 y sábado 11 de noviembre a *Merco García, Merco Israel Cavazos, Merco Pueblo Nuevo*, a partir de las 4pm, presenta tu ticket de compra de más de $999 pesos y *PARTICIPA PARA GANAR PREMIOS AL INSTANTE* como pantallas, celulares, freidoras de aire y tarjetas Merco!\n¡Al Fiestononón Merco están todos invitados!\n\n*Consulta términos y condiciones. Vigencia del 13 de octubre al 11 de noviembre de 2023.  *Regalos disponibles hasta agotar existencias.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://bit.ly/3Snra5S",
+                                        "title": "PARTICIPA Y GANA",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/whats-app-out${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            },
+                            "es_ES": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🎉¡Premios y diversión en la Ruta del Fiestononón! 🎉                                  \n*ÚLTIMOS DIAS.* Este viernes 10 y sábado 11 de noviembre a *Merco García, Merco Israel Cavazos, Merco Pueblo Nuevo*, a partir de las 4pm, presenta tu ticket de compra de más de $999 pesos y *PARTICIPA PARA GANAR PREMIOS AL INSTANTE* como pantallas, celulares, freidoras de aire y tarjetas Merco!\n¡Al Fiestononón Merco están todos invitados!\n\n*Consulta términos y condiciones. Vigencia del 13 de octubre al 11 de noviembre de 2023.  *Regalos disponibles hasta agotar existencias.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://bit.ly/3Snra5S",
+                                        "title": "PARTICIPA Y GANA",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/whats-app-out${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,24 @@
+{
+    "name": "TEST_QUERYS",
+    "description": "",
+    "key": "ef10f93e-397a-505b-7f9b-189dff368e35",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "7CFA8C9C-5845-4506-8C6E-20B5545EFDF2"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-10-23T02:34:40.87Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-10-23T02:35:31.06Z",
+    "r__folder_Path": "my automations/OrangeDCX/Test"
+}

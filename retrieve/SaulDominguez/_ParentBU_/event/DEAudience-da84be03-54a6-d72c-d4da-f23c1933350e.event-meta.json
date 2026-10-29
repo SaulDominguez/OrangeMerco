@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Fiestononon-ofertas-111024",
+    "description": "",
+    "createdDate": "2024-10-11T11:35:19.527",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-10-11T11:35:19.527",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-da84be03-54a6-d72c-d4da-f23c1933350e",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-10-11T13:00:00",
+        "endDateTime": "2024-10-11T13:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d1c59306-df89-489d-a258-995ac9512976",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

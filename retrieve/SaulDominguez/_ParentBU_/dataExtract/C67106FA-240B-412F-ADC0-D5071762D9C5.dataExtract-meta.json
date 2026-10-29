@@ -1,0 +1,39 @@
+{
+    "name": "Extract_WA_Rem_081225",
+    "key": "C67106FA-240B-412F-ADC0-D5071762D9C5",
+    "fileSpec": "Extract_WA_Rem_150626.zip",
+    "createdDate": "2025-12-08T12:34:20.8",
+    "modifiedDate": "2026-10-20T21:15:26.943",
+    "createdBy": "Alexis Dominguez",
+    "modifiedBy": "Alexis Dominguez",
+    "intervalType": 6,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ChannelId",
+            "type": "string",
+            "value": "5218115537251"
+        },
+        {
+            "name": "ChannelType",
+            "type": "string",
+            "value": "WHATSAPP"
+        },
+        {
+            "name": "ContactTrackingDetail",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "InboundMessageLogs",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "PotentialChannelUnsubscribes",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "ChatMessagingDetailExtract"
+}

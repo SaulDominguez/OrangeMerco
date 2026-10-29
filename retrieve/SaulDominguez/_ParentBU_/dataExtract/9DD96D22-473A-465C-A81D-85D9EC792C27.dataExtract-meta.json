@@ -1,0 +1,234 @@
+{
+    "name": "NotSent",
+    "key": "9DD96D22-473A-465C-A81D-85D9EC792C27",
+    "fileSpec": "NotSent.zip",
+    "createdDate": "2024-12-17T17:08:44.66",
+    "modifiedDate": "2024-12-17T17:54:13.24",
+    "createdBy": "Guty Hernandez",
+    "modifiedBy": "Guty Hernandez",
+    "intervalType": 0,
+    "description": "",
+    "startDate": "Nov 14 2024 12:00AM",
+    "endDate": "Nov 16 2024 12:00AM",
+    "dataFields": [
+        {
+            "name": "AccountIDs",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "Attributes",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "CharacterEncoding",
+            "type": "dropdown",
+            "value": "Default",
+            "dropDownList": "Default,ASCII,UTF-8,UTF-16"
+        },
+        {
+            "name": "ColumnDelimiter",
+            "type": "dropdown",
+            "value": "Default",
+            "dropDownList": "Default,|,[tab],[comma]"
+        },
+        {
+            "name": "EmailSendDefinitionExternalKey",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "ExtractAttributes",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractBounces",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "ExtractClickImpressions",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractClicks",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractConversions",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "extractListMembershipChanges",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "extractLists",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractMultipleDataExtensionListData",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractNotSent",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "ExtractOpens",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractSendImpressions",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractSendJobImpressions",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractSendJobs",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractSent",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractSpamComplaints",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "extractStatusChanges",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractSubscribers",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractSurveyResponses",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "ExtractUnsubs",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "Format",
+            "type": "dropdown",
+            "value": "csv",
+            "dropDownList": "csv,tab,xml"
+        },
+        {
+            "name": "IncludeAllListMembers",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeAllSubscribers",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeCampaignID",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeGEO",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeInferredOpens",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeMilliseconds",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeTestSends",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeUniqueClicks",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeUniqueForURLClicks",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeUniqueOpens",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeUnsubReason",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "IncludeUserAgentInformation",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "QuoteText",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "SendIDs",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "TextQualifier",
+            "type": "string",
+            "value": ""
+        },
+        {
+            "name": "Timezone",
+            "type": "integer",
+            "value": "1"
+        },
+        {
+            "name": "UnicodeOutput",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "UseLocalTZinQuery",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "Tracking Extract"
+}

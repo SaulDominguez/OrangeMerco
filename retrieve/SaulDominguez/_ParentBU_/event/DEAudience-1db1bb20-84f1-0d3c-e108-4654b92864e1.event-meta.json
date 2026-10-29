@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "PromoNestlé_070325",
+    "description": "",
+    "createdDate": "2025-03-04T16:31:31.937",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-03-04T16:31:31.937",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-1db1bb20-84f1-0d3c-e108-4654b92864e1",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-03-07T10:00:00",
+        "endDateTime": "2025-03-07T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "1aaf353d-a5b7-4944-a530-f20db126c40d",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

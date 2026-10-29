@@ -1,0 +1,87 @@
+{
+    "customerKey": "67d95acd-f3d1-4992-b307-bec3a9400ee8",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-especialidaddelacasa_100825-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-08-08T14:46:00.027-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-08-08T14:46:00.027-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "especialidaddelacasa_100825",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🏠 Prueba la *especialidad de casa* de Merco🏠\n\n- Alimento p/perro *MiMarca* 10 kg - *$219*\n- Tostadas rojas *MiMarca* c/70 pzas - *$39.99*\n- Aceite puro de soya *MiMarca* 800 ml - *$24.99*\n- Azúcar morena *MiMarca* 1.5 kg - *$37.99*\n*- Harina de maíz *MiMarca* 1 kg - *$15.99*\n- Arroz súper extra *MiMarca* 750 gr - *$13.99*\n- Suavizante *Nice Kleen* flor de primavera 2 Lts - *$24.99*\n- Atún en agua o aceite *MiMarca* 130 gr - *2x$20*\n- Toda la variedad de cereales *My Brand* y *MiMarca* - *¡Con un 25% de descuento!*\n\nCon la Calidad que te mereces a un Súper Preciazo que solo Merco sabe dar. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 14 de agosto de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

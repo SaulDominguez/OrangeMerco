@@ -1,0 +1,20 @@
+SELECT
+    Contact_Id,
+    Email,
+    Nombre,
+    Apellido,
+    Phone,
+    Sucursal,
+    Locale,
+    Genero,
+    Estado,
+    Ciudad,
+    MedioComunicacion,
+    OptInWhatsapp,
+    OptOutWhatsapp,
+    NoRecibirComunicacion,
+    ClienteNL
+FROM
+    BDD_General_Completa
+WHERE
+    ClienteNL = '1'

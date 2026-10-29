@@ -1,0 +1,60 @@
+{
+    "name": "Datos_Enviados_Por_Acoord",
+    "description": "",
+    "key": "f452ef81-4d20-847d-2d9f-cf07a483f4b7",
+    "type": "scheduled",
+    "status": "Building",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "5054D09C-FDF7-4895-A60C-0864CFF577FB"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "00006375-5B66-4398-B34D-B7D4C899A79A"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "4FA50C00-4C32-47D2-AB33-0F7035274310"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "3166B6BC-D569-492A-A3EE-596ED7F53459"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "",
+                    "r__type": "query"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-10-17T01:14:21.8Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-10-17T01:15:12.003Z",
+    "r__folder_Path": "my automations/OrangeDCX/Test"
+}

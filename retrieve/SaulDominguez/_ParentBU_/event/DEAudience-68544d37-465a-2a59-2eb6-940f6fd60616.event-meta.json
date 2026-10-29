@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST_Whatsapp_ProgressiveProfiling_Fiestononon_080925",
+    "description": "",
+    "createdDate": "2025-09-08T17:20:39.327",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-09-09T11:31:09.32",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-68544d37-465a-2a59-2eb6-940f6fd60616",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "0df3713e-2ab3-479f-bc65-a446ac1f619b",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

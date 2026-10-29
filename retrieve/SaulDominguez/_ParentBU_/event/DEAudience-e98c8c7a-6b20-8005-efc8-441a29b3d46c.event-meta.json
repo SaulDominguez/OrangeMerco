@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST_Bienvenida_SMS_060125",
+    "description": "",
+    "createdDate": "2025-01-06T13:50:08.403",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-01-06T15:08:16.437",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-e98c8c7a-6b20-8005-efc8-441a29b3d46c",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "f98ef7d3-4853-40d4-9560-6512f1df8c06",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

@@ -1,0 +1,85 @@
+{
+    "customerKey": "5256a905-ef7a-411d-a978-08359e0bc538",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-fiestononon_nl_mensaje1",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2023-11-01T12:42:04.407-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2023-11-01T12:42:04.407-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "fiestononon_nl_mensaje1",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🎉¡Premios y diversión en la Ruta del Fiestononón! 🎉 \n\nVen este viernes 3 y sábado 4 de noviembre a *TODAS LAS SUCURSALES MERCO DE NUEVO LEÓN*, a partir de las 4pm, presenta tu ticket de compra de $999 pesos o más y recibe *DOS BOLETOS* para el *CONCIERTO MERCO* en la Arena Monterrey con la actuación especial de un grupo de talla internacional 🤠 o ¡PARTICIPA con tu ticket de compra en *Merco Lindavista, Cadereyta o Buena Vista* PARA GANAR PREMIOS AL INSTANTE como pantallas, celulares, freidoras de aire y tarjetas Merco! ¡Al Fiestononón Merco están todos invitados! \n\n*Consulta términos y condiciones. Vigencia del 13 de octubre al 11 de noviembre de 2023. Regalos y boletos disponibles hasta agotar existencias.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://bit.ly/3FLt9co",
+                                        "title": "PARTICIPA Y GANA",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/whats-app-out${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

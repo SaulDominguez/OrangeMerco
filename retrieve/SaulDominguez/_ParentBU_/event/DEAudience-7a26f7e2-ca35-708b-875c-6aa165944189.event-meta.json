@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Servicio_A_Domicilio_10062026",
+    "description": "",
+    "createdDate": "2026-06-09T11:09:57.83",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2026-06-10T10:01:30.087",
+    "modifiedBy": "Monica Rojano",
+    "eventDefinitionKey": "DEAudience-7a26f7e2-ca35-708b-875c-6aa165944189",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "37d751bc-9a13-4b4d-872f-34877436d7e3",
+    "r__dataExtension_key": "0722BF27-576C-4AC7-B48B-12E027D25EAE"
+}

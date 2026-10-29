@@ -1,0 +1,16 @@
+{
+    "name": "Data_Extract_WA_180424",
+    "customerKey": "c0aca13f-a553-4630-95a7-d9ba736d8ced",
+    "createdDate": "2024-04-18T11:45:59.437",
+    "modifiedDate": "2024-04-18T11:53:08.887",
+    "fileSpec": "test_mo_log_%%Year%%%%Month%%%%Day%%.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": false,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__fileLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,15 @@
+{
+    "code": "21888",
+    "countryCode": "MX",
+    "codeType": "SHARED",
+    "isGsmCharacterSetOnly": false,
+    "isMms": false,
+    "sendableCountries": [
+        {
+            "countryCode": "MX",
+            "vendor": "CLX",
+            "fromNameSupported": true
+        }
+    ],
+    "supportsConcatenation": true
+}

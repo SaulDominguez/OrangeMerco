@@ -1,0 +1,80 @@
+{
+    "customerKey": "2ce2aa99-eb8c-4075-a1cd-8195d01060c6",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-edr_211124-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-11-22T10:46:00.347-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-11-22T10:46:00.347-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "edr_211124",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡En Merco Estamos de Regalo todos los días!\n\nPara esta temporada, llegamos con Súper Preciazos a montón en todo lo que necesitas. 👇🏽\n\n*Tomate* Saladette - *$26.99 kg*\n*Aguacate* en malla - *$18.99 pieza*\n*Limón* agrio - *$18.99 kg* \n*Manzana Golden* o *Manzana roja* en bolsa - *$18.99 pieza c/u*\nChuleta de cerdo natural o Filete de mojarra de granja - *$89.99 kg c/u*\nProducto lácteo *Creceré* 950 ml - *$11.99*\nDetergente en polvo *Viva* variedad 850 gr - *$19.99*\nPapel Higiénico *Premier* 225 hojas c/6 rollos - *$20.99*\nTodos los *pinos artificiales* - *¡Con un 40% de descuento!*\nTodas las *luces y accesorios navideños* - *¡Con un 30% de descuento!*\n\nSabemos que tu tiempo es valioso, por eso tenemos todo lo que buscas, ¡y a un Súper Preciazo!\nSolo en Merco. 😉\n\n_Ofertas válidas del 22 a 25 de noviembre del 2024 o hasta agotar existencias._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Estamos de Regalo!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas en todas las sucursales Merco."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

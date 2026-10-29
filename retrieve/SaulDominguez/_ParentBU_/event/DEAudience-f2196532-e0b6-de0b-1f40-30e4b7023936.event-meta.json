@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Remainder_31032025",
+    "description": "",
+    "createdDate": "2025-03-27T11:53:24.027",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-03-27T11:54:06.573",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-f2196532-e0b6-de0b-1f40-30e4b7023936",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-03-31T10:00:00",
+        "endDateTime": "2025-03-31T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "71887237-1bee-4d58-b40a-68a922fc6e1c",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

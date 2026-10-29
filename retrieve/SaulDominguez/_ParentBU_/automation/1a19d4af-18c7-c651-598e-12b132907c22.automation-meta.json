@@ -1,0 +1,24 @@
+{
+    "name": "TEST_Script",
+    "description": "",
+    "key": "1a19d4af-18c7-c651-598e-12b132907c22",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "script",
+                    "r__key": "9235751b-76be-4229-a4f6-00122014f281"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-04-30T14:13:13.243Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-04-30T14:31:59.09Z",
+    "r__folder_Path": "my automations/Test"
+}

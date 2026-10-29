@@ -1,0 +1,80 @@
+{
+    "customerKey": "091ffc9b-0a42-487b-8765-5aafea6771f2",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-arrancamosfiestononon_121024-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-10-12T09:36:58.923-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-10-12T09:36:58.923-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "arrancamosfiestononon_121024",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡El Fiestononón ya llegó con Súper Preciazos a Montón!\n\nPara nosotros el ahorro siempre va a ser un compromiso contigo, traemos estás promociones solo para ti:\n\nHuevo blanco *Mimarca* con 30 piezas - *$69.99 tapa*\nBistec del *Cero o Siete* - *$119 kg* \nMolida *pulpa de res* 90-10 - *$119 kg*\nTodas las *galletas dulces* - *¡Con un 25% descuento!*\nDetergente en polvo *1·2·3 Rocío del Campo* 800 gr - *$18.99*\nAceite vegetal *Kártamus* 900 ml - *$29.99*\n\n¡Que no te falte nada!\nTODO lo encuentras en Merco. 😉",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "Súper Preciazos a montón",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 14 de octubre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

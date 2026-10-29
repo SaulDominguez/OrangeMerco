@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Cuaresma_Journey_080324",
+    "description": "",
+    "createdDate": "2024-03-08T10:42:11.313",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-03-08T11:53:03.333",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-5a1a7916-a82f-74ae-e52b-390c57465cbd",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "906527a4-4c3f-4f92-8788-ea142c7b2c54",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

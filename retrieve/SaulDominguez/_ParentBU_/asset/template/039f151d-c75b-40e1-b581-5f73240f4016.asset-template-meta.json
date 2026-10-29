@@ -1,0 +1,87 @@
+{
+    "customerKey": "039f151d-c75b-40e1-b581-5f73240f4016",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-supertazon_080225-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-02-07T18:44:51.667-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-02-07T18:44:51.667-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "supertazon_080225",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Tu mejor jugada es con Merco! 🏈📣\nEste domingo, la emoción del Súper Tazón se vive con nuestros Súper Preciazos. 👇🏼\n\n- *Aguacate en malla* – *$19.99 pieza*\n- *T-Bone* o *Chuletón de res* – *$169 c/u*\n- Todos los *vinos y licores* – *¡Con un 30% de descuento!*\n- Todas las botanas *Sabritas* (Excepto las de precio inferior a $15) – *¡Con un 25% de descuento!*\n- Cerveza Corona *Barrilito* 6 pack botella 325 ml – *$64.99*\n*- *Ala de pollo adobada*, *habanera* o *chiltepín* – *$79.99 kg c/u*\n- *Chile jalapeño, tomatillo verde o limón agrio* – *$16.99 kg c/u*\n- *Cebolla cambray* – *$9.99 manojo*\n- Charola térmica *Convermex* No. 855 c/50 – *$28.99*\n- Salchicha para asar *Kir, Ponderosa, Bafar o Alpino* 800 gr – *$69.99 c/u*\n- Compra carne para hamburguesa *Sirloin* o *Arrachera Griller's* 900 gr y llévate *GRATIS pan para hamburguesa c/8 piezas* – $114\n- *Mini pan dulce* c/12 piezas – *$62*\n\n¡Ven por lo tuyo antes del partido! 🏟️\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 10 de febrero del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

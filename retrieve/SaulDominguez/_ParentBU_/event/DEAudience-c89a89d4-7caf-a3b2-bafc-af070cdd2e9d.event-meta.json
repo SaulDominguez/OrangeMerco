@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_TEST_journey_Fiestononon_02",
+    "description": "",
+    "createdDate": "2026-09-09T17:28:38.953",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2026-10-02T17:46:37.957",
+    "modifiedBy": "Elizabeth Vásquez",
+    "eventDefinitionKey": "DEAudience-c89a89d4-7caf-a3b2-bafc-af070cdd2e9d",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 6,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "a3b6be7b-3286-48ab-8eef-83a26cb32bf4",
+    "r__dataExtension_key": "70673928-D245-489B-9D79-38E5395FA5CB"
+}

@@ -1,0 +1,16 @@
+{
+    "name": "SMS INBOUND TEST",
+    "customerKey": "4d1e9e31-04ae-4591-93c5-8ba67a23da4d",
+    "createdDate": "2025-08-01T06:43:22.74",
+    "modifiedDate": "2025-08-01T06:43:22.74",
+    "fileSpec": "SMSTest.zip",
+    "isEncrypted": false,
+    "isCompressed": false,
+    "maxFileAge": 0,
+    "maxFileAgeScheduleOffset": 0,
+    "maxImportFrequency": 0,
+    "isUpload": true,
+    "isPgp": false,
+    "isFileSpecLocalized": false,
+    "r__fileLocation_name": "ExactTarget Enhanced FTP"
+}

@@ -1,0 +1,20 @@
+{
+    "CustomerKey": "4735343F-0E10-4EDB-AA06-A0BD344E7960",
+    "Name": "Cuaresma_Registros_Nuevos",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "Contact_Id",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/OrangeDCX/Cuaresma",
+    "c__retentionPolicy": "none"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Test_Onboarding_Wpp",
+    "description": "",
+    "createdDate": "2025-05-08T16:45:36.45",
+    "createdBy": "Guty Hernandez",
+    "modifiedDate": "2025-05-08T16:45:36.45",
+    "modifiedBy": "Guty Hernandez",
+    "eventDefinitionKey": "DEAudience-6800dbb3-4fc1-3d77-fccd-2be17ca7ffba",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "88ea4386-9530-466a-9d03-4a46bdb771e2",
+    "r__dataExtension_key": "492049C2-48FF-4685-8A16-9D2926A8DC6C"
+}

@@ -1,0 +1,85 @@
+{
+    "customerKey": "b5955e0d-affe-4247-a0d3-db442d84d4fa",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-optout_dic_v2-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-12-06T12:39:37.713-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-12-06T12:39:37.713-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "optout_dic_v2",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡BIENVENIDO A LOS SÚPER PRECIAZOS DE MERCO! 🛒💥\n\nEstamos emocionados de tenerte aquí. 🥰 En este canal te mantendremos al día con:\n📅 Súper Preciazos semanales\n🎉 Promociones únicas\n🎁 Dinámicas especiales\n\nCada semana te compartiremos lo mejor de lo mejor para que aproveches al máximo tu experiencia en Merco. 🌟\n\nGracias por ser parte de nuestra comunidad. 🫶🏽 ¡Es un placer tenerte con nosotros y compartir todo lo especial que preparamos para ti! \n\n¡Nos vemos pronto con más sorpresas increíbles! 🤩\n\n_👉🏽 Recuerda: Si en algún momento decides que ya no quieres recibir estos mensajes, puedes cancelar tu suscripción haciendo clic en el botón de \"No deseo recibir más mensajes\"._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa?utm_source=WhatsApp&utm_medium=Mensaje&utm_campaign=BienvenidaSP",
+                                        "title": "¡Conoce nuestras ofertas!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/whats-app-out$/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

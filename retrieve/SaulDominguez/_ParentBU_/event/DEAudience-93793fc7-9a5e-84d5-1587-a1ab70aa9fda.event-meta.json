@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Fiestononon_Cambio_Dinamica_271026",
+    "description": "",
+    "createdDate": "2026-10-27T22:40:50.967",
+    "createdBy": "Moises Rodriguez",
+    "modifiedDate": "2026-10-28T14:13:00.89",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-93793fc7-9a5e-84d5-1587-a1ab70aa9fda",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "a46b893f-79f7-4056-9686-fd1139d5e73d",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

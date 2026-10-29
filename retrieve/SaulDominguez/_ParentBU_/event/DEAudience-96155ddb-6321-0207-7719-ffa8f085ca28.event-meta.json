@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_BuenFin_141125",
+    "description": "",
+    "createdDate": "2025-11-14T12:46:23.347",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-11-14T12:46:23.347",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-96155ddb-6321-0207-7719-ffa8f085ca28",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "002b7349-f9ae-4aa5-8715-294f9c55a52d",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

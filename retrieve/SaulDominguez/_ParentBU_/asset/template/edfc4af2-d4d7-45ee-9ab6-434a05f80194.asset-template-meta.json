@@ -1,0 +1,87 @@
+{
+    "customerKey": "edfc4af2-d4d7-45ee-9ab6-434a05f80194",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-vacaciones_250425-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-25T10:36:28.85-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-25T10:36:28.85-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "vacaciones_250425",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Esta semana en Merco te armamos la despensa con puro Súper Preciazo! 😉\nMira todo lo que tenemos para ti:\n\n- *Sandía roja* – *$8.99 kg*\n- *Molida de res 80-20* – *$89.99 kg*\n- *Chuleta de cerdo natural* – *$79.99 kg*\n- *20% de descuento* en toda la variedad de *cereales y barras nutritivas Kellogg’s*\n- Producto lácteo *Porsalud* 950 ml – *$10.99*\n- Súper pan blanco con ajonjolí *Wonder* 567 gr – *$36.99*\n- Aceite puro de soya *Nutrioli* 900 ml +11% – *$32.99*\n- Harina de trigo *Selecta* 1 kilo – *$15.99*\n- Detergente en polvo *Foca* 1 kilo – *$32.99*\n- *Dona decorada de temporada* paq c/5 + 1 gratis – *$53*\n- *Danonino* fresa 8 pack 42 gr c/u – *$39.99*\n\n¡Te esperamos en Merco! ✨\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "Revisa nuestro folleto",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 28 de abril del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

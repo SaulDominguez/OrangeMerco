@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Prueba_Whats_Rem",
+    "description": "",
+    "createdDate": "2025-02-07T13:52:01.693",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-02-07T13:52:01.693",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-faf219bd-f613-853c-d9f0-f0cc7e77a1eb",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "dbfb9274-e26a-4b15-84d6-7409a992f8ba",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

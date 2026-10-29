@@ -1,0 +1,24 @@
+{
+    "name": "test",
+    "description": "",
+    "key": "27e997f0-09dd-e800-0edc-8c69e22de20a",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "E15DB5DA-BFD4-4D7E-A904-555D9CF664DA"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2024-02-12T22:37:14.25Z",
+    "modifiedName": "Martín Orange",
+    "modifiedDate": "2024-02-12T22:37:19.517Z",
+    "r__folder_Path": "my automations"
+}

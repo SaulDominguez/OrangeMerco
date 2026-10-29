@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Warming_Whatsapp_26052025",
+    "description": "",
+    "createdDate": "2025-05-14T10:01:47.723",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-05-26T09:55:59.94",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-4ba8d92a-5624-2444-d818-f809cd905279",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d9043132-2ee1-47d9-afd3-ea40dd2dbc4c",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

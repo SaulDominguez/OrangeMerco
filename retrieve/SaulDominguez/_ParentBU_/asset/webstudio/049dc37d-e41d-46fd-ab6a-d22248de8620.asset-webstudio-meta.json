@@ -1,0 +1,45 @@
+{
+    "customerKey": "049dc37d-e41d-46fd-ab6a-d22248de8620",
+    "contentType": "application/javascript",
+    "assetType": {
+        "name": "jscoderesource",
+        "displayName": "Javascript Code Resource"
+    },
+    "version": 1,
+    "name": "estados_js",
+    "description": "",
+    "owner": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "createdDate": "2026-02-23T19:58:50.287-06:00",
+    "createdBy": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "modifiedDate": "2026-02-23T19:59:01.863-06:00",
+    "modifiedBy": {
+        "email": "viridiana.b@orangedcx.com",
+        "name": "Viridiana Orange"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2026-02-23 19:59:01.863",
+            "c__published": true
+        }
+    },
+    "availableViews": [],
+    "data": {
+        "site": {
+            "content": {
+                "url": "https://cloud.hello.merco.email/estados_js"
+            }
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2026/01-ENGAGEMENTCHECK"
+}

@@ -1,0 +1,144 @@
+%%[
+    /* ========================================
+   MERCO - ENGAGEMENT FORM PROCESSOR
+   Procesa y guarda las preferencias de engagement
+   ======================================== */
+
+    /* --- Variable Definitions --- */
+    var @SubscriberKey,
+        @Email,
+        @Nombre,
+        @Apellido,
+        @Phone,
+        @Sucursal
+    var @Abarrotes,
+        @Carnes,
+        @FrutasVerduras,
+        @MercanciasGenerales
+    var @BellezaCuidado,
+        @SalchichoneriaLacteos,
+        @Bebes
+    var @ServicioDomicilio,
+        @ProgramaLealtad,
+        @Recompensas,
+        @Privacidad
+    var @DateAdded,
+        @DateModified,
+        @Locale
+    var @ExistingRecord
+    /* --- Obtaining Parameters from Form --- */
+    set @SubscriberKey = RequestParameter('SubscriberKey')
+    /* --- Check if SubscriberKey already exists in DE --- */
+    set @ExistingRecord =
+        Lookup('Ora_Engagement_Check_Registros', 'SubscriberKey', 'SubscriberKey', @SubscriberKey)
+    /* --- If record exists, redirect to main page --- */
+    if not Empty(@ExistingRecord) then
+        Redirect('https://cloud.hello.merco.email/ya_estas_registrado')
+    endif
+
+    /* --- Get form parameters --- */
+    set @Email = RequestParameter('correo')
+    set @Nombre = RequestParameter('nombre')
+    set @Apellido = RequestParameter('apellidos')
+    set @Sucursal = RequestParameter('Sucursal')
+    /* --- Retrieve Phone from BDD_General_Completa --- */
+    set @Phone = Lookup('BDD_General_Completa', 'Phone', 'Contact_Id', @SubscriberKey)
+    /* --- Checkbox Parameters (Ofertas) --- */
+    set @Abarrotes = RequestParameter('abarrotes_ofertas')
+    set @Carnes = RequestParameter('carnes_ofertas')
+    set @FrutasVerduras = RequestParameter('frutas_verduras_ofertas')
+    set @MercanciasGenerales = RequestParameter('mercancias_generales_ofertas')
+    set @BellezaCuidado = RequestParameter('belleza_cuidado_ofertas')
+    set @SalchichoneriaLacteos = RequestParameter('salchichoneria_lacteos_ofertas')
+    set @Bebes = RequestParameter('bebes_ofertas')
+    /* --- Radio Button Parameters --- */
+    set @ServicioDomicilio = RequestParameter('servicio_domicilio')
+    set @ProgramaLealtad = RequestParameter('programa_lealtad')
+    set @Recompensas = RequestParameter('recompensas')
+    set @Privacidad = RequestParameter('privacidad')
+    /* --- Data Cleaning --- */
+    set @Email = Trim(@Email)
+    set @Email = Replace(@Email, ',', '')
+    set @Nombre = Trim(@Nombre)
+    set @Apellido = Trim(@Apellido)
+    set @Phone = Trim(@Phone)
+    /* --- Set Dates and Locale --- */
+    set @DateAdded = Now()
+    set @DateModified = Now()
+    set @Locale = 'MX'
+    /* --- Convert Empty Checkboxes to FALSE --- */
+    if Empty(@Abarrotes) then
+        set @Abarrotes = 'FALSE'
+    endif
+
+    if Empty(@Carnes) then
+        set @Carnes = 'FALSE'
+    endif
+
+    if Empty(@FrutasVerduras) then
+        set @FrutasVerduras = 'FALSE'
+    endif
+
+    if Empty(@MercanciasGenerales) then
+        set @MercanciasGenerales = 'FALSE'
+    endif
+
+    if Empty(@BellezaCuidado) then
+        set @BellezaCuidado = 'FALSE'
+    endif
+
+    if Empty(@SalchichoneriaLacteos) then
+        set @SalchichoneriaLacteos = 'FALSE'
+    endif
+
+    if Empty(@Bebes) then
+        set @Bebes = 'FALSE'
+    endif
+
+    /* --- Saving to Data Extension --- */
+    InsertDE(
+        'Ora_Engagement_Check_Registros',
+        'SubscriberKey',
+        @SubscriberKey,
+        'Email',
+        @Email,
+        'Nombre',
+        @Nombre,
+        'Apellido',
+        @Apellido,
+        'Phone',
+        @Phone,
+        'Sucursal',
+        @Sucursal,
+        'Abarrotes_Ofertas',
+        @Abarrotes,
+        'Carnes_Ofertas',
+        @Carnes,
+        'FrutasVerduras_Ofertas',
+        @FrutasVerduras,
+        'MercanciasGenerales_Ofertas',
+        @MercanciasGenerales,
+        'BellezaCuidado_Ofertas',
+        @BellezaCuidado,
+        'SalchichoneriaLacteos_Ofertas',
+        @SalchichoneriaLacteos,
+        'Bebes_Ofertas',
+        @Bebes,
+        'ServicioDomicilio',
+        @ServicioDomicilio,
+        'ProgramaLealtad',
+        @ProgramaLealtad,
+        'Recompensas',
+        @Recompensas,
+        'Privacidad',
+        @Privacidad,
+        'DateAdded',
+        @DateAdded,
+        'DateModified',
+        @DateModified,
+        'Locale',
+        @Locale
+    )
+    /* --- Redirect to Thank You Page --- */
+    Redirect('https://cloud.hello.merco.email/ty_ec')
+]%%

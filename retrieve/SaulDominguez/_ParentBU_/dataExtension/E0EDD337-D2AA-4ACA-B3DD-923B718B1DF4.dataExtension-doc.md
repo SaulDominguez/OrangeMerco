@@ -1,0 +1,33 @@
+## E0EDD337-D2AA-4ACA-B3DD-923B718B1DF4
+
+**Name** (not equal to External Key)**:** Delete_Contact_Backup
+
+**Description:** Base de Datos general integra bases de PowerUsers Activos y Nuevos actualizada 25-10-31
+
+**Folder:** Data Extensions/Delete/
+
+**Fields in table:** 15
+
+**Sendable:** No
+
+**Testable:** No
+
+**Retention Policy:** none
+
+| Name | FieldType | MaxLength | IsPrimaryKey | IsNullable | DefaultValue |
+| --- | --- | --- | --- | --- | --- |
+| Contact_Id | Text | 50 | + | - |  |
+| Email | EmailAddress | 254 | - | + |  |
+| Nombre | Text | 255 | - | + |  |
+| Apellido | Text | 255 | - | + |  |
+| Phone | Phone | 50 | - | + |  |
+| Sucursal | Text | 150 | - | + |  |
+| NumSucursal | Text | 50 | - | + |  |
+| FechaNacimiento | Date |  | - | + |  |
+| Locale | Locale | 5 | - | + |  |
+| Genero | Text | 50 | - | + |  |
+| Estado | Text | 250 | - | + |  |
+| Ciudad | Text | 250 | - | + |  |
+| MedioComunicacion | Text | 250 | - | + |  |
+| Frecuencia | Text | 250 | - | + |  |
+| Colonia | Text | 250 | - | + |  |

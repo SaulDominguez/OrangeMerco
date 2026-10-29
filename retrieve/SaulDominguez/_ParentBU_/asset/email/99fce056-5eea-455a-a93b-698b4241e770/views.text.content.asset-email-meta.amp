@@ -1,0 +1,79 @@
+{{> _header}} Ver la versión web %%view_email_url%%
+https://merco.mx/?utm_source=marketing_cloud&utm_medium=email&utm_campaign=SiMerconviene ¡Llegó el
+momento de estrenar sin culpa! 😎 .ie-radio-check { display: inline-block; opacity: 0; width: 0;
+height: 0; margin: 0; margin: 0 0 0 -9999px; float: left; position: absolute; -webkit-appearance:
+none; } input:checked~.ie-carousel { display: block !important; } input:checked~.ie-carouselFallback
+{ display: none; } .mc-carousel-id-1762880207722 { text-align: center; }
+.mc-carousel-id-1762880207722 .ie-carousel-wrap { margin: 0 auto } .ie-carousel-wrap { position:
+relative; } .ie-carousel input:focus~.ie-thumb { outline: Highlight auto 2px; outline:
+-webkit-focus-ring-color auto 5px; outline-offset: 3px; } .ie-slide { width: 100%; background-size:
+contain; background-position:center; background-repeat: no-repeat; display: block; }
+.mc-carousel-id-1762880207722 .ie-slide { padding-bottom: 75%; } .ie-thumb { width: 1em; height:
+1em; border-radius: 50%; margin: .3em .1em; display: inline-block; border: .1em solid; }
+.ie-carousel:not(:has(input:checked)) .ie-start ~ .ie-thumb{ background:currentColor; }
+input:checked~.ie-thumb { background: currentColor !important; } .ie-pos-arrow { max-height: 0;
+text-align: left; } .ie-arrow { display: inline-block; max-height: 0; max-width: 0; border: 1em
+solid transparent; border-right-color: currentColor; border-left-width: 0; opacity: 0.99; position:
+relative; vertical-align: middle; margin: 0 5% 0 .2em; } .mc-carousel-id-1762880207722
+.ie-arrow-padding { display: inline-block; vertical-align: middle; padding-bottom:75%; width: 0px; }
+.ie-apple-clickarea { height: 200px; width: 3em; width:clamp(45px, 3em, 70px); float: left;
+transform: translate(-5px, -50%); } .mc-carousel-id-1762880207722 input:checked~* .ie-pos-arrow,
+.ie-start { text-align: right; } .mc-carousel-id-1762880207722 input:checked~* .ie-pos-arrow
+.ie-apple-clickarea, .ie-start .ie-apple-clickarea { float: right; transform: translate(5px, -50%);
+} .mc-carousel-id-1762880207722 input:checked~* .ie-arrow, .ie-start .ie-arrow { border-right-width:
+0; border-left: 1em solid; margin: 0 .2em 0 5%; } .mc-carousel-id-1762880207722
+input:checked~.ie-start~* .ie-end { display: block; text-align: left; }
+.mc-carousel-id-1762880207722 input:checked~.ie-start~* .ie-end .ie-arrow { border-left-width: 0;
+border-right: 1em solid; margin: 0 5% 0 .2em; } .mc-carousel-id-1762880207722
+input:checked+.ie-pos-arrow, .mc-carousel-id-1762880207722 input:checked~label label .ie-pos-arrow {
+display: none; } .mc-carousel-id-1762880207722 input:checked~.ie-start~* .ie-end .ie-arrow
+.ie-apple-clickarea { float: left; transform: translate(-5px, -50%); } .ie-img-wrap { display: none;
+} .ie-carousel .ie-mid .ie-img1{ display:block; position:initial; } .mc-carousel-id-1762880207722
+input:checked ~ label .ie-mid .ie-img1{ display:none; } .mc-carousel-id-1762880207722
+input:checked+.ie-img1~* .ie-mid .ie-img1, .mc-carousel-id-1762880207722 input:checked+.ie-img2~*
+.ie-mid .ie-img2, .mc-carousel-id-1762880207722 input:checked+.ie-img3~* .ie-mid .ie-img3,
+.mc-carousel-id-1762880207722 input:checked+.ie-img4~* .ie-mid .ie-img4,
+.mc-carousel-id-1762880207722 input:checked+.ie-img5~* .ie-mid .ie-img5 { display:block; }
+.mc-carousel-id-1762880207722 input:checked ~ .ie-end { display: none; }
+input:checked+.mc-carousel-id-1762880207722 .ie-img1 span { background-image:
+url(https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/04cca542-48b4-47c8-bf99-b88fa0a7a82c.png);
+} input:checked+.mc-carousel-id-1762880207722 .ie-img2 span { background-image:
+url(https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/33b5880d-e602-412c-8a73-dab93ea2ef1b.png);
+} input:checked+.mc-carousel-id-1762880207722 .ie-img3 span { background-image:
+url(https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/a57014f0-8da2-4b81-8e5c-49158c419839.png);
+} input:checked+.mc-carousel-id-1762880207722 .ie-img4 span { background-image:
+url(https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/704cbbd7-ce2c-4fd1-8803-3c606d05eea4.png);
+} input:checked+.mc-carousel-id-1762880207722 .ie-img5 span { background-image:
+url(https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/9df3369e-6e2b-4235-b424-6c4e5aa04d17.png);
+} .ie-carousel { direction: rtl; } .ie-carousel label { direction: ltr; } .ie-arrow-wrap { display:
+table; width: 100%; overflow: hidden; } .ie-arrow-wrap:hover .ie-arrow{ transform:scale(1.1); }
+@supports (animation: carousel-anim) and (position: absolute) { .mc-carousel-id-1762880207722
+.ie-img-wrap { animation: mc-carousel-id-1762880207722-anim 37.5s infinite; display: block;
+position: absolute; left: 0; right: 0; } .ie-mid{ position:relative; } .mc-carousel-id-1762880207722
+.ie-img1{ animation-delay:-37.5s }.mc-carousel-id-1762880207722 .ie-img2{ animation-delay:-30s
+}.mc-carousel-id-1762880207722 .ie-img3{ animation-delay:-22.5s }.mc-carousel-id-1762880207722
+.ie-img4{ animation-delay:-15s }.mc-carousel-id-1762880207722 .ie-img5{ animation-delay:-7.5s }
+.ie-arrow { z-index: 2; } .mc-carousel-id-1762880207722 input:checked~* .ie-img-wrap { position:
+initial; display: none; animation: none; } @keyframes mc-carousel-id-1762880207722-anim {
+0%{z-index:1;opacity:1; } 19%{opacity:1;} 20%{z-index:1;} 21%{z-index:0;opacity:0;}
+99%{z-index:0;opacity:0; } 100%{opacity:1} } .mc-carousel-id-1762880207722:has(input) .ie-thumb {
+animation-name: mc-carousel-id-1762880207722-thumb; animation-duration: 37.5s;
+animation-iteration-count: infinite; background:currentColor; }
+.mc-carousel-id-1762880207722:has(input:checked) .ie-thumb { animation:none; background:none; }
+@keyframes mc-carousel-id-1762880207722-thumb { 0%,100% { background:currentColor; } 20% {
+background:currentColor; } 21%, 99% { background:none; } } } @media (prefers-reduced-motion) {
+.ie-img-wrap { position: initial; display: none; animation: none; } } .& .ie-carousel
+input:focus~.ie-thumb{ outline: Highlight auto 5px; } http://merco.mx/ofertas
+https://merco.mx/ofertas https://merco.mx/ofertas https://merco.mx/ofertas https://merco.mx/ofertas
+https://merco.mx/ofertas https://ofertas.merco.mx/ ¡Encuentra los Súper Preciazos!
+https://ofertas.merco.mx/ Vigencia del 15 al 17 de Noviembre del 2025. Hasta agotar existencias
+https://www.merco.mx/ https://www.instagram.com/mercosupermercado/?hl=en      
+https://www.facebook.com/MercoSupermercado/?ref=br_rs https://www.youtube.com/tiendasmerco
+https://www.tiktok.com/@mercosupermercado Recuerda que todos tus datos están protegidos por sistemas
+estrictos de seguridad y puedes consultar nuestro Aviso de Privacidad.
+https://www.merco.mx/aviso-de-privacidad ¿Tienes dudas? Estamos listos para contestar todas tus
+preguntas Centro de Ayuda. https://wa.me/5218186258650 Email enviado por Merco, con domicilio en
+%%Member_Busname%% %%Member_Addr%% %%Member_City%%, %%Member_State%%, %%Member_PostalCode%%,
+%%Member_Country%%. (C) 2025 Merco. All rights reserved. Actualizar perfil %%profile_center_url%%  
+|  Administra tu suscripción %%subscription_center_url%%   |  Desuscribirse %%unsub_center_url%%
+{{> _footer}}

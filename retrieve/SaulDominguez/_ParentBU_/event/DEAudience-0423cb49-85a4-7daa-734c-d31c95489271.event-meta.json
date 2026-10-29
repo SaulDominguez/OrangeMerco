@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Test_26_al_29_Octubre",
+    "description": "",
+    "createdDate": "2026-10-22T17:39:28.27",
+    "createdBy": "Alexis Dominguez",
+    "modifiedDate": "2026-10-22T17:39:41.027",
+    "modifiedBy": "Alexis Dominguez",
+    "eventDefinitionKey": "DEAudience-0423cb49-85a4-7daa-734c-d31c95489271",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c986167b-1168-43d7-8c8e-7a0d2f50c43a",
+    "r__dataExtension_key": "9D951ABB-D836-44BA-8CEB-35A4B2C28C60"
+}

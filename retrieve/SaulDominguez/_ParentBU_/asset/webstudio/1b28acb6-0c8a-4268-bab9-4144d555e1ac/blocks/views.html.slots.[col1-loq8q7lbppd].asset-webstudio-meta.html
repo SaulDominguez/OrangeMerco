@@ -1,0 +1,29 @@
+%%[
+    var @mobilenumber,
+        @Contactkey,
+        @insertRow,
+        @locale,
+        @rowsDesuscritos
+    /* Retrieve the URL parameters */
+    set @mobilenumber = QueryParameter('mobilenumber')
+    set @Contactkey = QueryParameter('Contactkey')
+    set @rowsDesuscritos = LookupRows('Whatsapp_OptOut_Requests', 'Contactkey', @Contactkey)
+    if RowCount(@rowsDesuscritos) == 0 then
+        /* Lookup locale from the "BDD_General_Whatsapp" Data Extension */
+        set @locale = Lookup('BDD_General_Whatsapp', 'locale', 'Contact_Id', @Contactkey)
+        /* Insert data into your Data Extension */
+        set @insertRow =
+            InsertDE(
+                'Whatsapp_OptOut_Requests',
+                'mobilenumber',
+                @mobilenumber,
+                'Contactkey',
+                @Contactkey,
+                'locale',
+                @locale,
+                'optOutStatus',
+                '1'
+            )
+    endif
+    Redirect('https://cloud.hello.merco.email/gracias-whatsApp-opt-out')
+]%%

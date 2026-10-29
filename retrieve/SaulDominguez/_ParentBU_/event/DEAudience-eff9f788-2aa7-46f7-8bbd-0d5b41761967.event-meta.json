@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_LaJugada-250626",
+    "description": "",
+    "createdDate": "2026-06-25T15:23:45.313",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2026-06-25T15:23:45.313",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-eff9f788-2aa7-46f7-8bbd-0d5b41761967",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-06-25T15:30:00",
+        "endDateTime": "2026-06-25T15:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e4f0dbef-b2e1-4025-ae9f-6baa286c8eda",
+    "r__dataExtension_key": "DD05997C-007F-47CB-8576-B7FD885EFFEE"
+}

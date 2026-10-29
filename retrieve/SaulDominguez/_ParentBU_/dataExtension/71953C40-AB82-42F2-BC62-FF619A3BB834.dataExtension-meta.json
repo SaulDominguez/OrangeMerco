@@ -1,0 +1,28 @@
+{
+    "CustomerKey": "71953C40-AB82-42F2-BC62-FF619A3BB834",
+    "Name": "WhatsApp_Saltillo",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "whats",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Phone"
+        },
+        {
+            "Name": "Telefoono",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Phone"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/FIESTONONON/Saltillo - Ramos Arizpe",
+    "c__retentionPolicy": "none"
+}

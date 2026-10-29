@@ -1,0 +1,80 @@
+{
+    "customerKey": "0fa04f85-2d58-40cf-a0fe-a4253ce14bf5",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-plcl_230824_wa-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-08-23T12:42:19.72-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-08-23T12:42:19.72-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "plcl_230824_wa",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "en"
+                        ],
+                        "display:languages:content": {
+                            "en": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "El regreso a clases está a la vuelta de la esquina. 👀\n\n¡Que no te falte nada! 👇🏽\n\nTodos los colores *Mapita y Blanca Nieves* - *¡Con un 40% de descuento!*\nTodas las *mochilas, loncheras y lapiceras* - *¡Con un 30% de descuento!*\nToda la línea *BiC escolar, libros para colorear y de lectura* - *¡Con un 30% de descuento!*\nCuaderno profesional de espiral *Tasky c/100 hojas* - $16.99\nLápiz grafito No.2 hexagonal *Dixon c/5 piezas* - *$14.99*\nTijera escolar *Barrilito con regla* - *$19.99 pieza*\nPlastilina Mix *Barrilito c/10 piezas* - *$14.99*\nLapicera *Boris* variedad - *$24.99 pieza*\n\n*TODO* lo encuentras en Merco. 😉\n\n_Ofertas válidas del 23 al 29 de agosto del 2024._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Conoce más aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas del 23 al 29 de agosto del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

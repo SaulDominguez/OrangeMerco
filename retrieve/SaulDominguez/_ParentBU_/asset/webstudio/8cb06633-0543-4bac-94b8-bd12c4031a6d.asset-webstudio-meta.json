@@ -1,0 +1,41 @@
+{
+    "customerKey": "8cb06633-0543-4bac-94b8-bd12c4031a6d",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Tabla registros",
+    "description": "",
+    "owner": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "createdDate": "2024-08-28T15:01:31.827-06:00",
+    "createdBy": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "modifiedDate": "2024-09-10T17:37:31.927-06:00",
+    "modifiedBy": {
+        "email": "joel@orangedcx.com",
+        "name": "Joel Jiménez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/consultaderegistrosfiestononon2024"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2024-09-10 17:37:31.927",
+            "c__published": true
+        },
+        "r__asset_key": "efce3702-ed2a-45ee-ad00-55c76d2cf102"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2024/Fiestononon 2024"
+}

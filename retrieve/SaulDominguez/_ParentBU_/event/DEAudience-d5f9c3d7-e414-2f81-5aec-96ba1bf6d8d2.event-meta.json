@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": " 2NOV-Envio-Fiestononon_Whatsapp_RutaNL_parte1",
+    "description": "",
+    "createdDate": "2023-11-02T12:20:01.137",
+    "createdBy": "Ana Pontigo",
+    "modifiedDate": "2023-11-02T12:23:06.26",
+    "modifiedBy": "Ana Pontigo",
+    "eventDefinitionKey": "DEAudience-d5f9c3d7-e414-2f81-5aec-96ba1bf6d8d2",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "50d29d89-f5d0-4007-8350-e1a4212fd106",
+    "r__dataExtension_key": "B05AA5E8-A838-4D37-A0A6-33B09C70337E"
+}

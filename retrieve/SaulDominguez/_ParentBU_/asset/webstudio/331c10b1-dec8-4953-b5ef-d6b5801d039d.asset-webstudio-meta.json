@@ -1,0 +1,45 @@
+{
+    "customerKey": "331c10b1-dec8-4953-b5ef-d6b5801d039d",
+    "contentType": "application/javascript",
+    "assetType": {
+        "name": "jscoderesource",
+        "displayName": "Javascript Code Resource"
+    },
+    "version": 1,
+    "name": "main js3",
+    "description": "",
+    "owner": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "createdDate": "2025-03-11T10:44:09.033-06:00",
+    "createdBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "modifiedDate": "2025-03-25T10:57:15.633-06:00",
+    "modifiedBy": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-03-25 10:57:15.633",
+            "c__published": true
+        }
+    },
+    "availableViews": [],
+    "data": {
+        "site": {
+            "content": {
+                "url": "https://cloud.hello.merco.email/mainjs3"
+            }
+        }
+    },
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/progressive profiling3"
+}

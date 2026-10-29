@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "PaChopear_041025",
+    "description": "",
+    "createdDate": "2025-10-03T17:12:26.48",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-10-03T17:19:03.86",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-6fa4460d-f59d-271d-a85a-812ff141ca73",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "8e7f1c6a-0410-4906-a441-8dd06c55683f",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

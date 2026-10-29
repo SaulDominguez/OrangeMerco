@@ -1,0 +1,16 @@
+%%[
+    set @rows =
+        LookupRows('BDD_General_Datawifi Segment 1', 'Contact_Id', AttributeValue('Contact_Id'))
+    set @record = Row(@rows, 1)
+    set @ContactKey = Field(@record, 'Contact_Id')
+    set @Email = Field(@record, 'Email')
+    set @link =
+        Concat(
+            'https://cloud.hello.merco.email/Progressive-Profiling?utm_source=marketing-cloud&utm_medium=email&utm_campaign=perfilamiento-progresivo&utm_id=011223?id=',
+            @ContactKey,
+            '&origen=',
+            @Email,
+            '&tipo=Email'
+        )
+]%%
+

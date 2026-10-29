@@ -1,0 +1,24 @@
+{
+    "name": "Update Medio Comunicacion",
+    "description": "",
+    "key": "2ec2790f-4f55-28cd-4113-1eb15fe7915b",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "BA201EC3-9567-42A8-B4CB-ABC6E66031EC"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-08-14T20:10:21.123Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-08-14T20:10:22.847Z",
+    "r__folder_Path": "my automations/Test"
+}

@@ -1,0 +1,23 @@
+{
+    "key": "C3576938-5BB6-45E9-8E2A-9E6535D7B1DA",
+    "createdDate": "2025-03-19T17:17:30.7",
+    "createdByName": "Guty Hernandez",
+    "lastUpdated": "2025-03-19T17:17:30.7",
+    "lastUpdatedByName": "Guty Hernandez",
+    "name": "Filtro_Zona_Saltillo",
+    "description": "",
+    "isSendable": true,
+    "r__folder_Path": "Data Filters/Filtros Zonas",
+    "c__filterDefinition": {
+        "ConditionSet": {
+            "Condition": {
+                "Value": "Parras, Saltillo Centro, Urdiñola, Manantiales, Ramos Arizpe, Otilio, Sendero Sur, Madero",
+                "@_Operator": "ExistsIn",
+                "r__dataExtensionField_name": "Sucursal"
+            },
+            "@_Operator": "AND",
+            "@_ConditionSetName": "Outer Grouping"
+        }
+    },
+    "r__source_dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

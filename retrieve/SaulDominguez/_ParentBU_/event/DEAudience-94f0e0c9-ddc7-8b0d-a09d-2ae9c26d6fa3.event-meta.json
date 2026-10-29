@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "SIN-RODEOS-260124",
+    "description": "",
+    "createdDate": "2024-01-26T13:08:39.207",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-01-26T13:08:39.207",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-94f0e0c9-ddc7-8b0d-a09d-2ae9c26d6fa3",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "994ed6b8-7559-4361-892c-48c27b7e2c6c",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

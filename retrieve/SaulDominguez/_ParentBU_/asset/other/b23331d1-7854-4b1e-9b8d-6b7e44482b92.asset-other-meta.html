@@ -1,0 +1,116 @@
+document.addEventListener("DOMContentLoaded", () => {
+ document.querySelector("form").addEventListener("submit", handleSubmit);
+}
+             );
+function handleSubmit(e) {
+ e.preventDefault();
+ const formData = new FormData(e.target);
+ const correo = formData.get("Email");
+ const nombre = formData.get("nombre");
+ const apellidos = formData.get("apellidos");
+ const Genero = formData.get("Genero");
+ const telefono = formData.get("telefono");
+ const fechaNacimiento = formData.get("fechaNacimiento");
+ const Estado = formData.get("Estado");
+ const Ciudad = formData.get("Ciudad");
+ const Sucursal = formData.get("Sucursal");
+ const redSocial = formData.get("redSocial");
+ const frutasVerduras = formData.get("frutasVerduras");
+ const Salchichonería = formData.get("Salchichonería");
+ const Carnes = formData.get("Carnes");
+ const Panadería = formData.get("Panadería");
+ const abarrotes = formData.get("abarrotes");
+ const articulosBebe = formData.get("articulosBebe");
+ const higieneCuidadoPersonal = formData.get("higieneCuidadoPersonal");
+ const MercanciasGenerales = formData.get("MercanciasGenerales");
+ const bebidas = formData.get("bebidas");
+ const privacidad = formData.get("privacidad");
+ const comunicacion = formData.get('comunicacion')
+
+ var opciones = [];
+ if (frutasVerduras) opciones.push(frutasVerduras);
+ if (Salchichonería) opciones.push(Salchichonería);
+ if (Carnes) opciones.push(Carnes);
+ if (Panadería) opciones.push(Panadería);
+ if (abarrotes) opciones.push(abarrotes);
+ if (articulosBebe) opciones.push(articulosBebe);
+ if (bebidas) opciones.push(bebidas);
+ if (higieneCuidadoPersonal) opciones.push(higieneCuidadoPersonal);
+ if (MercanciasGenerales) opciones.push(MercanciasGenerales);
+ //Regex
+ const telefonoRegex =
+    /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+ const correoRegex =
+    /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+ // Para Date() Enero = 0, Diciembre = 11
+ var today = new Date();
+ var fechaMayorEdad = new Date();
+ var fechaNacimientoFormatted = new Date(fechaNacimiento);
+ fechaMayorEdad.setDate(today.getDate() - 6572);
+ fechaNacimientoFormatted.setDate(
+  fechaNacimientoFormatted.getDate() + 1
+ );
+ if (!nombre.trim()) {
+  showAlert("nombre");
+  return;
+ }
+ if (!apellidos.trim()) {
+  showAlert("apellidos");
+  return;
+ }
+ if (!Genero) {
+  showAlert("Genero")
+  return
+ }
+ if (!fechaNacimiento || fechaNacimientoFormatted >= fechaMayorEdad) {
+  showAlert("fechaNacimiento");
+  return;
+ }
+ if (!correoRegex.test(correo)) {
+  showAlert("Email");
+  return;
+ }
+ if (!telefonoRegex.test(telefono)) {
+  showAlert("telefono");
+  return;
+ }
+ if (!Estado) {
+  showAlert("Estado");
+  return;
+ }
+ if (!Ciudad) {
+  showAlert("Ciudad");
+  return;
+ }
+ if (!Sucursal) {
+  showAlert("Sucursal");
+  return;
+ }
+ if (!redSocial) {
+  showAlert("redSocial");
+  return;
+ }
+ if (opciones.length != 3) {
+  showAlert("opciones");
+  return;
+ }
+ if (!privacidad) {
+  showAlert("privacidad");
+  return;
+ }
+ if (!comunicacion) {
+  showAlert("comunicacion")
+  return
+ }
+ e.target.submit();
+}
+function showAlert(id) {
+console.log('failure', id)
+ const alert = document.getElementById(`${id}_solicitud_error`);
+ alert.classList.remove("d-none");
+ alert.parentElement.parentElement.scrollIntoView({
+  behavior: "smooth",
+ }
+                         );
+ setTimeout(() => alert.classList.add("d-none"), 5000);
+}

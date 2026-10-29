@@ -1,0 +1,33 @@
+{
+    "name": "Whatsapp Warming",
+    "description": "",
+    "key": "6b9574f5-35b3-6c3b-f15a-933d0b6143cd",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "88533345-0DD3-4CD2-9F73-628FF89BEF7E"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "1260A787-B992-4BB7-94B6-B9DEBBF70739"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-05-15T21:25:12.967Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-06-02T23:41:35.14Z",
+    "r__folder_Path": "my automations/Test"
+}

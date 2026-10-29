@@ -1,0 +1,38 @@
+{
+    "name": "001_ipWarming_Creacion_Bases",
+    "description": "",
+    "key": "c5cf94f1-2402-a202-a087-d129c68526ed",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "startDate": "2023-10-01T08:00:00",
+        "endDate": "2023-10-01T08:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "A3CC6FFD-BD1E-424F-874D-CA39736861AE"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "A9B7CEEC-A513-4E6D-867A-E470A1BE491C"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2023-09-14T01:56:56.12Z",
+    "modifiedName": "Martín Orange",
+    "modifiedDate": "2023-10-02T18:28:55.723Z",
+    "r__folder_Path": "my automations/ipWarming"
+}

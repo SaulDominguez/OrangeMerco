@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Prueba_Merco_06_12_2024",
+    "description": "",
+    "createdDate": "2024-12-06T15:14:45.643",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2024-12-06T15:33:04.703",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "DEAudience-850ef0bd-0ecc-00a1-ece2-78b3b3448001",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "7241a5d4-c1da-4822-aafd-7c6f88a4ac07",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

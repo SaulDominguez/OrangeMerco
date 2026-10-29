@@ -1,0 +1,29 @@
+{
+    "type": "EmailAudience",
+    "name": "Recetas_Navidenas_2023",
+    "description": "",
+    "createdDate": "2023-12-22T18:07:26.44",
+    "createdBy": "Aidee Orange",
+    "modifiedDate": "2023-12-22T18:07:50.95",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "DEAudience-c412b390-ec59-8a80-ac09-738b33640a3d",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": "EmailAudience",
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "034e854f-79b1-45b0-a643-1f0d21888f08",
+    "r__dataExtension_key": "2E58179E-10C4-4DB4-86F2-918CD200498E"
+}

@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Remainder_090625 ",
+    "description": "",
+    "createdDate": "2025-06-05T12:52:58.857",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2025-06-05T13:25:47.79",
+    "modifiedBy": "Monica Rojano",
+    "eventDefinitionKey": "DEAudience-a83a30c7-28ff-db41-15dc-7d68b0d7c3d7",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-06-09T10:00:00",
+        "endDateTime": "2025-06-09T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e7a3638f-ca9b-4f14-9e02-5a9920aef91e",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

@@ -1,0 +1,218 @@
+let debugging = true
+let submit = true
+let errorMessage = null
+
+function debug(...v) {
+ if (debugging) {
+  console.log(...v)
+ }
+}
+
+function info(...v) {
+ debug('%cINFO', 'background: #000000; color: #8f7700;', ...v)
+}
+
+function warn(...v) {
+ debug('%cWARN', 'background: #000000; color: #7a0000;', ...v)
+}
+
+function err(...v) {
+ debug('%cERROR', 'background: #ff0000; color: #ffffff;', ...v)
+}
+
+function getBase64(file) {
+ var reader = new FileReader();
+ reader.readAsDataURL(file);
+ reader.onload = function () {
+  console.log(reader.result);
+ };
+ reader.onerror = function (error) {
+  console.log('Error: ', error);
+ };
+}
+
+const fileInput = document.getElementById('ticket')
+
+var max_width = 720;
+var max_height = 1080;
+
+var preview = document.getElementById('preview');
+
+var form = document.getElementById('hidden_inputs');
+
+function processfile(file) {
+ fileInput.classList.add('border-warning')
+ errorMessage = 'Procesando archivo...'
+
+ if (!(/image/i).test(file.type)) {
+  err("File " + file.name + " is not an image.");
+  return false;
+ }
+ info('ext', file.type)
+
+ // read the files
+ var reader = new FileReader();
+ reader.readAsArrayBuffer(file);
+
+ reader.onload = function (event) {
+  // blob stuff
+  var blob = new Blob([event.target.result]); // create blob...
+  window.URL = window.URL || window.webkitURL;
+  var blobURL = window.URL.createObjectURL(blob); // and get it's URL
+
+  // helper Image object
+  var image = new Image();
+  image.src = blobURL;
+  info(blob.size)
+  image.onload = function () {
+   // have to wait till it's loaded
+   var resized = resizeMe(image, 1, file.type); // send it to canvas
+   warn('resized', resized)
+   form.innerHTML = ''
+   var newinput = document.createElement("input");
+   newinput.type = 'hidden';
+   newinput.id = 'ticket_str'
+   newinput.name = 'ticket_str';
+   newinput.value = resized; // put result from canvas into new hidden input
+   form.appendChild(newinput);
+   errorMessage = null
+   fileInput.classList.remove('border-warning')
+   fileInput.classList.add('border-success')
+  }
+  image.onerror = function (ev) {
+   err(ev)
+   errorMessage = 'Error al procesar archivo'
+   fileInput.classList.remove('border-warning')
+   fileInput.classList.add('border-danger')
+  }
+ };
+}
+
+function readfiles(files) {
+ for (var i = 0; i < files.length; i++) {
+  processfile(files[i]); // process each file at once
+ }
+}
+
+// === RESIZE ====
+
+function resizeMe(img, quality = 1, type = 'image/jpeg') {
+ var canvas = document.createElement('canvas');
+ var width = img.width;
+ var height = img.height;
+
+ // calculate the width and height, constraining the proportions
+ if (width > height) {
+  if (width > max_width) {
+   //height *= max_width / width;
+   height = Math.round(height *= max_width / width);
+   width = max_width;
+  }
+ } else {
+  if (height > max_height) {
+   //width *= max_height / height;
+   width = Math.round(width *= max_height / height);
+   height = max_height;
+  }
+ }
+
+ // resize the canvas and draw the image data into it
+ canvas.width = width;
+ canvas.height = height;
+ var ctx = canvas.getContext("2d");
+ ctx.drawImage(img, 0, 0, width, height);
+
+ preview.innerHTML = ''
+ preview.appendChild(canvas); // do the actual resized preview
+ return canvas.toDataURL(type, quality); // get the data from canvas as 70% JPG (can be also PNG, etc.)
+}
+
+function handleSubmit(e) {
+ e.preventDefault();
+ const formData = new FormData(e.target);
+ const correo = formData.get("correo");
+ const nombre = formData.get("nombre");
+ const apellidos = formData.get("apellido_P");
+ const telefono = formData.get("telefono");
+ const Sucursal = formData.get("sucursal");
+ const privacidad = formData.get("avisoPrivacidad");
+ const recibirInfo = formData.get("recibirInfo")
+ const noticket = formData.get('noticket')
+ const ticket_str = formData.get('ticket_str')
+ //Regex
+ const telefonoRegex =
+  /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im;
+ const correoRegex =
+  /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
+ // Para Date() Enero = 0, Diciembre = 11
+ if (!nombre.trim()) {
+  showAlert("nombre");
+  return;
+ }
+ if (!apellidos.trim()) {
+  showAlert("apellido_P");
+  return;
+ }
+ if (!telefonoRegex.test(telefono)) {
+  showAlert("telefono");
+  return;
+ }
+ if (!correoRegex.test(correo)) {
+  showAlert("correo");
+  return;
+ }
+ if (!Sucursal) {
+  showAlert("sucursal");
+  return;
+ }
+ if (!noticket) {
+  showAlert('noticket')
+  return
+ }
+ if (!ticket_str) {
+  showAlert("ticket")
+  return
+ }
+ if (!privacidad) {
+  showAlert("avisoPrivacidad");
+  return;
+ }
+ if (!recibirInfo) {
+  showAlert("recibirInfo")
+  return
+ }
+ if (submit && errorMessage == null) {
+  e.target.submit();
+ } else {
+  alert(errorMessage ?? "Ok")
+ }
+}
+function showAlert(id) {
+ warn('fail on', id)
+ const alert = document.querySelector(`#${id}_solicitud_error`);
+ alert.classList.remove("d-none");
+ alert.parentElement.parentElement.scrollIntoView({
+  behavior: "smooth",
+ }
+ );
+ setTimeout(() => alert.classList.add("d-none"), 5000);
+}
+
+const toBase64 = file => new Promise((resolve, reject) => {
+ const reader = new FileReader();
+ reader.readAsDataURL(file);
+ reader.onload = () => resolve(reader.result);
+ reader.onerror = reject;
+});
+
+try {
+ window.addEventListener('DOMContentLoaded', () => {
+  let submittable = false
+  document.querySelector("form").addEventListener("submit", handleSubmit);
+  fileInput.addEventListener('change', function () {
+   readfiles(this.files)
+  })
+ })
+} catch (error) {
+ err(error)
+}

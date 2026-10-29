@@ -1,0 +1,80 @@
+{
+    "customerKey": "0e123497-c32b-4dbb-a14a-151a82ee61b1",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-mexicanizate_130924-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-09-13T18:00:12.83-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-09-13T18:00:12.83-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "mexicanizate_130924",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "Se empiezan a escuchar las campanadas… 🔔 ¡VIVAN LOS SÚPER PRECIAZOS! 🤠 \n\nChécate lo que tenemos para este fin de semana patrio y Mexicanízate con Merco. 😎\n\n*Aguacate* malla - *$29.99 pieza*\n*Chile* jalapeño o *Lechuga* romana - *$14.99 kg-pieza c/u*\n*Pierna de cerdo* con hueso - *$49.50 kg*\n*Costilla para asar* - *$96.99 kg*\n*Carne para asar* - *$139 kg*\nCerveza Corona *Barrilito 6 pack* - botella 325 ml - *$58.99*\nBotanas *Sabritas, Leo y Encanto* (excepto las de precio inferior a $15 pesos) - *¡Con un 25% de descuento!*\n*Vinos y licores* - *¡Con un 25% de descuento!*\n\n¿Ya estás listo para festejar en grande? \nQue no te falte nada, TODO lo encuentras en Merco. 😉",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Festejemos a lo grande!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 19 de Septiembre."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

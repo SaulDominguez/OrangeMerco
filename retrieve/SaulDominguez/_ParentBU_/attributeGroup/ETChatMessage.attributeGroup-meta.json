@@ -1,0 +1,30 @@
+{
+    "isOwner": true,
+    "isSystemDefined": true,
+    "isHidden": false,
+    "canAddProperties": true,
+    "canAddRelationships": true,
+    "canRemove": false,
+    "canChangeProperties": true,
+    "displayOrder": 1,
+    "requiredRelationships": [
+        "94644ae8-e51e-4dd1-a7ad-587a2cae6588",
+        "1e1cef11-a9a6-f111-a5e3-5cba2c19bc78",
+        "63c6765f-0d2a-44d8-b8b1-10c0ccaff558",
+        "eacafc5b-c13a-ee11-a5bd-5cba2c19bc78"
+    ],
+    "canModify": true,
+    "attributeGroupType": "Standard",
+    "attributeCount": 70,
+    "definitionName": {
+        "value": "Chat Message Data"
+    },
+    "definitionKey": "ETChatMessage",
+    "r__attributeSet_key": [
+        "WhatsAppDemographics",
+        "ChatMessageDemographics",
+        "ChatMessageSubscriptions",
+        "WhatsAppSubscriptions"
+    ],
+    "description": ""
+}

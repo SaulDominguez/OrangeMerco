@@ -1,0 +1,69 @@
+{
+    "name": "FIESTONONON FILTRO",
+    "description": "",
+    "key": "2e1f4dd1-b6e1-b427-39d7-f6acaf8af2f8",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "CF76AF38-9F90-44A1-9386-D63B922C2435"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "C4E0A61E-6D22-440C-9F26-CBB4C2C5D1F0"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "2562A7F9-AE4B-4915-8EE5-A79360C35BAB"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "061F7FC4-CF11-4817-8359-951D2FDC85EE"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "E0548DAC-1B60-47C7-BC02-6F5934636FBB"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "499E07BE-1635-4DF8-9DE8-84149E48F17F"
+                }
+            ]
+        }
+    ],
+    "createdName": "Belen Banegas",
+    "createdDate": "2023-11-27T13:40:40.66Z",
+    "modifiedName": "Belen Banegas",
+    "modifiedDate": "2023-12-04T17:28:03.897Z",
+    "r__folder_Path": "my automations/FIESTONONON"
+}

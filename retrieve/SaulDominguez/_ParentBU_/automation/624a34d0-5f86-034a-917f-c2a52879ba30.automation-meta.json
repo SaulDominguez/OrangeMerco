@@ -1,0 +1,31 @@
+{
+    "name": "Fiestononon_2025",
+    "description": "",
+    "key": "624a34d0-5f86-034a-917f-c2a52879ba30",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2025-10-18T09:30:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=DAILY;UNTIL=20790606;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "596b1b1c-e9d7-99d4-df00-b90eaf4dabdf"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2025-10-14T17:54:10.03Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2025-10-17T16:47:42.52Z",
+    "pausedName": "Alexis Dominguez",
+    "pausedDate": "2025-10-17T16:47:18.52Z",
+    "r__folder_Path": "my automations/OrangeDCX/01_Journeys/Fiestononon_2025"
+}

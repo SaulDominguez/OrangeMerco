@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "SuperTazon_SALT-070225  ",
+    "description": "",
+    "createdDate": "2025-02-07T13:12:31.123",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-02-07T13:12:54.537",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-92a53012-37aa-e7f0-56f9-6475d5fd0c18",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "df8f016f-a50b-4c23-bd2a-c101a011f41c",
+    "r__dataExtension_key": "158BD254-4318-45F4-AA9A-D4DCF940D49A"
+}

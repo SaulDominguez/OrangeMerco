@@ -1,0 +1,103 @@
+{
+    "customerKey": "88ea0d33-49b2-4a85-8f3d-fbc732d86e60",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-festival_de_las_mascotas",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-02-01T18:07:28.127-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-02-02T10:10:25.613-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "festival_de_las_mascotas",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX",
+                            "es"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🌟 ¡Celebremos juntos el amor incondicional de tus mascotas en el Festival de la Mascota de Merco! 🐶🎉 \n\nDescubre los Súper Preciazos en todo lo que necesitas para consentir a los peluditos del hogar. \n\n¡Porque ellos son parte de la familia! ❤️",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Consiente a tu mascota!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            },
+                            "es": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🌟 ¡Celebremos juntos el amor incondicional de tus mascotas en el Festival de la Mascota de Merco! 🐶🎉 \n\nDescubre los Súper Preciazos en todo lo que necesitas para consentir a los peluditos del hogar. \n\n¡Porque ellos son parte de la familia! ❤️",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Consciente a tu mascota!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

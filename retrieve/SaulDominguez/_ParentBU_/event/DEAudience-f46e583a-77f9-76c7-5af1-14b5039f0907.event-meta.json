@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Garantias_pruebas",
+    "description": "",
+    "createdDate": "2025-01-17T17:21:26.713",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-01-17T17:21:26.713",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-f46e583a-77f9-76c7-5af1-14b5039f0907",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "4681ba86-444b-4b13-afa7-4ada9375de70",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

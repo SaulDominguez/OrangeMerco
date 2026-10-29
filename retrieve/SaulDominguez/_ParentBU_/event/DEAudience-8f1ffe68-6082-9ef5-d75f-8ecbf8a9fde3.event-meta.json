@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_SiMerconviene-031025",
+    "description": "",
+    "createdDate": "2025-10-03T12:54:35.697",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-10-03T12:57:23.263",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-8f1ffe68-6082-9ef5-d75f-8ecbf8a9fde3",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "bd5c2f7e-e6e2-458e-857a-e1ced533b27f",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

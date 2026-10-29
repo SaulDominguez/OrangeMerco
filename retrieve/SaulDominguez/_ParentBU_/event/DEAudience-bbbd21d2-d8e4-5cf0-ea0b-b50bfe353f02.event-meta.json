@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Mexicanizate-300824",
+    "description": "",
+    "createdDate": "2024-08-30T13:08:06.53",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-08-30T13:08:06.53",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-bbbd21d2-d8e4-5cf0-ea0b-b50bfe353f02",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "7557587d-57e0-4f62-9736-e52a07649025",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

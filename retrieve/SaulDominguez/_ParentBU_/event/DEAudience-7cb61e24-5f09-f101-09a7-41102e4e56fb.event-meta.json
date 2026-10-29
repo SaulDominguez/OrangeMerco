@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Comunicacion_Whatsapp",
+    "description": "",
+    "createdDate": "2024-12-05T14:42:56.27",
+    "createdBy": "Aidee Orange",
+    "modifiedDate": "2024-12-09T20:24:45.127",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "DEAudience-7cb61e24-5f09-f101-09a7-41102e4e56fb",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-12-10T10:00:00",
+        "endDateTime": "2024-12-10T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "35684321-82b3-455b-8118-cae1012d37ba",
+    "r__dataExtension_key": "80046798-08E7-4153-88C5-D1BA2B870447"
+}

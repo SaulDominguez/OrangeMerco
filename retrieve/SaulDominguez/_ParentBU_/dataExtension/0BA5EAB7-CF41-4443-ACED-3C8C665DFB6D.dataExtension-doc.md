@@ -1,0 +1,24 @@
+## 0BA5EAB7-CF41-4443-ACED-3C8C665DFB6D
+
+**Name** (not equal to External Key)**:** WaitUntil Chat Response Event - 2026-10-16T135300246
+
+**Description:** n/a
+
+**Folder:** Data Extensions/
+
+**Fields in table:** 6
+
+**Sendable:** Yes (`contactKey` to `_subscriberKey`)
+
+**Testable:** No
+
+**Retention Policy:** none
+
+| Name | FieldType | MaxLength | IsPrimaryKey | IsNullable | DefaultValue |
+| --- | --- | --- | --- | --- | --- |
+| ContactKey | Text | 100 | - | + |  |
+| MobileNumber | Text | 100 | - | + |  |
+| channelType | Text | 100 | - | + |  |
+| ChannelId | Text | 100 | - | + |  |
+| Keyword | Text | 100 | - | + |  |
+| Message | Text | 4000 | - | + |  |

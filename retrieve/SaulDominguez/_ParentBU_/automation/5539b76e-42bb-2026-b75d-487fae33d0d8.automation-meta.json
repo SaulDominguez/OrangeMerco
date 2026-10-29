@@ -1,0 +1,33 @@
+{
+    "name": "set_Report_Sms",
+    "description": "",
+    "key": "5539b76e-42bb-2026-b75d-487fae33d0d8",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "06C2A257-BDCA-4908-8B4B-385F6F628695"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "450D6AF2-4224-477B-9CC7-FEE7878F3572"
+                }
+            ]
+        }
+    ],
+    "createdName": "Belen Banegas",
+    "createdDate": "2024-01-23T19:33:17.597Z",
+    "modifiedName": "Belen Banegas",
+    "modifiedDate": "2024-01-23T21:22:02.953Z",
+    "r__folder_Path": "my automations/Report_SMS"
+}

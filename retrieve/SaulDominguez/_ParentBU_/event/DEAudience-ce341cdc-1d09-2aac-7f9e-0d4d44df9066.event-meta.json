@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "PRUEBA_GARANTIAS_V2",
+    "description": "",
+    "createdDate": "2025-01-17T18:45:37.18",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-01-17T18:45:37.18",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-ce341cdc-1d09-2aac-7f9e-0d4d44df9066",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "a842ca0a-42f5-4736-a4cf-1dd7a2b80679",
+    "r__dataExtension_key": "F5E4898B-BAB5-4567-B4DF-E4FA56036ECE"
+}

@@ -1,0 +1,80 @@
+{
+    "customerKey": "98d20232-3828-4042-bf9a-b105b9a991ef",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-mercocongelado_180724-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-07-18T17:53:23.047-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-07-18T17:53:23.047-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "mercocongelado_180724",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "VIDEO",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "VIDEO"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¿Ya aprovechaste los precios congelados de Merco? 🥶\n\nNosotros nos preocupamos por tu bolsillo, por eso congelamos los precios de algunos básicos para ti: \n\n*Huevo blanco Mimarca con 30 piezas - $69.99 (limitado a 3 tapas por cliente)\nBistec del cero o siete - $119.00 kg c/u (limitado a 10 kgs por cliente)\nHarina de trigo Selecta 1 kg - $16.99 kg \nAceite vegetal Kártamus 900 ml - $32.99 \nHigiénico Premier Rendiplus 500 hojas c/6 rollos - $44.99\nSalchicha de pavo Viena Iberomex 800 gr - $37.99\nJamón de pavo y cerdo cocido Chimex 396 gr - $31.99*\n\n¡Tienes hasta el 1 de agosto para seguir aprovechando estos Súper Preciazos!\nSolo en Merco. 😉",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Súper Preciazos aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Vigencia hasta el 1 de Agosto del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_Merconviene_100426",
+    "description": "",
+    "createdDate": "2026-04-10T13:05:02.973",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2026-04-10T13:05:02.973",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-e105e669-4ecf-5651-b94c-ce7aea7bc1ca",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "434a8700-9171-4939-8938-4c6dc590cc2a",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

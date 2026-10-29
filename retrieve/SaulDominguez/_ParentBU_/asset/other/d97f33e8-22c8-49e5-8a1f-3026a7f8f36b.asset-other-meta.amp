@@ -1,0 +1,346 @@
+<script runat="server">
+     /* -------------------------------------------------------------------------
+
+     Short description of the purpose of the script.
+
+     1. Global Variables
+     1.1. Error Handling
+     2. Helper Functions
+     2.1. Debugging
+     2.2. Error handling
+     3. {{Section Name}}
+     ...
+
+     -------------------------------------------------------------------------- */
+
+     Platform.Load('core', '1');
+     // var api = new Script.Util.WSProxy();
+     // Uncomment below if you will be using SOAP API via WSProxy in the script
+     // var soap = new Script.Util.WSProxy();
+
+     /* ----------------------------------------------------------------------- */
+     /* ---------------------- 1. GLOBAL VARIABLES ---------------------------- */
+     /* ----------------------------------------------------------------------- */
+
+     var debugging = false;
+     Variable.SetValue("@debug", debugging)
+
+     /* -------------------- 1.1. Error Handling------------------------------- */
+     var scriptName = 'AAAAAAAAAAAAAAAAAAAA';
+
+     /* ----------------------------------------------------------------------- */
+     /* ---------------------- 2. HELPER FUNCTIONS ---------------------------- */
+     /* ----------------------------------------------------------------------- */
+
+    function formatJson(json) {
+     var formattedJson = TreatAsContent("\%\%=replace('" + Stringify(json) + "', ',', ',<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '{', '{<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '}', '<br>}')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '[', '<br>[<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', ']', '<br>]')=\%\%")
+     return formattedJson
+    }
+
+    Array.inc = function (val, arr) {
+       var ret = false;
+       for (var i = 0; i < arr.length; i++) {
+         if (!ret || ret == false) {
+           ret = val == arr[i];
+         }
+       }
+       return ret;
+     };
+
+
+     /* ---------------------- 2.1. Debugging --------------------------------- */
+
+     /**
+     * @function debugValue
+     * @description Outputs provided description and SSJS value to front-end in a type-safe & consistent way
+     * @param {string} description - Describes meaning of the second parameter in the output
+     * @param {*} value - The value that needs to be debugged
+     */
+     function debugValue(description, value) {
+       if (debugging) {
+         Write(description + ': ' + (typeof value == 'object' ? Stringify(value) : value) + '<br><br>');
+       }
+     };
+
+     function outputLink(display, url) {
+       if (debugging) {
+         Write("<a href='"+ url + "'>" + display + "</a>")
+       }
+     }
+
+     /* ---------------------- 2.2. Error handling ---------------------------- */
+
+     /**
+     * @function handleError
+     * @description Adds the error with context to error logging Data Extension and redirects to error page.
+     * @param {Object} error - The caught error object. Can come from the try/catch block or be manually created.
+     * @param {string} error.message - First error key stores short error message describing the issue.
+     * @param {string} error.description - Second error key stores detailed error path helping with root cause analysis
+     */
+     function handleError(error) {
+       if (debugging) {
+         debugValue('Found error', error);
+       }
+     };
+
+     try {
+       /* ----------------------------------------------------------------------- */
+       /* ----------------------- 3. {{SECTION NAME}} --------------------------- */
+       /* ----------------------------------------------------------------------- */
+
+       /**
+       * There can be just one section for simpler scripts, or there can be multiple.
+       * As your code grow, split it into separate numbered sections for easier navigation.
+       * Always try to make each section coherent with code logic to make the split meaningful.
+       */
+</script>
+%%[
+    set @contactId = RequestParameter('Id')
+    set @Email = RequestParameter('Email')
+    set @nombre = Trim(ProperCase(RequestParameter('nombre')))
+    set @apellidos = Trim(ProperCase(RequestParameter('apellidos')))
+    set @Genero = RequestParameter('Genero')
+    set @telefono = RequestParameter('telefono')
+    if Length(@telefono) == 10 then
+        set @telefono = Concat('52', @telefono)
+    endif
+    set @fechaNacimiento = RequestParameter('fechaNacimiento')
+    set @Estado = RequestParameter('Estado')
+    set @Ciudad = RequestParameter('Ciudad')
+    set @Sucursal = RequestParameter('Sucursal')
+    set @redSocial = RequestParameter('redSocial')
+    set @frutasVerduras = RequestParameter('frutasVerduras')
+    set @Salchichoneria = RequestParameter('Salchichonería')
+    set @Carnes = RequestParameter('Carnes')
+    set @Panaderia = RequestParameter('Panadería')
+    set @abarrotes = RequestParameter('abarrotes')
+    set @articulosBebe = RequestParameter('articulosBebe')
+    set @bebidas = RequestParameter('bebidas')
+    set @higieneCuidadoPersonal = RequestParameter('higieneCuidadoPersonal')
+    set @MercanciasGenerales = RequestParameter('MercanciasGenerales')
+    set @frecuencia = RequestParameter('frecuencia')
+    set @fechaRegistro = Now()
+
+    set @rowsCorreos = LookupRows('BDD_General', 'Email', @Email)
+    set @rowsTelefonos = LookupRows('BDD_General', 'Phone', @telefono)
+    var @Id
+    if RowCount(@rowsCorreos) >= 1 or RowCount(@rowsTelefonos) >= 1 or not Empty(@contactId) then
+        if RowCount(@rowsCorreos) >= 1 then
+            set @row = Row(@rowsCorreos, 1)
+            set @Id = Field(@row, 'Contact_Id')
+        endif
+        if RowCount(@rowsTelefonos) >= 1 then
+            set @row = Row(@rowsTelefonos, 1)
+            set @Id = Field(@row, 'Contact_Id')
+        endif
+        if not Empty(@contactId) then
+            set @Id = @contactId
+        endif
+        set @new = 0
+        set @upsertCount =
+            UpsertData(
+                'Gana_Tarjeta_PP2_Existentes',
+                1,
+                'Contact_Id',
+                @Id,
+                'Email',
+                @Email,
+                'nombre',
+                @nombre,
+                'apellidos',
+                @apellidos,
+                'Genero',
+                @Genero,
+                'telefono',
+                @telefono,
+                'fechaNacimiento',
+                @fechaNacimiento,
+                'Estado',
+                @Estado,
+                'Ciudad',
+                @Ciudad,
+                'Sucursal',
+                @Sucursal,
+                'redSocial',
+                @redSocial,
+                'frutasVerduras',
+                @frutasVerduras,
+                'Salchichoneria',
+                @Salchichoneria,
+                'CarnesPescados',
+                @Carnes,
+                'Panaderia',
+                @Panaderia,
+                'abarrotes',
+                @abarrotes,
+                'articulosBebe',
+                @articulosBebe,
+                'bebidas',
+                @bebidas,
+                'higieneCuidadoPersonal',
+                @higieneCuidadoPersonal,
+                'frecuencia',
+                @frecuencia,
+                'MercanciasGenerales',
+                @MercanciasGenerales,
+                'fechaRegistro',
+                @fechaRegistro,
+                'Locale',
+                'MX'
+            )
+    else
+        set @new = 1
+        set @Id = GUID()
+        set @upsertCount =
+            UpsertData(
+                'Gana_Tarjeta_PP2_Nuevos',
+                1,
+                'Email',
+                @Email,
+                'nombre',
+                @nombre,
+                'apellidos',
+                @apellidos,
+                'Genero',
+                @Genero,
+                'telefono',
+                @telefono,
+                'fechaNacimiento',
+                @fechaNacimiento,
+                'Estado',
+                @Estado,
+                'Ciudad',
+                @Ciudad,
+                'Sucursal',
+                @Sucursal,
+                'redSocial',
+                @redSocial,
+                'frutasVerduras',
+                @frutasVerduras,
+                'Salchichoneria',
+                @Salchichoneria,
+                'CarnesPescados',
+                @Carnes,
+                'Panaderia',
+                @Panaderia,
+                'abarrotes',
+                @abarrotes,
+                'articulosBebe',
+                @articulosBebe,
+                'bebidas',
+                @bebidas,
+                'higieneCuidadoPersonal',
+                @higieneCuidadoPersonal,
+                'frecuencia',
+                @frecuencia,
+                'Contact_Id',
+                @Id,
+                'MercanciasGenerales',
+                @MercanciasGenerales,
+                'fechaRegistro',
+                @fechaRegistro,
+                'Locale',
+                'MX'
+            )
+    endif
+    UpsertData(
+        'BDD_General',
+        1,
+        'Contact_Id',
+        @Id,
+        'Email',
+        @Email,
+        'Nombre',
+        @nombre,
+        'Apellido',
+        @apellidos,
+        'Phone',
+        @telefono,
+        'Sucursal',
+        @Sucursal,
+        'FechaNacimiento',
+        @fechaNacimiento,
+        'Genero',
+        @Genero,
+        'Estado',
+        @Estado,
+        'Ciudad',
+        @Ciudad,
+        'MedioComunicacion',
+        @redSocial,
+        'frecuencia',
+        @frecuencia,
+        'Locale',
+        'MX'
+    )
+    UpsertData(
+        'BDD_General_PP2',
+        1,
+        'Contact_Id',
+        @Id,
+        'Email',
+        @Email,
+        'Nombre',
+        @nombre,
+        'Apellido',
+        @apellidos,
+        'Phone',
+        @telefono,
+        'Sucursal',
+        @Sucursal,
+        'FechaNacimiento',
+        @fechaNacimiento,
+        'Genero',
+        @Genero,
+        'Estado',
+        @Estado,
+        'Ciudad',
+        @Ciudad,
+        'MedioComunicacion',
+        @redSocial,
+        'frecuencia',
+        @frecuencia,
+        'Locale',
+        'MX',
+        'ContestoFormulario',
+        0
+    )
+    if not @debug then
+        Redirect('https://cloud.hello.merco.email/gracias-gana-tarjeta-merco')
+    endif
+]%%
+<script runat="server">
+    } catch (error) {
+      handleError(error);
+    }
+</script>
+Email: %%= v(@Email) =%% <br />
+nombre: %%= v(@nombre) =%% <br />
+apellidos: %%= v(@apellidos) =%% <br />
+telefono: %%= v(@telefono) =%% <br />
+fechaNacimiento: %%= v(@fechaNacimiento) =%% <br />
+Estado: %%= v(@Estado) =%% <br />
+Ciudad: %%= v(@Ciudad) =%% <br />
+Sucursal: %%= v(@Sucursal) =%% <br />
+redSocial: %%= v(@redSocial) =%% <br />
+frutasVerduras: %%= v(@frutasVerduras) =%% <br />
+Salchichoneria: %%= v(@Salchichoneria) =%% <br />
+Salchichoneria: %%= v(@Salchichoneria) =%% <br />
+CarnesPescados: %%= v(@CarnesPescados) =%% <br />
+Panaderia: %%= v(@Panaderia) =%% <br />
+abarrotes: %%= v(@abarrotes) =%% <br />
+articulosBebe: %%= v(@articulosBebe) =%% <br />
+bebidas: %%= v(@bebidas) =%% <br />
+higieneCuidadoPersonal: %%= v(@higieneCuidadoPersonal) =%% <br />
+frecuencia: %%= v(@frecuencia) =%% <br />
+Contact_Id: %%= v(@Contact_Id) =%% <br />
+MercanciasGenerales: %%= v(@MercanciasGenerales) =%% <br />
+fechaRegistro: %%= v(@fechaRegistro) =%% <br />
+UpsertCount: %%= v(@upsertCount) =%% <br />
+IsNew: %%= v(@new) =%% <br />
+ContestoFormulario: %%= v(@ContestoFormulario) =%% <br />
+<a href="https://cloud.hello.merco.email/gracias-gana-tarjeta-merco">TY PAGE</a> <br />

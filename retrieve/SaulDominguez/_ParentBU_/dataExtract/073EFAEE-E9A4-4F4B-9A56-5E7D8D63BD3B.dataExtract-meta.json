@@ -1,0 +1,41 @@
+{
+    "name": "Extract_WhatsApp",
+    "key": "073EFAEE-E9A4-4F4B-9A56-5E7D8D63BD3B",
+    "fileSpec": "Extract_WhatsApp.zip",
+    "createdDate": "2023-10-23T16:07:48.03",
+    "modifiedDate": "2024-12-06T18:42:15.98",
+    "createdBy": "Martín Orange",
+    "modifiedBy": "Aidee Orange",
+    "intervalType": 0,
+    "description": "",
+    "startDate": "Dec  5 2024 12:00AM",
+    "endDate": "Dec  8 2024 12:00AM",
+    "dataFields": [
+        {
+            "name": "ChannelId",
+            "type": "string",
+            "value": "5218115537251"
+        },
+        {
+            "name": "ChannelType",
+            "type": "string",
+            "value": "WHATSAPP"
+        },
+        {
+            "name": "ContactTrackingDetail",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "InboundMessageLogs",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "PotentialChannelUnsubscribes",
+            "type": "bool",
+            "value": "True"
+        }
+    ],
+    "r__dataExtractType_name": "ChatMessagingDetailExtract"
+}

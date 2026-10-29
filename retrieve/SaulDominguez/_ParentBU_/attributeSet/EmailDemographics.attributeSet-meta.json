@@ -1,0 +1,90 @@
+{
+    "definitionKey": "EmailDemographics",
+    "relationships": [
+        {
+            "canModify": false,
+            "canRemove": false,
+            "isHidden": false,
+            "isSystemDefined": false,
+            "isGroupToSetRelationship": true,
+            "leftItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeGroup",
+                "r__attributeGroup_key": "ETEmail"
+            },
+            "leftRelationshipIDs": [
+                {
+                    "type": "int16",
+                    "value": "2"
+                }
+            ],
+            "leftRelationshipReferenceType": "CustomerData",
+            "relationshipAttributes": [
+                {
+                    "c__leftFullyQualifiedName": "Contact.Contact ID",
+                    "c__rightFullyQualifiedName": "Email Demographics.Contacts ID"
+                }
+            ],
+            "relationshipID": "0ea80280-c13a-ee11-a5bd-5cba2c19bc78",
+            "rightItem": {
+                "cardinality": "One",
+                "relationshipType": "AttributeSet",
+                "r__attributeSet_key": "EmailDemographics"
+            }
+        }
+    ],
+    "valueDefinitions": [
+        {
+            "dataSourceID": 2,
+            "dataType": "LongNumber",
+            "description": "",
+            "definitionKey": "ContactsID",
+            "isHidden": false,
+            "isIdentityValue": false,
+            "isNullable": false,
+            "isPrimaryKey": true,
+            "isReadOnly": false,
+            "isSystemDefined": true,
+            "isUpdateable": true,
+            "name": "Contacts ID"
+        }
+    ],
+    "applicationID": "b2ca1f50-3cc4-4fd7-a3a3-88bf09fb59fa",
+    "applicationKey": "com.exacttarget.email",
+    "attributeCount": 0,
+    "canAddValues": true,
+    "canChangeValues": true,
+    "canModify": false,
+    "canRemove": false,
+    "createdBy": -1000,
+    "createDate": "2023-08-14T10:42:00",
+    "dataRetentionProperties": {
+        "isRowBasedRetention": false,
+        "isResetRetentionPeriodOnImport": false,
+        "isDeleteAtEndOfRetentionPeriod": false,
+        "periodUnitOfMeasure": 0
+    },
+    "localizedDescription": {},
+    "isCustomObjectBacked": false,
+    "isEvent": false,
+    "isHidden": false,
+    "isReadOnly": false,
+    "isRoot": false,
+    "isSendable": false,
+    "isShared": false,
+    "isSystemDefined": true,
+    "isTestaable": false,
+    "parentID": "00000000-0000-0000-0000-000000000000",
+    "relationshipCount": 1,
+    "storageLogicalType": "EnterpriseAttributes",
+    "storageName": "_EnterpriseAttribute",
+    "storageObjectIDs": [
+        "07a80280-c13a-ee11-a5bd-5cba2c19bc78"
+    ],
+    "storageReferenceID": {
+        "type": "guid",
+        "value": "1a206c6c-f551-4ecf-9407-c19b593dfe54"
+    },
+    "setDefinitionKey": "EmailDemographics",
+    "name": "Email Demographics"
+}

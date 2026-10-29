@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST_WAPP_160125_V2",
+    "description": "",
+    "createdDate": "2025-01-16T12:43:24.297",
+    "createdBy": "Guty Hernandez",
+    "modifiedDate": "2025-01-17T19:07:11.283",
+    "modifiedBy": "Guty Hernandez",
+    "eventDefinitionKey": "DEAudience-8ea216ad-a0ac-b848-a356-7107244d57c4",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 6,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "741d7551-d0e5-4a10-9e4b-5f8dffa3ff9d",
+    "r__dataExtension_key": "F5E4898B-BAB5-4567-B4DF-E4FA56036ECE"
+}

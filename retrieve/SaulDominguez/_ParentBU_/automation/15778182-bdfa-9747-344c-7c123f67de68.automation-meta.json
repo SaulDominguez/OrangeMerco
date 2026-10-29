@@ -1,0 +1,60 @@
+{
+    "name": "Extract_WhatsApp",
+    "description": "",
+    "key": "15778182-bdfa-9747-344c-7c123f67de68",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "073EFAEE-E9A4-4F4B-9A56-5E7D8D63BD3B"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "2a152163-3078-4dd6-a632-7eea15509893"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "97cdea0f-c0a7-41ba-b5e6-a44a044ae7e6"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "60DF4752-0486-41E1-A6AC-40E38E4CD404"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "924B1AEF-93C9-4027-AA4A-AF08F86CC579"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2023-10-23T22:04:55.887Z",
+    "modifiedName": "Aidee Orange",
+    "modifiedDate": "2024-12-07T00:42:56.93Z",
+    "r__folder_Path": "my automations"
+}

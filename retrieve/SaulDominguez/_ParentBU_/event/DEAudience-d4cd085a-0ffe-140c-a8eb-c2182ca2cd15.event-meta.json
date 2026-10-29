@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Fiestononón_251024",
+    "description": "",
+    "createdDate": "2024-10-24T15:12:52.427",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-10-24T15:12:52.427",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-d4cd085a-0ffe-140c-a8eb-c2182ca2cd15",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-10-25T09:30:00",
+        "endDateTime": "2024-10-25T09:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "9da3cae1-6760-45f6-9424-5410d439f530",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

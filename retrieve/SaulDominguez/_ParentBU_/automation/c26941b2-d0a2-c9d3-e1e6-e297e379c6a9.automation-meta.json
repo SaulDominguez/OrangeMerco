@@ -1,0 +1,38 @@
+{
+    "name": "Email Blacklist",
+    "description": "",
+    "key": "c26941b2-d0a2-c9d3-e1e6-e297e379c6a9",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2025-07-06T04:07:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=WEEKLY;UNTIL=20790606;INTERVAL=1;BYDAY=SU",
+        "timezoneName": "Central Standard Time (no DST)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "6CD1CAF8-B020-45DB-920F-726A200A5082"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "Email Blacklist Autosuppresion_1"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-06-25T22:17:04.867Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-06-25T22:26:00.153Z",
+    "r__folder_Path": "my automations/BDD_General_Audiencias"
+}

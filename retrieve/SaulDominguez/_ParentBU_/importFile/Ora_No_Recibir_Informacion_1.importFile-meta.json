@@ -1,0 +1,49 @@
+{
+    "allowErrors": true,
+    "customerKey": "Ora_No_Recibir_Informacion_1",
+    "createdDate": "2025-12-10T14:48:11.003",
+    "modifiedDate": "2025-12-11T15:10:24.967",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "ContactKey"
+        },
+        {
+            "sourceFieldName": "Excluded",
+            "destinationFieldName": "Excluded"
+        },
+        {
+            "sourceFieldName": "Phone",
+            "destinationFieldName": "Phone"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Ora_No_Recibir_Informacion",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "793ACCC1-51EC-4033-AB88-BE38B0996A1B"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "DA5AE8F9-633E-45DD-B545-7C1F8FB430AE"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

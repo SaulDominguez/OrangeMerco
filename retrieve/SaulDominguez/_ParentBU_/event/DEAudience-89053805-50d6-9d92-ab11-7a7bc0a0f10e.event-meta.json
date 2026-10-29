@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Frijoles_291125",
+    "description": "",
+    "createdDate": "2025-11-28T09:50:03.76",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-11-28T09:50:03.76",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-89053805-50d6-9d92-ab11-7a7bc0a0f10e",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-11-29T10:00:00",
+        "endDateTime": "2025-11-29T10:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "129db2f5-ab9a-46fb-977a-c7a051af1e2d",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

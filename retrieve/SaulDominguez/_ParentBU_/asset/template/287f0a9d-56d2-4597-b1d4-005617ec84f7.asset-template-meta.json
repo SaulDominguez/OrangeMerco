@@ -1,0 +1,87 @@
+{
+    "customerKey": "287f0a9d-56d2-4597-b1d4-005617ec84f7",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-llevateloapeso_310125-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-01-31T16:58:49.767-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-01-31T16:58:49.767-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "llevateloapeso_310125",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡TUS BÁSICOS TE LOS LLEVAS A $1 PESO! 🤑\n\n- *Llévate a $1 peso aceite de soya Nutrioli 400 ml*, comprando harina de maíz para tamal Maseca 1 kilo\n- *Llévate a $1 peso producto lácteo Porsalud 950 ml*, comprando azúcar morena Mimarca 907 gr\n- *Llévate a $1 peso blanqueador Cloralex 500 ml*, comprando higiénico Premier 225 hojas c/ 6 rollos\n- *Llévate a $1 peso aderezo de mayonesa Kraft limón 330 gr*, comprando galletas Saladitas Gamesa 504 gr\n- *Llévate a $1 peso chocolate en polvo Nesquik bolsa 200 gr*, comprando sustituto de crema para café Coffee Mate original bote 160 gr\n- *Llévate a $1 peso chorizo de cerdo casero Chimex 200 gr*, comprando jamón cocido Chimex 396 gr\n\n¡Así de fácil ahorras en Merco! Compra más pagando menos. 🛒\n\n_Ofertas válidas en todas las sucursales Merco._\n_Ofertas válidas hasta el 3 de febrero del 2025._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Limitado a 5 pares de producto por cliente."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

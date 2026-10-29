@@ -1,0 +1,38 @@
+{
+    "customerKey": "7984640a-507c-48ae-89b8-94e9fdd99eed",
+    "contentType": "application/javascript",
+    "assetType": {
+        "name": "jscoderesource",
+        "displayName": "Javascript Code Resource"
+    },
+    "version": 1,
+    "name": "ciudadEstadoSucursalInfo",
+    "description": "",
+    "owner": {
+        "email": "martin@orangedcx.com",
+        "name": "Martín Orange"
+    },
+    "createdDate": "2023-11-13T13:48:26.577-06:00",
+    "createdBy": {
+        "email": "martin@orangedcx.com",
+        "name": "Martín Orange"
+    },
+    "modifiedDate": "2024-04-11T08:48:29.623-06:00",
+    "modifiedBy": {
+        "email": "itzel.diaz@merco.mx",
+        "name": "Itzel Diaz"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2024-04-11 08:48:29.623",
+            "c__published": true
+        }
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2023/Progressive Profiling"
+}

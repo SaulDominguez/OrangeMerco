@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST - Fiestononon_SMS_Whatsapp_Ruta_10-10-2023 (Copy)",
+    "description": "",
+    "createdDate": "2023-10-19T18:21:25.28",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-10-19T18:33:12.573",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-9fefd4a5-c193-b4e3-964e-83eff27d83a3",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "ca73d9b1-f010-41cd-a160-ef7b0f27b140",
+    "r__dataExtension_key": "59D382B5-E9B3-4733-8D55-4C72504F81B5"
+}

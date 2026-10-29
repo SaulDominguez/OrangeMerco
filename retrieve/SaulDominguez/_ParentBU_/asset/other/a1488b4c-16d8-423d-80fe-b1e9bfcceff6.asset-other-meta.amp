@@ -1,0 +1,72 @@
+%%[
+    set @tokenFor = 'Journey API'
+    set @customerKey = 'API_Auth'
+    set @credentialsRows = LookupRows(@customerKey, 'tokenFor', @tokenFor)
+    Output(RowCount(@credentialsRows))
+    set @credentialsRow = Row(@credentialsRows, 1)
+    set @accessToken = Field(@credentialsRow, 'accessToken')
+    set @expirationTokenDate = Field(@credentialsRow, 'expirationDate')
+    set @client_id = Field(@credentialsRow, 'client_id')
+    set @client_secret = Field(@credentialsRow, 'client_secret')
+    set @account_id = Field(@credentialsRow, 'account_id')
+    set @subdomain = Field(@credentialsRow, 'subdomain')
+    if @expirationTokenDate <= Now() then
+]%%
+<script runat="server">
+    Platform.Load('core', '1');
+    // Variables de AMPScript
+    var customerKey = Variable.GetValue('@customerKey');
+    var accessToken = Variable.GetValue('@accessToken');
+    var expirationTokenDate = Variable.GetValue('@expirationTokenDate');
+    var client_id = Variable.GetValue('@client_id');
+    var client_secret = Variable.GetValue('@client_secret');
+    var account_id = Variable.GetValue('@account_id');
+    var subdomain = Variable.GetValue('@subdomain');
+
+    var RestBaseUrl = 'https://' + subdomain + '.rest.marketingcloudapis.com/';
+    var AuthBaseURL = 'https://' + subdomain + '.auth.marketingcloudapis.com/';
+
+    // Request access token
+    var urlToken = AuthBaseURL + 'v2/token';
+    var payload = {
+        grant_type: 'client_credentials',
+        client_id: client_id,
+        client_secret: client_secret,
+        account_id: account_id
+    };
+    var request = HTTP.Post(urlToken, 'application/json', Stringify(payload));
+
+    //Llamada fire event
+    if (request.StatusCode == 200) {
+        var result = Platform.Function.ParseJSON(request.Response[0]);
+        var tokenFunctional = result.access_token;
+        Write(result + '<br/>');
+        Write(tokenFunctional + '<br/>');
+        Variable.SetValue('@accessToken', tokenFunctional);
+    } else {
+        Write('Error');
+    }
+</script>
+%%[
+    set @expirationTokenDate = DateAdd(Now(), 18, 'MI')
+    set @credentialsUpdated =
+        UpdateData(
+            @customerKey,
+            4,
+            'subdomain',
+            @subdomain,
+            'client_id',
+            @client_id,
+            'client_secret',
+            @client_secret,
+            'account_id',
+            @account_id,
+            'accessToken',
+            @accessToken,
+            'expirationDate',
+            @expirationTokenDate,
+            'tokenFor',
+            @tokenFor
+        )
+    endif
+]%%

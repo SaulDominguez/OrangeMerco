@@ -1,0 +1,265 @@
+%%= ContentBlockByID(66628) =%%
+<script runat="server">
+    /* -------------------------------------------------------------------------
+
+    Short description of the purpose of the script.
+
+    1. Global Variables
+    1.1. Error Handling
+    2. Helper Functions
+    2.1. Debugging
+    2.2. Error handling
+    3. {{Section Name}}
+    ...
+
+    -------------------------------------------------------------------------- */
+
+    Platform.Load('core', '1');
+    // var api = new Script.Util.WSProxy();
+    // Uncomment below if you will be using SOAP API via WSProxy in the script
+    // var soap = new Script.Util.WSProxy();
+
+    /* ----------------------------------------------------------------------- */
+    /* ---------------------- 1. GLOBAL VARIABLES ---------------------------- */
+    /* ----------------------------------------------------------------------- */
+
+    var debugging = false;
+    Variable.SetValue("@debug", debugging)
+
+    /* -------------------- 1.1. Error Handling------------------------------- */
+    var scriptName = 'AAAAAAAAAAAAAAAAAAAA';
+
+    /* ----------------------------------------------------------------------- */
+    /* ---------------------- 2. HELPER FUNCTIONS ---------------------------- */
+    /* ----------------------------------------------------------------------- */
+
+    function buildRestEndpoint(subdomain) {
+     return "https://" + subdomain + ".rest.marketingcloudapis.com/interaction/v1/events"
+    }
+
+    function formatJson(json) {
+     var formattedJson = TreatAsContent("\%\%=replace('" + Stringify(json) + "', ',', ',<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '{', '{<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '}', '<br>}')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', '[', '<br>[<br>')=\%\%")
+     formattedJson = TreatAsContent("\%\%=replace('" + formattedJson + "', ']', '<br>]')=\%\%")
+     return formattedJson
+    }
+
+    Array.inc = function (val, arr) {
+     var ret = false;
+     for (var i = 0; i < arr.length; i++) {
+      if (!ret || ret == false) {
+       ret = val == arr[i];
+      }
+     }
+     return ret;
+    };
+
+
+    /* ---------------------- 2.1. Debugging --------------------------------- */
+
+    /**
+    * @function debugValue
+    * @description Outputs provided description and SSJS value to front-end in a type-safe & consistent way
+    * @param {string} description - Describes meaning of the second parameter in the output
+    * @param {*} value - The value that needs to be debugged
+    */
+    function debugValue(description, value) {
+     if (debugging) {
+      Write(description + ': ' + (typeof value == 'object' ? Stringify(value) : value) + '<br><br>');
+     }
+    };
+
+    function outputLink(display, url) {
+     if (debugging) {
+      Write("<a href='" + url + "'>" + display + "</a>")
+     }
+    }
+
+    /* ---------------------- 2.2. Error handling ---------------------------- */
+
+    /**
+    * @function handleError
+    * @description Adds the error with context to error logging Data Extension and redirects to error page.
+    * @param {Object} error - The caught error object. Can come from the try/catch block or be manually created.
+    * @param {string} error.message - First error key stores short error message describing the issue.
+    * @param {string} error.description - Second error key stores detailed error path helping with root cause analysis
+    */
+    function handleError(error) {
+     debugValue('Found error', error);
+    };
+
+    try {
+     /* ----------------------------------------------------------------------- */
+     /* ----------------------- 3. {{SECTION NAME}} --------------------------- */
+     /* ----------------------------------------------------------------------- */
+
+     /**
+     * There can be just one section for simpler scripts, or there can be multiple.
+     * As your code grow, split it into separate numbered sections for easier navigation.
+     * Always try to make each section coherent with code logic to make the split meaningful.
+     */
+     var guid = Platform.Function.GUID()
+     Variable.SetValue("@Contact_Id", guid)
+
+     var subdomain = Variable.GetValue("@subdomain")
+     var accessToken = Variable.GetValue("@accessToken")
+     var restUrl = buildRestEndpoint(subdomain)
+</script>
+%%[
+    set @telefono = RequestParameter('telefono')
+    set @correo = RequestParameter('correo')
+    set @existsOnGDB = 0
+    set @rowsCorreos = LookupRows('BDD_General', 'Email', @correo)
+    set @rowsTelefonos = LookupRows('BDD_General', 'Phone', @telefono)
+    if RowCount(@rowsCorreos) >= 1 then
+        set @row = Row(@rowsCorreos, 1)
+        set @Contact_Id = Field(@row, 'Contact_Id')
+        set @existsOnGDB = 1
+    endif
+    if RowCount(@rowsTelefonos) >= 1 then
+        set @row = Row(@rowsTelefonos, 1)
+        set @Contact_Id = Field(@row, 'Contact_Id')
+        set @existsOnGDB = 1
+    endif
+    set @nombre = RequestParameter('nombre')
+    set @apellido_P = RequestParameter('apellido_P')
+    set @noticket = RequestParameter('noticket')
+    set @ticket_str = RequestParameter('ticket_str')
+    set @sucursal = RequestParameter('sucursal')
+    set @Id = Lookup('Cuaresma_Registros_Totales', 'Contact_Id', 'Contact_Id', @Contact_Id)
+    /*
+ UpsertData(
+  "Cuaresma_Registros_Totales",
+  2,
+  "Contact_Id",
+  @Contact_Id,
+  "TicketFolio",
+  @noticket,
+  "nombre",
+  @nombre,
+  "Apellido",
+  @apellido_P,
+  "telefono",
+  @telefono,
+  "sucursal",
+  @sucursal,
+  "correo",
+  @correo,
+  "Ticket",
+  @ticket_str
+ )
+ */
+    if Empty(@Id) then
+        if @existsOnGDB == 1 then
+            UpsertData(
+                'Cuaresma_Registros_Existentes',
+                2,
+                'Contact_Id',
+                @Contact_Id,
+                'created_at',
+                Now(),
+                'IsExisting',
+                '1'
+            )
+        else
+            InsertData(
+                'Cuaresma_Registros_Existentes',
+                'Contact_Id',
+                @Contact_Id,
+                'IsExisting',
+                '0',
+                'created_at',
+                Now()
+            )
+        endif
+    endif
+    UpsertData(
+        'BDD_General',
+        1,
+        'Contact_Id',
+        @Contact_Id,
+        'Email',
+        @correo,
+        'nombre',
+        @nombre,
+        'Apellido',
+        @apellido_P,
+        'Phone',
+        @telefono,
+        'sucursal',
+        @sucursal,
+        'Locale',
+        'MX'
+    )
+]%%
+<script runat="server">
+    var subscriberKey = Variable.GetValue("@Contact_Id")
+     var subEmail = Variable.GetValue("@correo")
+       var subName = Variable.GetValue("@nombre")
+       var subLastName = Variable.GetValue("@apellido_P")
+       var subPhone = Variable.GetValue("@telefono")
+       var ubicacion = Variable.GetValue("@sucursal")
+     var ticket = Variable.GetValue("@ticket_str")
+     var ticketFolio = Variable.GetValue("@noticket")
+
+     var requestData = {
+      "ContactKey": subscriberKey,
+      "EventDefinitionKey": "APIEvent-d8ec315c-bd8a-627e-3dea-9bfa04672a25",
+      "Data": {
+       "Contact_Id": subscriberKey,
+       "correo": subEmail,
+       "nombre": subName,
+       "Apellido": subLastName,
+       "telefono": subPhone,
+       "sucursal": ubicacion,
+       "TicketFolio": ticketFolio,
+       "Ticket": ticket,
+       "RowNo": Number(TreatAsContent("\%\%=DataExtensionRowCount('Cuaresma_Registros_Totales')=\%\%"))
+      }
+     }
+
+     debugValue("req", requestData)
+
+     if (true) {
+      var prefRequest = new Script.Util.HttpRequest(restUrl)
+      prefRequest.emptyContentHandling = 0;
+      prefRequest.retries = 2;
+      prefRequest.continueOnError = true;
+      prefRequest.contentType = "application/json";
+      prefRequest.encoding = "UTF-8";
+      prefRequest.method = "POST";
+      prefRequest.postData = Stringify(requestData);
+      prefRequest.setHeader('Authorization', 'Bearer ' + accessToken)
+
+      var prefRes = prefRequest.send()
+
+      debugValue("Pref Request returnStatus", prefRes.returnStatus)
+      debugValue("Pref Request Status", prefRes.statusCode)
+      if (prefRes.statusCode == 200) {
+       var prefResponse = prefRes.content
+       debugValue("Pref Response", formatJson(prefResponse))
+      } else {
+       debugValue("Pref Error Response", prefRes.content)
+      }
+     }
+     if (!debugging) {
+      Redirect("https://cloud.hello.merco.email/cuaresma_datos_registrados", false)
+     }
+    } catch (error) {
+     handleError(error);
+    }
+</script>
+testguid: <b>%%= GUID() =%%</b><br />
+ticketStr: <b>%%= v(@ticket_str) =%%</b><br />
+noticket: <b>%%= v(@noticket) =%%</b><br />
+correo: <b>%%= v(@correo) =%%</b><br />
+telefono: <b>%%= v(@telefono) =%%</b><br />
+sucursal: <b>%%= v(@sucursal) =%%</b><br />
+nombre: <b>%%= v(@nombre) =%%</b><br />
+apellido_P: <b>%%= v(@apellido_P) =%%</b><br />
+Contact_Id: <b>%%= v(@Contact_Id) =%%</b><br />
+Id: <b>%%= v(@Id) =%%</b><br />
+TY: <b><a href="https://cloud.hello.merco.email/cuaresma_datos_registrados">TYPAGE</a></b
+><br />

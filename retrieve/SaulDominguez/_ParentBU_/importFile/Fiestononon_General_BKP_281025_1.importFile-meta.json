@@ -1,0 +1,36 @@
+{
+    "allowErrors": true,
+    "customerKey": "Fiestononon_General_BKP_281025_1",
+    "createdDate": "2025-10-29T00:49:55.18",
+    "modifiedDate": "2025-11-12T17:16:28.85",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [],
+    "fieldMappingType": "InferFromColumnHeadings",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Fiestononon_General_BKP_12112025",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "2658F27D-5CCE-4A27-9E14-1D1D418513FD"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "F26E6C18-0F12-48A5-AF7C-26074F755F9A"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

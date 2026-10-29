@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Garantías_170125",
+    "description": "",
+    "createdDate": "2025-01-17T16:52:37.3",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-01-20T14:24:02.513",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-d825f751-3447-055e-2a2d-a9ff43d77ef2",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "84f5dd23-fd58-4663-a0e1-fff464a8725a",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

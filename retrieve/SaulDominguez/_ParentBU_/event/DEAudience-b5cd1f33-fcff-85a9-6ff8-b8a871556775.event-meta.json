@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "BuenFin-151124",
+    "description": "",
+    "createdDate": "2024-11-15T12:56:44.873",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-11-15T12:56:44.873",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-b5cd1f33-fcff-85a9-6ff8-b8a871556775",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "93d15974-5e5d-4f2b-8c52-a893a39eb6c5",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

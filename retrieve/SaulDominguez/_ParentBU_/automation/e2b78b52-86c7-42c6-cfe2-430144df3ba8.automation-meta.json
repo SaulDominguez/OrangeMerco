@@ -1,0 +1,60 @@
+{
+    "name": "ContactosExcedentesAuto",
+    "description": "",
+    "key": "e2b78b52-86c7-42c6-cfe2-430144df3ba8",
+    "type": "scheduled",
+    "status": "Scheduled",
+    "schedule": {
+        "startDate": "2026-06-08T08:45:00",
+        "endDate": "2079-06-06T00:00:00",
+        "icalRecur": "FREQ=WEEKLY;UNTIL=20790606;INTERVAL=1;BYDAY=MO",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "AllContacts",
+                    "r__type": "refreshMobileFilteredList"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "r__type": "script",
+                    "r__key": "d44fc56b-368b-42f4-868c-95af7d640705"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "4D5B4E3F-3191-4F8F-8F47-E90C21DB2910"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "activities": [
+                {
+                    "name": "ExcedenteDeContactos",
+                    "r__type": "journeyEntry"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-06-02T04:46:04.41Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-06-02T17:50:04.9Z",
+    "r__folder_Path": "my automations/OrangeDCX/00_Setup"
+}

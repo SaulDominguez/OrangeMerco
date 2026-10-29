@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "NEWSLETTER_JUNIO_030625",
+    "description": "",
+    "createdDate": "2025-06-03T10:50:39.593",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-06-03T10:51:30.857",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-e56147f7-90f5-71aa-63c1-5551e74d0114",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-06-04T08:00:00",
+        "endDateTime": "2025-06-04T08:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "fb4c04d6-7e8f-4369-b631-a4ffb8be3aed",
+    "r__dataExtension_key": "FD5FB097-7607-41D3-8B83-73120C7071DB"
+}

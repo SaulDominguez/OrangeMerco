@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "NTP_300525",
+    "description": "",
+    "createdDate": "2025-05-30T13:46:08.803",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-05-30T13:46:08.803",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-bb43c19c-19c9-c86f-4129-2ede33285345",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "3d7fc14c-0677-4263-ad8f-eac9e1bfeb37",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

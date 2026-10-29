@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Base-Nueva-wifi-segmentadoEn3-Progressive-Profiling-21-12-Envio6",
+    "description": "",
+    "createdDate": "2023-12-21T10:58:51.217",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-12-21T11:08:36.147",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-099693cd-f1ab-382d-dcda-0d486f906bd5",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "f1738bbc-933f-4765-88a1-75f17ebf2633",
+    "r__dataExtension_key": "B55EBF3A-3E16-440D-8D08-B45C8A96712A"
+}

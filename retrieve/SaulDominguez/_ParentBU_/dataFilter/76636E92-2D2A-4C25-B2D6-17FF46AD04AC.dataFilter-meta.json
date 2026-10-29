@@ -1,0 +1,23 @@
+{
+    "key": "76636E92-2D2A-4C25-B2D6-17FF46AD04AC",
+    "createdDate": "2024-06-19T13:16:14.9",
+    "createdByName": "Alma Arteaga",
+    "lastUpdated": "2024-06-19T13:16:14.9",
+    "lastUpdatedByName": "Alma Arteaga",
+    "name": "Registros Nuevos 1-Mayo al 19-Jun 2024",
+    "description": "REvisar el numero de registros en campaña inactiva",
+    "isSendable": true,
+    "r__folder_Path": "Data Filters",
+    "c__filterDefinition": {
+        "ConditionSet": {
+            "Condition": {
+                "Value": "5/1/2024",
+                "@_Operator": "GreaterThan",
+                "r__dataExtensionField_name": "fechaRegistro"
+            },
+            "@_Operator": "AND",
+            "@_ConditionSetName": "Outer Grouping"
+        }
+    },
+    "r__source_dataExtension_key": "6EE6A8FD-FB4E-435E-8B60-2771CD93E4D8"
+}

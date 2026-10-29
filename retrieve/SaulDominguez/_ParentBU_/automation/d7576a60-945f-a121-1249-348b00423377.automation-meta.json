@@ -1,0 +1,38 @@
+{
+    "name": "Unsubscribed",
+    "description": "",
+    "key": "d7576a60-945f-a121-1249-348b00423377",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "startDate": "2023-10-07T07:00:00",
+        "endDate": "2023-10-07T07:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B83122E5-5063-40F6-8F3E-AF63DE200416"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "24E53C70-3092-4417-84DC-94F585B7A190"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2023-09-27T23:47:03.62Z",
+    "modifiedName": "Martín Orange",
+    "modifiedDate": "2023-10-07T00:50:06.713Z",
+    "r__folder_Path": "my automations"
+}

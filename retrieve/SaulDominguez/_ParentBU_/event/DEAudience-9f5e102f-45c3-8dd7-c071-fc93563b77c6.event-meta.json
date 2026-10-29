@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Remainder_190126",
+    "description": "",
+    "createdDate": "2026-01-16T14:26:31.29",
+    "createdBy": "Facundo García",
+    "modifiedDate": "2026-01-19T10:38:58.407",
+    "modifiedBy": "Facundo García",
+    "eventDefinitionKey": "DEAudience-9f5e102f-45c3-8dd7-c071-fc93563b77c6",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "f8ec00f1-db6c-433b-be68-65f1871f3fcb",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

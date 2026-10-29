@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "New Journey - October 8 2024 at 3.20 PM",
+    "description": "",
+    "createdDate": "2024-10-08T15:26:10.02",
+    "createdBy": "Aidee Orange",
+    "modifiedDate": "2024-10-08T15:26:10.02",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "DEAudience-d05a9827-69ec-755f-1917-997bff24957a",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b6076e56-fadb-4bd0-aa63-828cc8d3e0b5",
+    "r__dataExtension_key": "59D382B5-E9B3-4733-8D55-4C72504F81B5"
+}

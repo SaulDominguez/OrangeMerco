@@ -1,0 +1,85 @@
+{
+    "customerKey": "842c9eb6-fcba-4d14-b5f9-2d12d74cb866",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-dia_de_reyes_v2-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-12-31T13:08:46.043-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-12-31T13:08:46.043-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "dia_de_reyes_v2",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "Para este Día de Reyes te traemos algo especial.... ¡GANA 1 DE LAS 10 BICICLETAS QUE ESTAREMOS REGALANDO! 🥳🎉\n\nEs muy sencillo participar:\n\n👍🏻 Da like a nuestra página de *Facebook* Merco Supermercado.​\n😋 Compra una de nuestras Roscas de Reyes y un producto Chocolate Abuelita.​\n📸 Comenta en la publicación de Facebook la foto de tu ticket de compra. \n\n¡No te quedes sin participar!\nSolo en Merco. 😉\n\nAplican restricciones: Vigencia hasta el 06 de enero del 2025. Válidos tickets de compras realizadas desde el 13 de diciembre 2024 hasta el 6 de enero 2025.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://www.facebook.com/MercoSupermercado/posts/pfbid02x3hNcsPZ46EUjUZNHJCFnTAnXcmNcVEn65KzDVqqoRM49dCAfKzD89kmA3YABbTMl?locale=es_LA",
+                                        "title": "¡Participa aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseó recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

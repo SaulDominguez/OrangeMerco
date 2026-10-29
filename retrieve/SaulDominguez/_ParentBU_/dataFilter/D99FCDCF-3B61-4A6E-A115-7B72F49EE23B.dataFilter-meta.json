@@ -1,0 +1,23 @@
+{
+    "key": "D99FCDCF-3B61-4A6E-A115-7B72F49EE23B",
+    "createdDate": "2025-03-19T17:16:10.807",
+    "createdByName": "Guty Hernandez",
+    "lastUpdated": "2025-03-19T17:16:10.807",
+    "lastUpdatedByName": "Guty Hernandez",
+    "name": "Filtro_Zona_Monclova",
+    "description": "",
+    "isSendable": true,
+    "r__folder_Path": "Data Filters/Filtros Zonas",
+    "c__filterDefinition": {
+        "ConditionSet": {
+            "Condition": {
+                "Value": "Hidalgo, Frontera, San Buena, Castaños, Sierrita, Paseo Monclova",
+                "@_Operator": "ExistsIn",
+                "r__dataExtensionField_name": "Sucursal"
+            },
+            "@_Operator": "AND",
+            "@_ConditionSetName": "Outer Grouping"
+        }
+    },
+    "r__source_dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

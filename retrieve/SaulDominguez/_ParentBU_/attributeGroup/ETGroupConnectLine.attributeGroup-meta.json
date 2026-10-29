@@ -1,0 +1,31 @@
+{
+    "isOwner": true,
+    "isSystemDefined": true,
+    "isHidden": false,
+    "canAddProperties": false,
+    "canAddRelationships": true,
+    "canRemove": false,
+    "canChangeProperties": false,
+    "displayOrder": 3,
+    "requiredRelationships": [
+        "3fa80280-c13a-ee11-a5bd-5cba2c19bc78",
+        "52a80280-c13a-ee11-a5bd-5cba2c19bc78",
+        "abe635ba-bf3a-ee11-a5bd-5cba2c19bc78"
+    ],
+    "canModify": false,
+    "applicationKey": "com.exacttarget.GroupConnect",
+    "attributeGroupIconKey": "Mobile",
+    "attributeGroupType": "Standard",
+    "attributeCount": 25,
+    "definitionName": {
+        "value": "GroupConnect LINE Data"
+    },
+    "definitionKey": "ETGroupConnectLine",
+    "r__attributeSet_key": [
+        "GroupConnectLineDemographics",
+        "GroupConnectLineSubscriptions",
+        "Test_WA _SMS",
+        "GroupConnectLineAddress"
+    ],
+    "description": ""
+}

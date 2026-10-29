@@ -1,0 +1,51 @@
+{
+    "name": "Contactos_SFTP_Recibieron_Comunicacion",
+    "description": "",
+    "key": "9f772575-d8ea-b8ce-f546-4923ecf48276",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "E86D7A49-C67F-476B-B518-458AF63EBD63"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "C4D7EE6D-87F1-45B4-A941-945CB629B80E"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "E8EBA4C6-0C05-433C-8113-9E1728A9ABF0"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "2FDB298D-CED8-4C4C-B073-733BDA420484"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-08-28T00:57:32.11Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-08-28T20:11:39.31Z",
+    "r__folder_Path": "my automations/OrangeDCX/02_BDD/SFTP_Carga"
+}

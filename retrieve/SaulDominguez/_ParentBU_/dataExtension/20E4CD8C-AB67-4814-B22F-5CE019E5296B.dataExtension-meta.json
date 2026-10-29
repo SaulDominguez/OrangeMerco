@@ -1,0 +1,28 @@
+{
+    "CustomerKey": "20E4CD8C-AB67-4814-B22F-5CE019E5296B",
+    "Name": "Phone_Envio_Test",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "Name": "ContactKey",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "Text"
+        },
+        {
+            "Name": "MobileNumber",
+            "DefaultValue": "",
+            "MaxLength": 50,
+            "IsRequired": false,
+            "IsPrimaryKey": false,
+            "FieldType": "Phone"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Fiestononon2025/Envio_Test_Contacts",
+    "c__retentionPolicy": "none"
+}

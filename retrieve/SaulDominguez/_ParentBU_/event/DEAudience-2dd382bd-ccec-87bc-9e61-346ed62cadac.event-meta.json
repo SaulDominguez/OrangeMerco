@@ -1,0 +1,40 @@
+{
+    "type": "EmailAudience",
+    "name": "Base-Nueva-wifi-segment1-Progressive-Profiling-19-12-Envio6",
+    "description": "",
+    "createdDate": "2023-12-21T10:53:13.83",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-12-21T10:53:13.83",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-2dd382bd-ccec-87bc-9e61-346ed62cadac",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2023-12-21T11:00:00",
+        "endDateTime": "2023-12-21T11:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "7a12829f-5677-4952-81e3-e5f11c1d4910"
+}

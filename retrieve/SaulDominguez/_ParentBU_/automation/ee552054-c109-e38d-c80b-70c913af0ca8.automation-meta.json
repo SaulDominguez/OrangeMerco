@@ -1,0 +1,41 @@
+{
+    "name": "001_ReporteBuen_Fin",
+    "key": "ee552054-c109-e38d-c80b-70c913af0ca8",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "C03ABC19-F5A1-4BA5-9B70-786D742AC6CA"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "1F9FBD87-CCC0-46EA-821F-CE8C321706CE"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "694677D8-77AA-4F0E-AC89-A398B1A75B0C"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2023-11-22T20:21:05.227Z",
+    "modifiedName": "Martín Orange",
+    "modifiedDate": "2023-11-22T20:21:05.247Z",
+    "r__folder_Path": "my automations"
+}

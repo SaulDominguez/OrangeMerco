@@ -1,0 +1,87 @@
+{
+    "customerKey": "e06705a5-0fb2-4eca-8ecd-adaf7dd3cdba",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-merconviene_ofertas-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-08-13T12:45:20.143-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-08-13T12:45:20.143-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "merconviene_ofertas",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🥳 ¡En Merco siempre te llevas más por menos! 🛒\n\n- Huevo blanco *Mimarca* tapa con 30 piezas - *$79.99*\n- *Aguacate en malla* - *$29.99 pieza*\n- *Costillita asador* o *Pierna bate enchilada* - *$59.99 kg c/u*\n- *Molida pulpa de res 90-10* - *$139 kg*\n- *Chile jalapeño* o *Melón chino* - *$18.99 kg c/u*\n- Aceite vegetal *Kártamus* 900 ml o *Barritas de fresa o de piña Marinela* 268 gr - *$29.99 c/u*\n- Detergente en polvo *Foca* 1 kilo - *$33.99*\n- Papel higiénico *Mimarca* 500 hojas c/5+1 rollo o Papel higiénico *Regio Rinde+ XL más alto* 500 hojas c/6 rollos - *$45.99 c/u*\n- Producto lácteo *Creceré* bolsa 900 ml - *$12.50*\n- *Pan dulce* c/5 piezas - *$49*\n- Salchicha p/asar *Sazabor* medio kilo - *$27.99*\n- Jamón de pavo y cerdo cocido *Chimex* 396 gr - *$35.99*\n\nFrescura y Súper Preciazos en un solo lugar. \nPorque Merco, Sí Merconviene. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 18 de agosto de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

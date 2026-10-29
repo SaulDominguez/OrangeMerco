@@ -1,0 +1,36 @@
+{
+    "allowErrors": true,
+    "customerKey": "505E4C6B-107B-4976-93EB-B9BEA9DBEA33",
+    "createdDate": "2025-04-01T18:12:43.147",
+    "modifiedDate": "2025-09-18T15:57:46.35",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [],
+    "fieldMappingType": "InferFromColumnHeadings",
+    "fileNamingPattern": "chat_Extract_Whatsapp_Bounce_tracking.csv",
+    "fileSpec": "",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Import Whatsapp Extract Blacklist",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "sourceCustomObjectId": "",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "8AE4F42E-5DE5-47BF-80B6-D0355A69C619"
+    },
+    "source": {
+        "c__type": "File Location",
+        "r__fileLocation_name": "ExactTarget Enhanced FTP"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Add"
+}

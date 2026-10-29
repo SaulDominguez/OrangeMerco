@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "New Journey - May 31 2024 at 4.01 PM",
+    "description": "",
+    "createdDate": "2024-05-31T15:05:51.75",
+    "createdBy": "Alma Arteaga",
+    "modifiedDate": "2024-05-31T15:08:45.313",
+    "modifiedBy": "Alma Arteaga",
+    "eventDefinitionKey": "DEAudience-5805a25a-86c0-a96b-2135-7ff2cd146852",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "3aeb8120-2105-456a-81a2-1161a60d4a9a",
+    "r__dataExtension_key": "D64E329D-23A6-416F-8DF5-7E39F135A670"
+}

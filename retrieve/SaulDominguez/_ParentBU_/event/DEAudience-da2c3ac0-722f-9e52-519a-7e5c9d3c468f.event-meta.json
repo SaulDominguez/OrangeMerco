@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Ofertas_NoTePreocupes-200625 ",
+    "description": "",
+    "createdDate": "2025-06-20T12:58:02.467",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-06-20T12:58:02.467",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-da2c3ac0-722f-9e52-519a-7e5c9d3c468f",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "690e9dfe-075b-42c0-b312-7712b1fe384e",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

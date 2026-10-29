@@ -1,0 +1,87 @@
+{
+    "customerKey": "4ef2f4db-94c8-4b32-bd86-141593ccd213",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-lctl_090825-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-08-08T16:06:48.957-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-08-08T16:06:48.957-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "lctl_090825",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "📚 Ponte Lista con tu Lista en Merco con este regreso a clases. 🤓\n\n- Cuaderno profesional de espiral *Tasky* 100 hojas - *$18.99*\n- Lápiz grafito *BIC* c/8 + 1 piezas - *$35.99*\n- Colores *Mapita* largos c/12 piezas - *$24.99*\n- Todas las *mochilas y lapiceras* - *¡Con un 30% de descuento!*\n- *Papel contact* 10 mts - *$169*\n- *Papel contact* 20 mts - *$269*\n- Bolígrafo *Cristal BIC Fashion* surtido c/10 piezas - *$39.99*\n- Borrador *Barrilito Migajón* c/3 piezas - *$29.99*\n- *Calceta escolar* c/2 pares (tallas 4/6, 7/9, 10/13) - *$24.99 c/u*\n- Juego de geometría *Barrilito* c/compás c/5 piezas - *$49.99*\n- Artículos marca *Kores* y *Pelikan* - *¡Con 20% de descuento!*\n- Lápiz adhesivo *Resistol* c/2 piezas (10 g c/u) - *$24.99*\n\nPrepárate con todo en Merco con Calidad y Súper Preciazos que te ayudan a ahorrar en este regreso a clases. 😎\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 14 de agosto de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

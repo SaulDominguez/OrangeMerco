@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Descuentones_260725",
+    "description": "",
+    "createdDate": "2025-07-25T12:35:41.03",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2025-07-25T13:04:28.363",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-6349d36d-cfac-c642-3610-05a56fe82c91",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-07-26T11:00:00",
+        "endDateTime": "2025-07-26T11:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b9fdff44-c138-4916-80d7-a6411f9f9c9b",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

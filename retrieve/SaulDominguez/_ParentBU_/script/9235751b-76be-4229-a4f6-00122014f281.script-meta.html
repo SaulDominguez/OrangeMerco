@@ -1,0 +1,15 @@
+Platform.Load("Core", "1.1.1"); try { var deExternalKey = "563C8D83-FEA9-456F-8B14-9D6AAF1D15D2";
+var fieldsToAdd = [ {Name: "FLOW"}, {Name: "HBO"}, {Name: "Universal"}, {Name: "Paramount"}, {Name:
+"Disney"}, {Name: "Soccer"} ]; var prox = new Script.Util.WSProxy(); // Verificar DE var deCheck =
+prox.retrieve("DataExtension", ["CustomerKey"], { Property: "CustomerKey", SimpleOperator: "equals",
+Value: deExternalKey }); if (deCheck.Results.length == 0) { throw "Data Extension no encontrada"; }
+// Obtener campos existentes var existingFields = prox.retrieve("DataExtensionField", ["Name"], {
+Property: "DataExtension.CustomerKey", SimpleOperator: "equals", Value: deExternalKey } ); var
+existingNames = {}; for (var i = 0; i < existingFields.Results.length; i++) {
+existingNames[existingFields.Results[i].Name] = true; } // Crear campos for (var j = 0; j <
+fieldsToAdd.length; j++) { var fieldName = fieldsToAdd[j].Name; if (existingNames[fieldName]) {
+Platform.Response.Write("YA EXISTE: " + fieldName + "<br />"); continue; } var newField = { Name:
+fieldName, FieldType: "Boolean", IsRequired: false, DefaultValue: false, DataExtension: {
+CustomerKey: deExternalKey } }; var res = prox.createItem("DataExtensionField", newField);
+Platform.Response.Write(fieldName + " -> " + res.Status + "<br />"); }
+Platform.Response.Write("FIN"); } catch (e) { Platform.Response.Write("ERROR: " + Stringify(e)); }

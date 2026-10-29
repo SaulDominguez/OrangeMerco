@@ -1,0 +1,86 @@
+{
+    "customerKey": "63e8f254-7eea-4722-879d-192c34b49b36",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-edr_141224-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-12-14T10:14:51.487-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-12-14T10:14:51.487-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "edr_141224",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¿Ya lo viste? 👀 \nEn Merco Estamos de Regalo esta Navidad con Súper Preciazos que no puedes dejar pasar. 👇\n\n*T-Bone* - *$169 kg*\n*Chuletón de res* para asar - *$159 kg*\n*Bistec* del cero o siete - *$129 kg c/u*\n*Aguacate* en malla - *$16.99 pieza*\n*Limón* agrio - *$16.99 kg*\nTodos los *vinos, licores, botanas Leo y Encanto* - *¡Con un 30% de descuento!*\nHarina de maíz *Maseca* 1 kilo - *$16.99*\n*Compra una Smart TV Roku JVC 32\" HD y llévate GRATIS un Bafle amplificado 8\" 8000w LED - ¡Solo por $3,290!*\n\n¡Queremos que te lleves lo mejor! Ven a Merco y comprueba que TODO lo que te llevas es a un Súper Preciazo. 😉\n\nOfertas válidas en todas las sucursales Merco.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "title": "Detener promociones",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 16 de diciembre de 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

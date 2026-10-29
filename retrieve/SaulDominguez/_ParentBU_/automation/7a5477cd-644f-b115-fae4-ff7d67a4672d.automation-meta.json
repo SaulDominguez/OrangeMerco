@@ -1,0 +1,33 @@
+{
+    "name": "Test-HardErrors",
+    "description": "",
+    "key": "7a5477cd-644f-b115-fae4-ff7d67a4672d",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "dataExtract",
+                    "r__key": "9DD96D22-473A-465C-A81D-85D9EC792C27"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "fileTransfer",
+                    "r__key": "a9389e50-2a75-4aaf-b1d1-9a8f4e77d869"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2024-12-17T22:15:44.62Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2024-12-17T23:54:14.573Z",
+    "r__folder_Path": "my automations/Test"
+}

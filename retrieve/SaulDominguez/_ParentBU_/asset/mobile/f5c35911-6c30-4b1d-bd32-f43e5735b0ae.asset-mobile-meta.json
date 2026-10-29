@@ -1,0 +1,329 @@
+{
+    "customerKey": "f5c35911-6c30-4b1d-bd32-f43e5735b0ae",
+    "assetType": {
+        "name": "jsonmessage",
+        "displayName": "JSON Message"
+    },
+    "name": "Oferta_bistec_210826",
+    "owner": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "createdDate": "2026-08-20T20:02:31.23-06:00",
+    "createdBy": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "modifiedDate": "2026-08-20T20:02:31.23-06:00",
+    "modifiedBy": {
+        "email": "jesus.salazar@merco.mx",
+        "name": "Jesus Salazar"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsapptemplate": {
+            "thumbnail": {},
+            "content": "<!doctype html>\n<html>\n\t<head>\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n\t\t<meta name=\"description\" content=\"WhatsApp Preview\">\n\t\t<style>\n\t@font-face {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFProText-Regular.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\n\t@font-face {\n\t\tfont-family: 'SF Pro Text - Light';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFProText-Light.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\n\t@font-face {\n\t\tfont-family: 'SF Pro Text - Thin';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFProText-Thin.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\n\t@font-face {\n\t\tfont-family: 'Helvetica Neue - Roman';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/HelveticaNeue-Roman.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\n\t@font-face {\n\t\tfont-family: 'SF Compact Text - Light';\n\t\tsrc: url('https://mobilepush-device-previewer.s13.marketingcloudapps.com/fonts/SFCompactText-Light.woff') format('woff');\n\t\tfont-weight: normal;\n\t\tfont-style: normal;\n\t}\n\n\thtml,\n\tbody {\n\t\tmargin: 0;\n\t\tpadding: 0;\n\t\theight: 100%;\n\t\twidth: 100%;\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tbackground-color: #ECE5DD;\n\t\tline-height: 1.4;\n\t}\n\n\theader #app-screen-header {\n\t\theight: 40px;\n\t\tbackground-color: #075E54;\n\t\ttext-align: center;\n\t\tcolor: #fff;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n\n\tbody {\n\t\toverflow: hidden;\n\t}\n\n\t.search-bar {\n\t\tflex-grow: 10;\n\t\theight: 15px;\n\t\tbackground-color: #FFFFFF;\n\t}\n\n\t.icons {\n\t\twidth: 18px;\n\t\theight: 18px;\n\t}\n\n\t.pdf-icon {\n\t\tpadding-right: 6px;\n\t}\n\n\t.video-play-icon {\n\t\tz-index: 1;\n\t\tposition: absolute;\n\t\tbackground-color: white;\n\t\twidth: 36px;\n\t\theight: 36px;\n\t\tborder-radius: 50%;\n\t\tpadding-right: 0px;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t}\n\n\t.audio-preview-background {\n\t\tposition: relative;\n\t\tbackground-color: #C9C9C9 !important;\n\t}\n\n\t.document-preview-background {\n\t\tposition: relative;\n\t}\n\n\t.audio-info-background {\n\t\tborder-radius: 50px;\n\t\tmargin-bottom: 2px;\n\t}\n\n\t.audio-play-icon {\n\t\tpadding-right: 6px;\n\t\tpadding-left: 10px;\n\t}\n\n\t.mute-audio-icon {\n\t\tpadding-right: 6px;\n\t}\n\n\t.audio-bar-icon {\n\t\tpadding-right: 6px;\n\t}\n\n\t.three-dots-icon {\n\t\tpadding-right: 6px;\n\t\ttransform: rotate(90deg);\n\t\tfont-size: 20px;\n\t}\n\n\t.backarrow-icon {\n\t\tmargin: 0px 25px 0px 8px;\n\t}\n\n\t.attach-icon {\n\t\tmargin-left: 20px;\n\t}\n\n\t.options-icon {\n\t\tmargin: 0px 8px 0px 8px;\n\t}\n\n\t.content-container {\n\t\tmax-height: calc(520px - 65px);\n\t\toverflow-x: hidden;\n\t\toverflow-y: auto;\n\t}\n\n\t.content-container.landscape {\n\t\tmax-height: calc(292px - 65px);\n\t}\n\n\t#previewer-container {\n\t\tdisplay: flex;\n\t\toverflow: hidden;\n\t}\n\n\t.previewer {\n\t\tbackground-color: #FFFFFF;\n\t\tborder-radius: .5rem;\n\t\tmin-width: 202px;\n\t\tmax-width: 202px;\n\t\tmargin: 0 5px 10px 5px;\n\t}\n\n\t.landscape .previewer {\n\t\tmax-width: 322px;\n\t\tmin-width: 322px;\n\t}\n\n\t.previewer:first-child {\n\t\tmargin-left: 10px;\n\t}\n\n\t.previewer:last-child {\n\t\tmargin-right: 10px;\n\t}\n\n\t.previewer.single {\n\t\tmargin: 0 auto 10px auto;\n\t}\n\n\t.previewer>div {\n\t\tpadding-left: 10px;\n\t\tpadding-right: 10px;\n\t}\n\n\t.previewer>div:first-child {\n\t\tborder-top-left-radius: .5rem;\n\t\tborder-top-right-radius: .5rem;\n\t}\n\n\t.previewer>div:last-child {\n\t\tborder-bottom-left-radius: .5rem;\n\t\tborder-bottom-right-radius: .5rem;\n\t}\n\n\t.previewer .media {\n\t\twidth: 202px;\n\t\theight: 134px;\n\t\tbackground-repeat: no-repeat;\n\t\tbackground-position: center;\n\t\tpadding: 0;\n\t}\n\n\t.previewer .media.square {\n\t\theight: 202px;\n\t}\n\n\t.landscape .previewer .media {\n\t\twidth: 322px;\n\t}\n\n\t.titlemessage {\n\t\tpadding-top: 8px;\n\t\tpadding-bottom: 17px;\n\t}\n\n\t.previewer .title {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tfont-size: 12px;\n\t\tfont-weight: bold;\n\t\tcolor: #000000;\n\t\toverflow: hidden;\n\t\ttext-overflow: ellipsis;\n\t\tpadding-bottom: 8px;\n\t\tmax-height: 29px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tdisplay: -webkit-box;\n\t\t-webkit-line-clamp: 2;\n\t\t-webkit-box-orient: vertical;\n\t}\n\n\t.previewer .message {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tfont-size: 10px;\n\t\tcolor: #555555;\n\t\toverflow: hidden;\n\t\ttext-overflow: ellipsis;\n\t\tmax-height: 40px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tword-wrap: break-word;\n\t\tdisplay: -webkit-box;\n\t\t-webkit-line-clamp: 3;\n\t\t-webkit-box-orient: vertical;\n\t\twhite-space: pre-wrap;\n\t}\n\n\t.message {\n\t\twhite-space: pre-wrap;\n\t}\n\n\t.previewer .button1,\n\t.previewer .button2,\n\t.previewer .button3 {\n\t\tfont-family: 'SF Pro Text - Regular';\n\t\tfont-size: 10px;\n\t\tcolor: #40649c;\n\t\twhite-space: nowrap;\n\t\toverflow: hidden;\n\t\ttext-overflow: ellipsis;\n\t\ttext-align: center;\n\t\tborder-top: 1px solid #ebebeb;\n\t\tpadding-top: 17px;\n\t\tpadding-bottom: 17px;\n\t}\n\n\t.app .container {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\twidth: 100%;\n\t}\n\n\t.app .message-container {\n\t\tposition: relative;\n\t\tpadding: 12px 13px;\n\t\tbackground: #FFFFFF;\n\t\tborder-radius: 0px 6px 6px 6px;\n\t\tcolor: black;\n\t\tfloat: left;\n\t\tfont-size: 12px;\n\t\tmax-width: 214px;\n\t\tmargin: 20px 54px 2px 16px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tword-wrap: break-word;\n\t\tbox-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.2);\n\t}\n\n\t.app .message-container span {\n\t\tcolor: black;\n\t}\n\n\t.app .message-container:after {\n\t\tcontent: \"\";\n\t\tposition: absolute;\n\t\tz-index: 3;\n\t\ttop: 0px;\n\t\tleft: -8px;\n\t\twidth: 0px;\n\t\theight: 0px;\n\t\tborder-top: 11px solid #FFFFFF;\n\t\tborder-left: 9px solid transparent;\n\t\tborder-radius: 2px 0px 0px 0px;\n\t}\n\n\t.app .message-container .title {\n\t\tmargin-bottom: 5px;\n\t}\n\n\t.app .message-container .footer {\n\t\tmargin-top: 5px;\n\t\tfont-size: 9px;\n\t}\n\n\t.app .message-container .footer-orderStatus {\n\t\tmargin-top: 5px;\n\t\tfont-size: 12.5px;\n\t\tcolor: #667781;\n\t}\n\n\t.app .message-container .title {\n\t\tfont-weight: bold;\n\t\tfont-size: 14px;\n\t}\n\n\t.app .message-container .title.image {\n\t\tbackground-color: #e3f7ff;\n\t\tbackground-size: cover;\n\t\theight: 150px;\n\t\tmin-width: 216px;\n\t\tbackground-position: center;\n\t\tbackground-repeat: no-repeat;\n\t\tmargin-left: -10px;\n\t\tmargin-top: -9px;\n\t\tmargin-right: -10px;\n\t\tborder-radius: 5px;\n\t\tmargin-bottom: 10px;\n\t}\n\n\t/* Image Preview */\n\t.image-container {\n\t\tposition: relative;\n\t\tpadding: 2px;\n\t\tpadding-bottom: 20px;\n\t\tbackground: white;\n\t\tborder-radius: 10px;\n\t\tcolor: black;\n\t\tfloat: left;\n\t\tfont-size: 12px;\n\t\tmax-width: 214px;\n\t\tmargin: 20px 54px 15px 16px;\n\t\tword-break: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tword-wrap: break-word;\n\t}\n\n\t.image-container:before {\n\t\tcontent: \"\";\n\t\tposition: absolute;\n\t\tz-index: 2;\n\t\tbottom: -2px;\n\t\tleft: -7px;\n\t\theight: 20px;\n\t\tborder-left: 20px solid white;\n\t\tborder-bottom-right-radius: 16px 14px;\n\t\t-webkit-transform: translate(0, -2px);\n\t\ttransform: translate(0, -2px);\n\t}\n\n\t.image-container:after {\n\t\tcontent: \"\";\n\t\tposition: absolute;\n\t\tz-index: 3;\n\t\tbottom: -2px;\n\t\tleft: 4px;\n\t\twidth: 26px;\n\t\theight: 20px;\n\t\tbackground: #ecebea;\n\t\tborder-bottom-right-radius: 10px;\n\t\t-webkit-transform: translate(-30px, -2px);\n\t\ttransform: translate(-30px, -2px);\n\t}\n\n\t.image-container .image {\n\t\twidth: 214px;\n\t\theight: 140px;\n\t\tborder-radius: 8px 8px 0px 0px;\n\t\tbackground-size: cover;\n\t\tbackground-position: center;\n\t\tbackground-repeat: no-repeat;\n\t}\n\n\t.image-container .caption {\n\t\tpadding: 8px;\n\t\tpadding-bottom: 0px;\n\t}\n\n\t.message-container .info-footer,\n\t.carousel-card .info-footer {\n\t\twidth: 100%;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n\n\t.app .message-container .info-footer span,\n\t.carousel-card .info-footer span {\n\t\tcolor: #667781\n\t}\n\n\t.info-footer .info-footer-right,\n\t.carousel-card .info-footer-right {\n\t\tmargin-left: auto;\n\t\tjustify-content: flex-end;\n\t}\n\n\t.info-footer .info-footer-left,\n\t.carousel-card .info-footer-left {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n\n\t.info-footer .info-footer-left span,\n\t.carousel-card .info-footer-left span {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tpadding-right: 2px;\n\t}\n\n\t.hidden {\n\t\tdisplay: none !important;\n\t}\n\n\t/* Buttons */\n\t.quick-replies {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\tpadding-left: 16px;\n\t\tpadding-right: 54px;\n\t\tflex-wrap: wrap;\n\t}\n\n\t.quick-replies .button {\n\t\tbackground: white;\n\t\tborder-radius: 7px;\n\t\twidth: 45%;\n\t\tdisplay: flex;\n\t\theight: 32px;\n\t\tmargin-right: 2px;\n\t\tmargin-bottom: 2px;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tfont-size: 12px;\n\t\tflex-grow: 1;\n\t\tcolor: #05a4f3;\n\t\tbox-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.2);\n\t}\n\n\t.quick-replies .button:last-child {\n\t\tmargin-right: 0px;\n\t}\n\n\t.quick-replies .button:nth-of-type(2) {\n\t\tmargin-right: 0px;\n\t}\n\n\t.button-container {\n\t\tmargin: 4px -13px -12px -13px;\n\t\tborder-top: 1px solid #ddd;\n\t}\n\n\t.button-container .button {\n\t\tdisplay: flex;\n\t\theight: 32px;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tfont-size: 12px;\n\t\tcolor: #05a4f3;\n\t}\n\n\t.icon-container {\n\t\twidth: 1rem;\n\t\theight: 100%;\n\t\tmargin-right: 4px;\n\t\tmargin-left: -12px;\n\t}\n\n\t.icon-container svg {\n\t\tfill: #05a4f3;\n\t}\n\n\t.button.URL .icon-container {\n\t\tpadding-bottom: 2px;\n\t}\n\n\t.media-filename-container {\n\t\tpadding: 8px;\n\t\tpadding-bottom: 5px;\n\t\tposition: absolute;\n\t\tbottom: 0;\n\t\tfont-size: 13px;\n\t\tfont-weight: 400;\n\t\tcolor: #111B21;\n\t\theight: 29px;\n\t\tbackground: #F5F6F6;\n\t\twidth: 198px;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n\n\t.audio-info-bar {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: space-between;\n\t\twidth: 100%;\n\t}\n\n\t.content-selector-media {\n\t\tpointer-events: none;\n\t\t/* Disable mouse events on the object */\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t}\n\n\t.preview-fallback {\n\t\tcolor: red;\n\t}\n\n\t.content-selector-media-video {\n\t\tmax-width: 100%;\n\t\theight: auto;\n\t}\n\n\t.content-selector-media>video::-webkit-media-controls,\n\t.content-selector-media>audio::-webkit-media-controls {\n\t\tdisplay: none;\n\t\t/* Hide the default controls on WebKit browsers (e.g., Chrome, Safari) */\n\t}\n\n\t.content-selector-media>video::-webkit-media-controls-enclosure,\n\t.content-selector-media>audio::-webkit-media-controls-enclosure {\n\t\tdisplay: none;\n\t\t/* Hide the default controls on WebKit browsers (e.g., Chrome, Safari) */\n\t}\n\n\t.content-selector-media>video::-webkit-media-controls-panel,\n\t.content-selector-media>audio::-webkit-media-controls-panel {\n\t\tdisplay: none;\n\t\t/* Hide the default controls on WebKit browsers (e.g., Chrome, Safari) */\n\t}\n\n\t.content-selector-media>video::-moz-media-controls,\n\t.content-selector-media>audio::-moz-media-controls {\n\t\tdisplay: none;\n\t\t/* Hide the default controls on Firefox */\n\t}\n\n\t.content-selector-media>video::-ms-media-controls,\n\t.content-selector-media>audio::-ms-media-controls {\n\t\tdisplay: none;\n\t\t/* Hide the default controls on Microsoft Edge */\n\t}\n\n\t/*catalogue template specific code */\n\t.catalog-placeholder {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\twidth: 100%;\n\t\toverflow: hidden;\n\t\theight: 70px;\n\t\tmargin-bottom: 7px;\n\t}\n\n\t.catalog-svg {\n\t\twidth: 48px;\n\t\theight: 100%;\n\t}\n\n\t.catalog-text {\n\t\tpadding: 8px;\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tbackground-color: #f5f5f5;\n\t\theight: 100%;\n\t\tmargin-left: 1px;\n\t}\n\n\t.catalog-placeholder-header {\n\t\tfont-family: 'Roboto', sans-serif;\n\t\tfont-weight: 500;\n\t\tfont-size: 10px;\n\t\tline-height: 130%;\n\t\tletter-spacing: 0px;\n\t\tcolor: #555555;\n\t\tmargin-bottom: 10px;\n\t}\n\n\t.catalog-placeholder-footer {\n\t\tfont-family: 'Roboto', sans-serif;\n\t\tfont-weight: 400;\n\t\tfont-size: 9px;\n\t\tline-height: 10px;\n\t\tletter-spacing: 0px;\n\t\tcolor: #6C6969;\n\t}\n\n\t.carousel-container {\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\toverflow-x: auto;\n\t\tgap: 10px;\n\t\tmargin: 8px 16px;\n\t\tmargin-right: 0px;\n\t\tpadding-bottom: 4px;\n\t}\n\n\t.carousel-card {\n\t\tposition: relative;\n\t\tflex: 0 0 auto;\n\t\tbackground-color: #FFFFFF;\n\t\tborder-radius: 8px;\n\t\tpadding: 0px;\n\t\tbox-shadow: 0.5px 1px 0px rgba(0, 0, 0, 0.2);\n\t\tfont-size: 10px;\n\t\tcolor: black;\n\t\tword-wrap: break-word;\n\t\t-ms-word-wrap: break-word;\n\t\tword-break: break-word;\n\t\toverflow: hidden;\n\t\ttext-overflow: ellipsis;\n\t\twhite-space: pre-wrap;\n\t\tmax-width: 200px;\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tjustify-content: space-between;\n\n\t\t.carousel-card-content {\n\t\t\tdisplay: flex;\n\t\t\tflex-direction: column;\n\t\t\tjustify-content: start;\n\t\t}\n\t}\n\n\t.carousel-card-buttons {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tjustify-content: start;\n\t\talign-items: center;\n\n\t\tdiv {\n\t\t\twidth: 100%;\n\t\t}\n\t}\n\n\t.carousel-card .message {\n\t\tpadding: 8px 12px;\n\t}\n\n\t.carousel-card .button {\n\t\tbox-shadow: none;\n\t\tborder: none;\n\t\tpadding: 4px 8px;\n\t\tborder-radius: 0px;\n\t\tborder-top: 1px solid #ddd;\n\t\theight: 24px;\n\t\tfont-size: 12px;\n\t\tcolor: #05a4f3;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tdisplay: flex;\n\t}\n\n\t.carousel-card .title {\n\t\tbackground-size: cover;\n\t}\n\n\t.landscape .carousel-container {\n\t\tmargin-bottom: 84px;\n\t\tmargin-right: 16px;\n\t}\n\n\t.carousel-card .button .icon-container {\n\t\twidth: 16px;\n\t\theight: 16px;\n\t}\n\n\t.card-info-footer {\n\t\theight: 16px;\n\t\tfont-size: 10px;\n\t\tletter-spacing: 0px;\n\t\tcolor: #6C6969;\n\t\tmargin-right: 16px;\n\t\tmargin-bottom: 8px;\n\t\tdisplay: flex;\n\t\tflex-direction: row;\n\t\talign-items: center;\n\t\tjustify-content: end;\n\t}\n\n\t.carousel-card-message-container {\n\t\twidth: 100%;\n\t\theight: 100%;\n\t\tmargin: 0px;\n\t\tpadding: 0px;\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t}\n\n\t.carousel-card .title {\n\t\theight: 134px;\n\t}\n\n\t.carousel-card .video-icon {\n\t\tbackground-color: #F7D5FF;\n\t\twidth: 100%;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t}\n\n\t.carousel-card .content-selector-media-video {\n\t\twidth: 100%;\n\t\theight: 134px;\n\t\tobject-fit: fill\n\t}\n\n\t.carousel-card:last-child {\n\t\tmargin-right: 16px;\n\t}\n\n\t/* Location Styles */\n\t.parent-location-container {\n\t\tdisplay: flex;\n\t\tjustify-content: flex-start;\n\t\tmargin: -8px -8px 10px -8px;\n\t}\n\n\t.location-container {\n\t\tbackground: #fff;\n\t\tborder-radius: 1em;\n\t\toverflow: hidden;\n\t\tbox-shadow: 0 1px 2px rgba(0,0,0,0.04);\n\t\twidth: 100%;\n\t\tmax-width: 320px;\n\t\tmin-width: 180px;\n\t}\n\n\t.location-background {\n\t\twidth: 100%;\n\t\taspect-ratio: 1.6/1;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t}\n\n\t.location-info {\n\t\tbackground: #FAFAFA;\n\t\tpadding: 0.9em 1.1em 0.5em 1.1em;\n\t}\n\n\t.location-name {\n\t\tcolor: #222;\n\t\tmargin-bottom: 2px;\n\t\tfont-weight: 400;\n\t\tfont-family: 'Roboto', sans-serif;\n\t\tword-break: break-word;\n\t}\n\n\t.location-address {\n\t\tcolor: #8A8F94;\n\t\tfont-family: 'Roboto', sans-serif;\n\t\tword-break: break-word;\n\t}\n\n\t/* SPM Title Styles */\n\t.product-container {\n\t\tborder-radius: 5px;\n\t\toverflow: hidden;\n\t\tmargin-bottom: 9px;\n\t}\n\n\t.product-image-placeholder {\n\t\theight: 180px;\n\t\tbackground: #E5E5E5;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t}\n\n\t.title-footer-container {\n\t\tbackground-color: #F3F3F3;\n\t\tpadding: 4px 0 4px 8px;\n\t}\n\t.product-title {\n\t\tfont-size: 10px;\n\t\tfont-weight: 700;\n\t\tcolor: #181818;\n\t\tmargin-bottom: 4px;\n\t}\n\n\t.product-price {\n\t\tfont-size: 9px;\n\t\tfont-weight: 400;\n\t\tcolor: #444444;\n\t\tmargin-bottom: 1px;\n\t}\n\n\t/* MPM Catalog Title Styles */\n\t.mpm-catalog-container {\n\t\tdisplay: flex;\n\t\talign-items: stretch;\n\t\tborder-radius: 6px;\n\t\toverflow: hidden;\n\t\twidth: 100%;\n\t\tmin-height: 70px;\n\t\tmargin-bottom: 10px;\n\t}\n\n\t.mpm-image-placeholder {\n\t\twidth: 70px;\n\t\tmin-width: 70px;\n\t\tflex-shrink: 0;\n\t\tbackground: #E5E5E5;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t}\n\n\t.mpm-image-placeholder svg {\n\t\twidth: 35%;\n\t\theight: 35%;\n\t}\n\n\t.mpm-details-container {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tjustify-content: center;\n\t\tgap: 4px;\n\t\tbackground-color: #F3F3F3;\n\t\tpadding: 8px 10px;\n\t\tflex: 1;\n\t\tmin-height: 70px;\n\t}\n\n\t.mpm-title {\n\t\tfont-size: 10px;\n\t\tfont-weight: 700;\n\t\tline-height: 1.3;\n\t}\n\n\t.mpm-item-count {\n\t\tfont-size: 8px;\n\t\tfont-weight: 400;\n\t\tcolor: #444444;\n\t}\n\n\t/* Limited Time Offer Element Styles */\n\t.limitedTimeOffer-element {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tmargin-bottom: 8px;\n\t\tpadding: 8px;\n\t\tbackground-color: #F0F0F0;\n\t\tmargin-left: -10px;\n\t\tmargin-right: -10px;\n\t\tmargin-top: -9px;\n\t\tborder-radius: 5px;\n\t}\n\n\t.limitedTimeOffer-icon {\n\t\twidth: 40px;\n\t\theight: 40px;\n\t\tbackground-color: #03B4A7;\n\t\tborder-radius: 50%;\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tjustify-content: center;\n\t\tmargin-right: 12px;\n\t\tflex-shrink: 0;\n\t}\n\n\t.limitedTimeOffer-icon svg {\n\t\twidth: 20px;\n\t\theight: 20px;\n\t\tfill: white;\n\t}\n\n\t.limitedTimeOffer-content {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tflex-grow: 1;\n\t}\n\n\t.limitedTimeOffer-main-text {\n\t\tfont-size: 10px;\n\t\tfont-weight: 600;\n\t\tcolor: #181818;\n\t\tmargin-bottom: 2px;\n\t\tline-height: 1.3;\n\t}\n\n\t.limitedTimeOffer-secondary-text {\n\t\tfont-size: 9px;\n\t\tfont-weight: 400;\n\t\tcolor: #2E2E2E;\n\t\tmargin-bottom: 1px;\n\t\tline-height: 1.3;\n\t}\n\n\t.limitedTimeOffer-third-text {\n\t\tfont-size: 9px;\n\t\tfont-weight: 400;\n\t\tcolor: #747474;\n\t\tline-height: 1.3;\n\t}\n\n\t/* Order Status Element Styles */\n\t.orderStatus-element {\n\t\tmargin-bottom: 8px;\n\t\tmargin-left: -10px;\n\t\tmargin-right: -10px;\n\t\tmargin-top: -9px;\n\t}\n\n\t.orderStatus-header {\n\t\tbackground-color: #E9E9EB;\n\t\tpadding: 20px;\n\t\tborder-left: 6px solid #5A1BA9;\n\t\tmargin-bottom: 8px;\n\t\tborder-radius: 6px;\n\t}\n\n\t.orderStatus-content {\n\t\tpadding: 0 10px;\n\t}\n\n\t.orderStatus-status {\n\t\tfont-size: 12.5px;\n\t\tcolor: #181818;\n\t\tmargin-bottom: 4px;\n\t\tline-height: 1.3;\n\t}\n\n\t/* Order Details Styles */\n\t.order-details-amount-header {\n\t\tbackground: #F6F6F6;\n\t\tpadding: 8px 8px;\n\t\tmargin: -5px -5px 6px -5px;\n\t\tborder-radius: 6px;\n\t}\n\n\t.br-product-row {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tgap: 10px;\n\t}\n\n\t.br-product-document {\n\t\tposition: relative;\n\t\twidth: 48px;\n\t\theight: 48px;\n\t\tmin-width: 48px;\n\t\tbackground-size: cover;\n\t\tbackground-position: center;\n\t}\n\n\t.br-amount {\n\t\tfont-family: 'Roboto', sans-serif;\n\t\tfont-size: 20px;\n\t\tfont-weight: 500;\n\t}\n\n\t.br-amount-center {\n\t\tfont-family: 'Roboto', sans-serif;\n\t\tfont-size: 20px;\n\t\tfont-weight: 500;\n\t\ttext-align: center;\n\t}\n\n\t.order-details-amount-header-india {\n\t\tbackground: #F6F6F6;\n\t\tmargin: -5px -5px 6px -5px;\n\t\tborder-radius: 6px;\n\t\tpadding: 6px 8px;\n\t}\n\n\t.upi-product-row {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t\tpadding: 8px 0;\n\t\tborder-top: 1px dashed #C9C9C9;\n\t\tborder-bottom: 1px dashed #C9C9C9;\n\t}\n\n\t.product-image {\n\t\twidth: 48px;\n\t\theight: 48px;\n\t\tmin-width: 48px;\n\t\tborder-radius: 6px;\n\t\tobject-fit: cover;\n\t\tmargin-right: 10px;\n\t}\n\n\t.upi-product-info {\n\t\tdisplay: flex;\n\t\tflex-direction: column;\n\t\tjustify-content: center;\n\t\tgap: 2px;\n\t}\n\n\t.upi-product-name {\n\t\tfont-size: 12px;\n\t\tfont-weight: 700;\n\t\tcolor: #181818;\n\t}\n\n\t.upi-product-quantity {\n\t\tfont-size: 10px;\n\t\tfont-weight: 400;\n\t\tcolor: #667781;\n\t}\n\n\t.upi-total-row {\n\t\tdisplay: flex;\n\t\tjustify-content: space-between;\n\t\talign-items: center;\n\t\tpadding: 8px 0 0 0;\n\t}\n\n\t.upi-total {\n\t\tfont-size: 12px;\n\t\tfont-weight: 500;\n\t\tcolor: #181818;\n\t}\n\n\t.button-container .button.ORDER_DETAILS {\n\t\tdisplay: flex;\n\t\theight: 32px;\n\t\tjustify-content: center;\n\t\talign-items: center;\n\t\tfont-size: 12px;\n\t\tcolor: #05a4f3;\n\t\tborder-top: 1px solid #ddd;\n\t}\n\n\t.button-container .button.ORDER_DETAILS.disabled {\n\t\tcolor: #8A8F94;\n\t\tcursor: not-allowed;\n\t\topacity: 0.6;\n\t}\n\n\t.button.ORDER_DETAILS .icon-container {\n\t\twidth: 1rem;\n\t\theight: 100%;\n\t\tmargin-right: 4px;\n\t\tmargin-left: -12px;\n\t}\n</style>\n\t</head>\n\t<body class=\"app portrait\">\n\t\t<div class=\"whatsapp-previewer\">\n\t\t\t<header>\n\t\t\t\t<div id=\"app-screen-header\">\n\t\t\t\t\t<div class=\"backarrow-icon icons\">\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t\t\t\t\t<path fill=\"#FFFFFF\" d=\"m48.6 23h-33.2c-0.9 0-1.3-1.1-0.7-1.7l9.6-9.6c0.6-0.6 0.6-1.5 0-2.1l-2.2-2.2c-0.6-0.6-1.5-0.6-2.1 0l-17.5 17.6c-0.6 0.6-0.6 1.5 0 2.1l17.5 17.5c0.6 0.6 1.5 0.6 2.1 0l2.1-2.1c0.6-0.6 0.6-1.5 0-2.1l-9.6-9.6c-0.6-0.7-0.2-1.8 0.7-1.8h33.2c0.8 0 1.5-0.6 1.5-1.4v-3c0-0.8-0.6-1.6-1.4-1.6z\"/>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"search-bar\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"attach-icon icons\">\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t\t\t\t\t<path fill=\"#FFFFFF\" d=\"M15.35,17.65a1.54,1.54,0,0,0,0,2.1l10,10a2,2,0,0,1,0,2.8,2.08,2.08,0,0,1-3,0l-12.1-12.3a7.06,7.06,0,0,1,0-9.9l.1-.1a7.06,7.06,0,0,1,9.9,0L42,32a7.06,7.06,0,0,1,0,9.9l-.1.1A7.06,7.06,0,0,1,32,42l-.1-.1a1.38,1.38,0,0,0-1.8-.2,15.06,15.06,0,0,1-3.5,1.4,1,1,0,0,0-.5,1.7c.8.8,1.6,1.5,1.6,1.5a13.1,13.1,0,0,0,18.5,0v-.2a13.1,13.1,0,0,0,0-18.5L24.55,5.85a13.1,13.1,0,0,0-18.5,0l-.2.2a13,13,0,0,0,0,18.4l12.3,12.4a8.13,8.13,0,1,0,11.3-11.7l-9.8-9.8a1.57,1.57,0,0,0-2.2,0Z\"/>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"options-icon icons\">\n\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\">\n\t\t\t\t\t\t\t<path fill=\"#FFFFFF\" d=\"m20 44c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6-6-2.7-6-6z m0-18c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6-6-2.7-6-6z m0-18c0-3.3 2.7-6 6-6s6 2.7 6 6-2.7 6-6 6-6-2.7-6-6z\"/>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div id=\"lock-screen-header\">\n\t\t\t\t\t<div class=\"time\"></div>\n\t\t\t\t\t<div class=\"date\"></div>\n\t\t\t\t</div>\n\t\t\t</header>\n\t\t\t<div class=\"content-container\">\n\t\t\t\t<div id=\"previewer-container\" class=\"portrait\">\n\t\t<div class=\"container\">\n\t\t\t\n\t\t<div class=\"message-container\">\n\t\t\t\n\t\t\t\n\t\t\t\t<div class=\"title image\" style=\"background-image: url(https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/18ac6e5d-4311-4978-9acc-541de15336d0.jpg);\"></div>\n\t\t\t\n\t\t\t\n\t\t\t\n\t\t\t<div class=\"message\">¿Ya viste el regalo que tenemos para ti? ¡Ven a Merco y aprovéchalo.😉✨\n\n🎁 *Llévate GRATIS 1 Tapa de Huevo Blanco Mimarca con 30 piezas* 🥚\n🥩 *Comprando 1 kg o más de Bistec del Cero o Siete*\n\nNo dejes pasar los Súper Preciazos del fin de semana, revisa nuestro *folleto digital*.👇🏽🛒\n\n_Oferta válida en TODAS las tiendas Merco._</div>\n\t\t\t<div class=\"footer\">Oferta válida hasta el 24 de Agosto de 2026.</div>\n\t\t\t<div class=\"info-footer\">\n\t\t\t\n\t\t<div class=\"info-footer-right\">\n\t\t\t<span>12:00 AM</span>\n\t\t</div>\n\t\n\t\t</div>\n\t\t\t<div class=\"button-container\"><div class=\"button URL\"><span class=\"icon-container\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\" id=\"new_window\" width=\"100%\" height=\"100%\"><path d=\"M48.7 2H29.6c-.8 0-1.6.5-1.6 1.3v3c0 .8.7 1.7 1.6 1.7h7.9c.9 0 1.4 1 .7 1.6l-17 17c-.6.6-.6 1.5 0 2.1l2.1 2.1c.6.6 1.5.6 2.1 0l17-17c.6-.6 1.6-.2 1.6.7v7.9c0 .8.8 1.7 1.6 1.7h2.9c.8 0 1.5-.9 1.5-1.7v-19c0-.9-.5-1.4-1.3-1.4z\"/><path d=\"M36.3 25.5L32.9 29c-.6.6-.9 1.3-.9 2.1v11.4c0 .8-.7 1.5-1.5 1.5h-21c-.8 0-1.5-.7-1.5-1.5v-21c0-.8.7-1.5 1.5-1.5H21c.8 0 1.6-.3 2.1-.9l3.4-3.4c.6-.6.2-1.7-.7-1.7H6c-2.2 0-4 1.8-4 4v28c0 2.2 1.8 4 4 4h28c2.2 0 4-1.8 4-4V26.2c0-.9-1.1-1.3-1.7-.7z\"/></svg></span>¡Folleto digital aquí!</div><div class=\"button URL\"><span class=\"icon-container\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 52 52\" id=\"new_window\" width=\"100%\" height=\"100%\"><path d=\"M48.7 2H29.6c-.8 0-1.6.5-1.6 1.3v3c0 .8.7 1.7 1.6 1.7h7.9c.9 0 1.4 1 .7 1.6l-17 17c-.6.6-.6 1.5 0 2.1l2.1 2.1c.6.6 1.5.6 2.1 0l17-17c.6-.6 1.6-.2 1.6.7v7.9c0 .8.8 1.7 1.6 1.7h2.9c.8 0 1.5-.9 1.5-1.7v-19c0-.9-.5-1.4-1.3-1.4z\"/><path d=\"M36.3 25.5L32.9 29c-.6.6-.9 1.3-.9 2.1v11.4c0 .8-.7 1.5-1.5 1.5h-21c-.8 0-1.5-.7-1.5-1.5v-21c0-.8.7-1.5 1.5-1.5H21c.8 0 1.6-.3 2.1-.9l3.4-3.4c.6-.6.2-1.7-.7-1.7H6c-2.2 0-4 1.8-4 4v28c0 2.2 1.8 4 4 4h28c2.2 0 4-1.8 4-4V26.2c0-.9-1.1-1.3-1.7-.7z\"/></svg></span>Hablar con un asesor</div></div>\n\t\t</div>\n\t\t\n\t\t<div class=\"quick-replies\"><div class=\"button\">No deseo recibir mensajes</div></div>\n\t\n\t\t\t\n\t\t</div>\n\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "uncheckedPanels": [],
+                        "collapsedPanels": [],
+                        "contents": [],
+                        "currentColumn": 0,
+                        "channel": "whatsapptemplate",
+                        "stack": "S13",
+                        "display:title:parameters": {
+                            "1": {
+                                "display:argument:name": "1",
+                                "display:argument:format": "link",
+                                "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/18ac6e5d-4311-4978-9acc-541de15336d0.jpg",
+                                "display:media:filename": "MERCO_21 al 24 AGOSTO_Infografía Huevo+Bistec_WPP.jpg",
+                                "display:media:filesize": 71607,
+                                "display:media:filetype": "JPG"
+                            }
+                        },
+                        "display:title:format": "image",
+                        "display:message": "¿Ya viste el regalo que tenemos para ti? ¡Ven a Merco y aprovéchalo.😉✨\n\n🎁 *Llévate GRATIS 1 Tapa de Huevo Blanco Mimarca con 30 piezas* 🥚\n🥩 *Comprando 1 kg o más de Bistec del Cero o Siete*\n\nNo dejes pasar los Súper Preciazos del fin de semana, revisa nuestro *folleto digital*.👇🏽🛒\n\n_Oferta válida en TODAS las tiendas Merco._",
+                        "display:message:format": "text",
+                        "display:footer": "Oferta válida hasta el 24 de Agosto de 2026.",
+                        "display:footer:format": "text",
+                        "display:message:parameters": {},
+                        "display:buttons": {
+                            "button1": {
+                                "id": "button1",
+                                "value": "https://merco.mx/ofertas",
+                                "title": "¡Folleto digital aquí!",
+                                "actionType": "URL",
+                                "paramType": "text"
+                            },
+                            "button2": {
+                                "id": "button2",
+                                "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                "title": "Hablar con un asesor",
+                                "actionType": "URL",
+                                "paramType": "text"
+                            },
+                            "button3": {
+                                "id": "button3",
+                                "title": "No deseo recibir mensajes",
+                                "actionType": "QUICK_REPLIES",
+                                "paramType": "payload",
+                                "paramValue": "1"
+                            }
+                        },
+                        "showTemplatePicker": false,
+                        "selectedTemplate": {
+                            "display:components": [
+                                "title",
+                                "message",
+                                "footer",
+                                "buttons"
+                            ],
+                            "display:title:format": "IMAGE",
+                            "display:title": "",
+                            "display:title:media": {
+                                "type": "IMAGE"
+                            },
+                            "display:title:parameters": {
+                                "1": {
+                                    "display:argument:name": "1",
+                                    "display:argument:format": "link",
+                                    "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/18ac6e5d-4311-4978-9acc-541de15336d0.jpg",
+                                    "display:media:filename": "MERCO_21 al 24 AGOSTO_Infografía Huevo+Bistec_WPP.jpg",
+                                    "display:media:filesize": 71607,
+                                    "display:media:filetype": "JPG"
+                                }
+                            },
+                            "display:message": "¿Ya viste el regalo que tenemos para ti? ¡Ven a Merco y aprovéchalo.😉✨\n\n🎁 *Llévate GRATIS 1 Tapa de Huevo Blanco Mimarca con 30 piezas* 🥚\n🥩 *Comprando 1 kg o más de Bistec del Cero o Siete*\n\nNo dejes pasar los Súper Preciazos del fin de semana, revisa nuestro *folleto digital*.👇🏽🛒\n\n_Oferta válida en TODAS las tiendas Merco._",
+                            "display:message:parameters": {},
+                            "display:buttons": {
+                                "button1": {
+                                    "id": "button1",
+                                    "value": "https://merco.mx/ofertas",
+                                    "title": "¡Folleto digital aquí!",
+                                    "actionType": "URL",
+                                    "paramType": "text"
+                                },
+                                "button2": {
+                                    "id": "button2",
+                                    "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                    "title": "Hablar con un asesor",
+                                    "actionType": "URL",
+                                    "paramType": "text"
+                                },
+                                "button3": {
+                                    "id": "button3",
+                                    "title": "No deseo recibir mensajes",
+                                    "actionType": "QUICK_REPLIES",
+                                    "paramType": "payload"
+                                }
+                            },
+                            "display:footer": "Oferta válida hasta el 24 de Agosto de 2026."
+                        },
+                        "template": {
+                            "id": 144801,
+                            "customerKey": "4b85299a-cfec-4286-ac29-50fd38bb8ab8",
+                            "objectID": "9aeea78f-e9a0-45ac-a82c-8b2676a4d041",
+                            "assetType": {
+                                "id": 235,
+                                "name": "jsonmessagetemplate",
+                                "displayName": "jsonmessagetemplate"
+                            },
+                            "name": "WhatsApp-ofertas_210826-123019964232394",
+                            "owner": {
+                                "id": 747152046,
+                                "email": "ana@orangedcx.com",
+                                "name": "Ana Pontigo",
+                                "userId": "747152046"
+                            },
+                            "createdDate": "2026-08-20T19:52:21-06:00",
+                            "createdBy": {
+                                "id": 747152046,
+                                "email": "ana@orangedcx.com",
+                                "name": "Ana Pontigo",
+                                "userId": "747152046"
+                            },
+                            "modifiedDate": "2026-08-20T19:52:21-06:00",
+                            "modifiedBy": {
+                                "id": 747152046,
+                                "email": "ana@orangedcx.com",
+                                "name": "Ana Pontigo",
+                                "userId": "747152046"
+                            },
+                            "enterpriseId": 546002749,
+                            "memberId": 546002749,
+                            "status": {
+                                "id": 1,
+                                "name": "Draft"
+                            },
+                            "thumbnail": {
+                                "thumbnailUrl": "/v1/assets/144801/thumbnail"
+                            },
+                            "category": {
+                                "id": 28467,
+                                "name": "Content Builder",
+                                "parentId": 0
+                            },
+                            "views": {
+                                "whatsAppTemplate": {
+                                    "content": "",
+                                    "meta": {
+                                        "options": {
+                                            "customBlockData": {
+                                                "templateId": "4772922789610014",
+                                                "channel": "WhatsApp",
+                                                "template": "template",
+                                                "containerId": "123019964232394",
+                                                "templateName": "ofertas_210826",
+                                                "category": "MARKETING",
+                                                "display:languages:approved": [
+                                                    "es_MX"
+                                                ],
+                                                "display:languages:content": {
+                                                    "es_MX": {
+                                                        "display:components": [
+                                                            "title",
+                                                            "message",
+                                                            "footer",
+                                                            "buttons"
+                                                        ],
+                                                        "display:title:format": "IMAGE",
+                                                        "display:title": "",
+                                                        "display:title:media": {
+                                                            "type": "IMAGE"
+                                                        },
+                                                        "display:title:parameters": {
+                                                            "1": {
+                                                                "display:argument:name": "1",
+                                                                "display:argument:format": "link",
+                                                                "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/18ac6e5d-4311-4978-9acc-541de15336d0.jpg",
+                                                                "display:media:filename": "MERCO_21 al 24 AGOSTO_Infografía Huevo+Bistec_WPP.jpg",
+                                                                "display:media:filesize": 71607,
+                                                                "display:media:filetype": "JPG"
+                                                            }
+                                                        },
+                                                        "display:message": "¿Ya viste el regalo que tenemos para ti? ¡Ven a Merco y aprovéchalo.😉✨\n\n🎁 *Llévate GRATIS 1 Tapa de Huevo Blanco Mimarca con 30 piezas* 🥚\n🥩 *Comprando 1 kg o más de Bistec del Cero o Siete*\n\nNo dejes pasar los Súper Preciazos del fin de semana, revisa nuestro *folleto digital*.👇🏽🛒\n\n_Oferta válida en TODAS las tiendas Merco._",
+                                                        "display:message:parameters": {},
+                                                        "display:buttons": {
+                                                            "button1": {
+                                                                "id": "button1",
+                                                                "value": "https://merco.mx/ofertas",
+                                                                "title": "¡Folleto digital aquí!",
+                                                                "actionType": "URL",
+                                                                "paramType": "text"
+                                                            },
+                                                            "button2": {
+                                                                "id": "button2",
+                                                                "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                                                "title": "Hablar con un asesor",
+                                                                "actionType": "URL",
+                                                                "paramType": "text"
+                                                            },
+                                                            "button3": {
+                                                                "id": "button3",
+                                                                "title": "No deseo recibir mensajes",
+                                                                "actionType": "QUICK_REPLIES",
+                                                                "paramType": "payload"
+                                                            }
+                                                        },
+                                                        "display:footer": "Oferta válida hasta el 24 de Agosto de 2026."
+                                                    }
+                                                },
+                                                "display:lang": "ES_MX"
+                                            }
+                                        }
+                                    },
+                                    "modelVersion": 2
+                                }
+                            },
+                            "availableViews": [
+                                "whatsAppTemplate"
+                            ],
+                            "modelVersion": 2,
+                            "model": {
+                                "id": 235,
+                                "fileExtension": "",
+                                "name": "JSON Message Template",
+                                "key": "jsonmessagetemplate",
+                                "parentAssetTypeID": 4,
+                                "createdDate": "2020-06-29T15:25:11Z",
+                                "modifiedDate": "2020-06-29T15:25:11Z",
+                                "isCDNPublishable": false
+                            }
+                        },
+                        "templateName": "ofertas_210826",
+                        "templateId": "4772922789610014",
+                        "category": "MARKETING",
+                        "display:lang": "ES_MX",
+                        "display:components": [
+                            "title",
+                            "message",
+                            "footer",
+                            "buttons"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {
+                                    "1": {
+                                        "display:argument:name": "1",
+                                        "display:argument:format": "link",
+                                        "display:argument": "https://image.hello.merco.email/lib/fe2a11747364047f721079/m/1/18ac6e5d-4311-4978-9acc-541de15336d0.jpg",
+                                        "display:media:filename": "MERCO_21 al 24 AGOSTO_Infografía Huevo+Bistec_WPP.jpg",
+                                        "display:media:filesize": 71607,
+                                        "display:media:filetype": "JPG"
+                                    }
+                                },
+                                "display:message": "¿Ya viste el regalo que tenemos para ti? ¡Ven a Merco y aprovéchalo.😉✨\n\n🎁 *Llévate GRATIS 1 Tapa de Huevo Blanco Mimarca con 30 piezas* 🥚\n🥩 *Comprando 1 kg o más de Bistec del Cero o Siete*\n\nNo dejes pasar los Súper Preciazos del fin de semana, revisa nuestro *folleto digital*.👇🏽🛒\n\n_Oferta válida en TODAS las tiendas Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://merco.mx/ofertas",
+                                        "title": "¡Folleto digital aquí!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://mc-3x8ms-dvf3nd0517f87f62nf4.pub.sfmc-content.com/tqwxmmmjjdl",
+                                        "title": "Hablar con un asesor",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button3": {
+                                        "id": "button3",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "QUICK_REPLIES",
+                                        "paramType": "payload"
+                                    }
+                                },
+                                "display:footer": "Oferta válida hasta el 24 de Agosto de 2026."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsapptemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

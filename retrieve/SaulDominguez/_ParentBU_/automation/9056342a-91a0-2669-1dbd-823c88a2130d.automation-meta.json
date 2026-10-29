@@ -1,0 +1,24 @@
+{
+    "name": "WhatsappMetrics",
+    "description": "",
+    "key": "9056342a-91a0-2669-1dbd-823c88a2130d",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "860ECED5-1050-4DB8-A4A5-25578AE82F4C"
+                }
+            ]
+        }
+    ],
+    "createdName": "Guty Hernandez",
+    "createdDate": "2025-05-05T16:59:51.897Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-05-05T17:45:11.92Z",
+    "r__folder_Path": "my automations/Test"
+}

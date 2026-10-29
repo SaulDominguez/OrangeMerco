@@ -1,0 +1,236 @@
+{
+    "name": "002_FIESTONONON_Envio_Bienvenida",
+    "description": "",
+    "key": "62224fb7-164e-dd32-b95e-53138acc0374",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {
+        "startDate": "2023-10-27T16:30:00",
+        "endDate": "2023-11-12T00:00:00",
+        "icalRecur": "FREQ=HOURLY;UNTIL=20231112;INTERVAL=1",
+        "timezoneName": "Central Standard Time (Mexico)"
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "263A5B7B-1282-48A5-AA1F-5F2E45D18577"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "90224A7E-961A-497F-B4DF-A675BF9958B5"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "8CFC5A02-590F-4F09-8525-2257FAF57445"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B8CC639E-4B7D-40F8-B7BA-7BE756B464AD"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "10 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "263A5B7B-1282-48A5-AA1F-5F2E45D18577"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "90224A7E-961A-497F-B4DF-A675BF9958B5"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "8CFC5A02-590F-4F09-8525-2257FAF57445"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B8CC639E-4B7D-40F8-B7BA-7BE756B464AD"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "10 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "263A5B7B-1282-48A5-AA1F-5F2E45D18577"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "90224A7E-961A-497F-B4DF-A675BF9958B5"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "8CFC5A02-590F-4F09-8525-2257FAF57445"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B8CC639E-4B7D-40F8-B7BA-7BE756B464AD"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "10 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "263A5B7B-1282-48A5-AA1F-5F2E45D18577"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "90224A7E-961A-497F-B4DF-A675BF9958B5"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "8CFC5A02-590F-4F09-8525-2257FAF57445"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B8CC639E-4B7D-40F8-B7BA-7BE756B464AD"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "name": "7 Minutes",
+                    "r__type": "wait"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "263A5B7B-1282-48A5-AA1F-5F2E45D18577"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "90224A7E-961A-497F-B4DF-A675BF9958B5"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "8CFC5A02-590F-4F09-8525-2257FAF57445"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "query",
+                    "r__key": "B8CC639E-4B7D-40F8-B7BA-7BE756B464AD"
+                }
+            ]
+        }
+    ],
+    "createdName": "Martín Orange",
+    "createdDate": "2023-10-13T20:39:17.307Z",
+    "modifiedName": "Martín Orange",
+    "modifiedDate": "2023-10-27T22:09:52.317Z",
+    "r__folder_Path": "my automations/FIESTONONON"
+}

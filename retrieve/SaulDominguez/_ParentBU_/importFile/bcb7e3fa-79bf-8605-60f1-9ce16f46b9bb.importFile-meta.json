@@ -1,0 +1,68 @@
+{
+    "allowErrors": true,
+    "customerKey": "bcb7e3fa-79bf-8605-60f1-9ce16f46b9bb",
+    "createdDate": "2024-12-03T10:11:01.153",
+    "modifiedDate": "2024-12-09T10:41:52.21",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "description": "Este import actualiza los status de todos los usuarios que entren en la BDD_General",
+    "destinationObjectId": "00000000-0000-0000-0000-000000000000",
+    "fieldMappings": [
+        {
+            "sourceFieldName": "Ciudad",
+            "destinationFieldName": "_City"
+        },
+        {
+            "sourceFieldName": "Contact_Id",
+            "destinationFieldName": "_ContactKey"
+        },
+        {
+            "sourceFieldName": "Locale",
+            "destinationFieldName": "_CountryCode"
+        },
+        {
+            "sourceFieldName": "Nombre",
+            "destinationFieldName": "_FirstName"
+        },
+        {
+            "sourceFieldName": "Apellido",
+            "destinationFieldName": "_LastName"
+        },
+        {
+            "sourceFieldName": "Phone",
+            "destinationFieldName": "_MobileNumber"
+        },
+        {
+            "sourceFieldName": "OptOutWhatsapp",
+            "destinationFieldName": "_OptOutStatusID"
+        },
+        {
+            "sourceFieldName": "Estado",
+            "destinationFieldName": "_State"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": false,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "opt-in-bdd-general-whatsapp",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": false,
+    "destination": {
+        "c__type": "WhatsApp"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+    },
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

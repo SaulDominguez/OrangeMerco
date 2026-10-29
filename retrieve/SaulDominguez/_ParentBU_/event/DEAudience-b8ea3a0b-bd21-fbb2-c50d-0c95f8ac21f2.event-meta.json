@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "Recetas_Navidenas_2023",
+    "description": "",
+    "createdDate": "2023-12-22T18:08:21.727",
+    "createdBy": "Aidee Orange",
+    "modifiedDate": "2023-12-26T10:33:30.453",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-b8ea3a0b-bd21-fbb2-c50d-0c95f8ac21f2",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2023-12-26T11:30:00",
+        "endDateTime": "2023-12-26T11:30:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d19ebf04-70af-4ec0-acb8-3825a1d85e38",
+    "r__dataExtension_key": "2E58179E-10C4-4DB4-86F2-918CD200498E"
+}

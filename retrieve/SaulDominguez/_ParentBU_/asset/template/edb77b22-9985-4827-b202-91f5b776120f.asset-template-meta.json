@@ -1,0 +1,85 @@
+{
+    "customerKey": "edb77b22-9985-4827-b202-91f5b776120f",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-quetecaigael20_250425-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-25T10:30:41.753-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-25T10:30:41.753-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "quetecaigael20_250425",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Todo a $20 pesitos! 😱 Así como lo ves, así mismito. 👇🏼\n\n- Aceite vegetal *Cristal* 500 ml\n- Harina preparada para tortillas *La Perla* 900 gr\n- Leche *UHT Granja* 1 litro\n- Galletas *Marías Cuétara* 420 gr\n- Frijoles *Ranch Style* 425 gr\n- Café *Tradicional Internacional* 50 gr\n- Blanqueador *Clortex* 1.89 lts\n- Grano de elote *Del Monte* 400 gr - *2x$20*\n- Galleta *Mamut Gamesa* 45 gr - *3x$20*\n- Higiénico individual *Kleenex* 400 hojas - *3x$20*\n- Limpiadores *Brasso* variedad 870 ml - *2x$20*\n- Pastilla sanitaria *Wow! Clean* 70 gr - *2x$20*\n- Chiles jalapeños *Mimarca* variedad 220 gr - *2x$20*\n- Consomé de pollo *Mimarca* c/8 cubos - *3x$20*\n- Frijoles refritos *El Mexicano* 430 gr - *2x$20*\n\n¡Pásale a Merco por estos Súper Preciazos de solo $20 pesitos! 🙌🏽💥\n\n_Ofertas válidas en todas las sucursales Merco._\n_Ofertas válidas hasta el 20 de abril del 2025._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "Revisa nuestro folleto",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

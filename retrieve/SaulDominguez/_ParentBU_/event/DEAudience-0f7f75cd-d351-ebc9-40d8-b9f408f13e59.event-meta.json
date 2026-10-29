@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Bienvenida-Envio-Nuevos-Progressive-profiling-27-12-23",
+    "description": "",
+    "createdDate": "2023-12-27T10:26:53.697",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-12-27T10:26:53.697",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-0f7f75cd-d351-ebc9-40d8-b9f408f13e59",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "655acd92-7700-452b-8f39-faeec32b5039",
+    "r__dataExtension_key": "7DC90A33-0995-4D95-9CCA-AC6144C16FFB"
+}

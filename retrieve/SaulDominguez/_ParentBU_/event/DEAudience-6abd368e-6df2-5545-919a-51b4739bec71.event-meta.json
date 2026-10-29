@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Mercomania_230126",
+    "description": "",
+    "createdDate": "2026-01-23T11:12:06.837",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-01-23T11:14:22.557",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-6abd368e-6df2-5545-919a-51b4739bec71",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "a47809d1-8264-4ba5-8fb4-3d528e3517ba",
+    "r__dataExtension_key": "1057EE02-B8FC-4CEC-A0DB-A901160BB2F4"
+}

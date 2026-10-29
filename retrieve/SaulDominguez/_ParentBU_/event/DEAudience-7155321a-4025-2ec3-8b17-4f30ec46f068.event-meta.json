@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Bienvenida-Fiestononon",
+    "description": "",
+    "createdDate": "2023-10-13T15:12:38.81",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-10-13T18:38:47.65",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-7155321a-4025-2ec3-8b17-4f30ec46f068",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": true,
+        "resetHighWatermark": true
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "recurring"
+    },
+    "schedule": {
+        "startDateTime": "2023-10-13T19:00:00",
+        "endDateTime": "2073-10-13T19:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 438313,
+        "endType": "EndDate",
+        "frequency": "Hourly",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "1070c24c-8735-4822-abbf-706fd739861b",
+    "r__dataExtension_key": "CB7E0680-0E7E-4EB8-B981-C42BCD427DD6"
+}

@@ -1,0 +1,33 @@
+{
+    "CustomerKey": "B1CD30CA-DDAF-4EBD-8D15-3B6BEEE9F1B0",
+    "Name": "Bounces Blacklist",
+    "Description": "",
+    "IsSendable": true,
+    "IsTestable": false,
+    "SendableDataExtensionField": {
+        "Name": "Email Address"
+    },
+    "SendableSubscriberField": {
+        "Name": "_EmailAddress"
+    },
+    "CategoryID": 28444,
+    "Fields": [
+        {
+            "Name": "Email Address",
+            "DefaultValue": "",
+            "MaxLength": 254,
+            "IsRequired": true,
+            "IsPrimaryKey": true,
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Date Added",
+            "DefaultValue": "GETDATE()",
+            "IsRequired": true,
+            "IsPrimaryKey": false,
+            "FieldType": "Date"
+        }
+    ],
+    "r__dataExtensionTemplate_name": "CONTEXTUAL_SUPPRESSION_LISTS",
+    "c__retentionPolicy": "none"
+}

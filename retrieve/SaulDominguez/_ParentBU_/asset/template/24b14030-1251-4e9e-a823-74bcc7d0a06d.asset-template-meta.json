@@ -1,0 +1,80 @@
+{
+    "customerKey": "24b14030-1251-4e9e-a823-74bcc7d0a06d",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-pachopear_270924-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-09-27T12:06:35.857-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-09-27T12:06:35.857-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "pachopear_270924",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "Ya se siente el cambio de estación.... Con el Otoño se antoja algo Pa' Chopear. 😋\n\nTenemos Súper Preciazos para ti:\n\n*Galletas Gamesa* (excepto Saladitas) - *¡Con 30% de descuento!*\n*Chocolate Abuelita* en tableta, variedad - *¡Con 25% de descuento!*\nProducto lácteo *Nutri* 1 Lto 2 pack - *$39.99*\n*Café Nescafé* Clásico 200 gr - *$99.99*\nChocolate en polvo *Nesquik* 357 gr - *$34.99*\n*Pan de muerto* chico c/5 piezas - *$79*\n*Pan lagunero* c/4 piezas - *$27*\n*Harina* para hot cakes *Pronto* 500 gr - *$29.99*\n\n¿Qué te hace falta para cumplir el antojo? \nSolo en Merco encuentras TODO. 😉",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Chopea con Merco!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 3 de octubre."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

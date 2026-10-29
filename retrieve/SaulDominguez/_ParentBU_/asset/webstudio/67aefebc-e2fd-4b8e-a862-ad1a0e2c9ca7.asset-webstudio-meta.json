@@ -1,0 +1,40 @@
+{
+    "customerKey": "67aefebc-e2fd-4b8e-a862-ad1a0e2c9ca7",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "ProgressiveProfiling",
+    "owner": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "createdDate": "2025-03-10T18:35:14.14-06:00",
+    "createdBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "modifiedDate": "2025-05-13T10:10:50.723-06:00",
+    "modifiedBy": {
+        "email": "alonso@orangedcx.com",
+        "name": "Alonso Martinez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://cloud.hello.merco.email/gana-tarjeta"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-05-13 10:10:50.723",
+            "c__published": true
+        },
+        "r__asset_key": "f31030d1-bda7-4bc5-a964-19c01273955e"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/progressive profiling3"
+}

@@ -1,0 +1,87 @@
+{
+    "customerKey": "e8244a0a-a378-4858-92bf-f3335aeb1bfd",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-diadelnino_250425-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-04-25T10:41:55.37-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-04-25T10:41:55.37-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "diadelnino_250425",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Este Día del Niño celebra con dulzura, color y mucho sabor en Merco! 🎉🎂\n\n- *Compra pastel 3 leches 8\" o 10\" variedad* ¡y llévate *GRATIS* refresco de 2.5 L *Fanta, Fresca, Joya, Sprite, Coca Light o sin azúcar*!\n- *Dona decorada de temporada* paquete c/5 + 1 gratis - *$53*\n- *Pastel americano de temporada* 8\" pieza - *$135*\n- *Cake box americano de temporada* - *$35*\n- *Pastel media barra americano* - *$99*\n- *Cup cake decorado vainilla* c/16 - *$199*\n- Leche saborizada *Lala* 180 ml - *2x$17*\n- *Bonice* doble variedad c/4 piezas - *$29.99*\n- *25% de descuento* en pastelitos *Marinela* y todos los *dulces y chocolates*\n- *30% de descuento* en todos los helados *Mimarca, Yummy, Bonlatti y Fromely*\n\n¡Haz que su día sea inolvidable con los sabores más divertidos de Merco! 🧁🎈\n\nOfertas válidas en todas las sucursales Merco.",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "Revisa nuestro folleto",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 1 de mayo del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

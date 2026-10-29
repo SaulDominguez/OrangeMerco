@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Objetivo_semanal",
+    "description": "",
+    "createdDate": "2024-12-03T12:12:16.413",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2024-12-05T14:40:15.107",
+    "modifiedBy": "Aidee Orange",
+    "eventDefinitionKey": "DEAudience-1b78db25-94f1-5125-ba46-aaa448596a4e",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "fa7a3a44-f772-486c-a918-8038a6cd52df",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

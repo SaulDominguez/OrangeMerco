@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "TEST-SMS",
+    "description": "",
+    "createdDate": "2023-08-28T11:36:22.713",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2024-05-01T09:26:13.533",
+    "modifiedBy": "Alma Arteaga",
+    "eventDefinitionKey": "DEAudience-7cd93d94-de49-5548-8776-11ab1f6c7e19",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e5084d16-3444-40ab-acf4-d1f097d0c00c",
+    "r__dataExtension_key": "7B9E1E83-6673-4E11-9DE2-7870E21E4B87"
+}

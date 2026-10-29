@@ -1,0 +1,80 @@
+{
+    "customerKey": "cef67679-fc9c-4639-8358-179d296df74b",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-fiestononon_011124-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2024-11-01T10:26:02.017-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2024-11-01T10:26:02.017-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "fiestononon_011124",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Vente pa' la fiesta y festeja a lo grande con Súper Preciazos a montón!\n\nConoce lo que tenemos para ti:\n\n*Aguacate* en malla - *$24.99 pieza*\n*Chuleta de cerdo* natural - *$99.99 kg*\n*Bistec* del *cero o siete* - *$119 kg c/u*\nProducto lácteo combinado *Porsalud* 950 ml - *$9.99*\nFrijol pinto *De La Olla* 907 gr - *$27.99*\nHigiénico *Premier Rendiplus* 500 hojas c/6 rollos - *$41.99*\n*Pan de muerto chico* c/8 piezas - *$69*\nPan de muerto relleno de *chocolate Carlos V, chocolate Abuelita y chocolate Carlos V blanco* - *$29 c/u*\n\nEl Fiestononón es para todos y sus Súper Preciazos también. 😉\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Únete al Fiestononón!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 4 de noviembre del 2024."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

@@ -1,0 +1,87 @@
+{
+    "customerKey": "f20787f2-6206-44d7-b61c-720e420d472c",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-ntp_040725-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-07-03T16:24:09.673-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-07-03T16:24:09.673-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "ntp_040725",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🌟 ¡Merco con sus Súper Preciazos no paran ni en fin de semana! 🌟\n\n- *Flecha de res para asar* – *$119 kg*\n- *Costillita asador* o *pierna bate enchilada* – *$54.99 kg c/u*\n- *Sandía roja* – *$8.99 kg*\n- *Lechuga romana* pieza o *melón chino* kg – *$14.99 c/u*\n- *Chile serrano* o *Mango Tommy* – *$18.99 kg c/u*\n- Aceite *Kartamus* 900 ml – *$29.99*\n- Detergente *Ace Naturals* 800 g – *$22.99*\n- Producto lácteo *Porsalud* 950 ml – *$12.99*\n- Galletas *Barritas Marinela* – *$26.99 c/u*\n- *Pan dulce* c/5 piezas – *$49*\n- Salchicha p/asar *Chimex* 800 g – *$67.99*\n\n¡Todo con la Calidad y Frescura que te conviene para tu familia! ✅\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 7 de julio de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

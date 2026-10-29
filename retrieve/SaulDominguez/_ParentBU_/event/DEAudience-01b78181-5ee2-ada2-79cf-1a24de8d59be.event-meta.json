@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "GaranTias_Ofertas_GRAL-140225 ",
+    "description": "",
+    "createdDate": "2025-02-14T13:52:36.213",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-02-14T13:53:24.543",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-01b78181-5ee2-ada2-79cf-1a24de8d59be",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "ff447726-421a-43a6-b18d-e9cddef97c47",
+    "r__dataExtension_key": "A139ECE8-AA71-4EFD-9A63-ABB43E162F5E"
+}

@@ -1,0 +1,27 @@
+{
+    "type": "APIEvent",
+    "name": "Onboarding_2025",
+    "description": "",
+    "createdDate": "2025-02-14T14:00:23.81",
+    "createdBy": "Guty Hernandez",
+    "modifiedDate": "2025-02-18T16:28:39.737",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "APIEvent-b3188974-bc50-399b-58db-7f1896ea8ac6",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "automationId": "00000000-0000-0000-0000-000000000000",
+        "criteria": ""
+    },
+    "metaData": {
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 2,
+    "isVisibleInPicker": false,
+    "category": "Event",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "492049C2-48FF-4685-8A16-9D2926A8DC6C"
+}

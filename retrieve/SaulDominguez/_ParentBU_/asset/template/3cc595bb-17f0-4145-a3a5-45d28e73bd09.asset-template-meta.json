@@ -1,0 +1,87 @@
+{
+    "customerKey": "3cc595bb-17f0-4145-a3a5-45d28e73bd09",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-garantias_170125_v2-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-01-17T18:34:32.89-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-01-17T18:34:32.89-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "garantias_170125_v2",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "¡Ven y visita tu Merco más cercano y disfruta todos los Súper Preciazos que tenemos para ti! Todas tus compras son respaldados por nuestras Garan Tías. 🙆🏽‍♀️\n\n- *Tomate Saladette* - *$24,99 kg*\n- *Naranja* - *$19.99 kg*\n- *Pechuga de Pollo Natural Sin Hueso* - *$106 kg*\n- *Costilla para Asar* - *$106 kg*\n- *Molida Pulpa de Res 90-10* - *$119 kg*\n- Manteca Vegetal *Sarita* 1 kilo - *$39.99*\n- Arroz *De La Olla* 750 gr - *$14.99*\n- Galletas *Oreo* Variedad 252 gr - *$22.99*\n- Papel Higiénico *Regio Rinde+* 500 Hojas C/6 Rollos - *$43.99*\n- *Paga 5 y Llévate 6 Donas Decoradas* Surtido Paq. C/5 +1 Gratis - *$50*\n- Jamón Cocido de Pavo *Don Fer* - *$33.99*\n- Salchicha para Asar *KIR* Variedad 800 gr - *$71.99*\n\nLo que necesitas en un solo lugar. 🛒\nSolo en Merco. 😉\n\n_Ofertas válidas solo en Nuevo León._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/ofertasRegresa",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseó recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 20 de enero del 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

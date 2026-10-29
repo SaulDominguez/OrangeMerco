@@ -1,0 +1,29 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_Fiestononon_Puntos_Acumulados_150826",
+    "description": "",
+    "createdDate": "2026-08-14T17:28:46.603",
+    "createdBy": "Diana Ayala",
+    "modifiedDate": "2026-08-14T17:34:12.163",
+    "modifiedBy": "Diana Ayala",
+    "eventDefinitionKey": "DEAudience-6678b9ec-b44f-53b6-c33b-8dc729e58555",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "dafc49de-b193-4aff-91eb-113fdc4e7c2b",
+    "r__dataExtension_key": "0B593B92-3E68-46B3-9737-ADE1EFD8F336"
+}

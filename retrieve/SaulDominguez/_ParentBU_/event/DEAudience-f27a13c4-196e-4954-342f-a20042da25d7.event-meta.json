@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Prueba_Rem",
+    "description": "",
+    "createdDate": "2025-04-04T13:37:50.577",
+    "createdBy": "Yami Vargas",
+    "modifiedDate": "2025-04-04T13:37:50.577",
+    "modifiedBy": "Yami Vargas",
+    "eventDefinitionKey": "DEAudience-f27a13c4-196e-4954-342f-a20042da25d7",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 12,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "2e2d417e-4436-4ff4-bd41-6fefa4d875bb",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

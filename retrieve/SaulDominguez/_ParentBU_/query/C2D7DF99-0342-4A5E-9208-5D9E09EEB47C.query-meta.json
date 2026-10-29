@@ -1,0 +1,11 @@
+{
+    "name": "Insert_BDD_General_Completa_Piedras_Negras_Republica",
+    "key": "C2D7DF99-0342-4A5E-9208-5D9E09EEB47C",
+    "description": "Agrega a la DE BDD_General_Completa los registros en la DE Piedras_Negras_Republica",
+    "createdDate": "2026-01-14T14:00:10.383",
+    "modifiedDate": "2026-01-14T14:00:10.383",
+    "targetUpdateTypeName": "Append",
+    "isFrozen": false,
+    "r__folder_Path": "Query/OrangeDCX/BDD_General_Completa",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

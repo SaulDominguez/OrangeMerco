@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Progressive_Profiling_240325",
+    "description": "",
+    "createdDate": "2025-03-24T11:52:59.71",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-03-24T11:55:27.05",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-0cf891e8-a4e2-ce85-be69-ce28f3bff1a9",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 0,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "c5301ad1-28aa-412e-ba5a-594c6e22c744",
+    "r__dataExtension_key": "278ED933-2A4E-4254-A602-11B0BCCA3FA2"
+}

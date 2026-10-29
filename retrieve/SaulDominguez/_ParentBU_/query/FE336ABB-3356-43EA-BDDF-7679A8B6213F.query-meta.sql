@@ -1,0 +1,13 @@
+SELECT
+    Contact_Id,
+    frutasVerduras,
+    Salchichoneria,
+    CarnesPescados,
+    Panaderia,
+    abarrotes,
+    articulosBebe,
+    bebidas,
+    higieneCuidadoPersonal,
+    MercanciasGenerales
+FROM
+    All_ProgressiveProfiling

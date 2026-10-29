@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Tests_Rem_V4",
+    "description": "",
+    "createdDate": "2025-06-04T13:07:51.447",
+    "createdBy": "Monica Rojano",
+    "modifiedDate": "2025-09-18T12:11:24.687",
+    "modifiedBy": "Monica Rojano",
+    "eventDefinitionKey": "DEAudience-5235e4c9-a4cc-42cb-2aa7-57511323e17d",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 14,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "94406929-4d84-4a46-9c25-3a595f081e98",
+    "r__dataExtension_key": "F543D9B0-4D80-469E-9E45-15FE868B8EF6"
+}

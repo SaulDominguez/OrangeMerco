@@ -1,0 +1,87 @@
+{
+    "customerKey": "1b2e3843-9dd9-449f-ad01-b0481b640892",
+    "assetType": {
+        "name": "jsonmessagetemplate",
+        "displayName": "jsonmessagetemplate"
+    },
+    "name": "WhatsApp-descuentones_280625-123019964232394",
+    "owner": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "createdDate": "2025-06-26T12:15:33.553-06:00",
+    "createdBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "modifiedDate": "2025-06-26T12:15:33.553-06:00",
+    "modifiedBy": {
+        "email": "ana@orangedcx.com",
+        "name": "Ana Pontigo"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "views": {
+        "whatsAppTemplate": {
+            "thumbnail": {},
+            "content": "",
+            "meta": {
+                "options": {
+                    "customBlockData": {
+                        "channel": "WhatsApp",
+                        "template": "template",
+                        "containerId": "123019964232394",
+                        "templateName": "descuentones_280625",
+                        "category": "MARKETING",
+                        "display:languages:approved": [
+                            "es_MX"
+                        ],
+                        "display:languages:content": {
+                            "es_MX": {
+                                "display:components": [
+                                    "title",
+                                    "message",
+                                    "footer",
+                                    "buttons"
+                                ],
+                                "display:title:format": "IMAGE",
+                                "display:title": "",
+                                "display:title:media": {
+                                    "type": "IMAGE"
+                                },
+                                "display:title:parameters": {},
+                                "display:message": "🛒 ¡En Merco tenemos lo que tu familia necesita al mejor precio!\n\n✅ Todos los cereales y barras nutritivas *Kellogg's*\n✅ Todas las galletas dulces *Gamesa* y *Quaker*\n✅ Todos los cremadores líquidos y en polvo *Coffee Mate*\n✅ Todas las pastas para sopa *La Perla* 200 gr\n✅ Toda la bollería *Bimbo* y *Wonder*\n✅ Todas las botanas *Leo* y *Encanto*\n✅ Todos los suavizantes *Suavitel*\n✅ Todos los jabones *Palmolive* 120 g\n✅ Todas las *bolsas para basura*\n✅ Todos los shampoo y acondicionadores *Pantene* 700 ml, shampoo *Alert* y acondicionador *Caprice*\n✅ Todos los desodorantes *Obao* en aerosol y roll on, *Dove* aerosol y tratamiento capilar *NutriBela 10*\n✅ Todas las *toallas femeninas*\n\n💚 ¡Merco, donde siempre encuentras más y pagas menos! 🧡\n\n_Ofertas válidas en todas las sucursales Merco._",
+                                "display:message:parameters": {},
+                                "display:buttons": {
+                                    "button1": {
+                                        "id": "button1",
+                                        "value": "https://ofertas.merco.mx/",
+                                        "title": "¡Revisa nuestro folleto!",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    },
+                                    "button2": {
+                                        "id": "button2",
+                                        "value": "https://cloud.hello.merco.email/gracias-whatsApp-opt-out/${1}",
+                                        "title": "No deseo recibir mensajes",
+                                        "actionType": "URL",
+                                        "paramType": "text"
+                                    }
+                                },
+                                "display:footer": "Ofertas válidas hasta el 3 de julio de 2025."
+                            }
+                        }
+                    }
+                }
+            },
+            "modelVersion": 2
+        }
+    },
+    "availableViews": [
+        "whatsAppTemplate"
+    ],
+    "modelVersion": 2,
+    "r__folder_Path": "Content Builder"
+}

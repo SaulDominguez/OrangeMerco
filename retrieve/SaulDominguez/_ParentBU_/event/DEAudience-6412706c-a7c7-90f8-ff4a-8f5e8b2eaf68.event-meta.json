@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "MochilaLlena_310726",
+    "description": "",
+    "createdDate": "2026-07-31T17:06:44.337",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2026-07-31T17:06:44.337",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-6412706c-a7c7-90f8-ff4a-8f5e8b2eaf68",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2026-08-01T08:00:00",
+        "endDateTime": "2026-08-01T08:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "e09f24eb-67f4-4753-832f-6cb22573575e",
+    "r__dataExtension_key": "DD05997C-007F-47CB-8576-B7FD885EFFEE"
+}

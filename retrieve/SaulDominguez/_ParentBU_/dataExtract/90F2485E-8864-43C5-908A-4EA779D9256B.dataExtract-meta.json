@@ -1,0 +1,41 @@
+{
+    "name": "Extract_Remainder_061025",
+    "key": "90F2485E-8864-43C5-908A-4EA779D9256B",
+    "fileSpec": "Extract_Remainder_061025.zip",
+    "createdDate": "2025-10-06T18:20:17.2",
+    "modifiedDate": "2025-10-20T19:23:09.747",
+    "createdBy": "Alexis Dominguez",
+    "modifiedBy": "Alexis Dominguez",
+    "intervalType": 0,
+    "description": "",
+    "startDate": "Oct  5 2025 12:00AM",
+    "endDate": "Oct  7 2025 12:00AM",
+    "dataFields": [
+        {
+            "name": "ChannelId",
+            "type": "string",
+            "value": "5218115537251"
+        },
+        {
+            "name": "ChannelType",
+            "type": "string",
+            "value": "WHATSAPP"
+        },
+        {
+            "name": "ContactTrackingDetail",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "InboundMessageLogs",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "PotentialChannelUnsubscribes",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "ChatMessagingDetailExtract"
+}

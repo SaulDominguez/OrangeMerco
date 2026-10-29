@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "IP - Warming - Pieza 6",
+    "description": "",
+    "createdDate": "2023-10-02T15:48:05.793",
+    "createdBy": "Antony Orange",
+    "modifiedDate": "2023-10-02T16:54:05.31",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-78217845-4d81-ec90-f25c-ed4e0706d519",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "5096da58-7f4b-4842-a34c-29bfc5b99fcc",
+    "r__dataExtension_key": "12F15C35-9F8D-4156-A546-1E7B1D755536"
+}

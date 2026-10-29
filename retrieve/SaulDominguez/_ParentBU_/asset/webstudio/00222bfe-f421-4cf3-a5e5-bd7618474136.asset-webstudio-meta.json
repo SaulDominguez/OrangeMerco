@@ -1,0 +1,41 @@
+{
+    "customerKey": "00222bfe-f421-4cf3-a5e5-bd7618474136",
+    "assetType": {
+        "name": "landingpage",
+        "displayName": "Landing Page"
+    },
+    "version": 1,
+    "name": "Process - Promociones",
+    "description": "",
+    "owner": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "createdDate": "2025-01-22T17:16:55.903-06:00",
+    "createdBy": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "modifiedDate": "2025-02-14T14:20:44.077-06:00",
+    "modifiedBy": {
+        "email": "ghernandez@orangedcx.com",
+        "name": "Guty Hernandez"
+    },
+    "memberId": 546002749,
+    "status": {
+        "name": "Draft"
+    },
+    "content": {
+        "url": "https://fe2a11747364047f721079.pub.s13.sfmc-content.com/fous5epshpb"
+    },
+    "meta": {
+        "cloudPages": {
+            "publishDate": "2025-02-14 14:20:44.077",
+            "c__published": true
+        },
+        "r__asset_key": "a71834c0-c1c9-4e80-9047-b2b57fca1344"
+    },
+    "availableViews": [],
+    "modelVersion": 2,
+    "r__folder_Path": "CloudPages/2025/Recibir promociones"
+}

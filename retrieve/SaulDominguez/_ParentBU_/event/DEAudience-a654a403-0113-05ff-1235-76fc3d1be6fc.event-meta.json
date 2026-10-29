@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Remainder_050126",
+    "description": "",
+    "createdDate": "2025-12-31T11:02:01.367",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2026-01-05T11:12:53.6",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-a654a403-0113-05ff-1235-76fc3d1be6fc",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "22cbd121-5c01-44a9-8c44-28412fb7ecc4",
+    "r__dataExtension_key": "ADD048B6-7831-4F27-A59E-F0CA9256D3AC"
+}

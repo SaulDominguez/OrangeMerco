@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Campana_Roscareyes_2024",
+    "description": "",
+    "createdDate": "2024-01-04T11:40:39.63",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-01-05T12:36:22",
+    "modifiedBy": "Antony Orange",
+    "eventDefinitionKey": "DEAudience-1d3a88eb-9935-614d-825d-3cbd0f5d2240",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "d3eaaa4a-435d-49c9-a7e2-9324c35d0c18",
+    "r__dataExtension_key": "C85C6ECB-599A-4ECF-B003-88C094859895"
+}

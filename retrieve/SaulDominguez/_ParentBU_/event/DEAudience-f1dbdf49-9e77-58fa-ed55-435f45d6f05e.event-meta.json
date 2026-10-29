@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "GaranTias_Ofertas_NL-140225 ",
+    "description": "",
+    "createdDate": "2025-02-14T13:49:05.573",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-02-14T13:49:35.94",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-f1dbdf49-9e77-58fa-ed55-435f45d6f05e",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "91caebb5-fbaa-4c96-9cf1-6c41d61e4622",
+    "r__dataExtension_key": "83174D61-B8A8-48CC-86B1-E8346A151259"
+}

@@ -1,0 +1,42 @@
+{
+    "type": "EmailAudience",
+    "name": "03_Progressive_Profiling_240325",
+    "description": "",
+    "createdDate": "2025-03-31T17:37:14.55",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-03-31T18:38:48.623",
+    "modifiedBy": "Nico Bracamonte",
+    "eventDefinitionKey": "DEAudience-b04f39eb-a3f1-67ad-c204-793a5634baf1",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2025-04-01T09:00:00",
+        "endDateTime": "2025-04-01T09:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b1161278-316e-4793-80bf-a8abae21a9f2",
+    "r__dataExtension_key": "81FB4460-17D9-4B8B-B948-9A301915CD2A"
+}

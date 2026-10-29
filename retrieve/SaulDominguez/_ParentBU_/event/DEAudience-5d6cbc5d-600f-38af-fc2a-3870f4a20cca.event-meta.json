@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "Nescafé_241026",
+    "description": "",
+    "createdDate": "2026-10-26T11:05:44.01",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2026-10-26T11:05:44.01",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-5d6cbc5d-600f-38af-fc2a-3870f4a20cca",
+    "sourceApplicationExtensionId": "a62ff9df-dc1c-4e9a-87cd-c05841d79f38",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "9ae804de-5a17-44db-a2eb-d573180dc3dd",
+    "r__dataExtension_key": "3E4FF703-CE53-4BCF-B37C-E6C72A8544C8"
+}

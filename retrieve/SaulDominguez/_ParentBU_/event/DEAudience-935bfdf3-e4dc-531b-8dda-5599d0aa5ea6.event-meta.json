@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "GaranTias_Ofertas_SALT-140225",
+    "description": "",
+    "createdDate": "2025-02-14T13:49:56.107",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2025-02-14T13:50:35.193",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-935bfdf3-e4dc-531b-8dda-5599d0aa5ea6",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "41c3a12e-784b-4168-823e-2297a77c9a96",
+    "r__dataExtension_key": "158BD254-4318-45F4-AA9A-D4DCF940D49A"
+}

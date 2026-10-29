@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "NoTePreocupes-070624",
+    "description": "",
+    "createdDate": "2024-06-07T13:25:23.053",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-06-07T13:25:23.053",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-69fdc5ab-268d-33c9-31ca-48a8fbdb6999",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "31eac9b8-2bca-4aa4-9768-5601328df0e6",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

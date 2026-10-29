@@ -1,0 +1,27 @@
+{
+    "type": "APIEvent",
+    "name": "ORA_Merco_ProgressiveProfiling_fiestononónNuevos_TEST",
+    "description": "",
+    "createdDate": "2025-09-10T11:53:45.477",
+    "createdBy": "Nico Bracamonte",
+    "modifiedDate": "2025-10-17T15:03:18.617",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "APIEvent-89d84406-00dd-6c68-94dd-e0475a66fc9f",
+    "sourceApplicationExtensionId": "7db1f972-f8b7-49b6-91b5-fa218e13953d",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon_journeyBuilder-event-api-blue.svg",
+    "arguments": {
+        "serializedObjectType": 11,
+        "automationId": "00000000-0000-0000-0000-000000000000",
+        "criteria": ""
+    },
+    "metaData": {
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 4,
+    "isVisibleInPicker": false,
+    "category": "Event",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__dataExtension_key": "F26E6C18-0F12-48A5-AF7C-26074F755F9A"
+}

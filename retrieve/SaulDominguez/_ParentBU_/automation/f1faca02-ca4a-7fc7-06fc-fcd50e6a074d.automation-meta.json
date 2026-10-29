@@ -1,0 +1,33 @@
+{
+    "name": "Prueba_Orange_Whatsapp",
+    "description": "",
+    "key": "f1faca02-ca4a-7fc7-06fc-fcd50e6a074d",
+    "type": "scheduled",
+    "status": "Ready",
+    "schedule": {},
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "b933bc8f-aaff-29ea-5903-eef66f52f8c6"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "ced66631-fa5c-9505-8fca-7ffb8669a153"
+                }
+            ]
+        }
+    ],
+    "createdName": "Yami Vargas",
+    "createdDate": "2024-11-04T21:50:00.28Z",
+    "modifiedName": "Guty Hernandez",
+    "modifiedDate": "2025-01-20T18:08:06.537Z",
+    "r__folder_Path": "my automations"
+}

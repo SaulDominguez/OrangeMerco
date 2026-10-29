@@ -1,0 +1,30 @@
+%%[
+    set @debug = 0
+    set @txt = 'Wrong'
+    set @email = RequestParameter('email')
+    set @currentPassword = RequestParameter('password')
+    set @userPassword = Lookup('Usuarios Cuaresma', 'Password', 'Email', @email)
+    if @currentPassword == @userPassword then
+        set @txt = 'OK'
+        set @session = GUID()
+        set @expires = DateAdd(Now(), '8', 'H')
+        InsertData('Sesiones Cuaresma', 'Email', @email, 'Session', @session, 'Expires', @expires)
+        set @url =
+            Concat(
+                'https://cloud.hello.merco.email/validacion-tickets?session=',
+                URLEncode(@session)
+            )
+        Redirect(@url)
+    else
+        Redirect('https://cloud.hello.merco.email/no-autorizado')
+    endif
+
+    if @debug == 1 then
+]%%
+email: %%= v(@email) =%%<br />
+password: %%= v(@currentPassword) =%%<br />
+userpw: %%= v(@userPassword) =%%<br />
+%%[
+    endif
+]%%
+%%= v(@txt) =%% Credentials!

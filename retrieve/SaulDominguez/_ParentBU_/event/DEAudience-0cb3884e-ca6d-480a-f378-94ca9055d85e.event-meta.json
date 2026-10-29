@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "EstamosDeRegalo_General-131224",
+    "description": "",
+    "createdDate": "2024-12-13T14:02:12.017",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-12-13T14:02:12.017",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-0cb3884e-ca6d-480a-f378-94ca9055d85e",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "36e1d8c7-cca1-4014-9fe5-61d01db4e39e",
+    "r__dataExtension_key": "CD6AC51B-9192-4DAC-8485-A18A5AABE06D"
+}

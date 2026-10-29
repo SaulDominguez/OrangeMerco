@@ -1,0 +1,24 @@
+{
+    "isOwner": true,
+    "isHidden": false,
+    "canAddProperties": true,
+    "canAddRelationships": true,
+    "canRemove": true,
+    "canChangeProperties": true,
+    "displayOrder": 7,
+    "requiredRelationships": [],
+    "canModify": true,
+    "attributeGroupIconKey": "et-icon-2contac",
+    "attributeGroupType": "Standard",
+    "attributeCount": 54,
+    "definitionName": {
+        "value": "BDD_General_Model"
+    },
+    "definitionKey": "BDD_General_Model",
+    "r__attributeSet_key": [
+        "WhatsappBounces",
+        "BDD_General_Completa",
+        "WhatsappExclusion"
+    ],
+    "description": ""
+}

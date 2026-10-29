@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "ORA_test_reminder_151026",
+    "description": "",
+    "createdDate": "2026-10-15T11:43:48.593",
+    "createdBy": "Diana Ayala",
+    "modifiedDate": "2026-10-27T14:56:53.01",
+    "modifiedBy": "Moises Rodriguez",
+    "eventDefinitionKey": "DEAudience-1eb921a1-606a-ba5b-23df-37fd85048f24",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": null,
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish"
+    },
+    "interactionCount": 3,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "b4097c68-8f35-4cbe-8575-0bc1ba88b7f3",
+    "r__dataExtension_key": "9D951ABB-D836-44BA-8CEB-35A4B2C28C60"
+}

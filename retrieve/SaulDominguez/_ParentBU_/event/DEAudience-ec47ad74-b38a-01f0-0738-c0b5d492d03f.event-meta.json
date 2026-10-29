@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "Mexicanizate_310824  ",
+    "description": "",
+    "createdDate": "2024-08-30T17:27:15.823",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-08-30T17:29:27.66",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-ec47ad74-b38a-01f0-0738-c0b5d492d03f",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-08-31T08:00:00",
+        "endDateTime": "2024-08-31T08:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "0e56ec7b-386d-4452-9e11-4da4a35d1907",
+    "r__dataExtension_key": "DB0B1D14-3303-4D83-9373-F0B7EACC807D"
+}

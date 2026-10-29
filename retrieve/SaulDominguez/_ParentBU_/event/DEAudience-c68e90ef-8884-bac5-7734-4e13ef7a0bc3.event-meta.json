@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "CUARESMA-220324",
+    "description": "",
+    "createdDate": "2024-03-22T12:52:28.013",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-03-22T12:52:28.013",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-c68e90ef-8884-bac5-7734-4e13ef7a0bc3",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "79781bca-5f99-4fbb-bdbe-5e1c01b5d49f",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

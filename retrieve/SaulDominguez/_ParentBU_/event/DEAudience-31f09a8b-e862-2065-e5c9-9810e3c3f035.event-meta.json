@@ -1,0 +1,32 @@
+{
+    "type": "EmailAudience",
+    "name": "MamaEsUnica_Ofertas_260424",
+    "description": "",
+    "createdDate": "2024-04-26T13:25:27.51",
+    "createdBy": "Itzel Diaz",
+    "modifiedDate": "2024-04-26T13:25:27.51",
+    "modifiedBy": "Itzel Diaz",
+    "eventDefinitionKey": "DEAudience-31f09a8b-e862-2065-e5c9-9810e3c3f035",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "useHighWatermark": false,
+        "criteria": ""
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onPublish",
+        "scheduleState": "No Schedule"
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 1,
+    "disableDEDataLogging": false,
+    "r__automation_key": "09a6ab50-5934-447d-bb0b-3d8027cb75ca",
+    "r__dataExtension_key": "E8B1EEB7-D974-41B4-B591-E7599753CFF7"
+}

@@ -1,0 +1,45 @@
+{
+    "allowErrors": true,
+    "customerKey": "Email Blacklist Autosuppresion_1",
+    "createdDate": "2025-06-25T16:19:29.263",
+    "modifiedDate": "2025-06-25T16:19:29.263",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "LastBouncedOn",
+            "destinationFieldName": "Date Added"
+        },
+        {
+            "sourceFieldName": "EmailAddress",
+            "destinationFieldName": "Email Address"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Email Blacklist Autosuppresion",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "B1CD30CA-DDAF-4EBD-8D15-3B6BEEE9F1B0"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "53D67730-0E8F-4A07-A95C-4C2D6B53FD95"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "AddUpdate"
+}

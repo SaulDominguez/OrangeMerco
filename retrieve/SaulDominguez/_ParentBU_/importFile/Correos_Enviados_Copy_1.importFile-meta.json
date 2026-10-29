@@ -1,0 +1,57 @@
+{
+    "allowErrors": true,
+    "customerKey": "Correos_Enviados_Copy_1",
+    "createdDate": "2026-10-20T22:18:34.227",
+    "modifiedDate": "2026-10-20T22:18:34.227",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "fieldMappings": [
+        {
+            "sourceFieldName": "AccountID",
+            "destinationFieldName": "AccountID"
+        },
+        {
+            "sourceFieldName": "IsUnique",
+            "destinationFieldName": "IsUnique"
+        },
+        {
+            "sourceFieldName": "JobID",
+            "destinationFieldName": "JobID"
+        },
+        {
+            "sourceFieldName": "SubscriberID",
+            "destinationFieldName": "SubscriberID"
+        },
+        {
+            "sourceFieldName": "SubscriberKey",
+            "destinationFieldName": "SubscriberKey"
+        }
+    ],
+    "fieldMappingType": "ManualMap",
+    "fileNamingPattern": "",
+    "fileSpec": "_CustomObject",
+    "fileTransferLocationId": "00000000-0000-0000-0000-000000000000",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxImportFrequencyHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "name": "Correos_Enviados_Copy",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "encodingName": "utf-8",
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "0AA4C3FD-7D2D-44FD-A707-D478C1E47DCA"
+    },
+    "source": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "QueryStudioResults at 2026-10-21T0357310000"
+    },
+    "c__blankFileProcessing": "Fail",
+    "c__subscriberImportType": "DataExtension",
+    "c__dataAction": "Overwrite"
+}

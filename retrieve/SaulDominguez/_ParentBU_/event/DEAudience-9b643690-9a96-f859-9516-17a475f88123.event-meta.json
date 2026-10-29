@@ -1,0 +1,41 @@
+{
+    "type": "EmailAudience",
+    "name": "QueTeCaigaEl20-210624_SMS",
+    "description": "",
+    "createdDate": "2024-06-21T17:54:10.077",
+    "createdBy": "Jesus Salazar",
+    "modifiedDate": "2024-06-21T18:04:29.227",
+    "modifiedBy": "Jesus Salazar",
+    "eventDefinitionKey": "DEAudience-9b643690-9a96-f859-9516-17a475f88123",
+    "sourceApplicationExtensionId": "97e942ee-6914-4d3d-9e52-37ecb71f79ed",
+    "filterDefinitionTemplate": "",
+    "iconUrl": "/images/icon-data-extension.svg",
+    "arguments": {
+        "serializedObjectType": 3,
+        "criteria": "",
+        "useHighWatermark": false
+    },
+    "configurationArguments": {},
+    "metaData": {
+        "scheduleState": "No Schedule",
+        "criteriaDescription": "",
+        "scheduleFlowMode": "runOnce",
+        "runOnceScheduleMode": "onSchedule"
+    },
+    "schedule": {
+        "startDateTime": "2024-06-22T08:00:00",
+        "endDateTime": "2024-06-22T08:00:00",
+        "timeZone": "Central Standard Time (Mexico)",
+        "occurrences": 1,
+        "endType": "Occurrences",
+        "frequency": "Daily",
+        "recurrencePattern": "Interval",
+        "interval": 1
+    },
+    "interactionCount": 1,
+    "isVisibleInPicker": false,
+    "category": "Audience",
+    "publishedInteractionCount": 0,
+    "disableDEDataLogging": false,
+    "r__automation_key": "247b733c-a2f3-4153-a5c2-81822391fbeb"
+}

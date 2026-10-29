@@ -1,0 +1,39 @@
+{
+    "name": "Extract Whatsapp Blacklist",
+    "key": "8BEFB244-BE1F-433D-AE9F-B84F992EB95C",
+    "fileSpec": "Extract_Whatsapp_Bounce.zip",
+    "createdDate": "2025-01-16T12:06:30.723",
+    "modifiedDate": "2025-09-18T16:18:52.4",
+    "createdBy": "Guty Hernandez",
+    "modifiedBy": "Guty Hernandez",
+    "intervalType": 1,
+    "description": "",
+    "dataFields": [
+        {
+            "name": "ChannelId",
+            "type": "string",
+            "value": "5218115537251"
+        },
+        {
+            "name": "ChannelType",
+            "type": "string",
+            "value": "WHATSAPP"
+        },
+        {
+            "name": "ContactTrackingDetail",
+            "type": "bool",
+            "value": "True"
+        },
+        {
+            "name": "InboundMessageLogs",
+            "type": "bool",
+            "value": "False"
+        },
+        {
+            "name": "PotentialChannelUnsubscribes",
+            "type": "bool",
+            "value": "False"
+        }
+    ],
+    "r__dataExtractType_name": "ChatMessagingDetailExtract"
+}

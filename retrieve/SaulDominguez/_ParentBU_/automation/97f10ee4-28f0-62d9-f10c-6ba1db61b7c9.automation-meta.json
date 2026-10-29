@@ -1,0 +1,33 @@
+{
+    "name": "Test_Triggered_Name",
+    "description": "",
+    "key": "97f10ee4-28f0-62d9-f10c-6ba1db61b7c9",
+    "type": "triggered",
+    "status": "InactiveTrigger",
+    "fileTrigger": {
+        "queueFiles": true,
+        "isPublished": false,
+        "fileNamePatternTypeId": 1,
+        "fileNamingPattern": "Test_name",
+        "folderLocationText": "import\\test\\",
+        "triggerActive": false
+    },
+    "steps": [
+        {
+            "name": "",
+            "activities": [
+                {
+                    "r__type": "importFile",
+                    "r__key": "EAF931E9-DE15-4214-872E-71BB9D21B24C"
+                }
+            ]
+        }
+    ],
+    "createdName": "Alexis Dominguez",
+    "createdDate": "2026-06-18T05:05:54.36Z",
+    "modifiedName": "Alexis Dominguez",
+    "modifiedDate": "2026-06-18T05:20:37.087Z",
+    "pausedName": "Alexis Dominguez",
+    "pausedDate": "2026-06-18T05:19:58.347Z",
+    "r__folder_Path": "my automations/OrangeDCX/Test"
+}
