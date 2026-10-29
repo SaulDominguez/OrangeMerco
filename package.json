@@ -1,0 +1,39 @@
+{
+  "name": "orangemerco",
+  "version": "1.0.0",
+  "description": "This project relies on **Accenture SFMC DevTools**!",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier . --write",
+    "format:check": "prettier . --check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaulDominguez/OrangeMerco.git"
+  },
+  "keywords": [],
+  "author": "Accenture",
+  "license": "UNLICENSED",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/SaulDominguez/OrangeMerco/issues"
+  },
+  "homepage": "https://github.com/SaulDominguez/OrangeMerco#readme",
+  "engines": {
+    "node": "^22.22.2 || >=24.15.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "~10.0.1",
+    "eslint": "~10.13.0",
+    "eslint-config-prettier": "~10.1.8",
+    "eslint-plugin-jsdoc": "~65.4.2",
+    "eslint-plugin-sfmc": "~5.2.3",
+    "eslint-plugin-unicorn": "~76.0.0",
+    "globals": "~17.13.0",
+    "prettier": "~3.9.10",
+    "prettier-plugin-sfmc": "~2.1.1"
+  }
+}

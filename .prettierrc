@@ -1,0 +1,11 @@
+{
+    "plugins": ["prettier-plugin-sfmc"],
+    "overrides": [
+        {
+            "files": ".mcdev-validations.js",
+            "options": {
+                "trailingComma": "es5"
+            }
+        }
+    ]
+}
